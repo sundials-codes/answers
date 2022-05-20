@@ -1,0 +1,60 @@
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
+
+Predator-prey test problem--  KINSol (parallel-BBD version)
+
+Mesh dimensions = 20 X 20
+Number of species = 6
+Total system size = 2400
+
+Subgrid dimensions = 10 X 10
+Processor array is 2 X 2
+
+Flag globalstrategy = 0 (0 = None, 1 = Linesearch)
+Linear solver is SPGMR with maxl = 20, maxlrst = 2
+Preconditioning uses band-block-diagonal matrix from KINBBDPRE
+  Difference quotient half-bandwidths: mudq = 11, mldq = 11
+  Retained band block half-bandwidths: mukeep = 6, mlkeep = 6
+Tolerance parameters:  fnormtol = 1e-07   scsteptol = 1e-13
+
+Initial profile of concentration
+At all mesh points:  1 1 1   30000 30000 30000
+
+[KINSOL ERROR]  KINSol
+  The maximum number of iterations was reached before convergence.
+
+
+SUNDIALS_ERROR(3): KINSol() failed with retval = -6
+
+
+[KINSOL ERROR]  KINSol
+  The maximum number of iterations was reached before convergence.
+
+
+SUNDIALS_ERROR(0): KINSol() failed with retval = -6
+
+
+[KINSOL ERROR]  KINSol
+  The maximum number of iterations was reached before convergence.
+
+
+SUNDIALS_ERROR(1): KINSol() failed with retval = -6
+
+
+[KINSOL ERROR]  KINSol
+  The maximum number of iterations was reached before convergence.
+
+
+SUNDIALS_ERROR(2): KINSol() failed with retval = -6
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[81196c96fe94:09819] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[81196c96fe94:09819] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

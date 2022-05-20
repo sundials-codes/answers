@@ -1,0 +1,11 @@
+
+[CVODES ERROR]  CVode
+  At t = 0, too much accuracy requested.
+
+
+SUNDIALS_ERROR: CVodeF() failed with retval = -2
+
+-------------------
+Forward integration
+-------------------
+

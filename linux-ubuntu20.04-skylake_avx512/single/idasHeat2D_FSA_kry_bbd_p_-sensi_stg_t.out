@@ -1,0 +1,61 @@
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
+
+idasHeat2D_FSA_kry_bbd_p: Heat equation, parallel example problem for IDA
+                     Discretized heat equation on 2D unit square.
+                     Zero boundary conditions, polynomial initial conditions.
+                     Mesh dimensions: 10 x 10 ;     Total system size: 100
+
+Subgrid dimensions: 5 x 5         Processor array: 2 x 2
+Tolerance parameters:  rtol = 0   atol = 0.001
+Constraints set to force all solution components >= 0. 
+SUPPRESSALG = SUNTRUE to suppress local error testing on all boundary components. 
+Linear solver: SUNLinSol_SPGMR.    Preconditioner: IDABBDPRE - Banded-block-diagonal.
+Difference quotient half-bandwidths = 5Retained matrix half-bandwidths = 1 
+
+Sensitivity: YES ( STAGGERED + FULL ERROR CONTROL )
+
+Output Summary: umax = max-norm of solution
+                       max-norm of sensitivity 1
+                       max-norm of sensitivity 2
+
+  time     umax       k  nst  nni  nli   nre nreLS nge     h      npe nps
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+  0.01   8.24589e-01  2   13   17   33    20   33  108  2.56e-03    9  92
+         7.16167e-02
+         7.15490e-02
+  0.02   6.88884e-01  2   16   22   55    25   55  120  4.61e-03   10 129
+         1.26437e-01
+         1.26332e-01
+  0.04   4.71273e-01  3   20   28   78    31   78  120  9.22e-03   10 170
+         1.81877e-01
+         1.81762e-01
+  0.08   2.16303e-01  3   24   32  103    35  103  120  9.22e-03   10 207
+         1.68715e-01
+         1.68670e-01
+  0.16   4.52326e-02  4   30   41  144    44  144  132  1.66e-02   11 275
+         7.10186e-02
+         7.09009e-02
+  0.32   2.34929e-03  3   38   50  203    53  203  144  3.32e-02   12 361
+         6.71727e-03
+         6.38813e-03
+  0.64   2.54017e-05  1   44   59  246    62  246  168  1.33e-01   14 433
+         9.61426e-05
+         1.17998e-04
+  1.28   2.46809e-12  1   47   62  257    65  257  192  5.31e-01   16 457
+         7.84938e-05
+         3.33311e-04
+  2.56   8.84149e-12  1   48   63  260    66  260  204  1.06e+00   17 465
+         1.85996e-04
+         9.70893e-05
+  5.12   2.34547e-11  1   50   65  267    68  267  228  4.25e+00   19 482
+         2.37386e-04
+         2.39792e-04
+ 10.24   4.58275e-11  1   51   66  268    69  268  228  4.25e+00   19 486
+         2.12961e-04
+         1.17228e-04
+
+Error test failures            = 0
+Nonlinear convergence failures = 0
+Linear convergence failures    = 0

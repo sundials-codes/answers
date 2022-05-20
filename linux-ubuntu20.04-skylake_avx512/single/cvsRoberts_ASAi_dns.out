@@ -1,0 +1,64 @@
+
+[CVODES ERROR]  CVode
+  At t = 3.86095e+07, mxstep steps taken before reaching tout.
+
+
+[CVODEA ERROR]  CVodeB
+  Error occured while integrating backward problem # 0
+
+
+SUNDIALS_ERROR: CVodeB() failed with retval = -1
+
+
+Adjoint Sensitivity Example for Chemical Kinetics
+-------------------------------------------------
+
+ODE: dy1/dt = -p1*y1 + p2*y2*y3
+     dy2/dt =  p1*y1 - p2*y2*y3 - p3*(y2)^2
+     dy3/dt =  p3*(y2)^2
+
+Find dG/dp for
+     G = int_t0^tB0 g(t,p,y) dt
+     g(t,p,y) = y3
+
+
+Create and allocate CVODES memory for forward runs
+Forward integration ... done (ncheck = 5)
+--------------------------------------------------------
+G:            3.9982e+07 
+--------------------------------------------------------
+
+Final Statistics:
+Current time                 = 41988664
+Steps                        = 877
+Error test fails             = 61
+NLS step fails               = 0
+Initial step size            = 1.091830108634895e-05
+Last step size               = 2249024.25
+Current step size            = 3466462.5
+Last method order            = 5
+Current method order         = 4
+Stab. lim. order reductions  = 0
+RHS fn evals                 = 1245
+NLS iters                    = 1244
+NLS fails                    = 1
+NLS iters per step           = 1.418472051620483
+LS setups                    = 159
+Jac fn evals                 = 20
+LS RHS fn evals              = 0
+Prec setup evals             = 0
+Prec solves                  = 0
+LS iters                     = 0
+LS fails                     = 0
+Jac-times setups             = 0
+Jac-times evals              = 0
+LS iters per NLS iter        = 0
+Jac evals per NLS iter       = 0.01607717014849186
+Prec evals per NLS iter      = 0
+Root fn evals                = 0
+Quad fn evals                = 878
+Quad error test fails        = 0
+
+Create and allocate CVODES memory for backward run
+Backward integration from tB0 =   4.0000e+07
+

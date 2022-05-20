@@ -1,0 +1,22 @@
+
+[IDA ERROR]  IDASolve
+  At t = 0 and h = 3.80889e-12, the corrector convergence failed repeatedly or with |h| = hmin.
+
+
+idaSlCrank_dns: Slider-Crank DAE serial example problem for IDA
+Linear solver: DENSE, Jacobian is computed by IDA.
+Tolerance parameters:  rtol = 1e-06   atol = 1e-06
+-----------------------------------------------------------------------
+  t            y1          y2           y3      | nst  k      h
+-----------------------------------------------------------------------
+0.0000e+00   1.5708e+00   8.6603e-01  -5.2360e-01   0  0   0.0000e+00
+
+Final Run Statistics: 
+
+Number of steps                    = 0
+Number of residual evaluations     = 127
+Number of Jacobian evaluations     = 10
+Number of nonlinear iterations     = 27
+Number of error test failures      = 0
+Number of nonlinear conv. failures = 10
+Number of step solver failures     = 10

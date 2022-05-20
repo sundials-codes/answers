@@ -1,0 +1,10 @@
+
+[CVODES ERROR]  CVode
+  At t = 1.9025e-08, too much accuracy requested.
+
+
+ERROR: CVode() returned = -2
+
+
+ERROR: RefSol() returned = -2
+

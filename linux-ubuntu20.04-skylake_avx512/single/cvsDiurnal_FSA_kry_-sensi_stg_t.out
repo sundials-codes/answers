@@ -1,0 +1,73 @@
+
+[CVODES WARNING]  CVode
+  Internal t = 0.000332452 and h = 9.12594e-12 are such that t + h = t on the next step. The solver will continue anyway.
+
+
+[CVODES WARNING]  CVode
+  Internal t = 0.000332452 and h = 9.12594e-12 are such that t + h = t on the next step. The solver will continue anyway.
+
+
+[CVODES WARNING]  CVode
+  Internal t = 0.000332452 and h = 5.70371e-12 are such that t + h = t on the next step. The solver will continue anyway.
+
+
+[CVODES WARNING]  CVode
+  Internal t = 0.000332452 and h = 5.70371e-12 are such that t + h = t on the next step. The solver will continue anyway.
+
+
+[CVODES WARNING]  CVode
+  Internal t = 0.000332452 and h = 1.42593e-11 are such that t + h = t on the next step. The solver will continue anyway.
+
+
+[CVODES WARNING]  CVode
+  Internal t = 0.000332452 and h = 1.42593e-11 are such that t + h = t on the next step. The solver will continue anyway.
+
+
+[CVODES WARNING]  CVode
+  Internal t = 0.000332452 and h = 8.91205e-12 are such that t + h = t on the next step. The solver will continue anyway.
+
+
+[CVODES WARNING]  CVode
+  Internal t = 0.000332452 and h = 8.91205e-12 are such that t + h = t on the next step. The solver will continue anyway.
+
+
+[CVODES WARNING]  CVode
+  Internal t = 0.000332452 and h = 5.57003e-12 are such that t + h = t on the next step. The solver will continue anyway.
+
+
+[CVODES WARNING]  CVode
+  Internal t = 0.000332452 and h = 5.57003e-12 are such that t + h = t on the next step. The solver will continue anyway.
+
+
+[CVODES WARNING]  CVode
+  The above warning has been issued mxhnil times and will not be issued again for this problem.
+
+
+[CVODES ERROR]  CVode
+  At t = 0.000332452, mxstep steps taken before reaching tout.
+
+
+SUNDIALS_ERROR: CVode() failed with retval = -1
+
+
+2-species diurnal advection-diffusion problem
+Sensitivity: YES ( STAGGERED + FULL ERROR CONTROL )
+
+========================================================================
+     T     Q       H      NST                    Bottom left  Top right 
+========================================================================
+
+Final Statistics
+
+nst     =  2000
+
+nfe     =  7187
+netf    =     0    nsetups  =  3510
+nni     =  3593    ncfn     =     0
+
+nfSe    =  9124    nfeS     = 18248
+netfs   =     0    nsetupsS =   958
+nniS    =  4561    ncfnS    =  2551
+
+nli     = 12933    ncfl     =  2551
+npe     =  2553    nps      = 15662

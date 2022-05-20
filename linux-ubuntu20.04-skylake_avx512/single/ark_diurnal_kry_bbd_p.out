@@ -1,0 +1,111 @@
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
+
+2-species diurnal advection-diffusion problem
+  10 by 10 mesh on 4 processors
+  Using ARKBBDPRE preconditioner module
+    Difference-quotient half-bandwidths are mudq = 10,  mldq = 10
+    Retained band block half-bandwidths are mukeep = 2,  mlkeep = 2
+
+Preconditioner type is:  jpre = SUN_PREC_LEFT
+
+t = 7.20e+03   no. steps = 5424   stepsize = 4.18e-01
+At bottom left:  c1, c2 =    1.047e+04    2.527e+11 
+At top right:    c1, c2 =    1.119e+04    2.700e+11 
+
+
+[ARKode ERROR]  arkEvolve
+  At t = 11369, mxstep steps taken before reaching tout.
+
+
+SUNDIALS_ERROR(3): ARKStepEvolve() failed with flag = -1
+
+
+[ARKode ERROR]  arkEvolve
+  At t = 11369, mxstep steps taken before reaching tout.
+
+
+SUNDIALS_ERROR(0): ARKStepEvolve() failed with flag = -1
+
+
+[ARKode ERROR]  arkEvolve
+  At t = 11369, mxstep steps taken before reaching tout.
+
+
+SUNDIALS_ERROR(1): ARKStepEvolve() failed with flag = -1
+
+
+[ARKode ERROR]  arkEvolve
+  At t = 11369, mxstep steps taken before reaching tout.
+
+
+SUNDIALS_ERROR(2): ARKStepEvolve() failed with flag = -1
+
+
+Final Statistics: 
+
+lenrw   =  3901     leniw   =   265
+lenrwls =  2455     leniwls =   126
+nst     = 15424     nfe     =     0
+nfe     = 176121     nfels   = 211964
+nni     = 98725     nli     = 211964
+nsetups =  1061     netf    =    55
+npe     =   260     nps     = 310612
+ncfn    =     1     ncfl    =   284
+
+In ARKBBDPRE: real/integer local work space sizes = 1300, 192
+             no. flocal evals. = 5720
+
+
+-------------------------------------------------------------------
+
+
+Preconditioner type is:  jpre = SUN_PREC_RIGHT
+
+t = 7.20e+03   no. steps = 5584   stepsize = 4.00e-01
+At bottom left:  c1, c2 =    1.047e+04    2.527e+11 
+At top right:    c1, c2 =    1.119e+04    2.700e+11 
+
+
+[ARKode ERROR]  arkEvolve
+  At t = 11490.1, mxstep steps taken before reaching tout.
+
+
+SUNDIALS_ERROR(2): ARKStepEvolve() failed with flag = -1
+
+
+[ARKode ERROR]  arkEvolve
+  At t = 11490.1, mxstep steps taken before reaching tout.
+
+
+SUNDIALS_ERROR(3): ARKStepEvolve() failed with flag = -1
+
+
+[ARKode ERROR]  arkEvolve
+  At t = 11490.1, mxstep steps taken before reaching tout.
+
+
+SUNDIALS_ERROR(0): ARKStepEvolve() failed with flag = -1
+
+
+[ARKode ERROR]  arkEvolve
+  At t = 11490.1, mxstep steps taken before reaching tout.
+
+
+SUNDIALS_ERROR(1): ARKStepEvolve() failed with flag = -1
+
+
+Final Statistics: 
+
+lenrw   =  3901     leniw   =   270
+lenrwls =  2455     leniwls =   126
+nst     = 15584     nfe     =     0
+nfe     = 180277     nfels   = 223798
+nni     = 102051     nli     = 223798
+nsetups =  1075     netf    =    61
+npe     =   262     nps     = 325778
+ncfn    =     2     ncfl    =   823
+
+In ARKBBDPRE: real/integer local work space sizes = 1300, 192
+             no. flocal evals. = 5764

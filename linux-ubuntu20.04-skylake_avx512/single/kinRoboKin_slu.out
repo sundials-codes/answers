@@ -1,0 +1,18 @@
+COLAMD failed at line 58 in file get_perm_c.c
+
+
+Robot Kinematics Example
+8 variables; -1 <= x_i <= 1
+KINSOL problem size: 8 + 2*8 = 24 
+
+Initial guess:
+     l=x+1          x         u=1-x
+   ----------------------------------
+          1     0.707107            1
+          1     0.707107            1
+          1     0.707107            1
+          1     0.707107            1
+          1     0.707107            1
+          1     0.707107            1
+          1     0.707107            1
+          1     0.707107            1

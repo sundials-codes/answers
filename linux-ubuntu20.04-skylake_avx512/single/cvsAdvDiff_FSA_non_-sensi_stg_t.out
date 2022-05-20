@@ -1,0 +1,26 @@
+
+[CVODES ERROR]  CVode
+  At t = 0.021564, mxstep steps taken before reaching tout.
+
+
+SUNDIALS_ERROR: CVode() failed with retval = -1
+
+
+1-D advection-diffusion equation, mesh size = 10
+Sensitivity: YES ( STAGGERED + FULL ERROR CONTROL )
+
+============================================================
+     T     Q       H      NST                    Max norm   
+============================================================
+
+Final Statistics
+
+nst     =   500
+
+nfe     =  1011
+netf    =     0    nsetups  =     0
+nni     =   505    ncfn     =     0
+
+nfSe    =  1922    nfeS     =  3844
+netfs   =     2    nsetupsS =     0
+nniS    =   960    ncfnS    =     3

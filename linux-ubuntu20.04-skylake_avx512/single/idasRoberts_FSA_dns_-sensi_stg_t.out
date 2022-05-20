@@ -1,0 +1,76 @@
+
+[IDAS ERROR]  IDASolve
+  At t = 0.00113043, , mxstep steps taken before reaching tout.
+
+
+SUNDIALS_ERROR: IDASolve() failed with retval = -1
+
+
+3-species chemical kinetics problem
+Sensitivity: YES ( STAGGERED + FULL ERROR CONTROL )
+
+Consistent IC:
+	y =   1.0000e+00   0.0000e+00   3.4044e-09 
+	yp=  -4.0000e-02   4.0000e-02   0.0000e+00 
+                  Sensitivity 1  
+	s1 =   0.0000e+00   0.0000e+00  -4.4553e-08 
+	s1'=  -1.0000e+00   1.0000e+00   0.0000e+00 
+                  Sensitivity 2  
+	s2 =   0.0000e+00   0.0000e+00   0.0000e+00 
+	s2'=   0.0000e+00   0.0000e+00   0.0000e+00 
+                  Sensitivity 3  
+	s3 =   0.0000e+00   0.0000e+00   0.0000e+00 
+	s3'=   0.0000e+00   0.0000e+00   0.0000e+00 
+
+
+=======================================================================
+     T     Q       H      NST           y1           y2           y3    
+=======================================================================
+
+Quadrature:
+G:      3.4110e-09
+
+Sensitivities at t=0.00113043:
+dG/dp1:  2.0291e-07
+dG/dp1:  9.0668e-22
+dG/dp1:  1.1408e-16
+
+Final Statistics:
+Current time                 = 0.001130432239733636
+Steps                        = 500
+Error test fails             = 0
+NLS step fails               = 5
+Initial step size            = 2.165063511501766e-13
+Last step size               = 7.375564905487408e-07
+Current step size            = 6.638008471782086e-07
+Last method order            = 1
+Current method order         = 1
+Residual fn evals            = 749
+IC linesearch backtrack ops  = 0
+NLS iters                    = 745
+NLS fails                    = 13
+NLS iters per step           = 1.498000025749207
+LS setups                    = 89
+Jac fn evals                 = 89
+LS residual fn evals         = 267
+Prec setup evals             = 0
+Prec solves                  = 0
+LS iters                     = 0
+LS fails                     = 0
+Jac-times setups             = 0
+Jac-times evals              = 0
+LS iters per NLS iter        = 0
+Jac evals per NLS iter       = 0.1194630861282349
+Prec evals per NLS iter      = 0
+Root fn evals                = 0
+Quad fn evals                = 532
+Quad error test fails        = 31
+Sens fn evals                = 753
+Sens residual fn evals       = 0
+Sens error test fails        = 0
+Sens NLS iters               = 751
+Sens NLS fails               = 0
+Sens NLS step fails          = 0
+Sens LS setups               = 0
+QuadSens residual evals      = 501
+QuadSens error test fails    = 0

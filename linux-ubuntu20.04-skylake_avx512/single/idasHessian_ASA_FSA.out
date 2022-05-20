@@ -1,0 +1,16 @@
+
+[IDAS ERROR]  IDASolve
+  At t = 0, too much accuracy requested.
+
+
+[IDAS ERROR]  IDAGetSensDky
+  Illegal value for k.
+
+
+[IDAA ERROR]  IDAInitBS
+  The initial time tB0 is outside the interval over which the forward problem was solved.
+
+
+[IDAS ERROR]  IDASStolerances
+  Attempt to call before IDAMalloc.
+

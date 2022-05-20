@@ -1,0 +1,57 @@
+
+idaRoberts_dns: Robertson kinetics DAE serial example problem for IDA
+         Three equation chemical kinetics problem.
+
+Linear solver: DENSE, with user-supplied Jacobian.
+Tolerance parameters:  rtol = 0.0001   atol = 1e-08 1e-06 1e-06 
+Initial conditions y0 = (1 0 0)
+Constraints and id not used.
+
+-----------------------------------------------------------------------
+  t             y1           y2           y3      | nst  k      h
+-----------------------------------------------------------------------
+2.6403e-01   9.8997e-01   3.4706e-05   1.0000e-02 |  30  2   5.0803e-02
+    rootsfound[] =   0   1
+4.0000e-01   9.8517e-01   3.3864e-05   1.4795e-02 |  32  3   1.0161e-01
+4.0000e+00   9.0553e-01   2.2404e-05   9.4453e-02 |  48  4   3.6578e-01
+4.0000e+01   7.1578e-01   9.1871e-06   2.8421e-01 |  75  3   2.2305e+00
+4.0000e+02   4.5051e-01   3.2229e-06   5.4948e-01 | 106  5   2.7604e+01
+4.0000e+03   1.8324e-01   8.9449e-07   8.1676e-01 | 143  4   4.1787e+02
+4.0000e+04   3.8983e-02   1.6217e-07   9.6102e-01 | 177  5   2.3429e+03
+4.0000e+05   4.9364e-03   1.9843e-08   9.9506e-01 | 224  4   1.6868e+04
+4.0000e+06   5.1695e-04   2.0688e-09   9.9948e-01 | 271  4   2.9577e+05
+2.0793e+07   1.0000e-04   4.0004e-10   9.9990e-01 | 304  4   1.1407e+06
+    rootsfound[] =  -1   0
+4.0000e+07   5.1990e-05   2.0797e-10   9.9995e-01 | 316  3   1.7394e+06
+4.0000e+08   5.2184e-06   2.0874e-11   9.9999e-01 | 366  3   3.0393e+07
+4.0000e+09   5.0057e-07   2.0023e-12   1.0000e+00 | 398  3   2.5430e+08
+4.0000e+10   4.3175e-08   1.7270e-13   1.0000e+00 | 531  1   3.7007e+08
+
+Final Statistics:
+Current time                 = 40190042112
+Steps                        = 531
+Error test fails             = 20
+NLS step fails               = 67
+Initial step size            = 2.164955185435247e-05
+Last step size               = 370071584
+Current step size            = 740143168
+Last method order            = 1
+Current method order         = 1
+Residual fn evals            = 841
+IC linesearch backtrack ops  = 0
+NLS iters                    = 785
+NLS fails                    = 76
+NLS iters per step           = 1.583804130554199
+LS setups                    = 267
+Jac fn evals                 = 267
+LS residual fn evals         = 0
+Prec setup evals             = 0
+Prec solves                  = 0
+LS iters                     = 0
+LS fails                     = 0
+Jac-times setups             = 0
+Jac-times evals              = 0
+LS iters per NLS iter        = 0
+Jac evals per NLS iter       = 0.3401273787021637
+Prec evals per NLS iter      = 0
+Root fn evals                = 558

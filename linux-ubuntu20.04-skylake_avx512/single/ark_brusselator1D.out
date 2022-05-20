@@ -1,0 +1,28 @@
+
+[ARKode ERROR]  arkEvolve
+  At t = 0.0155412, mxstep steps taken before reaching tout.
+
+
+SUNDIALS_ERROR: ARKStepEvolve() failed with flag = -1
+
+
+1D Brusselator PDE test problem:
+    N = 201,  NEQ = 603
+    problem parameters:  a = 0.6,  b = 2,  ep = 1e-05
+    diffusion coefficients:  du = 0.025,  dv = 0.025,  dw = 0.025
+    reltol = 1.0e-06,  abstol = 1.0e-10
+
+        t      ||u||_rms   ||v||_rms   ||w||_rms
+   ----------------------------------------------
+   ----------------------------------------------
+
+Final Solver Statistics:
+   Internal solver steps = 500 (attempted = 500)
+   Total RHS evals:  Fe = 0,  Fi = 5191
+   Total linear solver setups = 31
+   Total RHS evals for setting up the linear system = 0
+   Total number of Jacobian evaluations = 9
+   Total number of Newton iterations = 2688
+   Total number of nonlinear solver convergence failures = 0
+   Total number of error test failures = 0
+
