@@ -14,6 +14,20 @@ mkdir $(spack arch)
 
 Within these directories, we create directories for different precisions, e.g. ``single`` or ``double``.
 
+## Procedure for adding new answers
+
+To add new answers, start by copying the relevant answers in https://github.com/sundials-codes/answers/tree/main/linux-ubuntu20.04-skylake_avx512/ to your new directory (following the naming scheme outlined above). 
+
+Next Commit these files and open a PR to the "staging" branch.
+
+Once the PR is merged, you can generate your new answer files and overwrite the ones you copied from https://github.com/sundials-codes/answers/tree/main/linux-ubuntu20.04-skylake_avx512/. 
+
+Compare the diff and make sure it is reasonable, then commit.
+
+Finally, open a new PR targeting the "staging" branch.
+
+Eventually, "staging" will be merged into main.
+
 ## Useful tools
 
 [Archspec](https://archspec.readthedocs.io/en/latest/index.html) is a useful Python library
