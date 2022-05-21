@@ -1,0 +1,143 @@
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
+
+2-species diurnal advection-diffusion problem
+  10 by 10 mesh on 4 processors
+  Using ARKBBDPRE preconditioner module
+    Difference-quotient half-bandwidths are mudq = 10,  mldq = 10
+    Retained band block half-bandwidths are mukeep = 2,  mlkeep = 2
+
+Preconditioner type is:  jpre = SUN_PREC_LEFT
+
+t = 7.20e+03   no. steps = 979   stepsize = 3.07e+00
+At bottom left:  c1, c2 =    1.047e+04    2.527e+11 
+At top right:    c1, c2 =    1.119e+04    2.700e+11 
+
+t = 1.44e+04   no. steps = 2738   stepsize = 6.94e+00
+At bottom left:  c1, c2 =    6.659e+06    2.582e+11 
+At top right:    c1, c2 =    7.301e+06    2.833e+11 
+
+t = 2.16e+04   no. steps = 3535   stepsize = 1.05e+01
+At bottom left:  c1, c2 =    2.665e+07    2.993e+11 
+At top right:    c1, c2 =    2.931e+07    3.313e+11 
+
+t = 2.88e+04   no. steps = 4679   stepsize = 3.79e+00
+At bottom left:  c1, c2 =    8.702e+06    3.380e+11 
+At top right:    c1, c2 =    9.650e+06    3.751e+11 
+
+t = 3.60e+04   no. steps = 6077   stepsize = 2.55e+00
+At bottom left:  c1, c2 =    1.404e+04    3.387e+11 
+At top right:    c1, c2 =    1.561e+04    3.765e+11 
+
+t = 4.32e+04   no. steps = 7272   stepsize = 4.94e+02
+At bottom left:  c1, c2 =   -1.969e-10    3.382e+11 
+At top right:    c1, c2 =   -4.294e-10    3.804e+11 
+
+t = 5.04e+04   no. steps = 7287   stepsize = 4.54e+02
+At bottom left:  c1, c2 =    1.083e-08    3.358e+11 
+At top right:    c1, c2 =   -1.153e-08    3.864e+11 
+
+t = 5.76e+04   no. steps = 7303   stepsize = 3.00e+02
+At bottom left:  c1, c2 =    4.351e-09    3.320e+11 
+At top right:    c1, c2 =   -6.695e-09    3.909e+11 
+
+t = 6.48e+04   no. steps = 7317   stepsize = 6.89e+02
+At bottom left:  c1, c2 =    1.282e-09    3.313e+11 
+At top right:    c1, c2 =    6.101e-08    3.963e+11 
+
+t = 7.20e+04   no. steps = 7327   stepsize = 6.89e+02
+At bottom left:  c1, c2 =   -5.677e-10    3.330e+11 
+At top right:    c1, c2 =   -1.050e-09    4.039e+11 
+
+t = 7.92e+04   no. steps = 7338   stepsize = 6.89e+02
+At bottom left:  c1, c2 =    4.817e-21    3.334e+11 
+At top right:    c1, c2 =   -9.254e-10    4.120e+11 
+
+t = 8.64e+04   no. steps = 7348   stepsize = 6.89e+02
+At bottom left:  c1, c2 =    2.839e-20    3.352e+11 
+At top right:    c1, c2 =   -1.733e-11    4.163e+11 
+
+
+Final Statistics: 
+
+lenrw   =  3901     leniw   =   265
+lenrwls =  2455     leniwls =   126
+nst     =  7348     nfe     =     0
+nfe     = 77047     nfels   = 83276
+nni     = 40174     nli     = 83276
+nsetups =   437     netf    =    26
+npe     =   123     nps     = 121317
+ncfn    =     0     ncfl    =     0
+
+In ARKBBDPRE: real/integer local work space sizes = 1300, 192
+             no. flocal evals. = 2706
+
+
+-------------------------------------------------------------------
+
+
+Preconditioner type is:  jpre = SUN_PREC_RIGHT
+
+t = 7.20e+03   no. steps = 981   stepsize = 3.07e+00
+At bottom left:  c1, c2 =    1.047e+04    2.527e+11 
+At top right:    c1, c2 =    1.119e+04    2.700e+11 
+
+t = 1.44e+04   no. steps = 2731   stepsize = 6.90e+00
+At bottom left:  c1, c2 =    6.659e+06    2.582e+11 
+At top right:    c1, c2 =    7.301e+06    2.833e+11 
+
+t = 2.16e+04   no. steps = 3533   stepsize = 1.04e+01
+At bottom left:  c1, c2 =    2.665e+07    2.993e+11 
+At top right:    c1, c2 =    2.931e+07    3.313e+11 
+
+t = 2.88e+04   no. steps = 4678   stepsize = 3.78e+00
+At bottom left:  c1, c2 =    8.702e+06    3.380e+11 
+At top right:    c1, c2 =    9.650e+06    3.751e+11 
+
+t = 3.60e+04   no. steps = 6077   stepsize = 2.55e+00
+At bottom left:  c1, c2 =    1.404e+04    3.387e+11 
+At top right:    c1, c2 =    1.561e+04    3.765e+11 
+
+t = 4.32e+04   no. steps = 7265   stepsize = 4.33e+02
+At bottom left:  c1, c2 =    4.240e-11    3.382e+11 
+At top right:    c1, c2 =    3.802e-10    3.804e+11 
+
+t = 5.04e+04   no. steps = 7281   stepsize = 4.33e+02
+At bottom left:  c1, c2 =   -1.678e-12    3.358e+11 
+At top right:    c1, c2 =    1.409e-12    3.864e+11 
+
+t = 5.76e+04   no. steps = 7298   stepsize = 3.39e+02
+At bottom left:  c1, c2 =    8.187e-18    3.320e+11 
+At top right:    c1, c2 =   -1.929e-18    3.909e+11 
+
+t = 6.48e+04   no. steps = 7314   stepsize = 4.87e+02
+At bottom left:  c1, c2 =    2.070e-17    3.313e+11 
+At top right:    c1, c2 =   -2.893e-19    3.963e+11 
+
+t = 7.20e+04   no. steps = 7329   stepsize = 4.87e+02
+At bottom left:  c1, c2 =    8.990e-17    3.330e+11 
+At top right:    c1, c2 =   -2.943e-20    4.039e+11 
+
+t = 7.92e+04   no. steps = 7344   stepsize = 4.87e+02
+At bottom left:  c1, c2 =   -5.629e-21    3.334e+11 
+At top right:    c1, c2 =   -5.492e-11    4.120e+11 
+
+t = 8.64e+04   no. steps = 7355   stepsize = 7.33e+02
+At bottom left:  c1, c2 =   -6.577e-27    3.352e+11 
+At top right:    c1, c2 =   -5.759e-12    4.163e+11 
+
+
+Final Statistics: 
+
+lenrw   =  3901     leniw   =   270
+lenrwls =  2455     leniwls =   126
+nst     =  7355     nfe     =     0
+nfe     = 77250     nfels   = 101089
+nni     = 40322     nli     = 101089
+nsetups =   449     netf    =    30
+npe     =   124     nps     = 138043
+ncfn    =     0     ncfl    =     0
+
+In ARKBBDPRE: real/integer local work space sizes = 1300, 192
+             no. flocal evals. = 2728

@@ -1,0 +1,27 @@
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
+
+Expectation-Maximizaton Alg. for Mixture Densities Terms:
+ ------------------------------------------------------- 
+  nprocs             = 2
+ ------------------------------------------------------- 
+  nodes              = 2
+  nodes_loc (proc 0) = 1
+ ------------------------------------------------------- 
+  sigma              = {1, 1, 1}
+  alpha              = {0.3, 0.3, 0.4}
+ ------------------------------------------------------- 
+  rtol               = 1e-08
+  maa                = 3
+  damping            = 1
+  orthaa             = 0
+  maxits             = 200
+ ------------------------------------------------------- 
+  output             = 1
+ ------------------------------------------------------- 
+
+Final statistics:
+  Func evals       = 20
+  NLS iters        = 20
+
