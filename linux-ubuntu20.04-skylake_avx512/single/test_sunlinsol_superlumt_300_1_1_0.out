@@ -1,6 +1,0 @@
-COLAMD failed at line 58 in file get_perm_c.c
-
-
-SuperLUMT linear solver test: size 300, type 1, num_threads 1
-
-    PASSED test -- SUNLinSolInitialize 
