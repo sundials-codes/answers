@@ -1,9 +1,0 @@
-
-[CVODES ERROR]  CVode
-  At t = 95.5552, mxstep steps taken before reaching tout.
-
-
-SUNDIALS_ERROR: runCVode() failed with retval = -1
-
-Sensitivity: YES (SIMULTANEOUS + FULL ERROR CONTROL + user-provided sensitivity RHS)
-Parameters: [4.0000e-02  1.0000e+04  3.0000e+07]
