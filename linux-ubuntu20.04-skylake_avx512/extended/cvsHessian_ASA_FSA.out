@@ -13,20 +13,20 @@ ncheck = 1
 
 Final Statistics for forward pb.
 --------------------------------
- Number steps:   143
+ Number steps:   146
 
  Function evaluations:
   f:          166
-  fQ:         148
+  fQ:         149
   fS:         166
-  fQS:        148
+  fQS:        149
  Error test failures:
-  netf:         1
+  netf:         2
   netfQ:        0
   netfS:        0
-  netfQS:       2
+  netfQS:       0
  Linear solver setups:
-  nsetups:     27
+  nsetups:     24
   nsetupsS:     0
  Nonlinear iterations:
   nni:        163
@@ -47,35 +47,35 @@ Backward integration ... (2 adjoint problems)
 
 Final Statistics for backward pb. 1
 -----------------------------------
- Number steps:   102
+ Number steps:   101
 
  Function evaluations:
-  f:          131
-  fQ:         111
+  f:          129
+  fQ:         109
  Error test failures:
   netf:         1
-  netfQ:        6
+  netfQ:        5
  Linear solver setups:
-  nsetups:     25
+  nsetups:     24
  Nonlinear iterations:
-  nni:        128
+  nni:        126
  Convergence failures:
   ncfn:         0
 
 Final Statistics for backward pb. 2
 -----------------------------------
- Number steps:   115
+ Number steps:    88
 
  Function evaluations:
-  f:          153
-  fQ:         121
+  f:          114
+  fQ:          93
  Error test failures:
-  netf:         3
-  netfQ:        3
+  netf:         2
+  netfQ:        2
  Linear solver setups:
-  nsetups:     23
+  nsetups:     22
  Nonlinear iterations:
-  nni:        150
+  nni:        111
  Convergence failures:
   ncfn:         0
 
@@ -90,9 +90,9 @@ p1-  y:     2.2900e-01   1.3534e-01   3.1472e-02     G:     5.3217e-01
 p2+  y:     2.2943e-01   1.3534e-01   3.0399e-02     G:     5.3106e-01
 p2-  y:     2.2516e-01   1.3534e-01   3.2577e-02     G:     5.3070e-01
 
-   dG/dp:   -1.2760e-01   1.8476e-02   (fwd FD)
-            -1.2916e-01   1.7581e-02   (bck FD)
+   dG/dp:   -1.2761e-01   1.8474e-02   (fwd FD)
+            -1.2916e-01   1.7582e-02   (bck FD)
             -1.2838e-01   1.8028e-02   (cntr FD)
 
-  H(1,1):    1.5594e-01
-  H(2,2):    8.9483e-02
+  H(1,1):    1.5564e-01
+  H(2,2):    8.9183e-02

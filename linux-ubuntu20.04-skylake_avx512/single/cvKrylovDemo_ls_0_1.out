@@ -4,8 +4,8 @@
  
 2-species diurnal advection-diffusion problem
 
-t = 7.88e-01   no. steps = 50   order = 5   stepsize = 2.51e-02
-c1 (bot.left/middle/top rt.) =    2.151e+03     8.392e+03     2.151e+03
+t = 7.86e-01   no. steps = 50   order = 5   stepsize = 2.43e-02
+c1 (bot.left/middle/top rt.) =    2.187e+03     8.532e+03     2.187e+03
 c2 (bot.left/middle/top rt.) =    2.500e+11     9.756e+11     2.500e+11
 
 
@@ -14,16 +14,16 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2454     leniwLS =    42
 nst     =    50
-nfe     =    80     nfeLS   =    55
-nni     =    77     nli     =    55
-nsetups =    16     netf    =     6
-npe     =     1     nps     =   110
+nfe     =    78     nfeLS   =    58
+nni     =    77     nli     =    58
+nsetups =    17     netf    =     7
+npe     =     3     nps     =   115
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 2.21e+00   no. steps = 100   order = 5   stepsize = 3.77e-02
-c1 (bot.left/middle/top rt.) =    4.149e-01     1.618e+00     4.149e-01
+t = 2.16e+00   no. steps = 100   order = 5   stepsize = 3.68e-02
+c1 (bot.left/middle/top rt.) =    5.359e-01     2.090e+00     5.359e-01
 c2 (bot.left/middle/top rt.) =    2.500e+11     9.757e+11     2.500e+11
 
 
@@ -32,17 +32,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2454     leniwLS =    42
 nst     =   100
-nfe     =   131     nfeLS   =   105
-nni     =   128     nli     =   105
-nsetups =    19     netf    =     6
-npe     =     2     nps     =   210
+nfe     =   129     nfeLS   =   108
+nni     =   128     nli     =   108
+nsetups =    20     netf    =     7
+npe     =     4     nps     =   215
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 3.67e+03   no. steps = 150   order = 4   stepsize = 3.74e+01
-c1 (bot.left/middle/top rt.) =    1.236e-02     4.596e-02     1.288e-02
-c2 (bot.left/middle/top rt.) =    2.509e+11     9.328e+11     2.615e+11
+t = 1.42e+02   no. steps = 150   order = 2   stepsize = 5.89e+01
+c1 (bot.left/middle/top rt.) =   -2.923e-08    -1.133e-07    -2.855e-08
+c2 (bot.left/middle/top rt.) =    2.500e+11     9.783e+11     2.505e+11
 
 
 Intermediate Statistics.. 
@@ -50,17 +50,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2454     leniwLS =    42
 nst     =   150
-nfe     =   197     nfeLS   =   162
-nni     =   194     nli     =   162
-nsetups =    34     netf    =     8
-npe     =     3     nps     =   321
+nfe     =   190     nfeLS   =   159
+nni     =   189     nli     =   159
+nsetups =    35     netf    =     9
+npe     =     5     nps     =   318
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 5.77e+03   no. steps = 200   order = 3   stepsize = 3.60e+01
-c1 (bot.left/middle/top rt.) =    3.285e+02     1.066e+03     3.480e+02
-c2 (bot.left/middle/top rt.) =    2.518e+11     8.171e+11     2.667e+11
+t = 6.45e+03   no. steps = 200   order = 5   stepsize = 8.10e+01
+c1 (bot.left/middle/top rt.) =    2.102e+03     6.416e+03     2.236e+03
+c2 (bot.left/middle/top rt.) =    2.522e+11     7.700e+11     2.683e+11
 
 
 Intermediate Statistics.. 
@@ -68,17 +68,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2454     leniwLS =    42
 nst     =   200
-nfe     =   259     nfeLS   =   214
-nni     =   256     nli     =   214
-nsetups =    38     netf    =    10
-npe     =     4     nps     =   425
+nfe     =   267     nfeLS   =   221
+nni     =   266     nli     =   221
+nsetups =    47     netf    =    15
+npe     =     6     nps     =   446
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 1.43e+04   no. steps = 250   order = 5   stepsize = 3.77e+02
-c1 (bot.left/middle/top rt.) =    6.387e+06     5.244e+06     7.000e+06
-c2 (bot.left/middle/top rt.) =    2.581e+11     2.116e+11     2.831e+11
+t = 1.71e+04   no. steps = 250   order = 5   stepsize = 2.02e+02
+c1 (bot.left/middle/top rt.) =    1.478e+07     5.588e+06     1.627e+07
+c2 (bot.left/middle/top rt.) =    2.633e+11     9.361e+10     2.909e+11
 
 
 Intermediate Statistics.. 
@@ -86,17 +86,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2454     leniwLS =    42
 nst     =   250
-nfe     =   320     nfeLS   =   265
-nni     =   317     nli     =   265
-nsetups =    45     netf    =    11
-npe     =     5     nps     =   535
+nfe     =   324     nfeLS   =   280
+nni     =   323     nli     =   280
+nsetups =    51     netf    =    16
+npe     =     7     nps     =   562
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 2.79e+04   no. steps = 300   order = 4   stepsize = 4.41e+01
-c1 (bot.left/middle/top rt.) =    1.189e+07     1.588e+07     1.317e+07
-c2 (bot.left/middle/top rt.) =    3.375e+11     4.520e+11     3.743e+11
+t = 3.02e+04   no. steps = 300   order = 5   stepsize = 2.00e+02
+c1 (bot.left/middle/top rt.) =    4.737e+06     7.892e+06     5.260e+06
+c2 (bot.left/middle/top rt.) =    3.383e+11     5.641e+11     3.757e+11
 
 
 Intermediate Statistics.. 
@@ -104,17 +104,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2454     leniwLS =    42
 nst     =   300
-nfe     =   391     nfeLS   =   337
-nni     =   388     nli     =   337
+nfe     =   380     nfeLS   =   341
+nni     =   379     nli     =   341
 nsetups =    54     netf    =    17
-npe     =     6     nps     =   676
+npe     =     8     nps     =   679
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 3.74e+04   no. steps = 350   order = 5   stepsize = 1.02e+02
-c1 (bot.left/middle/top rt.) =    4.321e+02     5.131e+02     4.808e+02
-c2 (bot.left/middle/top rt.) =    3.387e+11     4.022e+11     3.769e+11
+t = 3.60e+04   no. steps = 350   order = 5   stepsize = 1.69e+01
+c1 (bot.left/middle/top rt.) =    1.405e+04     2.031e+04     1.562e+04
+c2 (bot.left/middle/top rt.) =    3.387e+11     4.895e+11     3.765e+11
 
 
 Intermediate Statistics.. 
@@ -122,17 +122,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2454     leniwLS =    42
 nst     =   350
-nfe     =   461     nfeLS   =   428
-nni     =   458     nli     =   428
-nsetups =    62     netf    =    22
-npe     =     6     nps     =   837
+nfe     =   443     nfeLS   =   444
+nni     =   442     nli     =   444
+nsetups =    59     netf    =    20
+npe     =     9     nps     =   845
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 4.98e+04   no. steps = 400   order = 4   stepsize = 3.15e+02
-c1 (bot.left/middle/top rt.) =   -3.654e-08    -4.295e-06    -6.514e-08
-c2 (bot.left/middle/top rt.) =    3.361e+11     4.418e+11     3.860e+11
+t = 3.74e+04   no. steps = 400   order = 4   stepsize = 2.96e+01
+c1 (bot.left/middle/top rt.) =    5.359e+02     6.435e+02     5.963e+02
+c2 (bot.left/middle/top rt.) =    3.387e+11     4.068e+11     3.769e+11
 
 
 Intermediate Statistics.. 
@@ -140,17 +140,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2454     leniwLS =    42
 nst     =   400
-nfe     =   518     nfeLS   =   521
-nni     =   515     nli     =   521
-nsetups =    68     netf    =    23
-npe     =     7     nps     =   985
+nfe     =   499     nfeLS   =   494
+nni     =   498     nli     =   494
+nsetups =    62     netf    =    20
+npe     =    10     nps     =   951
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 7.88e+04   no. steps = 450   order = 5   stepsize = 7.01e+02
-c1 (bot.left/middle/top rt.) =    6.689e-13     3.345e-11     1.269e-12
-c2 (bot.left/middle/top rt.) =    3.334e+11     6.542e+11     4.117e+11
+t = 3.90e+04   no. steps = 450   order = 5   stepsize = 7.64e+01
+c1 (bot.left/middle/top rt.) =    5.054e-01     4.476e-01     5.634e-01
+c2 (bot.left/middle/top rt.) =    3.387e+11     2.999e+11     3.775e+11
 
 
 Intermediate Statistics.. 
@@ -158,16 +158,34 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2454     leniwLS =    42
 nst     =   450
-nfe     =   586     nfeLS   =   614
-nni     =   583     nli     =   614
-nsetups =    77     netf    =    27
-npe     =     8     nps     =  1143
+nfe     =   552     nfeLS   =   544
+nni     =   551     nli     =   544
+nsetups =    66     netf    =    20
+npe     =    10     nps     =  1054
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 8.64e+04   no. steps = 461   order = 5   stepsize = 7.01e+02
-c1 (bot.left/middle/top rt.) =    4.144e-14     2.072e-12     7.862e-14
+t = 5.56e+04   no. steps = 500   order = 5   stepsize = 7.63e+02
+c1 (bot.left/middle/top rt.) =   -4.082e-11     9.223e-09    -8.424e-11
+c2 (bot.left/middle/top rt.) =    3.330e+11     8.820e+11     3.897e+11
+
+
+Intermediate Statistics.. 
+
+lenrw   =  2689     leniw   =    53
+lenrwLS =  2454     leniwLS =    42
+nst     =   500
+nfe     =   610     nfeLS   =   615
+nni     =   609     nli     =   615
+nsetups =    73     netf    =    21
+npe     =    11     nps     =  1177
+ncfn    =     0     ncfl    =     0
+
+======================================================================
+
+t = 8.64e+04   no. steps = 543   order = 5   stepsize = 8.24e+02
+c1 (bot.left/middle/top rt.) =   -3.801e-13    -6.685e-11     7.716e-13
 c2 (bot.left/middle/top rt.) =    3.352e+11     9.107e+11     4.163e+11
 
 
@@ -175,11 +193,11 @@ Final Statistics..
 
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2454     leniwLS =    42
-nst     =   461
-nfe     =   597     nfeLS   =   636
-nni     =   594     nli     =   636
-nsetups =    78     netf    =    27
-npe     =     8     nps     =  1176
+nst     =   543
+nfe     =   661     nfeLS   =   691
+nni     =   660     nli     =   691
+nsetups =    76     netf    =    22
+npe     =    12     nps     =  1297
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
@@ -190,8 +208,8 @@ ncfn    =     0     ncfl    =     0
  
 2-species diurnal advection-diffusion problem
 
-t = 7.88e-01   no. steps = 50   order = 5   stepsize = 2.51e-02
-c1 (bot.left/middle/top rt.) =    2.151e+03     8.392e+03     2.151e+03
+t = 4.90e-01   no. steps = 50   order = 3   stepsize = 1.24e-02
+c1 (bot.left/middle/top rt.) =    1.302e+04     5.079e+04     1.302e+04
 c2 (bot.left/middle/top rt.) =    2.500e+11     9.756e+11     2.500e+11
 
 
@@ -200,17 +218,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  3254     leniwLS =    46
 nst     =    50
-nfe     =    80     nfeLS   =    55
-nni     =    77     nli     =    55
-nsetups =    16     netf    =     6
-npe     =     1     nps     =    55
+nfe     =    70     nfeLS   =    56
+nni     =    69     nli     =    56
+nsetups =    13     netf    =     5
+npe     =     3     nps     =    56
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 2.21e+00   no. steps = 100   order = 5   stepsize = 3.77e-02
-c1 (bot.left/middle/top rt.) =    4.149e-01     1.618e+00     4.149e-01
-c2 (bot.left/middle/top rt.) =    2.500e+11     9.757e+11     2.500e+11
+t = 1.11e+00   no. steps = 100   order = 3   stepsize = 1.24e-02
+c1 (bot.left/middle/top rt.) =    3.093e+02     1.207e+03     3.093e+02
+c2 (bot.left/middle/top rt.) =    2.500e+11     9.756e+11     2.500e+11
 
 
 Intermediate Statistics.. 
@@ -218,17 +236,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  3254     leniwLS =    46
 nst     =   100
-nfe     =   131     nfeLS   =   105
-nni     =   128     nli     =   105
-nsetups =    19     netf    =     6
-npe     =     2     nps     =   105
+nfe     =   123     nfeLS   =   106
+nni     =   122     nli     =   106
+nsetups =    16     netf    =     5
+npe     =     4     nps     =   106
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 3.94e+03   no. steps = 150   order = 4   stepsize = 9.97e+01
-c1 (bot.left/middle/top rt.) =    8.547e-02     3.136e-01     8.929e-02
-c2 (bot.left/middle/top rt.) =    2.510e+11     9.210e+11     2.622e+11
+t = 2.55e+00   no. steps = 150   order = 5   stepsize = 5.07e-02
+c1 (bot.left/middle/top rt.) =    5.203e-02     2.029e-01     5.204e-02
+c2 (bot.left/middle/top rt.) =    2.500e+11     9.757e+11     2.500e+11
 
 
 Intermediate Statistics.. 
@@ -236,17 +254,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  3254     leniwLS =    46
 nst     =   150
-nfe     =   200     nfeLS   =   171
-nni     =   197     nli     =   171
-nsetups =    37     netf    =     9
-npe     =     3     nps     =   171
+nfe     =   188     nfeLS   =   158
+nni     =   187     nli     =   158
+nsetups =    23     netf    =     8
+npe     =     5     nps     =   158
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 8.36e+03   no. steps = 200   order = 5   stepsize = 1.34e+02
-c1 (bot.left/middle/top rt.) =    6.996e+04     1.728e+05     7.519e+04
-c2 (bot.left/middle/top rt.) =    2.535e+11     6.262e+11     2.724e+11
+t = 3.39e+03   no. steps = 200   order = 4   stepsize = 4.26e+02
+c1 (bot.left/middle/top rt.) =    1.200e-03     4.516e-03     1.247e-03
+c2 (bot.left/middle/top rt.) =    2.508e+11     9.439e+11     2.607e+11
 
 
 Intermediate Statistics.. 
@@ -254,17 +272,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  3254     leniwLS =    46
 nst     =   200
-nfe     =   261     nfeLS   =   225
-nni     =   258     nli     =   225
-nsetups =    43     netf    =    12
-npe     =     4     nps     =   225
+nfe     =   254     nfeLS   =   218
+nni     =   253     nli     =   218
+nsetups =    40     netf    =    10
+npe     =     6     nps     =   218
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 2.23e+04   no. steps = 250   order = 5   stepsize = 3.12e+02
-c1 (bot.left/middle/top rt.) =    2.698e+07     1.250e+07     2.967e+07
-c2 (bot.left/middle/top rt.) =    3.075e+11     1.307e+11     3.403e+11
+t = 7.10e+03   no. steps = 250   order = 4   stepsize = 9.19e+01
+c1 (bot.left/middle/top rt.) =    8.571e+03     2.453e+04     9.152e+03
+c2 (bot.left/middle/top rt.) =    2.526e+11     7.231e+11     2.698e+11
 
 
 Intermediate Statistics.. 
@@ -272,17 +290,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  3254     leniwLS =    46
 nst     =   250
-nfe     =   315     nfeLS   =   359
-nni     =   312     nli     =   359
-nsetups =    46     netf    =    12
-npe     =     5     nps     =   359
+nfe     =   324     nfeLS   =   331
+nni     =   323     nli     =   331
+nsetups =    48     netf    =    15
+npe     =     7     nps     =   331
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 3.01e+04   no. steps = 300   order = 4   stepsize = 1.75e+02
-c1 (bot.left/middle/top rt.) =    5.017e+06     8.298e+06     5.570e+06
-c2 (bot.left/middle/top rt.) =    3.383e+11     5.600e+11     3.757e+11
+t = 1.51e+04   no. steps = 300   order = 5   stepsize = 2.39e+02
+c1 (bot.left/middle/top rt.) =    8.600e+06     5.656e+06     9.443e+06
+c2 (bot.left/middle/top rt.) =    2.590e+11     1.691e+11     2.847e+11
 
 
 Intermediate Statistics.. 
@@ -290,17 +308,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  3254     leniwLS =    46
 nst     =   300
-nfe     =   396     nfeLS   =   484
-nni     =   393     nli     =   484
-nsetups =    62     netf    =    20
-npe     =     6     nps     =   484
+nfe     =   376     nfeLS   =   447
+nni     =   375     nli     =   447
+nsetups =    51     netf    =    15
+npe     =     8     nps     =   447
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 3.86e+04   no. steps = 350   order = 5   stepsize = 8.38e+01
-c1 (bot.left/middle/top rt.) =    4.314e+00     4.141e+00     4.806e+00
-c2 (bot.left/middle/top rt.) =    3.387e+11     3.251e+11     3.774e+11
+t = 2.77e+04   no. steps = 350   order = 5   stepsize = 5.38e+00
+c1 (bot.left/middle/top rt.) =    1.260e+07     1.641e+07     1.395e+07
+c2 (bot.left/middle/top rt.) =    3.373e+11     4.406e+11     3.740e+11
 
 
 Intermediate Statistics.. 
@@ -308,17 +326,17 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  3254     leniwLS =    46
 nst     =   350
-nfe     =   462     nfeLS   =   656
-nni     =   459     nli     =   656
-nsetups =    67     netf    =    24
-npe     =     6     nps     =   656
+nfe     =   439     nfeLS   =   632
+nni     =   438     nli     =   632
+nsetups =    57     netf    =    19
+npe     =     9     nps     =   632
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 5.68e+04   no. steps = 400   order = 5   stepsize = 7.44e+02
-c1 (bot.left/middle/top rt.) =   -1.055e-12    -8.927e-09     2.668e-11
-c2 (bot.left/middle/top rt.) =    3.324e+11     9.373e+11     3.904e+11
+t = 2.94e+04   no. steps = 400   order = 3   stepsize = 1.12e+02
+c1 (bot.left/middle/top rt.) =    6.921e+06     1.085e+07     7.679e+06
+c2 (bot.left/middle/top rt.) =    3.382e+11     5.309e+11     3.754e+11
 
 
 Intermediate Statistics.. 
@@ -326,29 +344,83 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  3254     leniwLS =    46
 nst     =   400
-nfe     =   519     nfeLS   =   758
-nni     =   516     nli     =   758
-nsetups =    74     netf    =    25
-npe     =     7     nps     =   758
+nfe     =   506     nfeLS   =   757
+nni     =   505     nli     =   757
+nsetups =    71     netf    =    22
+npe     =    10     nps     =   757
 ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
-t = 8.64e+04   no. steps = 439   order = 5   stepsize = 7.86e+02
-c1 (bot.left/middle/top rt.) =    5.687e-13    -9.924e-11    -1.149e-12
-c2 (bot.left/middle/top rt.) =    3.352e+11     9.106e+11     4.162e+11
+t = 3.63e+04   no. steps = 450   order = 4   stepsize = 7.30e+01
+c1 (bot.left/middle/top rt.) =    7.492e+03     1.043e+04     8.330e+03
+c2 (bot.left/middle/top rt.) =    3.387e+11     4.717e+11     3.766e+11
+
+
+Intermediate Statistics.. 
+
+lenrw   =  2689     leniw   =    53
+lenrwLS =  3254     leniwLS =    46
+nst     =   450
+nfe     =   568     nfeLS   =   960
+nni     =   567     nli     =   960
+nsetups =    75     netf    =    24
+npe     =    11     nps     =   960
+ncfn    =     1     ncfl    =     4
+
+======================================================================
+
+t = 3.96e+04   no. steps = 500   order = 5   stepsize = 9.02e+01
+c1 (bot.left/middle/top rt.) =    9.990e-03     7.826e-03     1.115e-02
+c2 (bot.left/middle/top rt.) =    3.386e+11     2.653e+11     3.778e+11
+
+
+Intermediate Statistics.. 
+
+lenrw   =  2689     leniw   =    53
+lenrwLS =  3254     leniwLS =    46
+nst     =   500
+nfe     =   626     nfeLS   =  1073
+nni     =   625     nli     =  1073
+nsetups =    79     netf    =    25
+npe     =    11     nps     =  1073
+ncfn    =     1     ncfl    =     4
+
+======================================================================
+
+t = 5.98e+04   no. steps = 550   order = 5   stepsize = 6.83e+02
+c1 (bot.left/middle/top rt.) =    2.311e-11     5.241e-09     4.053e-11
+c2 (bot.left/middle/top rt.) =    3.313e+11     9.986e+11     3.924e+11
+
+
+Intermediate Statistics.. 
+
+lenrw   =  2689     leniw   =    53
+lenrwLS =  3254     leniwLS =    46
+nst     =   550
+nfe     =   687     nfeLS   =  1158
+nni     =   686     nli     =  1158
+nsetups =    87     netf    =    27
+npe     =    12     nps     =  1158
+ncfn    =     1     ncfl    =     4
+
+======================================================================
+
+t = 8.64e+04   no. steps = 589   order = 5   stepsize = 6.83e+02
+c1 (bot.left/middle/top rt.) =    2.021e-16     3.758e-14    -7.728e-16
+c2 (bot.left/middle/top rt.) =    3.352e+11     9.106e+11     4.163e+11
 
 
 Final Statistics.. 
 
 lenrw   =  2689     leniw   =    53
 lenrwLS =  3254     leniwLS =    46
-nst     =   439
-nfe     =   565     nfeLS   =   858
-nni     =   562     nli     =   858
-nsetups =    77     netf    =    26
-npe     =     8     nps     =   858
-ncfn    =     0     ncfl    =     0
+nst     =   589
+nfe     =   727     nfeLS   =  1236
+nni     =   726     nli     =  1236
+nsetups =    89     netf    =    27
+npe     =    13     nps     =  1236
+ncfn    =     1     ncfl    =     4
 
 ======================================================================
 
@@ -358,8 +430,8 @@ ncfn    =     0     ncfl    =     0
  
 2-species diurnal advection-diffusion problem
 
-t = 7.88e-01   no. steps = 50   order = 5   stepsize = 2.51e-02
-c1 (bot.left/middle/top rt.) =    2.151e+03     8.392e+03     2.151e+03
+t = 4.98e-01   no. steps = 50   order = 3   stepsize = 1.26e-02
+c1 (bot.left/middle/top rt.) =    1.240e+04     4.839e+04     1.240e+04
 c2 (bot.left/middle/top rt.) =    2.500e+11     9.756e+11     2.500e+11
 
 
@@ -368,15 +440,15 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2202     leniwLS =    41
 nst     =    50
-nfe     =    80     nfeLS   =   110
-nni     =    77     nli     =    55
-nsetups =    16     netf    =     6
-npe     =     1     nps     =   165
+nfe     =    71     nfeLS   =   110
+nni     =    70     nli     =    55
+nsetups =    13     netf    =     5
+npe     =     3     nps     =   165
 ncfn    =     0     ncfl    =     0
 
-t = 2.21e+00   no. steps = 100   order = 5   stepsize = 3.77e-02
-c1 (bot.left/middle/top rt.) =    4.149e-01     1.618e+00     4.149e-01
-c2 (bot.left/middle/top rt.) =    2.500e+11     9.757e+11     2.500e+11
+t = 1.13e+00   no. steps = 100   order = 3   stepsize = 1.26e-02
+c1 (bot.left/middle/top rt.) =    2.750e+02     1.073e+03     2.750e+02
+c2 (bot.left/middle/top rt.) =    2.500e+11     9.756e+11     2.500e+11
 
 
 Intermediate Statistics.. 
@@ -384,15 +456,15 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2202     leniwLS =    41
 nst     =   100
-nfe     =   131     nfeLS   =   210
-nni     =   128     nli     =   105
-nsetups =    19     netf    =     6
-npe     =     2     nps     =   315
+nfe     =   126     nfeLS   =   210
+nni     =   125     nli     =   105
+nsetups =    16     netf    =     5
+npe     =     4     nps     =   315
 ncfn    =     0     ncfl    =     0
 
-t = 3.88e+03   no. steps = 150   order = 4   stepsize = 1.45e+02
-c1 (bot.left/middle/top rt.) =    5.801e-02     2.135e-01     6.057e-02
-c2 (bot.left/middle/top rt.) =    2.509e+11     9.235e+11     2.620e+11
+t = 2.52e+00   no. steps = 150   order = 5   stepsize = 5.49e-02
+c1 (bot.left/middle/top rt.) =    6.137e-02     2.393e-01     6.137e-02
+c2 (bot.left/middle/top rt.) =    2.500e+11     9.757e+11     2.500e+11
 
 
 Intermediate Statistics.. 
@@ -400,15 +472,15 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2202     leniwLS =    41
 nst     =   150
-nfe     =   197     nfeLS   =   312
-nni     =   194     nli     =   156
-nsetups =    34     netf    =     8
-npe     =     3     nps     =   470
+nfe     =   193     nfeLS   =   316
+nni     =   192     nli     =   158
+nsetups =    27     netf    =     9
+npe     =     5     nps     =   475
 ncfn    =     0     ncfl    =     0
 
-t = 8.84e+03   no. steps = 200   order = 5   stepsize = 1.58e+02
-c1 (bot.left/middle/top rt.) =    1.311e+05     3.042e+05     1.413e+05
-c2 (bot.left/middle/top rt.) =    2.538e+11     5.888e+11     2.734e+11
+t = 1.52e+03   no. steps = 200   order = 3   stepsize = 2.24e+02
+c1 (bot.left/middle/top rt.) =   -2.285e-17     6.953e-15    -1.949e-17
+c2 (bot.left/middle/top rt.) =    2.503e+11     9.860e+11     2.552e+11
 
 
 Intermediate Statistics.. 
@@ -416,15 +488,15 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2202     leniwLS =    41
 nst     =   200
-nfe     =   261     nfeLS   =   418
-nni     =   258     nli     =   209
-nsetups =    41     netf    =    11
-npe     =     4     nps     =   629
+nfe     =   260     nfeLS   =   420
+nni     =   259     nli     =   210
+nsetups =    43     netf    =    11
+npe     =     6     nps     =   631
 ncfn    =     0     ncfl    =     0
 
-t = 2.36e+04   no. steps = 250   order = 5   stepsize = 4.34e+02
-c1 (bot.left/middle/top rt.) =    2.596e+07     1.592e+07     2.856e+07
-c2 (bot.left/middle/top rt.) =    3.194e+11     1.885e+11     3.533e+11
+t = 6.77e+03   no. steps = 250   order = 4   stepsize = 9.78e+01
+c1 (bot.left/middle/top rt.) =    4.349e+03     1.287e+04     4.635e+03
+c2 (bot.left/middle/top rt.) =    2.524e+11     7.472e+11     2.690e+11
 
 
 Intermediate Statistics.. 
@@ -432,15 +504,15 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2202     leniwLS =    41
 nst     =   250
-nfe     =   318     nfeLS   =   520
-nni     =   315     nli     =   260
-nsetups =    46     netf    =    12
-npe     =     5     nps     =   788
+nfe     =   328     nfeLS   =   528
+nni     =   327     nli     =   264
+nsetups =    50     netf    =    15
+npe     =     7     nps     =   800
 ncfn    =     0     ncfl    =     0
 
-t = 3.34e+04   no. steps = 300   order = 5   stepsize = 2.67e+02
-c1 (bot.left/middle/top rt.) =    5.232e+05     9.140e+05     5.813e+05
-c2 (bot.left/middle/top rt.) =    3.385e+11     5.914e+11     3.761e+11
+t = 1.53e+04   no. steps = 300   order = 4   stepsize = 2.23e+02
+c1 (bot.left/middle/top rt.) =    9.171e+06     5.707e+06     1.007e+07
+c2 (bot.left/middle/top rt.) =    2.592e+11     1.598e+11     2.852e+11
 
 
 Intermediate Statistics.. 
@@ -448,15 +520,15 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2202     leniwLS =    41
 nst     =   300
-nfe     =   395     nfeLS   =   642
-nni     =   392     nli     =   321
-nsetups =    58     netf    =    20
-npe     =     5     nps     =   975
+nfe     =   381     nfeLS   =   628
+nni     =   380     nli     =   314
+nsetups =    53     netf    =    15
+npe     =     8     nps     =   953
 ncfn    =     0     ncfl    =     0
 
-t = 3.92e+04   no. steps = 350   order = 5   stepsize = 9.48e+01
-c1 (bot.left/middle/top rt.) =    1.804e-01     1.542e-01     2.011e-01
-c2 (bot.left/middle/top rt.) =    3.387e+11     2.896e+11     3.776e+11
+t = 2.67e+04   no. steps = 350   order = 4   stepsize = 2.94e+02
+c1 (bot.left/middle/top rt.) =    1.618e+07     1.837e+07     1.789e+07
+c2 (bot.left/middle/top rt.) =    3.359e+11     3.824e+11     3.722e+11
 
 
 Intermediate Statistics.. 
@@ -464,15 +536,15 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2202     leniwLS =    41
 nst     =   350
-nfe     =   460     nfeLS   =   752
-nni     =   457     nli     =   376
-nsetups =    63     netf    =    23
-npe     =     6     nps     =  1140
+nfe     =   439     nfeLS   =   742
+nni     =   438     nli     =   371
+nsetups =    57     netf    =    16
+npe     =     8     nps     =  1125
 ncfn    =     0     ncfl    =     0
 
-t = 5.86e+04   no. steps = 400   order = 5   stepsize = 5.96e+02
-c1 (bot.left/middle/top rt.) =    7.894e-14    -5.680e-12     1.260e-13
-c2 (bot.left/middle/top rt.) =    3.317e+11     9.872e+11     3.915e+11
+t = 3.54e+04   no. steps = 400   order = 4   stepsize = 1.19e+02
+c1 (bot.left/middle/top rt.) =    3.859e+04     5.920e+04     4.290e+04
+c2 (bot.left/middle/top rt.) =    3.387e+11     5.195e+11     3.764e+11
 
 
 Intermediate Statistics.. 
@@ -480,14 +552,62 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2202     leniwLS =    41
 nst     =   400
-nfe     =   522     nfeLS   =   870
-nni     =   519     nli     =   435
-nsetups =    70     netf    =    25
-npe     =     7     nps     =  1312
+nfe     =   500     nfeLS   =   862
+nni     =   499     nli     =   431
+nsetups =    61     netf    =    18
+npe     =     9     nps     =  1306
 ncfn    =     0     ncfl    =     0
 
-t = 8.64e+04   no. steps = 447   order = 5   stepsize = 5.96e+02
-c1 (bot.left/middle/top rt.) =   -9.999e-27    -1.866e-22    -1.581e-27
+t = 3.86e+04   no. steps = 450   order = 5   stepsize = 8.26e+01
+c1 (bot.left/middle/top rt.) =    5.445e+00     5.275e+00     6.066e+00
+c2 (bot.left/middle/top rt.) =    3.387e+11     3.282e+11     3.773e+11
+
+
+Intermediate Statistics.. 
+
+lenrw   =  2689     leniw   =    53
+lenrwLS =  2202     leniwLS =    41
+nst     =   450
+nfe     =   561     nfeLS   =   986
+nni     =   560     nli     =   493
+nsetups =    65     netf    =    20
+npe     =    10     nps     =  1491
+ncfn    =     0     ncfl    =     0
+
+t = 5.15e+04   no. steps = 500   order = 4   stepsize = 3.53e+02
+c1 (bot.left/middle/top rt.) =   -2.654e-10    -1.166e-09    -3.488e-10
+c2 (bot.left/middle/top rt.) =    3.352e+11     5.900e+11     3.872e+11
+
+
+Intermediate Statistics.. 
+
+lenrw   =  2689     leniw   =    53
+lenrwLS =  2202     leniwLS =    41
+nst     =   500
+nfe     =   623     nfeLS   =  1116
+nni     =   622     nli     =   558
+nsetups =    75     netf    =    23
+npe     =    11     nps     =  1677
+ncfn    =     0     ncfl    =     1
+
+t = 6.92e+04   no. steps = 550   order = 5   stepsize = 5.94e+02
+c1 (bot.left/middle/top rt.) =    1.238e-18     2.522e-17     1.460e-18
+c2 (bot.left/middle/top rt.) =    3.324e+11     7.099e+11     4.007e+11
+
+
+Intermediate Statistics.. 
+
+lenrw   =  2689     leniw   =    53
+lenrwLS =  2202     leniwLS =    41
+nst     =   550
+nfe     =   698     nfeLS   =  1266
+nni     =   697     nli     =   633
+nsetups =    91     netf    =    28
+npe     =    13     nps     =  1891
+ncfn    =     2     ncfl    =     3
+
+t = 8.64e+04   no. steps = 579   order = 5   stepsize = 5.94e+02
+c1 (bot.left/middle/top rt.) =    2.788e-24     7.896e-21     1.314e-24
 c2 (bot.left/middle/top rt.) =    3.352e+11     9.107e+11     4.163e+11
 
 
@@ -495,12 +615,12 @@ Final Statistics..
 
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2202     leniwLS =    41
-nst     =   447
-nfe     =   569     nfeLS   =   964
-nni     =   566     nli     =   482
-nsetups =    72     netf    =    25
-npe     =     8     nps     =  1453
-ncfn    =     0     ncfl    =     0
+nst     =   579
+nfe     =   727     nfeLS   =  1324
+nni     =   726     nli     =   662
+nsetups =    93     netf    =    28
+npe     =    14     nps     =  1978
+ncfn    =     2     ncfl    =     3
 
  --------- 
 | SPTFQMR |
@@ -508,8 +628,8 @@ ncfn    =     0     ncfl    =     0
  
 2-species diurnal advection-diffusion problem
 
-t = 7.88e-01   no. steps = 50   order = 5   stepsize = 2.51e-02
-c1 (bot.left/middle/top rt.) =    2.151e+03     8.392e+03     2.151e+03
+t = 7.98e-01   no. steps = 50   order = 5   stepsize = 3.11e-02
+c1 (bot.left/middle/top rt.) =    2.034e+03     7.937e+03     2.034e+03
 c2 (bot.left/middle/top rt.) =    2.500e+11     9.756e+11     2.500e+11
 
 
@@ -518,14 +638,14 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2602     leniwLS =    43
 nst     =    50
-nfe     =    80     nfeLS   =   110
-nni     =    77     nli     =    55
-nsetups =    16     netf    =     6
-npe     =     1     nps     =   165
+nfe     =    85     nfeLS   =   131
+nni     =    84     nli     =    58
+nsetups =    20     netf    =     9
+npe     =     3     nps     =   201
 ncfn    =     0     ncfl    =     0
 
-t = 2.21e+00   no. steps = 100   order = 5   stepsize = 3.77e-02
-c1 (bot.left/middle/top rt.) =    4.149e-01     1.618e+00     4.149e-01
+t = 2.60e+00   no. steps = 100   order = 5   stepsize = 7.37e-02
+c1 (bot.left/middle/top rt.) =    4.007e-02     1.562e-01     4.007e-02
 c2 (bot.left/middle/top rt.) =    2.500e+11     9.757e+11     2.500e+11
 
 
@@ -534,15 +654,15 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2602     leniwLS =    43
 nst     =   100
-nfe     =   131     nfeLS   =   210
-nni     =   128     nli     =   105
-nsetups =    19     netf    =     6
-npe     =     2     nps     =   315
+nfe     =   137     nfeLS   =   231
+nni     =   136     nli     =   108
+nsetups =    24     netf    =     9
+npe     =     4     nps     =   351
 ncfn    =     0     ncfl    =     0
 
-t = 3.65e+03   no. steps = 150   order = 4   stepsize = 3.82e+01
-c1 (bot.left/middle/top rt.) =    1.067e-02     3.969e-02     1.111e-02
-c2 (bot.left/middle/top rt.) =    2.509e+11     9.336e+11     2.614e+11
+t = 3.58e+03   no. steps = 150   order = 4   stepsize = 2.24e+02
+c1 (bot.left/middle/top rt.) =    6.249e-03     2.333e-02     6.508e-03
+c2 (bot.left/middle/top rt.) =    2.508e+11     9.364e+11     2.612e+11
 
 
 Intermediate Statistics.. 
@@ -550,15 +670,15 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2602     leniwLS =    43
 nst     =   150
-nfe     =   197     nfeLS   =   318
-nni     =   194     nli     =   156
-nsetups =    34     netf    =     8
-npe     =     3     nps     =   483
+nfe     =   205     nfeLS   =   348
+nni     =   204     nli     =   160
+nsetups =    38     netf    =    12
+npe     =     5     nps     =   534
 ncfn    =     0     ncfl    =     0
 
-t = 5.70e+03   no. steps = 200   order = 3   stepsize = 3.36e+01
-c1 (bot.left/middle/top rt.) =    2.634e+02     8.596e+02     2.788e+02
-c2 (bot.left/middle/top rt.) =    2.518e+11     8.218e+11     2.666e+11
+t = 7.27e+03   no. steps = 200   order = 4   stepsize = 9.34e+01
+c1 (bot.left/middle/top rt.) =    1.193e+04     3.351e+04     1.275e+04
+c2 (bot.left/middle/top rt.) =    2.527e+11     7.102e+11     2.701e+11
 
 
 Intermediate Statistics.. 
@@ -566,15 +686,15 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2602     leniwLS =    43
 nst     =   200
-nfe     =   259     nfeLS   =   422
-nni     =   256     nli     =   208
-nsetups =    38     netf    =    10
-npe     =     4     nps     =   639
+nfe     =   273     nfeLS   =   498
+nni     =   272     nli     =   214
+nsetups =    45     netf    =    16
+npe     =     6     nps     =   791
 ncfn    =     0     ncfl    =     0
 
-t = 1.45e+04   no. steps = 250   order = 5   stepsize = 3.27e+02
-c1 (bot.left/middle/top rt.) =    6.824e+06     5.357e+06     7.483e+06
-c2 (bot.left/middle/top rt.) =    2.583e+11     2.022e+11     2.834e+11
+t = 1.58e+04   no. steps = 250   order = 5   stepsize = 2.47e+02
+c1 (bot.left/middle/top rt.) =    1.069e+07     5.763e+06     1.175e+07
+c2 (bot.left/middle/top rt.) =    2.600e+11     1.377e+11     2.864e+11
 
 
 Intermediate Statistics.. 
@@ -582,15 +702,15 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2602     leniwLS =    43
 nst     =   250
-nfe     =   318     nfeLS   =   525
-nni     =   315     nli     =   259
-nsetups =    44     netf    =    11
-npe     =     5     nps     =   798
+nfe     =   325     nfeLS   =   615
+nni     =   324     nli     =   264
+nsetups =    48     netf    =    16
+npe     =     7     nps     =   977
 ncfn    =     0     ncfl    =     0
 
-t = 2.94e+04   no. steps = 300   order = 5   stepsize = 3.39e+02
-c1 (bot.left/middle/top rt.) =    6.796e+06     1.069e+07     7.541e+06
-c2 (bot.left/middle/top rt.) =    3.382e+11     5.329e+11     3.754e+11
+t = 2.75e+04   no. steps = 300   order = 4   stepsize = 1.55e+01
+c1 (bot.left/middle/top rt.) =    1.315e+07     1.678e+07     1.455e+07
+c2 (bot.left/middle/top rt.) =    3.372e+11     4.318e+11     3.738e+11
 
 
 Intermediate Statistics.. 
@@ -598,15 +718,15 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2602     leniwLS =    43
 nst     =   300
-nfe     =   382     nfeLS   =   671
-nni     =   379     nli     =   313
-nsetups =    51     netf    =    14
-npe     =     6     nps     =  1040
+nfe     =   392     nfeLS   =   834
+nni     =   391     nli     =   340
+nsetups =    55     netf    =    20
+npe     =     8     nps     =  1309
 ncfn    =     0     ncfl    =     0
 
-t = 3.87e+04   no. steps = 350   order = 5   stepsize = 9.42e+01
-c1 (bot.left/middle/top rt.) =    3.613e+00     3.443e+00     4.025e+00
-c2 (bot.left/middle/top rt.) =    3.387e+11     3.228e+11     3.774e+11
+t = 3.18e+04   no. steps = 350   order = 3   stepsize = 1.71e+02
+c1 (bot.left/middle/top rt.) =    1.883e+06     3.331e+06     2.092e+06
+c2 (bot.left/middle/top rt.) =    3.384e+11     5.989e+11     3.760e+11
 
 
 Intermediate Statistics.. 
@@ -614,15 +734,15 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2602     leniwLS =    43
 nst     =   350
-nfe     =   448     nfeLS   =   840
-nni     =   445     nli     =   370
-nsetups =    55     netf    =    18
-npe     =     6     nps     =  1324
+nfe     =   452     nfeLS   =  1025
+nni     =   451     nli     =   410
+nsetups =    63     netf    =    22
+npe     =     8     nps     =  1591
 ncfn    =     0     ncfl    =     0
 
-t = 5.67e+04   no. steps = 400   order = 5   stepsize = 6.79e+02
-c1 (bot.left/middle/top rt.) =    4.357e-09     5.640e-07     2.278e-09
-c2 (bot.left/middle/top rt.) =    3.324e+11     9.339e+11     3.904e+11
+t = 3.73e+04   no. steps = 400   order = 4   stepsize = 7.13e+01
+c1 (bot.left/middle/top rt.) =    6.256e+02     7.576e+02     6.961e+02
+c2 (bot.left/middle/top rt.) =    3.387e+11     4.102e+11     3.769e+11
 
 
 Intermediate Statistics.. 
@@ -630,25 +750,73 @@ Intermediate Statistics..
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2602     leniwLS =    43
 nst     =   400
-nfe     =   505     nfeLS   =   987
-nni     =   502     nli     =   424
-nsetups =    62     netf    =    19
-npe     =     7     nps     =  1554
+nfe     =   514     nfeLS   =  1206
+nni     =   513     nli     =   469
+nsetups =    67     netf    =    25
+npe     =     9     nps     =  1886
 ncfn    =     0     ncfl    =     0
 
-t = 8.64e+04   no. steps = 445   order = 5   stepsize = 6.89e+02
-c1 (bot.left/middle/top rt.) =   -1.673e-20    -1.128e-15    -3.081e-21
-c2 (bot.left/middle/top rt.) =    3.352e+11     9.106e+11     4.163e+11
+t = 3.99e+04   no. steps = 450   order = 5   stepsize = 1.93e+01
+c1 (bot.left/middle/top rt.) =    5.824e-04     4.244e-04     6.502e-04
+c2 (bot.left/middle/top rt.) =    3.386e+11     2.467e+11     3.780e+11
+
+
+Intermediate Statistics.. 
+
+lenrw   =  2689     leniw   =    53
+lenrwLS =  2602     leniwLS =    43
+nst     =   450
+nfe     =   584     nfeLS   =  1367
+nni     =   583     nli     =   532
+nsetups =    76     netf    =    30
+npe     =    10     nps     =  2136
+ncfn    =     0     ncfl    =     0
+
+t = 5.34e+04   no. steps = 500   order = 5   stepsize = 5.63e+02
+c1 (bot.left/middle/top rt.) =   -4.500e-16     8.675e-13    -4.547e-15
+c2 (bot.left/middle/top rt.) =    3.342e+11     7.380e+11     3.884e+11
+
+
+Intermediate Statistics.. 
+
+lenrw   =  2689     leniw   =    53
+lenrwLS =  2602     leniwLS =    43
+nst     =   500
+nfe     =   653     nfeLS   =  1519
+nni     =   652     nli     =   588
+nsetups =    88     netf    =    35
+npe     =    11     nps     =  2385
+ncfn    =     0     ncfl    =     0
+
+t = 8.04e+04   no. steps = 550   order = 5   stepsize = 6.43e+02
+c1 (bot.left/middle/top rt.) =   -1.772e-22     2.481e-19    -1.479e-21
+c2 (bot.left/middle/top rt.) =    3.335e+11     7.132e+11     4.131e+11
+
+
+Intermediate Statistics.. 
+
+lenrw   =  2689     leniw   =    53
+lenrwLS =  2602     leniwLS =    43
+nst     =   550
+nfe     =   709     nfeLS   =  1675
+nni     =   708     nli     =   644
+nsetups =    95     netf    =    37
+npe     =    12     nps     =  2629
+ncfn    =     0     ncfl    =     0
+
+t = 8.64e+04   no. steps = 560   order = 5   stepsize = 6.43e+02
+c1 (bot.left/middle/top rt.) =    1.325e-23    -1.829e-20     1.098e-22
+c2 (bot.left/middle/top rt.) =    3.352e+11     9.107e+11     4.163e+11
 
 
 Final Statistics.. 
 
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2602     leniwLS =    43
-nst     =   445
-nfe     =   558     nfeLS   =  1143
-nni     =   555     nli     =   477
-nsetups =    67     netf    =    21
-npe     =     8     nps     =  1805
+nst     =   560
+nfe     =   719     nfeLS   =  1698
+nni     =   718     nli     =   654
+nsetups =    96     netf    =    37
+npe     =    12     nps     =  2665
 ncfn    =     0     ncfl    =     0
 

@@ -7,7 +7,7 @@ Analytic solution:
     y = 1
     z = -0.523599
 Solution method: Anderson accelerated fixed point iteration.
-    tolerance    = 1.49012e-06
+    tolerance    = 0.0345267
     max iters    = 30
     m_aa         = 2
     delay_aa     = 0
@@ -16,14 +16,14 @@ Solution method: Anderson accelerated fixed point iteration.
     orth routine = 1
 
 Final Statistics:
-Number of nonlinear iterations:      5
-Number of function evaluations:      5
+Number of nonlinear iterations:      2
+Number of function evaluations:      2
 Computed solution:
-    x = 0.5
-    y = 1
-    z = -0.523599
+    x = 0.498651
+    y = 1.00944
+    z = -0.528307
 Solution error:
-    ex = 1.78138e-10
-    ey = 3.94722e-09
-    ez = 6.5144e-10
+    ex = 0.00134909
+    ey = 0.00944114
+    ez = 0.00470871
 PASS

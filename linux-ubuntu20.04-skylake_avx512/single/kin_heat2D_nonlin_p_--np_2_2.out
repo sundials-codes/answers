@@ -1,3 +1,6 @@
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
 
 Stationary 2D Heat PDE with Nonlinear Terms:
  --------------------------------- 
@@ -28,8 +31,8 @@ Stationary 2D Heat PDE with Nonlinear Terms:
  --------------------------------- 
 
 Final statistics:
-  Func evals       = 93
-  NLS iters        = 93
+  Func evals       = 62
+  NLS iters        = 62
 
-  Max error = 1.080873192381418e+00
+  Max error = 8.323001e+27
 
