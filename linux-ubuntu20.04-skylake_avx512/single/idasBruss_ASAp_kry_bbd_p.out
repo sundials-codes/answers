@@ -1,3 +1,6 @@
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
 
 Starting integration of the FORWARD problem
 
@@ -15,40 +18,40 @@ Preconditioner: band-block-diagonal (IDABBDPRE), with parameters
   t        bottom-left  top-right    | nst  k      h
 -----------------------------------------------------------
 
-1.00e+00   2.6132e-01   3.0982e+00   | 154  5   1.1112e-02
+1.00e+00   2.6132e-01   3.0982e+00   | 167  5   6.3446e-03
            1.9993e+00   1.0125e+00   |
 
 -----------------------------------------------------------
 
 Final statistics: 
 
-Number of steps                    = 154
-Number of residual evaluations     = 392
-Number of nonlinear iterations     = 174
-Number of error test failures      = 2
+Number of steps                    = 167
+Number of residual evaluations     = 432
+Number of nonlinear iterations     = 185
+Number of error test failures      = 0
 Number of nonlinear conv. failures = 0
 
-Number of linear iterations        = 216
+Number of linear iterations        = 245
 Number of linear conv. failures    = 0
 
-Number of preconditioner setups    = 17
-Number of preconditioner solves    = 392
-Number of local residual evals.    = 1462
+Number of preconditioner setups    = 15
+Number of preconditioner solves    = 432
+Number of local residual evals.    = 1290
 
 		 BACKWARD problem
 -----------------------------------------------------------
 
 Final statistics: 
 
-Number of steps                    = 106
-Number of residual evaluations     = 276
-Number of nonlinear iterations     = 125
+Number of steps                    = 83
+Number of residual evaluations     = 255
+Number of nonlinear iterations     = 98
 Number of error test failures      = 0
 Number of nonlinear conv. failures = 0
 
-Number of linear iterations        = 151
+Number of linear iterations        = 157
 Number of linear conv. failures    = 0
 
-Number of preconditioner setups    = 18
-Number of preconditioner solves    = 276
-Number of local residual evals.    = 1548
+Number of preconditioner setups    = 13
+Number of preconditioner solves    = 255
+Number of local residual evals.    = 1118

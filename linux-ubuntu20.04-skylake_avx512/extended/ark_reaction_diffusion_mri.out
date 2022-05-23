@@ -38,18 +38,18 @@
    -------------------------
 
 Final Slow Statistics:
-Current time                 = 3.000999999999781
-Steps                        = 3001
-Step attempts                = 3001
+Current time                 = 3.0000000000000000496564594998361
+Steps                        = 3000
+Step attempts                = 3000
 Stability limited steps      = 0
 Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.001
-Last step size               = 0.001
-Current step size            = 0.001
-Explicit slow RHS fn evals   = 9004
+Initial step size            = 0.00099999999999999999995849538558454
+Last step size               = 0.00099999999999999999995849538558454
+Current step size            = 0.00099999999999999999995849538558454
+Explicit slow RHS fn evals   = 9001
 Implicit slow RHS fn evals   = 0
 NLS iters                    = 0
 NLS fails                    = 0
@@ -57,18 +57,18 @@ NLS iters per step           = 0
 LS setups                    = 0
 
 Final Fast Statistics:
-Current time                 = 3.000999999999781
-Steps                        = 153051
-Step attempts                = 153051
+Current time                 = 3.0000000000000000496564594998361
+Steps                        = 153000
+Step attempts                = 153000
 Stability limited steps      = 0
 Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 2e-05
-Last step size               = 9.999999998289147e-06
-Current step size            = 9.999999998289147e-06
-Explicit RHS fn evals        = 615207
+Initial step size            = 1.9999999999999999999897826650737e-05
+Last step size               = 9.9999999999993757035795624038977e-06
+Current step size            = 9.9999999999993757035795624038977e-06
+Explicit RHS fn evals        = 615002
 Implicit RHS fn evals        = 0
 NLS iters                    = 0
 NLS fails                    = 0
