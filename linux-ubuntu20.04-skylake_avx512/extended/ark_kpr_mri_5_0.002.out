@@ -1,8 +1,8 @@
 
 Multirate nonlinear Kvaerno-Prothero-Robinson test problem:
     time domain:  (0,5]
-    hs = 0.002
-    hf = 2e-05
+    hs = 0.001999999999999999608
+    hf = 1.9999999999999996079e-05
     G = -100
     w = 100
     e = 0.5
@@ -64,6 +64,6 @@ Multirate nonlinear Kvaerno-Prothero-Robinson test problem:
    ------------------------------------------------------
 
 Final Solver Statistics:
-   Steps: nsts = 2500, nstf = 250000
+   Steps: nsts = 2501, nstf = 250100
    u error = 1.665e-10, v error = 7.675e-11, total error = 1.296e-10
-   Total RHS evals:  Fs = 12501,  Ff = 1002502
+   Total RHS evals:  Fs = 12506,  Ff = 1002903

@@ -1,7 +1,7 @@
 
 Multirate nonlinear Kvaerno-Prothero-Robinson test problem:
     time domain:  (0,5]
-    hs = 0.01
+    hs = 0.0099999999999999999998
     hf = 0.0001
     G = -100
     w = 100
