@@ -54,8 +54,8 @@ Number of local residual evals.    = 2490
 
 
 The average of u on the domain:
-g = 4.03814e-4540
+g = 1.62453
 
 Sensitivities of g:
-w.r.t. eps0 =  -0.0000000000
-w.r.t. eps1 =  -0.0000000000
+w.r.t. eps0 =  16.1571222770
+w.r.t. eps1 =  -3.7188363039
