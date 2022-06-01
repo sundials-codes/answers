@@ -14,7 +14,7 @@ Problem parameters and options:
   xl               = 0
   xu               = 1
   nx               = 512
-  dx               = 0.00195312
+  dx               = 0.00195695
  --------------------------------- 
   integrator       = ARK
   order            = 3
@@ -31,17 +31,17 @@ Problem parameters and options:
 
           t                     ||y||_rms      
  ----------------------------------------------
-          0.000000e+00             4.030082e+00
-          3.000000e-01             3.942348e+00
-          6.000000e-01             3.877368e+00
-          9.000000e-01             3.793456e+00
-          1.200000e+00             3.688822e+00
-          1.500000e+00             3.566517e+00
-          1.800000e+00             3.438603e+00
-          2.100000e+00             3.319656e+00
-          2.400000e+00             3.219100e+00
-          2.700000e+00             3.146528e+00
-          3.000000e+00             3.110690e+00
+          0.000000e+00             4.029897e+00
+          3.000000e-01             3.942297e+00
+          6.000000e-01             3.877402e+00
+          9.000000e-01             3.793587e+00
+          1.200000e+00             3.689054e+00
+          1.500000e+00             3.566885e+00
+          1.800000e+00             3.438993e+00
+          2.100000e+00             3.320100e+00
+          2.400000e+00             3.219529e+00
+          2.700000e+00             3.146878e+00
+          3.000000e+00             3.110924e+00
  ----------------------------------------------
 
 Final integrator statistics:
@@ -49,12 +49,12 @@ Final integrator statistics:
   Step attempts      = 22
   Error test fails   = 0
   Explicit RHS evals = 91
-  Implicit RHS evals = 270
-  NLS iters          = 179
+  Implicit RHS evals = 269
+  NLS iters          = 178
   NLS fails          = 4
   LS setups          = 12
   J evals            = 5
 
-  Avg NLS iters per step attempt = 8.136364
-  Avg LS setups per NLS iter     = 0.067039
+  Avg NLS iters per step attempt = 8.090909
+  Avg LS setups per NLS iter     = 0.067416
 
