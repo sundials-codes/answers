@@ -1,0 +1,39 @@
+
+idaRoberts_sps: Robertson kinetics DAE serial example problem for IDA.
+               Three equation chemical kinetics problem.
+
+Linear solver: SUPERLUMT, with user-supplied Jacobian.
+Tolerance parameters:  rtol = 0.0001   atol = 1e-08 1e-06 1e-06 
+Initial conditions y0 = (1 0 0)
+Constraints and id not used.
+
+-----------------------------------------------------------------------
+  t             y1           y2           y3      | nst  k      h
+-----------------------------------------------------------------------
+2.6403e-01   9.8997e-01   3.4706e-05   1.0000e-02 |  30  2   5.0803e-02
+    rootsfound[] =   0   1
+4.0000e-01   9.8517e-01   3.3864e-05   1.4795e-02 |  32  3   1.0161e-01
+4.0000e+00   9.0553e-01   2.2404e-05   9.4453e-02 |  48  4   3.6578e-01
+4.0000e+01   7.1578e-01   9.1871e-06   2.8421e-01 |  75  3   2.2305e+00
+4.0000e+02   4.5051e-01   3.2229e-06   5.4948e-01 | 106  5   2.7604e+01
+4.0000e+03   1.8324e-01   8.9449e-07   8.1676e-01 | 143  4   4.1787e+02
+4.0000e+04   3.8982e-02   1.6217e-07   9.6102e-01 | 180  4   2.0923e+03
+4.0000e+05   4.9380e-03   1.9849e-08   9.9506e-01 | 220  4   2.4520e+04
+4.0000e+06   5.1668e-04   2.0678e-09   9.9948e-01 | 279  4   1.8611e+05
+2.0800e+07   1.0000e-04   4.0004e-10   9.9990e-01 | 312  3   9.6688e+05
+    rootsfound[] =  -1   0
+4.0000e+07   5.2112e-05   2.0846e-10   9.9995e-01 | 324  4   1.5663e+06
+4.0000e+08   5.2071e-06   2.0828e-11   9.9999e-01 | 371  3   3.3231e+06
+4.0000e+09   5.3470e-07   2.1388e-12   1.0000e+00 | 438  1   2.8572e+08
+4.0000e+10   5.0645e-08   2.0258e-13   1.0000e+00 | 612  1   1.1429e+09
+
+Final Run Statistics: 
+
+Number of steps                    = 612
+Number of residual evaluations     = 1122
+Number of Jacobian evaluations     = 373
+Number of nonlinear iterations     = 1122
+Number of error test failures      = 20
+Number of nonlinear conv. failures = 114
+Number of step solver failures     = 102
+Number of root fn. evaluations     = 639
