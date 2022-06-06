@@ -5,11 +5,12 @@ We create directories for different os+microarchitectures and/or hosts since
 the generated answers are generally sensitive to the machine on which they were
 created. 
 
-The naming convention for the directories is either ``<os>-<microarch>`` or 
-``<hostname>``. Note that the first format can easily be generated using [Spack](https://github.com/spack/spack):
+The naming convention for the directories is either ``<os>-<microarch>/<compiler>`` or 
+``<hostname>/<compiler>``.
+Note that the first format can easily be generated using [Spack](https://github.com/spack/spack):
 
 ```
-mkdir $(spack arch)
+mkdir $(spack arch)/<compiler>
 ```
 
 Within these directories, we create directories for different precisions, e.g. ``single`` or ``double``.
