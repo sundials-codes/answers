@@ -63,14 +63,14 @@ Output directory: .
        9.250000     3.148899     1.087229     3.499946
        9.500000     2.471560     1.322866     3.499958
        9.750000     1.912340     1.594917     3.499967
-      10.000000     1.450253     1.896162     3.499975
+      10.000000     1.450253     1.896164     3.499975
 
 Final Solver Statistics (for processor 0):
-   Internal solver steps = 482 (attempted = 482)
-   Total RHS evals:  Fe = 1931,  Fi = 4835
+   Internal solver steps = 483 (attempted = 483)
+   Total RHS evals:  Fe = 1935,  Fi = 4845
    Total number of error test failures = 0
    Total number of nonlinear solver convergence failures = 2
-   Total number of nonlinear iterations = 2904
-   Total number of linear iterations = 9286
+   Total number of nonlinear iterations = 2910
+   Total number of linear iterations = 9307
    Total number of preconditioner setups = 9
-   Total number of preconditioner solves = 12085
+   Total number of preconditioner solves = 12112
