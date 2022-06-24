@@ -106,23 +106,23 @@ Nonlinear Kvaerno-Prothero-Robinson test problem with mass matrix:
     6.199996    1.224038    1.384494  8.34e-07  2.97e-05
     6.299996    1.224716    1.420078  0.00e+00  6.63e-05
     6.399996    1.223344    1.454988  9.18e-06  1.53e-04
-    6.499996    1.219939    1.488479  1.74e-05  1.53e-04
-    6.599996    1.214558    1.520288  1.39e-05  8.65e-05
-    6.699996    1.207162    1.550671  1.96e-05  8.50e-05
-    6.799995    1.197762    1.579360  2.74e-05  8.49e-05
-    6.899995    1.186512    1.605802  2.21e-05  5.15e-05
-    6.999995    1.173470    1.629955  3.42e-05  7.07e-05
+    6.499996    1.219943    1.488447  1.37e-05  1.20e-04
+    6.599996    1.214564    1.520251  2.04e-05  1.23e-04
+    6.699996    1.207170    1.550636  2.81e-05  1.21e-04
+    6.799995    1.197775    1.579317  1.45e-05  4.20e-05
+    6.899995    1.186537    1.605740  2.86e-06  1.08e-05
+    6.999995    1.173388    1.630118  4.84e-05  9.31e-05
    ------------------------------------------------------
 
 Final Solver Statistics:
-   Internal solver steps = 2244 (attempted = 3381)
+   Internal solver steps = 2240 (attempted = 3374)
    Total number of error test failures = 0
-   Total RHS evals:  Fe = 14873,  Fi = 51825
-   Total mass matrix setups = 13767
-   Total mass matrix solves = 68939
-   Total mass times evals = 2244
+   Total RHS evals:  Fe = 14844,  Fi = 51771
+   Total mass matrix setups = 13739
+   Total mass matrix solves = 68852
+   Total mass times evals = 2240
    Total number of Jacobian evaluations = 0
    Total linear solver setups = 0
-   Total number of Nonlinear iterations = 36952
-   Total number of Nonlinear convergence failures = 1137
-   Errors: u = 0.000117236, v = 9.30049e-05, total = 0.000105816
+   Total number of Nonlinear iterations = 36927
+   Total number of Nonlinear convergence failures = 1134
+   Errors: u = 0.000117265, v = 9.31033e-05, total = 0.000105876

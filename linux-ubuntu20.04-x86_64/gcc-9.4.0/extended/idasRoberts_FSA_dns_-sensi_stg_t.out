@@ -37,85 +37,85 @@ Consistent IC:
                   Sensitivity 2    1.3731e-05  -2.3572e-10  -1.3731e-05 
                   Sensitivity 3   -2.2884e-09  -1.1381e-13   2.2885e-09 
 -----------------------------------------------------------------------
-4.000e+02  4  5.888e+00   550
+4.000e+02  4  4.012e+00   551
                   Solution         4.5052e-01   3.2229e-06   5.4948e-01 
                   Sensitivity 1   -5.9584e+00   3.5427e-06   5.9584e+00 
                   Sensitivity 2    2.2738e-05  -2.2601e-11  -2.2738e-05 
                   Sensitivity 3   -3.7897e-09  -4.9948e-14   3.7897e-09 
 -----------------------------------------------------------------------
-4.000e+03  5  7.674e+01   694
+4.000e+03  4  1.157e+02   729
                   Solution         1.8320e-01   8.9424e-07   8.1680e-01 
-                  Sensitivity 1   -4.7501e+00  -5.9936e-06   4.7501e+00 
+                  Sensitivity 1   -4.7501e+00  -5.9937e-06   4.7501e+00 
                   Sensitivity 2    1.8809e-05   2.3127e-11  -1.8809e-05 
                   Sensitivity 3   -3.1348e-09  -1.8758e-14   3.1348e-09 
 -----------------------------------------------------------------------
-4.000e+04  3  3.548e+02   985
+4.000e+04  4  9.221e+02   838
                   Solution         3.8983e-02   1.6218e-07   9.6102e-01 
                   Sensitivity 1   -1.5750e+00  -2.7620e-06   1.5750e+00 
                   Sensitivity 2    6.2875e-06   1.1002e-11  -6.2875e-06 
                   Sensitivity 3   -1.0479e-09  -4.5367e-15   1.0479e-09 
 -----------------------------------------------------------------------
-4.000e+05  5  1.388e+04  1085
+4.000e+05  5  8.711e+03   941
                   Solution         4.9383e-03   1.9850e-08   9.9506e-01 
                   Sensitivity 1   -2.3633e-01  -4.5841e-07   2.3633e-01 
                   Sensitivity 2    9.4503e-07   1.8325e-12  -9.4503e-07 
-                  Sensitivity 3   -1.5750e-10  -6.3625e-16   1.5751e-10 
+                  Sensitivity 3   -1.5751e-10  -6.3625e-16   1.5751e-10 
 -----------------------------------------------------------------------
-4.000e+06  4  8.994e+04  1164
+4.000e+06  5  1.273e+05  1046
                   Solution         5.1681e-04   2.0683e-09   9.9948e-01 
                   Sensitivity 1   -2.5666e-02  -5.1060e-08   2.5666e-02 
                   Sensitivity 2    1.0266e-07   2.0422e-13  -1.0266e-07 
                   Sensitivity 3   -1.7110e-11  -6.8509e-17   1.7110e-11 
 -----------------------------------------------------------------------
-4.000e+07  5  2.193e+06  1248
-                  Solution         5.2031e-05   2.0814e-10   9.9995e-01 
-                  Sensitivity 1   -2.5992e-03  -5.1944e-09   2.5992e-03 
-                  Sensitivity 2    1.0397e-08   2.0777e-14  -1.0397e-08 
-                  Sensitivity 3   -1.7328e-12  -6.9318e-18   1.7328e-12 
+4.000e+07  5  1.951e+06  1127
+                  Solution         5.2029e-05   2.0813e-10   9.9995e-01 
+                  Sensitivity 1   -2.5990e-03  -5.1941e-09   2.5990e-03 
+                  Sensitivity 2    1.0396e-08   2.0776e-14  -1.0396e-08 
+                  Sensitivity 3   -1.7327e-12  -6.9314e-18   1.7327e-12 
 -----------------------------------------------------------------------
-4.000e+08  3  1.654e+07  1316
-                  Solution         5.2049e-06   2.0820e-11   9.9999e-01 
-                  Sensitivity 1   -2.6028e-04  -5.2062e-10   2.6028e-04 
-                  Sensitivity 2    1.0411e-09   2.0825e-15  -1.0411e-09 
-                  Sensitivity 3   -1.7352e-13  -6.9408e-19   1.7352e-13 
+4.000e+08  5  2.009e+07  1177
+                  Solution         5.2088e-06   2.0835e-11   9.9999e-01 
+                  Sensitivity 1   -2.6041e-04  -5.2079e-10   2.6042e-04 
+                  Sensitivity 2    1.0417e-09   2.0831e-15  -1.0417e-09 
+                  Sensitivity 3   -1.7361e-13  -6.9443e-19   1.7361e-13 
 -----------------------------------------------------------------------
-4.000e+09  3  4.415e+08  1353
-                  Solution         5.1901e-07   2.0760e-12   1.0000e+00 
-                  Sensitivity 1   -2.5949e-05  -5.1896e-11   2.5950e-05 
-                  Sensitivity 2    1.0380e-10   2.0758e-16  -1.0380e-10 
-                  Sensitivity 3   -1.7302e-14  -6.9207e-20   1.7302e-14 
+4.000e+09  4  2.740e+08  1205
+                  Solution         5.2248e-07   2.0899e-12   1.0000e+00 
+                  Sensitivity 1   -2.6130e-05  -5.2271e-11   2.6130e-05 
+                  Sensitivity 2    1.0452e-10   2.0909e-16  -1.0452e-10 
+                  Sensitivity 3   -1.7416e-14  -6.9664e-20   1.7416e-14 
 -----------------------------------------------------------------------
-4.000e+10  3  7.895e+09  1376
-                  Solution         5.1644e-08   2.0658e-13   1.0000e+00 
-                  Sensitivity 1   -2.5807e-06  -5.1584e-12   2.5807e-06 
-                  Sensitivity 2    1.0323e-11   2.0634e-17  -1.0323e-11 
-                  Sensitivity 3   -1.7215e-15  -6.8862e-21   1.7215e-15 
+4.000e+10  2  8.218e+09  1225
+                  Solution         5.1638e-08   2.0655e-13   1.0000e+00 
+                  Sensitivity 1   -2.5801e-06  -5.1543e-12   2.5801e-06 
+                  Sensitivity 2    1.0320e-11   2.0617e-17  -1.0320e-11 
+                  Sensitivity 3   -1.7213e-15  -6.8852e-21   1.7213e-15 
 -----------------------------------------------------------------------
 
 Quadrature:
 G:      4.0000e+10
 
 Sensitivities at t=4e+10:
-dG/dp1:  1.4870e+06
-dG/dp1: -5.9433e+00
-dG/dp1:  9.9058e-04
+dG/dp1:  1.4884e+06
+dG/dp1: -5.9491e+00
+dG/dp1:  9.9152e-04
 
 Final Statistics:
-Current time                 = 47145341982.313975673168897628784
-Steps                        = 1376
-Error test fails             = 2
+Current time                 = 43635882181.288011945784091949463
+Steps                        = 1225
+Error test fails             = 5
 NLS step fails               = 0
-Initial step size            = 2.1650635094602791713681030612334e-13
-Last step size               = 7895220866.9355401168577373027802
-Current step size            = 7895220866.9355401168577373027802
-Last method order            = 3
-Current method order         = 3
-Residual fn evals            = 1727
+Initial step size            = 2.165063509460279115901320662881e-13
+Last step size               = 8217627006.0872396063059568405151
+Current step size            = 7395864305.4785156454890966415405
+Last method order            = 2
+Current method order         = 2
+Residual fn evals            = 1535
 IC linesearch backtrack ops  = 0
-NLS iters                    = 1724
+NLS iters                    = 1532
 NLS fails                    = 1
-NLS iters per step           = 1.2550872093023255814331698432262
-LS setups                    = 92
+NLS iters per step           = 1.2530612244897959183182259423894
+LS setups                    = 93
 Jac fn evals                 = 93
 LS residual fn evals         = 279
 Prec setup evals             = 0
@@ -125,17 +125,17 @@ LS fails                     = 0
 Jac-times setups             = 0
 Jac-times evals              = 0
 LS iters per NLS iter        = 0
-Jac evals per NLS iter       = 0.05394431554524361949000724712755
+Jac evals per NLS iter       = 0.060704960835509138381563742567493
 Prec evals per NLS iter      = 0
 Root fn evals                = 0
-Quad fn evals                = 1397
-Quad error test fails        = 20
-Sens fn evals                = 1913
+Quad fn evals                = 1252
+Quad error test fails        = 26
+Sens fn evals                = 1662
 Sens residual fn evals       = 0
 Sens error test fails        = 0
-Sens NLS iters               = 1911
-Sens NLS fails               = 1
+Sens NLS iters               = 1660
+Sens NLS fails               = 0
 Sens NLS step fails          = 0
-Sens LS setups               = 1
-QuadSens residual evals      = 1377
+Sens LS setups               = 0
+QuadSens residual evals      = 1226
 QuadSens error test fails    = 0

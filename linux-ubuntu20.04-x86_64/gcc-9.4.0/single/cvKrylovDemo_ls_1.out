@@ -4,52 +4,52 @@
  
 2-species diurnal advection-diffusion problem
 
-t = 7.20e+03   no. steps = 208   order = 5   stepsize = 1.37e+02
+t = 7.20e+03   no. steps = 211   order = 4   stepsize = 1.06e+02
 c1 (bot.left/middle/top rt.) =    1.047e+04     2.964e+04     1.119e+04
 c2 (bot.left/middle/top rt.) =    2.527e+11     7.154e+11     2.700e+11
 
-t = 1.44e+04   no. steps = 241   order = 5   stepsize = 3.22e+02
+t = 1.44e+04   no. steps = 247   order = 5   stepsize = 2.57e+02
 c1 (bot.left/middle/top rt.) =    6.659e+06     5.316e+06     7.301e+06
 c2 (bot.left/middle/top rt.) =    2.582e+11     2.057e+11     2.833e+11
 
-t = 2.16e+04   no. steps = 268   order = 5   stepsize = 3.07e+02
+t = 2.16e+04   no. steps = 275   order = 5   stepsize = 2.57e+02
 c1 (bot.left/middle/top rt.) =    2.665e+07     1.036e+07     2.931e+07
 c2 (bot.left/middle/top rt.) =    2.993e+11     1.028e+11     3.313e+11
 
-t = 2.88e+04   no. steps = 293   order = 5   stepsize = 2.00e+02
+t = 2.88e+04   no. steps = 319   order = 4   stepsize = 1.07e+02
 c1 (bot.left/middle/top rt.) =    8.702e+06     1.292e+07     9.650e+06
 c2 (bot.left/middle/top rt.) =    3.380e+11     5.029e+11     3.751e+11
 
-t = 3.60e+04   no. steps = 351   order = 5   stepsize = 1.69e+01
+t = 3.60e+04   no. steps = 367   order = 4   stepsize = 7.85e+01
 c1 (bot.left/middle/top rt.) =    1.404e+04     2.029e+04     1.561e+04
 c2 (bot.left/middle/top rt.) =    3.387e+11     4.894e+11     3.765e+11
 
-t = 4.32e+04   no. steps = 473   order = 4   stepsize = 4.54e+02
-c1 (bot.left/middle/top rt.) =    7.040e-07     1.441e-06     7.695e-07
+t = 4.32e+04   no. steps = 443   order = 5   stepsize = 5.79e+02
+c1 (bot.left/middle/top rt.) =    2.552e-07     2.035e-06     3.487e-07
 c2 (bot.left/middle/top rt.) =    3.382e+11     1.355e+11     3.804e+11
 
-t = 5.04e+04   no. steps = 490   order = 4   stepsize = 3.02e+02
-c1 (bot.left/middle/top rt.) =    1.750e-11     1.423e-08     2.520e-12
+t = 5.04e+04   no. steps = 458   order = 5   stepsize = 3.34e+02
+c1 (bot.left/middle/top rt.) =    4.198e-07     2.139e-05     7.543e-07
 c2 (bot.left/middle/top rt.) =    3.358e+11     4.930e+11     3.864e+11
 
-t = 5.76e+04   no. steps = 504   order = 5   stepsize = 5.43e+02
-c1 (bot.left/middle/top rt.) =    4.636e-11    -3.986e-09     1.094e-10
+t = 5.76e+04   no. steps = 477   order = 4   stepsize = 2.80e+02
+c1 (bot.left/middle/top rt.) =   -3.818e-11    -7.799e-09     2.118e-10
 c2 (bot.left/middle/top rt.) =    3.320e+11     9.650e+11     3.909e+11
 
-t = 6.48e+04   no. steps = 517   order = 5   stepsize = 8.24e+02
-c1 (bot.left/middle/top rt.) =    2.823e-11     9.779e-09    -1.410e-10
+t = 6.48e+04   no. steps = 492   order = 5   stepsize = 7.37e+02
+c1 (bot.left/middle/top rt.) =   -1.159e-14     5.562e-12    -2.357e-13
 c2 (bot.left/middle/top rt.) =    3.313e+11     8.922e+11     3.963e+11
 
-t = 7.20e+04   no. steps = 525   order = 5   stepsize = 8.24e+02
-c1 (bot.left/middle/top rt.) =   -6.363e-12    -8.178e-10     8.443e-12
+t = 7.20e+04   no. steps = 502   order = 5   stepsize = 7.37e+02
+c1 (bot.left/middle/top rt.) =    8.070e-16    -3.858e-13     1.635e-14
 c2 (bot.left/middle/top rt.) =    3.330e+11     6.186e+11     4.039e+11
 
-t = 7.92e+04   no. steps = 534   order = 5   stepsize = 8.24e+02
-c1 (bot.left/middle/top rt.) =   -3.163e-12    -5.328e-10     6.073e-12
+t = 7.92e+04   no. steps = 511   order = 5   stepsize = 7.37e+02
+c1 (bot.left/middle/top rt.) =   -5.050e-17     1.932e-14    -1.010e-15
 c2 (bot.left/middle/top rt.) =    3.334e+11     6.669e+11     4.120e+11
 
-t = 8.64e+04   no. steps = 543   order = 5   stepsize = 8.24e+02
-c1 (bot.left/middle/top rt.) =   -3.801e-13    -6.685e-11     7.716e-13
+t = 8.64e+04   no. steps = 521   order = 5   stepsize = 7.37e+02
+c1 (bot.left/middle/top rt.) =    7.791e-18     5.244e-15     1.555e-16
 c2 (bot.left/middle/top rt.) =    3.352e+11     9.107e+11     4.163e+11
 
 
@@ -57,12 +57,12 @@ Final Statistics..
 
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2454     leniwLS =    42
-nst     =   543
-nfe     =   661     nfeLS   =   691
-nni     =   660     nli     =   691
-nsetups =    76     netf    =    22
-npe     =    12     nps     =  1297
-ncfn    =     0     ncfl    =     0
+nst     =   521
+nfe     =   635     nfeLS   =   703
+nni     =   634     nli     =   703
+nsetups =    80     netf    =    25
+npe     =    11     nps     =  1292
+ncfn    =     0     ncfl    =     1
 
 ======================================================================
 

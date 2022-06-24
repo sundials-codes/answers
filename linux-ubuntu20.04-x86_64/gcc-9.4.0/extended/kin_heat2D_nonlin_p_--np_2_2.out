@@ -28,8 +28,8 @@ Stationary 2D Heat PDE with Nonlinear Terms:
  --------------------------------- 
 
 Final statistics:
-  Func evals       = 79
-  NLS iters        = 79
+  Func evals       = 78
+  NLS iters        = 78
 
-  Max error = 1.080873196744852605e+00
+  Max error = 1.080873200544408371e+00
 
