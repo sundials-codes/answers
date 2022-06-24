@@ -79,13 +79,13 @@ Sensitivity: YES ( SIMULTANEOUS + FULL ERROR CONTROL )
 -----------------------------------------------------------------------
 
 Final Statistics:
-Current time                 = 40418228520.822279274463653564453
+Current time                 = 40418235854.208966974169015884399
 Steps                        = 875
 Error test fails             = 26
 NLS step fails               = 1
-Initial step size            = 8.0671025347943431862623263139557e-15
-Last step size               = 857046589.52861496579134836792946
-Current step size            = 857046589.52861496579134836792946
+Initial step size            = 8.0671025347943429528396170542227e-15
+Last step size               = 857046752.43259399698581546545029
+Current step size            = 857046752.43259399698581546545029
 Last method order            = 4
 Current method order         = 4
 Stab. lim. order reductions  = 0
