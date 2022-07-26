@@ -49,28 +49,28 @@
           7.000001e-01             1.257964e-01             8.453727e-04
           7.500001e-01             1.820942e-01             1.317710e-03
           8.000001e-01             2.384090e-01             1.829088e-03
-          8.500001e-01             2.892281e-01             2.328813e-03
-          9.000002e-01             3.295768e-01             2.767920e-03
-          9.500002e-01             3.555045e-01             3.100872e-03
-          1.000000e+00             3.644753e-01             3.299832e-03
+          8.500001e-01             2.892282e-01             2.329111e-03
+          9.000002e-01             3.295766e-01             2.767324e-03
+          9.500002e-01             3.555008e-01             3.092289e-03
+          1.000000e+00             3.644737e-01             3.296196e-03
  -----------------------------------------------------------------------
 
 Final integrator statistics:
-  Steps            = 208
+  Steps            = 210
   Error test fails = 4
-  RHS evals        = 285
-  NLS iters        = 283
-  NLS fails        = 26
-  LS iters         = 3743
-  LS fails         = 130
-  LS setups        = 81
-  LS RHS evals     = 3743
-  Jv products      = 3743
+  RHS evals        = 287
+  NLS iters        = 285
+  NLS fails        = 24
+  LS iters         = 3790
+  LS fails         = 135
+  LS setups        = 75
+  LS RHS evals     = 3790
+  Jv products      = 3790
 
-  Avg NLS iters per step    = 1.360577
-  Avg LS iters per NLS iter = 13.226149
+  Avg NLS iters per step    = 1.357143
+  Avg LS iters per NLS iter = 13.298245
 
-  Preconditioner setups = 28
-  Preconditioner solves = 3743
+  Preconditioner setups = 26
+  Preconditioner solves = 3790
 
-  Max error = 3.299832e-03
+  Max error = 3.296196e-03

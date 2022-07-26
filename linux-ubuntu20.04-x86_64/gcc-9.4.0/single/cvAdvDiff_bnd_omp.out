@@ -5,19 +5,19 @@ Total system size = 50
 Tolerance parameters: reltol = 0   abstol = 1e-05
 
 At t = 0      max.norm(u) =  8.954716e+01 
-At t = 0.10   max.norm(u) =  4.132884e+00   nst =   82
-At t = 0.20   max.norm(u) =  1.039295e+00   nst =  100
-At t = 0.30   max.norm(u) =  2.979828e-01   nst =  110
-At t = 0.40   max.norm(u) =  8.765776e-02   nst =  117
-At t = 0.50   max.norm(u) =  2.625620e-02   nst =  123
-At t = 0.60   max.norm(u) =  7.833891e-03   nst =  127
-At t = 0.70   max.norm(u) =  2.331268e-03   nst =  131
-At t = 0.80   max.norm(u) =  6.934702e-04   nst =  134
-At t = 0.90   max.norm(u) =  2.113259e-04   nst =  137
-At t = 1.00   max.norm(u) =  6.375242e-05   nst =  139
+At t = 0.10   max.norm(u) =  4.132888e+00   nst =   85
+At t = 0.20   max.norm(u) =  1.039294e+00   nst =  102
+At t = 0.30   max.norm(u) =  2.979832e-01   nst =  113
+At t = 0.40   max.norm(u) =  8.765786e-02   nst =  120
+At t = 0.50   max.norm(u) =  2.625622e-02   nst =  126
+At t = 0.60   max.norm(u) =  7.830810e-03   nst =  130
+At t = 0.70   max.norm(u) =  2.329584e-03   nst =  134
+At t = 0.80   max.norm(u) =  6.944390e-04   nst =  137
+At t = 0.90   max.norm(u) =  2.121338e-04   nst =  139
+At t = 1.00   max.norm(u) =  6.392857e-05   nst =  142
 
 Final Statistics:
-nst = 139    nfe  = 171    nsetups = 22     nfeLS = 0      nje = 3
-nni = 168    ncfn = 0      netf = 3
+nst = 142    nfe  = 174    nsetups = 23     nfeLS = 0      nje = 3
+nni = 171    ncfn = 0      netf = 3
 num_threads = 4
 
