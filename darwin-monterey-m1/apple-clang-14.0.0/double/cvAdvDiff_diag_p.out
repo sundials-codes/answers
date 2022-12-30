@@ -1,23 +1,22 @@
 
- 1-D advection-diffusion equation, mesh size = 10 
+SUNDIALS_ERROR(0): SUNLogger_Create() failed with retval = -1
 
- Number of PEs =   4 
 
- Diagonal linear solver CVDiag 
+SUNDIALS_ERROR(1): SUNLogger_Create() failed with retval = -1
 
-At t = 0.00  max.norm(u) =  1.569909e+01  nst =   0 
-At t = 0.50  max.norm(u) =  3.052962e+00  nst = 143 
-At t = 1.00  max.norm(u) =  8.747271e-01  nst = 202 
-At t = 1.50  max.norm(u) =  2.494167e-01  nst = 282 
-At t = 2.00  max.norm(u) =  7.082911e-02  nst = 327 
-At t = 2.50  max.norm(u) =  2.042025e-02  nst = 377 
-At t = 3.00  max.norm(u) =  5.964897e-03  nst = 418 
-At t = 3.50  max.norm(u) =  1.962584e-03  nst = 445 
-At t = 4.00  max.norm(u) =  5.827188e-04  nst = 464 
-At t = 4.50  max.norm(u) =  1.501144e-04  nst = 480 
-At t = 5.00  max.norm(u) =  4.800542e-05  nst = 497 
 
-Final Statistics: 
+SUNDIALS_ERROR(2): SUNLogger_Create() failed with retval = -1
 
-nst = 497     nfe  = 966     nni = 963     ncfn = 101     netf = 24
- 
+
+SUNDIALS_ERROR(3): SUNLogger_Create() failed with retval = -1
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[sandman:04953] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[sandman:04953] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

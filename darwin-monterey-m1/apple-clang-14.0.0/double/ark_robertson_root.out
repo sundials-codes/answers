@@ -11,23 +11,23 @@ Robertson ODE test problem (with rootfinding):
    4.00000e+02   4.50519e-01   3.22289e-06   5.49478e-01
    4.00000e+03   1.83202e-01   8.94239e-07   8.16797e-01
    4.00000e+04   3.89834e-02   1.62177e-07   9.61016e-01
-   4.00000e+05   4.93828e-03   1.98499e-08   9.95062e-01
-   4.00000e+06   5.16810e-04   2.06836e-09   9.99483e-01
-   2.07955e+07   1.00000e-04   4.00913e-10   9.99900e-01
+   4.00000e+05   4.93827e-03   1.98526e-08   9.95062e-01
+   4.00000e+06   5.16810e-04   2.06757e-09   9.99483e-01
+   2.07954e+07   1.00000e-04   3.97359e-10   9.99900e-01
       rootsfound[] =  -1   0
-   4.00000e+08   5.20777e-06   2.07144e-11   9.99995e-01
-   4.00000e+09   5.20870e-07   2.07803e-12   9.99999e-01
-   4.00000e+10   5.20800e-08   4.22489e-13   1.00000e+00
+   4.00000e+08   5.20779e-06   2.08189e-11   9.99995e-01
+   4.00000e+09   5.20826e-07   2.89716e-12   9.99999e-01
+   4.00000e+10   5.20507e-08   1.90233e-12   1.00000e+00
    -----------------------------------------------------
 
 Final Solver Statistics:
-   Internal solver steps = 1070 (attempted = 1298)
-   Total RHS evals:  Fe = 0,  Fi = 36412
-   Total linear solver setups = 590
+   Internal solver steps = 1089 (attempted = 1306)
+   Total RHS evals:  Fe = 0,  Fi = 36577
+   Total linear solver setups = 570
    Total RHS evals for setting up the linear system = 0
-   Total number of Jacobian evaluations = 66
-   Total number of Newton iterations = 29962
-   Total root-function g evals = 1104
-   Total number of nonlinear solver convergence failures = 55
-   Total number of error test failures = 213
-   Total number of failed steps from solver failure = 15
+   Total number of Jacobian evaluations = 60
+   Total number of Newton iterations = 30085
+   Total root-function g evals = 1117
+   Total number of nonlinear solver convergence failures = 48
+   Total number of error test failures = 204
+   Total number of failed steps from solver failure = 13

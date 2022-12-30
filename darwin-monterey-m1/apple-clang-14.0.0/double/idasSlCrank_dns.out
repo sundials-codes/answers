@@ -35,13 +35,13 @@ Tolerance parameters:  rtol = 1e-06   atol = 1e-07
 Final Run Statistics: 
 
 Number of steps                    = 251
-Number of residual evaluations     = 1066
+Number of residual evaluations     = 1065
 Number of Jacobian evaluations     = 39
-Number of nonlinear iterations     = 676
+Number of nonlinear iterations     = 675
 Number of error test failures      = 1
 Number of nonlinear conv. failures = 20
 Number of step solver failures     = 0
 --------------------------------------------
-  G =       3.3366160662909388
+  G =       3.3366160663317697
 --------------------------------------------
 
