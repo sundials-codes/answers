@@ -1,0 +1,21 @@
+
+Sparse matrix test: size 400 by 400, type = 0
+
+    PASSED test -- SUNMatGetID 
+    PASSED test -- SUNMatClone 
+    PASSED test -- SUNMatCopy 
+    PASSED test -- SUNMatZero 
+    PASSED test -- SUNMatScaleAdd case 1 
+    PASSED test -- SUNMatScaleAdd case 2 
+    PASSED test -- SUNMatScaleAdd2 check 1 
+    PASSED test -- SUNMatScaleAdd2 check 2 
+    PASSED test -- SUNMatScaleAdd2 check 3 
+    PASSED test -- SUNMatScaleAddI 
+    PASSED test -- SUNMatScaleAddI2 check 1 
+    PASSED test -- SUNMatScaleAddI2 check 2 
+    PASSED test -- SUNMatScaleAddI2 check 3 
+    PASSED test -- SUNMatMatvec 
+    PASSED test -- SUNMatSpace lenrw=400 leniw=810
+    PASSED test -- SUNSparseMatrixToCSR
+SUCCESS: SUNMatrix module passed all tests 
+ 
