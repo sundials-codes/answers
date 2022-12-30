@@ -57,5 +57,5 @@ The average of u on the domain:
 g = 1.62453
 
 Sensitivities of g:
-w.r.t. eps0 =  16.1571227152
-w.r.t. eps1 =  -3.7188364999
+w.r.t. eps0 =  16.1571225631
+w.r.t. eps1 =  -3.7188364902

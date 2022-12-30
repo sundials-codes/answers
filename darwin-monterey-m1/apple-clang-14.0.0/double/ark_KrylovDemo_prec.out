@@ -540,17 +540,17 @@ t =   3.00e+00  nst = 249  nfe = 0  nfi = 4111  nni = 2846  hu =    3.57e-02
 
 t =   4.00e+00  nst = 272  nfe = 0  nfi = 4472  nni = 3092  hu =    5.08e-02
 
-t =   5.00e+00  nst = 297  nfe = 0  nfi = 4851  nni = 3346  hu =    5.14e-02
+t =   5.00e+00  nst = 297  nfe = 0  nfi = 4851  nni = 3346  hu =    5.15e-02
 
-t =   6.00e+00  nst = 315  nfe = 0  nfi = 5117  nni = 3522  hu =    6.88e-02
+t =   6.00e+00  nst = 315  nfe = 0  nfi = 5117  nni = 3522  hu =    6.89e-02
 
-t =   7.00e+00  nst = 328  nfe = 0  nfi = 5302  nni = 3642  hu =    8.22e-02
+t =   7.00e+00  nst = 328  nfe = 0  nfi = 5302  nni = 3642  hu =    9.31e-02
 
-t =   8.00e+00  nst = 338  nfe = 0  nfi = 5441  nni = 3731  hu =    8.52e-02
+t =   8.00e+00  nst = 339  nfe = 0  nfi = 5458  nni = 3743  hu =    9.71e-02
 
-t =   9.00e+00  nst = 349  nfe = 0  nfi = 5592  nni = 3827  hu =    1.11e-01
+t =   9.00e+00  nst = 348  nfe = 0  nfi = 5576  nni = 3816  hu =    1.35e-01
 
-t =   1.00e+01  nst = 359  nfe = 0  nfi = 5722  nni = 3907  hu =    1.35e-01
+t =   1.00e+01  nst = 359  nfe = 0  nfi = 5722  nni = 3907  hu =    1.30e-01
 
 
 
@@ -563,16 +563,16 @@ t =   1.00e+01  nst = 359  nfe = 0  nfi = 5722  nni = 3907  hu =    1.35e-01
  Number of steps                       =  359 
  Number of f-s (explicit)              =    0 
  Number of f-s (implicit)              = 5722 
- Number of f-s (SPGMR)                 = 12904 
- Number of f-s (TOTAL)                 = 12904 
+ Number of f-s (SPGMR)                 = 12905 
+ Number of f-s (TOTAL)                 = 12905 
  Number of setups                      =  253 
  Number of nonlinear iterations        = 3907 
- Number of linear iterations           = 12904 
+ Number of linear iterations           = 12905 
  Number of preconditioner evaluations  =  253 
- Number of preconditioner solves       = 16594 
+ Number of preconditioner solves       = 16591 
  Number of error test failures         =    0 
  Number of nonlinear conv. failures    =  117 
- Number of linear convergence failures = 1072 
+ Number of linear convergence failures = 1058 
  Average Krylov subspace dimension     = 3.303 
 
 
