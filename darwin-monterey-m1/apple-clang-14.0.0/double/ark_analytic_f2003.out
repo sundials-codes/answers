@@ -22,9 +22,9 @@
     Num lin solver setup calls    =       38
     Num error test failures       =        4
     First internal step size      = 6.10352E-12
-    Last internal step size       = 7.85712E-02
-    Next internal step size       = 7.85712E-02
-    Current internal time         = 1.00544E+01
+    Last internal step size       = 7.85674E-02
+    Next internal step size       = 7.85674E-02
+    Current internal time         = 1.00539E+01
     Num nonlinear solver iters    =     2861
     Num nonlinear solver fails    =        3
   
