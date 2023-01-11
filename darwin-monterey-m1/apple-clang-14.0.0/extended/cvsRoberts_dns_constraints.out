@@ -8,7 +8,7 @@ SUNDIALS_ERROR: CVode() failed with retval = -15
  
 3-species kinetics problem
 
-At t = 2.6425e-01      y =  9.899653e-01    3.470560e-05    1.000000e-02
+At t = 2.6391e-01      y =  9.899653e-01    3.470558e-05    1.000000e-02
     rootsfound[] =   0   1
 At t = 4.0000e-01      y =  9.851728e-01    3.386387e-05    1.479331e-02
 At t = 4.0000e+00      y =  9.055089e-01    2.240388e-05    9.446869e-02
