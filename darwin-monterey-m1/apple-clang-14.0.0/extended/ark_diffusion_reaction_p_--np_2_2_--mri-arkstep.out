@@ -80,20 +80,20 @@ Slow Integrator:
   RHS diffusion    = 793
   NLS iters        = 396
   NLS fails        = 0
-  LS iters         = 1954
-  LS fails         = 362
+  LS iters         = 1957
+  LS fails         = 337
   LS setups        = 0
-  LS RHS evals     = 1954
-  Jv products      = 1954
+  LS RHS evals     = 1957
+  Jv products      = 1957
 
   Avg NLS iters per step attempt = 3.000000
-  Avg LS iters per NLS iter      = 4.934343
+  Avg LS iters per NLS iter      = 4.941919
 
   Preconditioner setups = 0
-  Preconditioner solves = 1954
+  Preconditioner solves = 1957
 
 Fast Integrator:
-  Steps            = 473
-  Step attempts    = 473
+  Steps            = 472
+  Step attempts    = 472
   Error test fails = 0
-  RHS reaction     = 2423
+  RHS reaction     = 2419

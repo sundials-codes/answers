@@ -68,7 +68,7 @@ npe     =     9     nps     =  1118
 ncfn    =     0     ncfl    =     0
 
 In CVBBDPRE: real/integer local work space sizes = 1300, 192
-             no. flocal evals. = 198
+             no. flocal evals. = 176
 
 
 -------------------------------------------------------------------
