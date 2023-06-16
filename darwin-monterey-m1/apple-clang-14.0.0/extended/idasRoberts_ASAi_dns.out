@@ -1,0 +1,126 @@
+
+Adjoint Sensitivity Example for Chemical Kinetics
+-------------------------------------------------
+
+DAE: dy1/dt + p1*y1 - p2*y2*y3 = 0
+     dy2/dt - p1*y1 + p2*y2*y3 + p3*(y2)^2 = 0
+               y1  +  y2  +  y3 = 0
+
+Find dG/dp for
+     G = int_t0^tB0 g(t,p,y) dt
+     g(t,p,y) = y3
+
+
+Create and allocate IDAS memory for forward runs
+Forward integration ...
+--------------------------------------------------------
+G:            4.0000e+10 
+--------------------------------------------------------
+
+Final Statistics:
+Current time                 = 41455503522.024111524224281311035
+Steps                        = 774
+Error test fails             = 8
+NLS step fails               = 0
+Initial step size            = 2.1650635094600354153057508896652e-11
+Last step size               = 8713594782.3408427927643060684204
+Current step size            = 8713594782.3408427927643060684204
+Last method order            = 2
+Current method order         = 2
+Residual fn evals            = 1134
+IC linesearch backtrack ops  = 0
+NLS iters                    = 1134
+NLS fails                    = 0
+NLS iters per step           = 1.4651162790697674419108931243017
+LS setups                    = 80
+Jac fn evals                 = 80
+LS residual fn evals         = 0
+Prec setup evals             = 0
+Prec solves                  = 0
+LS iters                     = 0
+LS fails                     = 0
+Jac-times setups             = 0
+Jac-times evals              = 0
+LS iters per NLS iter        = 0
+Jac evals per NLS iter       = 0.070546737213403880071096486992221
+Prec evals per NLS iter      = 0
+Root fn evals                = 0
+Quad fn evals                = 775
+Quad error test fails        = 0
+
+Create and allocate IDAS memory for backward run
+Backward integration ...
+--------------------------------------------------------
+tB0:          4.0000e+10
+dG/dp:        1.4878e+06  -5.9468e+00   9.9113e-04
+lambda(t0):  -2.4998e+01   1.6442e-03   1.0000e+00
+--------------------------------------------------------
+
+Final Statistics:
+Current time                 = 0
+Steps                        = 1368
+Error test fails             = 97
+NLS step fails               = 0
+Initial step size            = -6.1237243569579452455248350432548e-09
+Last step size               = -9.1433733759777303117490828764742e-06
+Current step size            = -1.8286746751955460623498165752948e-05
+Last method order            = 3
+Current method order         = 3
+Residual fn evals            = 2177
+IC linesearch backtrack ops  = 0
+NLS iters                    = 2177
+NLS fails                    = 0
+NLS iters per step           = 1.5913742690058479532398336142585
+LS setups                    = 213
+Jac fn evals                 = 213
+LS residual fn evals         = 0
+Prec setup evals             = 0
+Prec solves                  = 0
+LS iters                     = 0
+LS fails                     = 0
+Jac-times setups             = 0
+Jac-times evals              = 0
+LS iters per NLS iter        = 0
+Jac evals per NLS iter       = 0.097841065686724850709421030109381
+Prec evals per NLS iter      = 0
+Root fn evals                = 0
+Quad fn evals                = 1383
+Quad error test fails        = 14
+
+Re-initialize IDAS memory for backward run
+--------------------------------------------------------
+tB0:          5.0000e+01
+dG/dp:        1.7341e+02  -5.0592e-04   8.4323e-08
+lambda(t0):  -7.6780e+00  -1.2758e-04   1.0000e+00
+--------------------------------------------------------
+
+Final Statistics:
+Current time                 = 0
+Steps                        = 452
+Error test fails             = 32
+NLS step fails               = 0
+Initial step size            = -6.1237310962622331305340133387873e-09
+Last step size               = -4.0649037539944911030432953797352e-07
+Current step size            = -8.1298075079889822060865907594705e-07
+Last method order            = 4
+Current method order         = 4
+Residual fn evals            = 710
+IC linesearch backtrack ops  = 0
+NLS iters                    = 708
+NLS fails                    = 1
+NLS iters per step           = 1.5707964601769911504357615794625
+LS setups                    = 74
+Jac fn evals                 = 74
+LS residual fn evals         = 0
+Prec setup evals             = 0
+Prec solves                  = 0
+LS iters                     = 0
+LS fails                     = 0
+Jac-times setups             = 0
+Jac-times evals              = 0
+LS iters per NLS iter        = 0
+Jac evals per NLS iter       = 0.1045197740112994350315410094221
+Prec evals per NLS iter      = 0
+Root fn evals                = 0
+Quad fn evals                = 453
+Quad error test fails        = 0
