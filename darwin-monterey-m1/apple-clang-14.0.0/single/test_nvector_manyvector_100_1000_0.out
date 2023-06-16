@@ -1,4 +1,4 @@
-Timer resolution: 1 ns = 1e-09 s
+Timer resolution: 1000 ns = 1e-06 s
 Testing ManyVector (serial) N_Vector 
 Vector lengths: 100 1000 
 PASSED test -- N_VGetVectorID 
@@ -34,7 +34,8 @@ PASSED test -- N_VAbs
 PASSED test -- N_VInv 
 PASSED test -- N_VAddConst 
 PASSED test -- N_VDotProd 
-PASSED test -- N_VMaxNorm 
+PASSED test -- N_VMaxNorm Case 1
+PASSED test -- N_VMaxNorm Case 2
 PASSED test -- N_VWrmsNorm 
 PASSED test -- N_VWrmsNormMask 
 PASSED test -- N_VMin 
