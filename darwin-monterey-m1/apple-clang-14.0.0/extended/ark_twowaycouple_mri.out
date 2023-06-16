@@ -29,5 +29,5 @@ Two way coupling ODE test problem:
    -----------------------------------------------
 
 Final Solver Statistics:
-   Steps: nsts = 2000, nstf = 102000
-   Total RHS evals:  Fs = 6001,  Ff = 410002
+   Steps: nsts = 2001, nstf = 102051
+   Total RHS evals:  Fs = 6004,  Ff = 410207

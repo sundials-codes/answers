@@ -6,7 +6,7 @@
 Solution method: Anderson accelerated Picard iteration with SPGMR linear solver.
 Problem size: 31 x 31 =  961
 
-Computed solution (||F|| = 5.04577e-13):
+Computed solution (||F|| = 5.29798e-13):
 
             0.03125  0.12500  0.21875  0.31250  0.40625  0.50000  0.59375  0.68750  0.78125  0.87500  0.96875  
 

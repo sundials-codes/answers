@@ -28,9 +28,9 @@
    ----------------------------------------------
 
 Final Solver Statistics:
-   Slow Steps: nsts = 10000
-   Fast Steps: nstf = 120000
-   Total RHS evals:  Fs = 30001,  Ff = 994887
-   Fast Newton iters = 504885
+   Slow Steps: nsts = 10001
+   Fast Steps: nstf = 120012
+   Total RHS evals:  Fs = 30004,  Ff = 994988
+   Fast Newton iters = 504937
    Fast Newton conv fails = 0
    Fast Jacobian evals = 2308

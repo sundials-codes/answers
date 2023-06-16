@@ -110,12 +110,12 @@
    ----------------------------------------------
 
 Final Solver Statistics:
-   Slow Steps: nsts = 1000
-   Fast Steps: nstf = 3168 (attempted = 3168)
-   Total RHS evals:  Fs = 3001,  Ff = 34653
+   Slow Steps: nsts = 1001
+   Fast Steps: nstf = 3171 (attempted = 3171)
+   Total RHS evals:  Fs = 3004,  Ff = 34684
    Total number of fast error test failures = 0
-   Total linear solver setups = 3115
+   Total linear solver setups = 3118
    Total RHS evals for setting up the linear system = 0
    Total number of Jacobian evaluations = 85
-   Total number of Newton iterations = 20977
+   Total number of Newton iterations = 20995
    Total number of nonlinear solver convergence failures = 29
