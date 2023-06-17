@@ -29,5 +29,5 @@ Final Solver Statistics:
    Total number of error test failures = 0
 
 
-WARNING: check_ans error=14.7361
+SUNDIALS_WARNING: check_ans error=14.7361
 
