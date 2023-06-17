@@ -28,13 +28,13 @@ Constraints and id not used.
 4.0000e+10   4.8641e-08   1.9456e-13   1.0000e+00 | 362  2   7.5480e+09
 
 Final Statistics:
-Current time                 = 41226129919.604574512690305709839
+Current time                 = 41226212070.53522491455078125
 Steps                        = 362
 Error test fails             = 15
 NLS step fails               = 0
-Initial step size            = 2.1649552860480767542119119851388e-05
-Last step size               = 7548029174.1888886974193155765533
-Current step size            = 7548029174.1888886974193155765533
+Initial step size            = 2.1649552860480769856570473774759e-05
+Last step size               = 7548045540.28130817413330078125
+Current step size            = 7548045540.28130817413330078125
 Last method order            = 2
 Current method order         = 2
 Residual fn evals            = 537
@@ -54,4 +54,4 @@ Jac-times evals              = 0
 LS iters per NLS iter        = 0
 Jac evals per NLS iter       = 0.11173184357541898759080822856049
 Prec evals per NLS iter      = 0
-Root fn evals                = 402
+Root fn evals                = 404

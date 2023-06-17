@@ -18,21 +18,21 @@ G:            3.9983e+07
 --------------------------------------------------------
 
 Final Statistics:
-Current time                 = 40445914.567724183278187410905957
-Steps                        = 811
-Error test fails             = 38
+Current time                 = 40090396.382620684802532196044922
+Steps                        = 766
+Error test fails             = 37
 NLS step fails               = 0
-Initial step size            = 1.0412502929101650120631395862539e-11
-Last step size               = 1212602.3214188790199159484473057
-Current step size            = 1212602.3214188790199159484473057
+Initial step size            = 4.7121609153872417423263261210828e-10
+Last step size               = 2056516.1394927778746932744979858
+Current step size            = 2056516.1394927778746932744979858
 Last method order            = 5
 Current method order         = 5
 Stab. lim. order reductions  = 0
-RHS fn evals                 = 1083
-NLS iters                    = 1082
+RHS fn evals                 = 1057
+NLS iters                    = 1056
 NLS fails                    = 0
-NLS iters per step           = 1.3341553637484586929823349166213
-LS setups                    = 128
+NLS iters per step           = 1.3785900783289817272958543981076
+LS setups                    = 125
 Jac fn evals                 = 16
 LS RHS fn evals              = 0
 Prec setup evals             = 0
@@ -42,10 +42,10 @@ LS fails                     = 0
 Jac-times setups             = 0
 Jac-times evals              = 0
 LS iters per NLS iter        = 0
-Jac evals per NLS iter       = 0.014787430683918669131124152670703
+Jac evals per NLS iter       = 0.015151515151515151935690539630741
 Prec evals per NLS iter      = 0
 Root fn evals                = 0
-Quad fn evals                = 812
+Quad fn evals                = 767
 Quad error test fails        = 0
 
 Create and allocate CVODES memory for backward run
@@ -61,25 +61,25 @@ y(t):         7.1583e-01   9.1855e-06   2.8416e-01
 returned t:   0.0000e+00
 lambda(t0):   3.9967e+07   3.9967e+07   3.9967e+07
 y(t0):        1.0000e+00   0.0000e+00   0.0000e+00
-dG/dp:        7.6841e+05  -3.0690e+00   5.1143e-04
+dG/dp:        7.6842e+05  -3.0691e+00   5.1144e-04
 --------------------------------------------------------
 
 Final Statistics:
 Current time                 = 0
-Steps                        = 226
+Steps                        = 212
 Error test fails             = 1
 NLS step fails               = 0
-Initial step size            = -3.3776627738364486848833684283651e-09
-Last step size               = -1.5817878095760209897473885787278
-Current step size            = -1.5817878095760209897473885787278
+Initial step size            = -9.4243218307744846427055098164044e-08
+Last step size               = -3.8146937913773255601768141787034
+Current step size            = -3.8146937913773255601768141787034
 Last method order            = 4
 Current method order         = 4
 Stab. lim. order reductions  = 0
-RHS fn evals                 = 271
-NLS iters                    = 268
+RHS fn evals                 = 252
+NLS iters                    = 251
 NLS fails                    = 0
-NLS iters per step           = 1.1858407079646017699345317275572
-LS setups                    = 77
+NLS iters per step           = 1.1839622641509432998674355985713
+LS setups                    = 76
 Jac fn evals                 = 4
 LS RHS fn evals              = 0
 Prec setup evals             = 0
@@ -89,10 +89,10 @@ LS fails                     = 0
 Jac-times setups             = 0
 Jac-times evals              = 0
 LS iters per NLS iter        = 0
-Jac evals per NLS iter       = 0.01492537313432835820875294735588
+Jac evals per NLS iter       = 0.015936254980079680998450442075409
 Prec evals per NLS iter      = 0
 Root fn evals                = 0
-Quad fn evals                = 261
+Quad fn evals                = 245
 Quad error test fails        = 32
 
 Re-initialize CVODES memory for backward run
@@ -108,26 +108,26 @@ y(t):         7.1583e-01   9.1855e-06   2.8416e-01
 returned t:   0.0000e+00
 lambda(t0):   8.4190e+00   1.6097e+01   1.6097e+01
 y(t0):        1.0000e+00   0.0000e+00   0.0000e+00
-dG/dp:        1.7341e+02  -5.0591e-04   8.4321e-08
+dG/dp:        1.7341e+02  -5.0590e-04   8.4321e-08
 --------------------------------------------------------
 
 Final Statistics:
 Current time                 = 0
-Steps                        = 141
+Steps                        = 186
 Error test fails             = 13
 NLS step fails               = 0
-Initial step size            = -7.6293945312499999999610239603948e-11
-Last step size               = -0.00021432728402276676869953645984419
-Current step size            = -0.00021432728402276676869953645984419
+Initial step size            = -5.1324244095075352766062074701668e-10
+Last step size               = -0.00026912050251196473638765072067258
+Current step size            = -0.00026912050251196473638765072067258
 Last method order            = 4
 Current method order         = 4
 Stab. lim. order reductions  = 0
-RHS fn evals                 = 220
-NLS iters                    = 217
+RHS fn evals                 = 261
+NLS iters                    = 258
 NLS fails                    = 4
-NLS iters per step           = 1.5390070921985815603121386385688
-LS setups                    = 41
-Jac fn evals                 = 7
+NLS iters per step           = 1.387096774193548487374982869369
+LS setups                    = 44
+Jac fn evals                 = 8
 LS RHS fn evals              = 0
 Prec setup evals             = 0
 Prec solves                  = 0
@@ -136,8 +136,8 @@ LS fails                     = 0
 Jac-times setups             = 0
 Jac-times evals              = 0
 LS iters per NLS iter        = 0
-Jac evals per NLS iter       = 0.032258064516129032257190159538318
+Jac evals per NLS iter       = 0.031007751937984495693712005959242
 Prec evals per NLS iter      = 0
 Root fn evals                = 0
-Quad fn evals                = 144
+Quad fn evals                = 189
 Quad error test fails        = 0

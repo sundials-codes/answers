@@ -1,0 +1,73 @@
+
+SPFGMR linear solver test:
+  problem size = 100
+  Gram-Schmidt orthogonalization type = 1
+  Maximum Krylov subspace dimension = 100
+  Solver Tolerance = 1e-14
+  timing output flag = 0
+
+    PASSED test -- SUNLinSolGetType 
+    PASSED test -- SUNLinSolGetID 
+    PASSED test -- SUNLinSolSetATimes 
+    PASSED test -- SUNLinSolSetPreconditioner 
+    PASSED test -- SUNLinSolSetScalingVectors 
+    PASSED test -- SUNLinSolSetZeroGuess 
+    PASSED test -- SUNLinSolSetZeroGuess 
+    PASSED test -- SUNLinSolInitialize 
+    PASSED test -- SUNLinSolSpace, lenrw = 30902, leniw = 204
+SUCCESS: SUNLinSol_SPFGMR module passed all initialization tests
+
+    PASSED test -- SUNLinSolSetup 
+>>> FAILED test -- SUNLinSolSolve returned 801 on Proc 0 
+    PASSED test -- SUNLinSolSolve 
+    PASSED test -- SUNLinSolLastFlag (0) 
+    PASSED test -- SUNLinSolNumIters (11) 
+    PASSED test -- SUNLinSolResNorm
+    PASSED test -- SUNLinSolResid
+FAIL: SUNLinSol_SPFGMR module, problem 1, failed 1 tests
+
+    PASSED test -- SUNLinSolSetup 
+    PASSED test -- SUNLinSolSolve 
+    PASSED test -- SUNLinSolSolve 
+    PASSED test -- SUNLinSolLastFlag (0) 
+    PASSED test -- SUNLinSolNumIters (11) 
+    PASSED test -- SUNLinSolResNorm
+    PASSED test -- SUNLinSolResid
+SUCCESS: SUNLinSol_SPFGMR module, problem 2, passed all tests
+
+    PASSED test -- SUNLinSolSetup 
+>>> FAILED test -- SUNLinSolSolve returned 801 on Proc 0 
+    PASSED test -- SUNLinSolSolve 
+    PASSED test -- SUNLinSolLastFlag (0) 
+    PASSED test -- SUNLinSolNumIters (11) 
+    PASSED test -- SUNLinSolResNorm
+    PASSED test -- SUNLinSolResid
+FAIL: SUNLinSol_SPFGMR module, problem 3, failed 1 tests
+
+    PASSED test -- SUNLinSolSetup 
+>>> FAILED test -- SUNLinSolSolve returned 801 on Proc 0 
+    PASSED test -- SUNLinSolSolve 
+    PASSED test -- SUNLinSolLastFlag (0) 
+    PASSED test -- SUNLinSolNumIters (11) 
+    PASSED test -- SUNLinSolResNorm
+    PASSED test -- SUNLinSolResid
+FAIL: SUNLinSol_SPFGMR module, problem 4, failed 1 tests
+
+    PASSED test -- SUNLinSolSetup 
+>>> FAILED test -- SUNLinSolSolve returned 801 on Proc 0 
+    PASSED test -- SUNLinSolSolve 
+    PASSED test -- SUNLinSolLastFlag (0) 
+    PASSED test -- SUNLinSolNumIters (16) 
+    PASSED test -- SUNLinSolResNorm
+    PASSED test -- SUNLinSolResid
+FAIL: SUNLinSol_SPFGMR module, problem 5, failed 1 tests
+
+    PASSED test -- SUNLinSolSetup 
+>>> FAILED test -- SUNLinSolSolve returned 801 on Proc 0 
+    PASSED test -- SUNLinSolSolve 
+    PASSED test -- SUNLinSolLastFlag (0) 
+    PASSED test -- SUNLinSolNumIters (16) 
+    PASSED test -- SUNLinSolResNorm
+    PASSED test -- SUNLinSolResid
+FAIL: SUNLinSol_SPFGMR module, problem 6, failed 1 tests
+
