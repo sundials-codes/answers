@@ -99,28 +99,28 @@ Iteration               : NEWTON
 Linear Solver           : Diagonal Jacobian
 
      t           x              xdot         qu     hu 
-   1.39284     1.68010e+00   -2.91054e-01    6    5.9459e-02
-   3.60761     6.54086e-05   -3.16853e+00    6    2.5191e-02
-   5.82239    -1.67982e+00    2.91145e-01    6    3.7414e-02
-   8.03716     3.04365e-03    3.17783e+00    4    1.4959e-02
+   1.39284     1.68010e+00   -2.91054e-01    6    5.9553e-02
+   3.60761     6.36071e-05   -3.16853e+00    6    2.8912e-02
+   5.82239    -1.68011e+00    2.91057e-01    5    9.8149e-02
+   8.03716    -7.70359e-05    3.16847e+00    6    2.3224e-02
 
  Final statistics for this run:
 
  CVode real workspace length              =  129 
  CVode integer workspace length           =   60 
- Number of steps                          =  289 
- Number of f-s                            =  397 
- Number of setups                         =   47 
- Number of nonlinear iterations           =  394 
- Number of nonlinear convergence failures =    2 
- Number of error test failures            =   22 
+ Number of steps                          =  238 
+ Number of f-s                            =  329 
+ Number of setups                         =   40 
+ Number of nonlinear iterations           =  326 
+ Number of nonlinear convergence failures =    0 
+ Number of error test failures            =   20 
 
  Linear solver real workspace length      =    6 
  Linear solver integer workspace length   =    3 
  Number of Jacobian evaluations           =   40 
  Number of f evals. in linear solver      =   40 
 
- Error overrun = 3043.652 
+ Error overrun = 77.036 
 
 
 -------------------------------------------------------------
@@ -256,11 +256,11 @@ Linear Multistep Method : ADAMS
 Iteration               : FIXEDPOINT
 
       t        max.err      qu     hu 
-     0.010    1.4897e-08    3     1.3520e-02
-     0.100    6.4800e-07    4     3.1893e-02
-     1.000    4.1770e-07    5     5.0982e-02
-    10.000    9.5077e-07    4     1.1914e-01
-   100.000    8.7622e-08    1     4.6494e-01
+     0.010    1.4690e-07    3     1.1459e-02
+     0.100    5.2543e-07    4     4.1413e-02
+     1.000    1.2207e-06    5     6.8243e-02
+    10.000    9.7711e-07    3     2.8481e-01
+   100.000    2.2510e-07    1     6.7722e-01
 
  Final statistics for this run:
 
@@ -283,27 +283,27 @@ Iteration               : NEWTON
 Linear Solver           : Diagonal Jacobian
 
       t        max.err      qu     hu 
-     0.010    1.5167e-08    3     1.0958e-02
-     0.100    1.0471e-06    3     2.1524e-02
-     1.000    8.5249e-06    5     5.1363e-02
-    10.000    2.3518e-07    4     2.7314e-01
-   100.000    9.6500e-11    1     1.1497e+02
+     0.010    1.3734e-07    3     1.0327e-02
+     0.100    2.4956e-06    3     2.3048e-02
+     1.000    4.2328e-06    4     4.3778e-02
+    10.000    9.7303e-07    4     3.1286e-01
+   100.000    1.1241e-09    1     3.7371e+02
 
  Final statistics for this run:
 
  CVode real workspace length              =  589 
  CVode integer workspace length           =   60 
- Number of steps                          =  168 
- Number of f-s                            =  255 
- Number of setups                         =   47 
- Number of nonlinear iterations           =  252 
- Number of nonlinear convergence failures =    7 
- Number of error test failures            =   11 
+ Number of steps                          =  154 
+ Number of f-s                            =  218 
+ Number of setups                         =   33 
+ Number of nonlinear iterations           =  215 
+ Number of nonlinear convergence failures =    4 
+ Number of error test failures            =    5 
 
  Linear solver real workspace length      =   75 
  Linear solver integer workspace length   =    3 
- Number of Jacobian evaluations           =   47 
- Number of f evals. in linear solver      =   47 
+ Number of Jacobian evaluations           =   33 
+ Number of f evals. in linear solver      =   33 
 
  Error overrun = 4.233 
 
@@ -405,27 +405,27 @@ Iteration               : NEWTON
 Linear Solver           : Diagonal Jacobian
 
       t        max.err      qu     hu 
-     0.010    7.4112e-07    2     7.9240e-03
-     0.100    3.4515e-05    3     1.0546e-02
-     1.000    8.8826e-06    5     5.1704e-02
-    10.000    2.0918e-06    4     3.5011e-01
-   100.000    8.4831e-09    2     2.3628e+01
+     0.010    5.6365e-07    2     8.1241e-03
+     0.100    7.9753e-07    4     1.8910e-02
+     1.000    5.9100e-06    5     5.1976e-02
+    10.000    2.1549e-06    4     3.1115e-01
+   100.000    5.2204e-08    1     2.0215e+02
 
  Final statistics for this run:
 
  CVode real workspace length              =  414 
  CVode integer workspace length           =   53 
- Number of steps                          =  238 
- Number of f-s                            =  357 
- Number of setups                         =   66 
- Number of nonlinear iterations           =  354 
- Number of nonlinear convergence failures =   13 
- Number of error test failures            =   13 
+ Number of steps                          =  178 
+ Number of f-s                            =  263 
+ Number of setups                         =   48 
+ Number of nonlinear iterations           =  260 
+ Number of nonlinear convergence failures =   11 
+ Number of error test failures            =    5 
 
  Linear solver real workspace length      =   75 
  Linear solver integer workspace length   =    3 
- Number of Jacobian evaluations           =   66 
- Number of f evals. in linear solver      =   66 
+ Number of Jacobian evaluations           =   48 
+ Number of f evals. in linear solver      =   48 
 
  Error overrun = 5.910 
 

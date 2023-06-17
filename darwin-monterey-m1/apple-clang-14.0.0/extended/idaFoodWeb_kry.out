@@ -34,9 +34,9 @@ CalcIC called to correct initial predator concentrations.
 -----------------------------------------------------------
 Final run statistics: 
 
-Number of steps                       = 168
-Number of residual evaluations        = 207
+Number of steps                       = 165
+Number of residual evaluations        = 206
 Number of Preconditioner evaluations  = 26
-Number of linear iterations           = 1015
+Number of linear iterations           = 1034
 Number of error test failures         = 0
-Number of precond solve fun called    = 1222
+Number of precond solve fun called    = 1240

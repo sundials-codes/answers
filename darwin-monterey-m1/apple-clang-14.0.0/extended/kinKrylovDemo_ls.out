@@ -62,9 +62,9 @@ At top right:
  1.2637 1.2637 1.2637 37908.7 37908.7 37908.7
 
 Final Statistics.. 
-nni    =     7    nli   =    83
-nfe    =     8    nfeSG =   173
-nps    =   173    npe   =     1     ncfl  =     4
+nni    =     7    nli   =    79
+nfe    =     8    nfeSG =   165
+nps    =   165    npe   =     1     ncfl  =     4
 
 =========================================================
 
@@ -97,9 +97,9 @@ At top right:
  1.2637 1.2637 1.2637 37908.7 37908.7 37908.7
 
 Final Statistics.. 
-nni    =     7    nli   =   140
-nfe    =     8    nfeSG =   569
-nps    =   569    npe   =     1     ncfl  =     5
+nni    =     8    nli   =   164
+nfe    =     9    nfeSG =   664
+nps    =   664    npe   =     1     ncfl  =     5
 
 =========================================================
 
