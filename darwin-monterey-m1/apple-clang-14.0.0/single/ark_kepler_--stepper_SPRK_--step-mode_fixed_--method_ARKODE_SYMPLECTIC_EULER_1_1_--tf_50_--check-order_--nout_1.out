@@ -2,7 +2,7 @@
 [ARKODE ERROR]  arkEvolve
   At t = 49.9852, mxstep steps taken before reaching tout.
 
-ERROR: Solver failure, stopping integration
+Solver failure, stopping integration
 
 [ARKODE ERROR]  arkEvolve
   At t = 49.9852, mxstep steps taken before reaching tout.
@@ -25,7 +25,6 @@ Problem Arguments:
   nout:                 1
 
 t = 0.0000, H(p,q) = -0.5000002384185791, L(p,q) = 0.7999999523162842
-t = 49.9852, H(p,q)-H0 = 0.0000218152999878, L(p,q)-L0 = 0.0000112056732178
 Current time                 = 49.98515701293945
 Steps                        = 50001
 Step attempts                = 50001
@@ -55,7 +54,6 @@ Problem Arguments:
   nout:                 1
 
 t = 0.0000, H(p,q) = -0.5000002384185791, L(p,q) = 0.7999999523162842
-t = 49.9852, H(p,q)-H0 = -0.0012987852096558, L(p,q)-L0 = -0.0000030994415283
 Current time                 = 49.98515701293945
 Steps                        = 50001
 Step attempts                = 50001
@@ -82,7 +80,6 @@ Problem Arguments:
   nout:                 1
 
 t = 0.0000, H(p,q) = -0.5000002384185791, L(p,q) = 0.7999999523162842
-t = 49.9788, H(p,q)-H0 = -0.0006327629089355, L(p,q)-L0 = 0.0000058412551880
 Current time                 = 49.97884750366211
 Steps                        = 100001
 Step attempts                = 100001
@@ -140,7 +137,13 @@ t = 50.0000, H(p,q)-H0 = -0.0000824928283691, L(p,q)-L0 = 0.0000154972076416
 Current time                 = 50
 Steps                        = 398142
 Step attempts                = 398142
-Stabil
+Stability limited steps      = 0
+Accuracy limited steps       = 0
+Error test fails             = 0
+NLS step fails               = 0
+Inequality constraint fails  = 0
+Initial step size            = 0.0001250000059371814
+Last step size     
 [ARKODE ERROR]  arkEvolve
   At t = 49.7394, mxstep steps taken before reaching tout.
 
@@ -160,13 +163,7 @@ Solver failure, stopping integration
   At t = 48.942, mxstep steps taken before reaching tout.
 
 Solver failure, stopping integration
-ity limited steps      = 0
-Accuracy limited steps       = 0
-Error test fails             = 0
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 0.0001250000059371814
-Last step size               = 0.0001250000059371814
+          = 0.0001250000059371814
 Current step size            = 0.0001250000059371814
 f1 RHS fn evals              = 398143
 f2 RHS fn evals              = 398143
@@ -183,7 +180,6 @@ Problem Arguments:
   nout:                 1
 
 t = 0.0000, H(p,q) = -0.5000002384185791, L(p,q) = 0.7999999523162842
-t = 49.7394, H(p,q)-H0 = -0.0000652074813843, L(p,q)-L0 = 0.0000115036964417
 Current time                 = 49.73937606811523
 Steps                        = 800001
 Step attempts                = 800001
@@ -210,7 +206,6 @@ Problem Arguments:
   nout:                 1
 
 t = 0.0000, H(p,q) = -0.5000002384185791, L(p,q) = 0.7999999523162842
-t = 49.2838, H(p,q)-H0 = -0.0002754926681519, L(p,q)-L0 = -0.0001837611198425
 Current time                 = 49.28375244140625
 Steps                        = 1600001
 Step attempts                = 1600001
@@ -237,7 +232,6 @@ Problem Arguments:
   nout:                 1
 
 t = 0.0000, H(p,q) = -0.5000002384185791, L(p,q) = 0.7999999523162842
-t = 49.0559, H(p,q)-H0 = -0.0006287097930908, L(p,q)-L0 = -0.0004782676696777
 Current time                 = 49.05593872070312
 Steps                        = 3200001
 Step attempts                = 3200001
@@ -264,7 +258,6 @@ Problem Arguments:
   nout:                 1
 
 t = 0.0000, H(p,q) = -0.5000002384185791, L(p,q) = 0.7999999523162842
-t = 48.9420, H(p,q)-H0 = -0.0003032684326172, L(p,q)-L0 = -0.0002560019493103
 Current time                 = 48.94203186035156
 Steps                        = 6400001
 Step attempts                = 6400001
