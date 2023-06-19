@@ -2,32 +2,32 @@
 Analytical ODE test problem:
     lamda = -100
    reltol = 1.0e-06
-   abstol = 1.2e-04
+   abstol = 1.0e-10
 
         t           u
    ---------------------
-    1.000000    0.807521
-    2.000000    1.112138
-    3.000000    1.254678
-    4.000000    1.329687
-    5.000000    1.376925
-    6.000000    1.408129
-    7.000000    1.432381
-    8.000000    1.446663
-    9.000000    1.463052
-   10.000000    1.472906
+    1.000000    0.786691
+    2.000000    1.110254
+    3.000000    1.249736
+    4.000000    1.325907
+    5.000000    1.373991
+    6.000000    1.405807
+    7.000000    1.429072
+    8.000000    1.446926
+    9.000000    1.460153
+   10.000000    1.471318
    ---------------------
 
 Final Solver Statistics:
-   Internal solver steps = 112 (attempted = 112)
-   Total RHS evals:  Fe = 0,  Fi = 1122
+   Internal solver steps = 537 (attempted = 569)
+   Total RHS evals:  Fe = 0,  Fi = 5691
    Total linear solver setups = 0
    Total RHS evals for setting up the linear system = 0
    Total number of Jacobian evaluations = 0
-   Total number of Newton iterations = 560
+   Total number of Newton iterations = 2845
    Total number of linear solver convergence failures = 0
-   Total number of error test failures = 0
+   Total number of error test failures = 32
 
 
-SUNDIALS_WARNING: check_ans error=14.7361
+SUNDIALS_WARNING: check_ans error=129.724
 

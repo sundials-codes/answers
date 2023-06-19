@@ -1,0 +1,10 @@
+FAILURE: solution error is too high
+
+   Begin simple harmonic oscillator problem
+
+t = 0.000000, x(t) = 10.000000, E = 50.000000, sol. err = 0.000000
+t = 0.785398, x(t) = 7.066814, E = 50.000076, sol. err = 0.006022
+t = 1.570796, x(t) = -0.002027, E = 49.999966, sol. err = 0.002027
+t = 2.356194, x(t) = -7.076750, E = 49.999962, sol. err = 0.008043
+t = 3.141593, x(t) = -9.999991, E = 49.999924, sol. err = 0.004053
+t = 3.926991, x(t) = -7.063942, E = 50.000031, sol. err = 0.010073
