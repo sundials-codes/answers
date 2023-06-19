@@ -6,16 +6,16 @@ Analytical ODE test problem:
 
         t           u
    ---------------------
-    1.000000    0.786691
-    2.000000    1.110254
-    3.000000    1.249736
-    4.000000    1.325907
-    5.000000    1.373991
-    6.000000    1.405807
-    7.000000    1.429072
-    8.000000    1.446926
-    9.000000    1.460153
-   10.000000    1.471318
+    1.000000    0.785398
+    2.000000    1.107149
+    3.000000    1.249044
+    4.000000    1.325819
+    5.000000    1.373400
+    6.000000    1.405649
+    7.000000    1.428898
+    8.000000    1.446442
+    9.000000    1.460140
+   10.000000    1.471128
    ---------------------
 
 Final Solver Statistics:
@@ -27,7 +27,4 @@ Final Solver Statistics:
    Total number of Newton iterations = 2845
    Total number of linear solver convergence failures = 0
    Total number of error test failures = 32
-
-
-SUNDIALS_WARNING: check_ans error=129.724
 
