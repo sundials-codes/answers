@@ -1,0 +1,24 @@
+
+Conserved Exponential Entropy problem:
+   method     = ERK
+   reltol     = 1.0e-06
+   abstol     = 1.0e-10
+   relaxation = ON
+
+ step   t              u              v              e              delta e
+ -------------------------------------------------------------------------------
+    0   0.000000e+00   1.000000e+00   5.000000e-01   4.367003e+00   0.000000e+00
+   40   6.911091e-01  -1.121528e+00   1.396547e+00   4.367003e+00  -1.776357e-15
+   80   2.027478e+00  -6.880163e+00   1.473842e+00   4.367003e+00   0.000000e+00
+ -------------------------------------------------------------------------------
+
+Final Solver Statistics:
+   Internal solver steps = 94 (attempted = 112)
+   Total number of error test failures = 0
+   Total RHS evals:  Fe = 657,  Fi = 0
+   Total Relaxation fails     = 18
+   Total Relaxation Fn evals  = 535
+   Total Relaxation Jac evals = 889
+   Total Relaxation NLS iters = 329
+   Total Relaxation NLS fails = 18
+
