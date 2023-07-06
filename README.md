@@ -16,13 +16,18 @@ mkdir $(spack arch)/<compiler>
 Within these directories, we create directories for different precisions, e.g. ``single`` or ``double``.
 
 
+## SUNDIALS CI
+
+The SUNDIALS GitHub Actions CI uses the answer files in [linux-ubuntu20.04-x86_64](./linux-ubuntu20.04-x86_64/).
+
+
 ## Procedure for adding new answers
 
-To add new answers, start by copying the relevant answers in https://github.com/sundials-codes/answers/tree/main/linux-ubuntu20.04-skylake_avx512/ to your new directory (following the naming scheme outlined above). 
+To add new answers, start by copying the relevant answers in [linux-ubuntu20.04-x86_64](./linux-ubuntu20.04-x86_64/) to your new directory (following the naming scheme outlined above). 
 
 Next Commit these files and open a PR to the "staging" branch.
 
-Once the PR is merged, you can generate your new answer files and overwrite the ones you copied from https://github.com/sundials-codes/answers/tree/main/linux-ubuntu20.04-skylake_avx512/. 
+Once the PR is merged, you can generate your new answer files and overwrite the ones you copied from [linux-ubuntu20.04-x86_64](./linux-ubuntu20.04-x86_64/). 
 
 Compare the diff and make sure it is reasonable, then commit.
 
@@ -45,6 +50,13 @@ via pip:
 ```
 $ pip install archspec
 $ archspec cpu
+skylake_avx512
+```
+
+You could also use Spack for this (which uses archspec underneath).
+
+```
+$ spack arch
 skylake_avx512
 ```
 
