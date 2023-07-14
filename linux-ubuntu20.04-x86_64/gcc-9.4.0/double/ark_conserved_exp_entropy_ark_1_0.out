@@ -16,9 +16,10 @@ Final Solver Statistics:
    Internal solver steps = 94 (attempted = 112)
    Total number of error test failures = 0
    Total RHS evals:  Fe = 657,  Fi = 0
-   Total Relaxation fails     = 18
-   Total Relaxation Fn evals  = 535
-   Total Relaxation Jac evals = 889
-   Total Relaxation NLS iters = 329
-   Total Relaxation NLS fails = 18
+   Total Relaxation Fn evals    = 535
+   Total Relaxation Jac evals   = 889
+   Total Relaxation fails       = 18
+   Total Relaxation bound fails = 18
+   Total Relaxation NLS fails   = 18
+   Total Relaxation NLS iters   = 329
 

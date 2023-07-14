@@ -44,9 +44,10 @@ Final Solver Statistics:
    Total linear solver setups = 868
    Total number of Jacobian evaluations = 314
    Total RHS evals for setting up the linear system = 0
-   Total Relaxation fails     = 266
-   Total Relaxation Fn evals  = 7553
-   Total Relaxation Jac evals = 9228
-   Total Relaxation NLS iters = 5115
-   Total Relaxation NLS fails = 252
+   Total Relaxation Fn evals    = 7553
+   Total Relaxation Jac evals   = 9228
+   Total Relaxation fails       = 266
+   Total Relaxation bound fails = 266
+   Total Relaxation NLS fails   = 252
+   Total Relaxation NLS iters   = 5115
 
