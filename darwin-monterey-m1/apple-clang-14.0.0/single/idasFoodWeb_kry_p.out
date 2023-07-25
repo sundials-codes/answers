@@ -1,0 +1,53 @@
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
+
+idasFoodWeb_kry_p: Predator-prey DAE parallel example problem for IDA 
+
+Number of species ns: 2     Mesh dimensions: 20 x 20     Total system size: 800
+Subgrid dimensions: 10 x 10     Processor array: 2 x 2
+Tolerance parameters:  rtol = 1e-05   atol = 1e-05
+Linear solver: SUNLinSol_SPGMR     Max. Krylov dimension maxl: 16
+Preconditioner: block diagonal, block size ns, via difference quotients
+CalcIC called to correct initial predator concentrations 
+
+-----------------------------------------------------------
+  t        bottom-left  top-right    | nst  k      h
+-----------------------------------------------------------
+
+0.00e+00   1.0000e+01   1.0000e+01   |   0  0   1.6310e-08
+           1.0000e+05   1.0000e+05   |
+
+1.00e-03   1.0318e+01   1.0827e+01   |  34  4   6.6807e-05
+           1.0319e+05   1.0822e+05   |
+
+1.00e-02   1.6189e+02   1.9735e+02   | 169  3   6.6807e-05
+           1.6189e+06   1.9735e+06   |
+
+1.00e-01   2.4019e+02   2.7072e+02   | 269  1   2.7706e-02
+           2.4019e+06   2.7072e+06   |
+
+4.00e-01   2.4019e+02   2.7072e+02   | 272  1   2.2165e-01
+           2.4019e+06   2.7072e+06   |
+
+7.00e-01   2.4019e+02   2.7072e+02   | 273  1   4.4330e-01
+           2.4019e+06   2.7072e+06   |
+
+1.00e+00   2.4019e+02   2.7072e+02   | 274  1   8.8660e-01
+           2.4019e+06   2.7072e+06   |
+
+-----------------------------------------------------------
+
+Final statistics: 
+
+Number of steps                    = 274
+Number of residual evaluations     = 2740
+Number of nonlinear iterations     = 312
+Number of error test failures      = 0
+Number of nonlinear conv. failures = 0
+
+Number of linear iterations        = 2426
+Number of linear conv. failures    = 0
+
+Number of preconditioner setups    = 24
+Number of preconditioner solves    = 2740

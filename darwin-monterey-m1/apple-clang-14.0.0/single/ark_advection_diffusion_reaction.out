@@ -1,0 +1,59 @@
+
+Problem parameters and options:
+ --------------------------------- 
+  c                = 0.001
+  d                = 0.01
+  A                = 0.6
+  B                = 2
+ --------------------------------- 
+  tf               = 3
+  xl               = 0
+  xu               = 1
+  nx               = 512
+  dx               = 0.00195695
+ --------------------------------- 
+  integrator       = ARK
+  advection        = Explicit
+  diffusion        = Implicit
+  reaction         = Implicit
+  order            = 3
+  rtol             = 0.0001
+  atol             = 1e-09
+  fixed h          = 0
+  controller       = PID
+  predictor        = trivial
+  ls setup freq    = 0
+  linear           = 0
+ --------------------------------- 
+  output          = 1
+ --------------------------------- 
+
+          t                     ||y||_rms      
+ ----------------------------------------------
+          0.000000e+00             4.029897e+00
+          3.000000e-01             3.942296e+00
+          6.000000e-01             3.877400e+00
+          9.000000e-01             3.793580e+00
+          1.200000e+00             3.689055e+00
+          1.500000e+00             3.566872e+00
+          1.800000e+00             3.439006e+00
+          2.100000e+00             3.320107e+00
+          2.400000e+00             3.219531e+00
+          2.700000e+00             3.146882e+00
+          3.000000e+00             3.110926e+00
+ ----------------------------------------------
+
+Final integrator statistics:
+  Steps              = 22
+  Step attempts      = 22
+  Error test fails   = 0
+  Explicit RHS evals = 91
+  Implicit RHS evals = 269
+  NLS iters          = 178
+  NLS fails          = 4
+  LS setups          = 12
+  J evals            = 5
+
+  Avg NLS iters per step attempt = 8.090909
+  Avg LS setups per NLS iter     = 0.067416
+
