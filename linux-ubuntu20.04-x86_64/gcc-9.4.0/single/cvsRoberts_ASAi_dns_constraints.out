@@ -24,7 +24,7 @@ Create and allocate CVODES memory for backward run
 Backward integration from tB0 =   4.0000e+07
 
 --------------------------------------------------------
-returned t:   4.0000e+01
+returned t:   2.3669e+01
 tout:         4.0000e+01
 lambda(t):    3.9963e+07   3.9963e+07   3.9963e+07
 y(t)      :   7.1604e-01   9.1932e-06   2.8395e-01
