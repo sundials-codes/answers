@@ -22,8 +22,8 @@ NLS step fails               = 0
 Inequality constraint fails  = 0
 Initial step size            = 0.00099999999999999999995849538558454
 Last step size               = 0.00099999999999723920798114814960378
-Current step size            = 0.00099999999999723920798114814960378
-Explicit RHS fn evals        = 400002
+Current step size            = 0.00099999999999999999995849538558454
+Explicit RHS fn evals        = 400001
 Implicit RHS fn evals        = 0
 NLS iters                    = 0
 NLS fails                    = 0
@@ -53,7 +53,7 @@ NLS step fails               = 0
 Inequality constraint fails  = 0
 Initial step size            = 0.00099999999999999999995849538558454
 Last step size               = 0.00099999999999723920798114814960378
-Current step size            = 0.00099999999999723920798114814960378
+Current step size            = 0.00099999999999999999995849538558454
 f1 RHS fn evals              = 100001
 f2 RHS fn evals              = 100001
 
@@ -81,7 +81,7 @@ NLS step fails               = 0
 Inequality constraint fails  = 0
 Initial step size            = 0.00049999999999999999997924769279227
 Last step size               = 0.00049999999997641514349807094399342
-Current step size            = 0.00049999999997641514349807094399342
+Current step size            = 0.00049999999999999999997924769279227
 f1 RHS fn evals              = 200001
 f2 RHS fn evals              = 200001
 
@@ -109,7 +109,7 @@ NLS step fails               = 0
 Inequality constraint fails  = 0
 Initial step size            = 0.00024999999999999999998962384639613
 Last step size               = 0.00024999999996600311125653234118824
-Current step size            = 0.00024999999996600311125653234118824
+Current step size            = 0.00024999999999999999998962384639613
 f1 RHS fn evals              = 400001
 f2 RHS fn evals              = 400001
 
@@ -137,7 +137,7 @@ NLS step fails               = 0
 Inequality constraint fails  = 0
 Initial step size            = 0.00012499999999999999999481192319807
 Last step size               = 0.00012499999996079882985923901659274
-Current step size            = 0.00012499999996079882985923901659274
+Current step size            = 0.00012499999999999999999481192319807
 f1 RHS fn evals              = 800001
 f2 RHS fn evals              = 800001
 
@@ -165,7 +165,7 @@ NLS step fails               = 0
 Inequality constraint fails  = 0
 Initial step size            = 6.2499999999999999997405961599034e-05
 Last step size               = 6.2499999958196689160592354294992e-05
-Current step size            = 6.2499999958196689160592354294992e-05
+Current step size            = 6.2499999999999999997405961599034e-05
 f1 RHS fn evals              = 1600001
 f2 RHS fn evals              = 1600001
 
@@ -193,7 +193,7 @@ NLS step fails               = 0
 Inequality constraint fails  = 0
 Initial step size            = 3.1249999999999999998702980799517e-05
 Last step size               = 3.1249999956895618811269023146118e-05
-Current step size            = 3.1249999956895618811269023146118e-05
+Current step size            = 3.1249999999999999998702980799517e-05
 f1 RHS fn evals              = 3200001
 f2 RHS fn evals              = 3200001
 
@@ -221,7 +221,7 @@ NLS step fails               = 0
 Inequality constraint fails  = 0
 Initial step size            = 1.5624999999999999999351490399758e-05
 Last step size               = 1.9546447793672427898242297142238e-12
-Current step size            = 1.9546447793672427898242297142238e-12
+Current step size            = 1.5624999999999999999351490399758e-05
 f1 RHS fn evals              = 6400003
 f2 RHS fn evals              = 6400003
 
@@ -249,7 +249,7 @@ NLS step fails               = 0
 Inequality constraint fails  = 0
 Initial step size            = 7.8124999999999999996757451998792e-06
 Last step size               = 3.7306754907540096139794300361456e-12
-Current step size            = 3.7306754907540096139794300361456e-12
+Current step size            = 7.8124999999999999996757451998792e-06
 f1 RHS fn evals              = 12800003
 f2 RHS fn evals              = 12800003
 

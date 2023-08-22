@@ -1,12 +1,12 @@
 Timer resolution: 1 ns = 1e-09 s
-Testing the ManyVector (parallel, custom comm) N_Vector
   odd subcomm: Vector 1 (serial) local length 200
+Testing the ManyVector (parallel, custom comm) N_Vector
   even subcomm: Vector 1 (serial) local length 200
   even subcomm: Vector 2 (parallel) global length 2000
-  odd subcomm: Vector 2 (parallel) global length 2000
   even subcomm processes 2
-  odd subcomm processes 2
 ManyVector global length 4800
+  odd subcomm: Vector 2 (parallel) global length 2000
+  odd subcomm processes 2
 PASSED test -- N_VGetVectorID 
 PASSED test -- N_VGetLength
 PASSED test -- N_VGetCommunicator
@@ -40,7 +40,8 @@ PASSED test -- N_VAbs
 PASSED test -- N_VInv 
 PASSED test -- N_VAddConst 
 PASSED test -- N_VDotProd 
-PASSED test -- N_VMaxNorm 
+PASSED test -- N_VMaxNorm Case 1
+PASSED test -- N_VMaxNorm Case 2
 PASSED test -- N_VWrmsNorm 
 PASSED test -- N_VWrmsNormMask 
 PASSED test -- N_VMin 
