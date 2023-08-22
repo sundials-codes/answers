@@ -1,0 +1,15 @@
+
+KLU linear solver test: size 1000, type 0
+
+    PASSED test -- SUNLinSolInitialize 
+    PASSED test -- SUNLinSolSetup 
+    PASSED test -- SUNLinSolSolve 
+    PASSED test -- SUNLinSolGetType 
+    PASSED test -- SUNLinSolGetID 
+    PASSED test -- SUNLinSolLastFlag (0) 
+    PASSED test -- SUNLinSolSpace, lenrw = 0, leniw = 2
+    PASSED test -- SUNLinSol_KLUGetSymbolic 
+    PASSED test -- SUNLinSol_KLUGetNumeric 
+    PASSED test -- SUNLinSol_KLUGetCommon 
+SUCCESS: SUNLinSol module passed all tests 
+ 
