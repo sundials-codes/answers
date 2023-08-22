@@ -1,0 +1,12 @@
+
+SuperLUDIST linear solver test:            nprocs 2, nprow 1, npcol 2, size 400
+
+    PASSED test -- SUNLinSolInitialize 
+    PASSED test -- SUNLinSolSetup 
+    PASSED test -- SUNLinSolSolve 
+    PASSED test -- SUNLinSolGetType 
+    PASSED test -- SUNLinSolGetID 
+    PASSED test -- SUNLinSolLastFlag (0) 
+    PASSED test -- SUNLinSolSpace, lenrw = 2, leniw = 1
+SUCCESS: SUNLinSol module passed all tests 
+ 
