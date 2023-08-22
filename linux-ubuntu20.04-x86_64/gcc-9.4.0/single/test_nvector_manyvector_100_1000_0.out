@@ -34,7 +34,8 @@ PASSED test -- N_VAbs
 PASSED test -- N_VInv 
 PASSED test -- N_VAddConst 
 PASSED test -- N_VDotProd 
-PASSED test -- N_VMaxNorm 
+PASSED test -- N_VMaxNorm Case 1
+PASSED test -- N_VMaxNorm Case 2
 PASSED test -- N_VWrmsNorm 
 PASSED test -- N_VWrmsNormMask 
 PASSED test -- N_VMin 
