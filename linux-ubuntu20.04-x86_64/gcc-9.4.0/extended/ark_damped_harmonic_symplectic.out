@@ -21,6 +21,6 @@ NLS step fails               = 0
 Inequality constraint fails  = 0
 Initial step size            = 0.00099999999999999999995849538558454
 Last step size               = 0.00099081698724487118858764741861911
-Current step size            = 0.00099081698724487118858764741861911
+Current step size            = 0.00099999999999999999995849538558454
 f1 RHS fn evals              = 125665
 f2 RHS fn evals              = 125665
