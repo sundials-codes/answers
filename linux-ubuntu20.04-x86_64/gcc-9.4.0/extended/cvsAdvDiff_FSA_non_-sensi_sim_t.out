@@ -40,29 +40,29 @@ Sensitivity: YES ( SIMULTANEOUS + FULL ERROR CONTROL )
                                 Sensitivity 1    1.3920e-02 
                                 Sensitivity 2    1.1669e-03 
 ------------------------------------------------------------
-4.000e+00  2  4.790e-03   691
-                                Solution         4.6920e-04 
-                                Sensitivity 1    4.5283e-03 
-                                Sensitivity 2    3.8656e-04 
+4.000e+00  2  8.870e-03   689
+                                Solution         4.6877e-04 
+                                Sensitivity 1    4.5255e-03 
+                                Sensitivity 2    3.8629e-04 
 ------------------------------------------------------------
-4.500e+00  1  4.463e-03   768
-                                Solution         1.3425e-04 
-                                Sensitivity 1    1.4557e-03 
-                                Sensitivity 2    1.2591e-04 
+4.500e+00  1  4.127e-03   763
+                                Solution         1.3419e-04 
+                                Sensitivity 1    1.4556e-03 
+                                Sensitivity 2    1.2588e-04 
 ------------------------------------------------------------
-5.000e+00  1  6.406e-03   850
-                                Solution         3.8696e-05 
-                                Sensitivity 1    4.6469e-04 
-                                Sensitivity 2    4.0650e-05 
+5.000e+00  2  9.930e-03   845
+                                Solution         3.8669e-05 
+                                Sensitivity 1    4.6493e-04 
+                                Sensitivity 2    4.0629e-05 
 ------------------------------------------------------------
 
 Final Statistics
 
-nst     =   850
+nst     =   845
 
 nfe     =  1525
 netf    =     1    nsetups  =     0
-nni     =  1522    ncfn     =   136
+nni     =  1522    ncfn     =   139
 
 nfSe    =  3050    nfeS     =  6100
 netfs   =     0    nsetupsS =     0
