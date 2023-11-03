@@ -16,16 +16,16 @@ At t = 2.0791e+07      y =  1.000000e-04    4.000395e-10    9.999000e-01
 At t = 4.0000e+07      y =  5.192922e-05    2.077277e-10    9.999481e-01
 At t = 4.0000e+08      y =  5.211767e-06    2.084717e-11    9.999948e-01
 At t = 4.0000e+09      y =  5.188061e-07    2.075226e-12    9.999995e-01
-At t = 4.0000e+10      y =  3.911633e-08    1.564653e-13    1.000000e+00
+At t = 4.0000e+10      y =  3.911634e-08    1.564654e-13    1.000000e+00
 
 Final Statistics:
-Current time                 = 41423753597.394957236945629119873
+Current time                 = 41423750252.296867553144693374634
 Steps                        = 588
 Error test fails             = 21
 NLS step fails               = 0
 Initial step size            = 8.0671025347943429528396170542227e-15
-Last step size               = 3829195185.1036267085000872612
-Current step size            = 3829195185.1036267085000872612
+Last step size               = 3829193546.4311239616945385932922
+Current step size            = 3829193546.4311239616945385932922
 Last method order            = 4
 Current method order         = 4
 Stab. lim. order reductions  = 0

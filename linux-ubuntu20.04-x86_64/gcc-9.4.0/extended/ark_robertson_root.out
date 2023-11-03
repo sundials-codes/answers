@@ -10,24 +10,24 @@ Robertson ODE test problem (with rootfinding):
    4.00000e+01   7.15827e-01   9.18554e-06   2.84164e-01
    4.00000e+02   4.50519e-01   3.22291e-06   5.49478e-01
    4.00000e+03   1.83202e-01   8.94245e-07   8.16797e-01
-   4.00000e+04   3.89834e-02   1.62176e-07   9.61016e-01
-   4.00000e+05   4.93828e-03   1.98382e-08   9.95062e-01
-   4.00000e+06   5.16811e-04   2.06872e-09   9.99483e-01
-   2.07950e+07   1.00000e-04   4.00960e-10   9.99900e-01
+   4.00000e+04   3.89834e-02   1.62177e-07   9.61016e-01
+   4.00000e+05   4.93827e-03   1.98500e-08   9.95062e-01
+   4.00000e+06   5.16810e-04   2.06924e-09   9.99483e-01
+   2.07952e+07   1.00000e-04   4.01419e-10   9.99900e-01
       rootsfound[] =  -1   0
-   4.00000e+08   5.20742e-06   2.07961e-11   9.99995e-01
-   4.00000e+09   5.20857e-07   2.14867e-12   9.99999e-01
-   4.00000e+10   5.20839e-08   2.75163e-13   1.00000e+00
+   4.00000e+08   5.20803e-06   2.09022e-11   9.99995e-01
+   4.00000e+09   5.20887e-07   2.04279e-12   9.99999e-01
+   4.00000e+10   5.20835e-08   1.66561e-13   1.00000e+00
    -----------------------------------------------------
 
 Final Solver Statistics:
-   Internal solver steps = 994 (attempted = 1154)
-   Total RHS evals:  Fe = 0,  Fi = 33220
-   Total linear solver setups = 459
+   Internal solver steps = 1026 (attempted = 1219)
+   Total RHS evals:  Fe = 0,  Fi = 34401
+   Total linear solver setups = 526
    Total RHS evals for setting up the linear system = 0
-   Total number of Jacobian evaluations = 76
-   Total number of Newton iterations = 27518
-   Total root-function g evals = 1030
-   Total number of nonlinear solver convergence failures = 66
-   Total number of error test failures = 139
-   Total number of failed steps from solver failure = 21
+   Total number of Jacobian evaluations = 70
+   Total number of Newton iterations = 28355
+   Total root-function g evals = 1057
+   Total number of nonlinear solver convergence failures = 59
+   Total number of error test failures = 177
+   Total number of failed steps from solver failure = 16
