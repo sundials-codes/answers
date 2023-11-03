@@ -548,7 +548,7 @@ t =   8.00e+00  nst = 255  nfe = 299  nni = 296  qu = 5  hu =    1.70e-01
 
 t =   9.00e+00  nst = 261  nfe = 306  nni = 303  qu = 5  hu =    1.70e-01
 
-t =   1.00e+01  nst = 275  nfe = 322  nni = 319  qu = 4  hu =    1.17e-01
+t =   1.00e+01  nst = 272  nfe = 323  nni = 320  qu = 4  hu =    1.46e-01
 
 
 
@@ -558,19 +558,19 @@ t =   1.00e+01  nst = 275  nfe = 322  nni = 319  qu = 4  hu =    1.17e-01
  CVode integer workspace length        =   65 
  CVLS real workspace length            = 2646 
  CVLS integer workspace length         =   42 
- Number of steps                       =  275 
- Number of f-s                         =  322 
- Number of f-s (SPGMR)                 =  649 
- Number of f-s (TOTAL)                 =  971 
- Number of setups                      =   48 
- Number of nonlinear iterations        =  319 
- Number of linear iterations           =  649 
- Number of preconditioner evaluations  =   48 
- Number of preconditioner solves       =  935 
+ Number of steps                       =  272 
+ Number of f-s                         =  323 
+ Number of f-s (SPGMR)                 =  662 
+ Number of f-s (TOTAL)                 =  985 
+ Number of setups                      =   49 
+ Number of nonlinear iterations        =  320 
+ Number of linear iterations           =  662 
+ Number of preconditioner evaluations  =   49 
+ Number of preconditioner solves       =  949 
  Number of error test failures         =    3 
- Number of nonlinear conv. failures    =    1 
- Number of linear convergence failures =   49 
- Average Krylov subspace dimension     = 2.034 
+ Number of nonlinear conv. failures    =    2 
+ Number of linear convergence failures =   56 
+ Average Krylov subspace dimension     = 2.069 
 
 
 ----------------------------------------------------------------------------
@@ -614,9 +614,9 @@ t =   7.00e+00  nst = 249  nfe = 293  nni = 290  qu = 5  hu =    1.70e-01
 
 t =   8.00e+00  nst = 255  nfe = 299  nni = 296  qu = 5  hu =    1.70e-01
 
-t =   9.00e+00  nst = 263  nfe = 311  nni = 308  qu = 5  hu =    4.26e-02
+t =   9.00e+00  nst = 261  nfe = 306  nni = 303  qu = 5  hu =    1.70e-01
 
-t =   1.00e+01  nst = 273  nfe = 321  nni = 318  qu = 3  hu =    2.94e-01
+t =   1.00e+01  nst = 272  nfe = 323  nni = 320  qu = 4  hu =    9.70e-02
 
 
 
@@ -626,19 +626,19 @@ t =   1.00e+01  nst = 273  nfe = 321  nni = 318  qu = 3  hu =    2.94e-01
  CVode integer workspace length        =   65 
  CVLS real workspace length            = 2646 
  CVLS integer workspace length         =   42 
- Number of steps                       =  273 
- Number of f-s                         =  321 
- Number of f-s (SPGMR)                 =  649 
- Number of f-s (TOTAL)                 =  970 
+ Number of steps                       =  272 
+ Number of f-s                         =  323 
+ Number of f-s (SPGMR)                 =  658 
+ Number of f-s (TOTAL)                 =  981 
  Number of setups                      =   49 
- Number of nonlinear iterations        =  318 
- Number of linear iterations           =  649 
+ Number of nonlinear iterations        =  320 
+ Number of linear iterations           =  658 
  Number of preconditioner evaluations  =   49 
- Number of preconditioner solves       =  934 
+ Number of preconditioner solves       =  945 
  Number of error test failures         =    3 
  Number of nonlinear conv. failures    =    2 
- Number of linear convergence failures =   49 
- Average Krylov subspace dimension     = 2.041 
+ Number of linear convergence failures =   53 
+ Average Krylov subspace dimension     = 2.056 
 
 
 ----------------------------------------------------------------------------
