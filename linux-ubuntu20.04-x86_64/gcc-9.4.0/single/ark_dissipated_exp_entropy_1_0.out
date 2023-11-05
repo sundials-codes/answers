@@ -16,7 +16,7 @@ Dissipated Exponential Entropy problem:
 Final Solver Statistics:
    Internal solver steps = 133 (attempted = 134)
    Total number of error test failures = 1
-   Total RHS evals:  Fe = 806,  Fi = 0
+   Total RHS evals:  Fe = 671,  Fi = 0
    Total Relaxation Fn evals    = 268
    Total Relaxation Jac evals   = 670
    Total Relaxation fails       = 0

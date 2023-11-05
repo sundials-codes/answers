@@ -7,27 +7,27 @@ Nonlinear Pendulum problem:
     step             t             u             v             e         e err
 ------------------------------------------------------------------------------
        0  0.000000e+00  1.500000e+00  1.000000e+00  5.846977e-01  0.000000e+00
-    1000  1.325160e+00  2.627189e-01  2.153382e+00  5.846958e-01 -1.966953e-06
-    2000  2.548938e+00 -7.833213e-01  1.852404e+00  5.846963e-01 -1.430511e-06
-    3000  3.697877e+00 -1.749191e+00  3.327767e-01  5.846951e-01 -2.622604e-06
-    4000  4.641338e+00 -1.355451e+00 -1.230324e+00  5.846921e-01 -5.602837e-06
-    5000  5.845352e+00 -2.294419e-01 -2.163219e+00  5.846940e-01 -3.695488e-06
-    6000  7.063956e+00  8.167940e-01 -1.824634e+00  5.846965e-01 -1.192093e-06
-    7000  8.269513e+00  1.771968e+00 -1.720453e-01  5.846995e-01  1.728535e-06
-    8000  9.222408e+00  1.258713e+00  1.361794e+00  5.846953e-01 -2.443790e-06
+    1000  1.325160e+00  2.627191e-01  2.153383e+00  5.846962e-01 -1.490116e-06
+    2000  2.551061e+00 -7.852893e-01  1.850798e+00  5.846965e-01 -1.192093e-06
+    3000  3.885009e+00 -1.780280e+00  1.860792e-03  5.847004e-01  2.682209e-06
+    4000  4.899115e+00 -1.103114e+00 -1.547062e+00  5.846980e-01  2.384186e-07
+    5000  6.231442e+00  8.534955e-02 -2.190819e+00  5.846955e-01 -2.205372e-06
+    6000  7.434502e+00  1.183666e+00 -1.454692e+00  5.846892e-01 -8.523464e-06
+    7000  8.560802e+00  1.747190e+00  3.433278e-01  5.846965e-01 -1.192093e-06
+    8000  9.680039e+00  8.064042e-01  1.833354e+00  5.846951e-01 -2.622604e-06
 ------------------------------------------------------------------------------
 
 Final Solver Statistics:
-  Internal solver steps = 8643 (attempted = 8649)
+  Internal solver steps = 8231 (attempted = 8237)
   Total number of error test failures = 6
-  Total RHS evals:  Fe = 0,  Fi = 47472
-  Total number of Newton iterations = 21529
-  Total number of linear solver convergence failures = 6
-  Total linear solver setups = 457
-  Total number of Jacobian evaluations = 149
+  Total RHS evals:  Fe = 0,  Fi = 49325
+  Total number of Newton iterations = 24619
+  Total number of linear solver convergence failures = 11
+  Total linear solver setups = 441
+  Total number of Jacobian evaluations = 145
   Total RHS evals for setting up the linear system = 0
-  Total Relaxation Fn evals    = 17298
-  Total Relaxation Jac evals   = 17298
+  Total Relaxation Fn evals    = 16474
+  Total Relaxation Jac evals   = 16474
   Total Relaxation fails       = 0
   Total Relaxation bound fails = 0
   Total Relaxation NLS fails   = 0
