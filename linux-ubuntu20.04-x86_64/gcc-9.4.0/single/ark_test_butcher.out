@@ -10,7 +10,14 @@ Testing method ARKODE_ARK436L2SA_ERK_6_3_4:  table matches predicted method/embe
 Testing method ARKODE_SAYFY_ABURUB_6_3_4:  table matches predicted method/embedding orders of 4/3
 Testing method ARKODE_CASH_KARP_6_4_5:  table matches predicted method/embedding orders of 5/4
 Testing method ARKODE_FEHLBERG_6_4_5:  table matches predicted method/embedding orders of 5/4
-Testing method ARKODE_DORMAND_PRINCE_7_4_5:  table matches predicted method/embedding orders of 5/4
+Testing method ARKODE_DORMAND_PRINCE_7_4_5:  WARNING:
+ARKodeButcherTable_CheckOrder:
+  method order >= 6; reverting to simplifying assumptions
+  method order = 6
+
+  embedding fails order 5 condition E
+  embedding fails order 5 condition F
+  embedding fails order 5 condition I
 Testing method ARKODE_ARK548L2SA_ERK_8_4_5:  table matches predicted method/embedding orders of 5/4
 Testing method ARKODE_VERNER_8_5_6:  table matches predicted method/embedding orders of 6/5
 Testing method ARKODE_FEHLBERG_13_7_8:  WARNING:
@@ -20,7 +27,19 @@ ARKodeButcherTable_CheckOrder:
 
   embedding order >= 6; reverting to simplifying assumptions
   embedding order = 6
-Testing method ARKODE_ARK437L2SA_ERK_7_3_4:  table matches predicted method/embedding orders of 4/3
+Testing method ARKODE_ARK437L2SA_ERK_7_3_4:  WARNING:
+ARKodeButcherTable_CheckOrder:
+  method fails order 5 condition A
+  method fails order 5 condition B
+  method fails order 5 condition C
+  method fails order 5 condition H
+  method fails order 5 condition I
+
+  embedding fails order 5 condition A
+  embedding fails order 5 condition B
+  embedding fails order 5 condition C
+  embedding fails order 5 condition H
+  embedding fails order 5 condition I
 Testing method ARKODE_ARK548L2SAb_ERK_8_4_5:  table matches predicted method/embedding orders of 5/4
 Testing method ARKODE_SOFRONIOU_SPALETTA_5_3_4:  table matches predicted method/embedding orders of 4/3
 Testing method ARKODE_SHU_OSHER_3_2_3:  table matches predicted method/embedding orders of 3/2
@@ -61,8 +80,58 @@ Testing method ARKODE_SDIRK_5_3_4:  table matches predicted method/embedding ord
 Testing method ARKODE_KVAERNO_5_3_4:  table matches predicted method/embedding orders of 4/3
 Testing method ARKODE_ARK436L2SA_DIRK_6_3_4:  table matches predicted method/embedding orders of 4/3
 Testing method ARKODE_KVAERNO_7_4_5:  table matches predicted method/embedding orders of 5/4
-Testing method ARKODE_ARK548L2SA_DIRK_8_4_5:  table matches predicted method/embedding orders of 5/4
-Testing method ARKODE_ARK437L2SA_DIRK_7_3_4:  table matches predicted method/embedding orders of 4/3
+Testing method ARKODE_ARK548L2SA_DIRK_8_4_5:  WARNING:
+ARKodeButcherTable_CheckOrder:
+  method fails order 6 condition A
+  method fails order 6 condition B
+  method fails order 6 condition C
+  method fails order 6 condition D
+  method fails order 6 condition E
+  method fails order 6 condition F
+  method fails order 6 condition G
+  method fails order 6 condition H
+  method fails order 6 condition I
+  method fails order 6 condition K
+  method fails order 6 condition L
+  method fails order 6 condition M
+  method fails order 6 condition N
+  method fails order 6 condition O
+  method fails order 6 condition P
+  method fails order 6 condition Q
+
+  embedding fails order 6 condition A
+  embedding fails order 6 condition B
+  embedding fails order 6 condition C
+  embedding fails order 6 condition D
+  embedding fails order 6 condition E
+  embedding fails order 6 condition F
+  embedding fails order 6 condition G
+  embedding fails order 6 condition H
+  embedding fails order 6 condition I
+  embedding fails order 6 condition K
+  embedding fails order 6 condition L
+  embedding fails order 6 condition M
+  embedding fails order 6 condition N
+  embedding fails order 6 condition O
+  embedding fails order 6 condition P
+Testing method ARKODE_ARK437L2SA_DIRK_7_3_4:  WARNING:
+ARKodeButcherTable_CheckOrder:
+  method fails order 5 condition A
+  method fails order 5 condition B
+  method fails order 5 condition C
+  method fails order 5 condition D
+  method fails order 5 condition E
+  method fails order 5 condition F
+  method fails order 5 condition G
+
+  embedding fails order 5 condition A
+  embedding fails order 5 condition B
+  embedding fails order 5 condition C
+  embedding fails order 5 condition D
+  embedding fails order 5 condition E
+  embedding fails order 5 condition F
+  embedding fails order 5 condition G
+  embedding fails order 5 condition H
 Testing method ARKODE_ARK548L2SAb_DIRK_8_4_5:  table matches predicted method/embedding orders of 5/4
 Testing method ARKODE_ESDIRK324L2SA_4_2_3:  table matches predicted method/embedding orders of 3/2
 Testing method ARKODE_ESDIRK325L2SA_5_2_3:  table matches predicted method/embedding orders of 3/2
@@ -79,7 +148,27 @@ Testing ARK pairs:
 Testing method ARKODE_ARK2_3_1_2:  Method/embedding match predicted orders of 2/1
 Testing method ARKODE_ARK324L2SA_4_2_3:  Method/embedding match predicted orders of 3/2
 Testing method ARKODE_ARK436L2SA_6_3_4:  Method/embedding match predicted orders of 4/3
-Testing method ARKODE_ARK437L2SA_7_3_4:  Method/embedding match predicted orders of 4/3
+Testing method ARKODE_ARK437L2SA_7_3_4:  WARNING:
+ARKodeButcherTable_CheckARKOrder:
+  method fails order 5 conditions A
+  method fails order 5 conditions B
+  method fails order 5 conditions C
+  method fails order 5 conditions D
+  method fails order 5 conditions E
+  method fails order 5 conditions F
+  method fails order 5 conditions G
+  method fails order 5 conditions H
+  method fails order 5 conditions I
+
+  embedding fails order 5 conditions A
+  embedding fails order 5 conditions B
+  embedding fails order 5 conditions C
+  embedding fails order 5 conditions D
+  embedding fails order 5 conditions E
+  embedding fails order 5 conditions F
+  embedding fails order 5 conditions G
+  embedding fails order 5 conditions H
+  embedding fails order 5 conditions I
 Testing method ARKODE_ARK548L2SA_8_4_5:  Method/embedding match predicted orders of 5/4
 Testing method ARKODE_ARK548L2SAb_8_4_5:  Method/embedding match predicted orders of 5/4
 All Butcher tables passed

@@ -1,0 +1,8 @@
+ LAPACK-Dense SUNLinearSolver Fortran 2003 interface test
+     PASSED test -- FSUNLinSolInitialize 
+     PASSED test -- FSUNLinSolSetup 
+     PASSED test -- FSUNLinSolSolve
+     PASSED test -- FSUNLinSolGetType
+     PASSED test -- FSUNLinSolLastFlag (0)
+     PASSED test -- FSUNLinSolSpace, lenrw = 0 leniw = 102
+ SUCCESS: all unit tests passed

@@ -135,5 +135,5 @@ Initial step size            = 0.009999999776482582
 Last step size               = 0.009999999776482582
 Current step size            = 0.009999999776482582
 Root fn evals                = 10138
-f1 RHS fn evals              = 40034
-f2 RHS fn evals              = 40034
+f1 RHS fn evals              = 40033
+f2 RHS fn evals              = 40033

@@ -10,7 +10,7 @@ ARKStep Solver Statistics:
    Return time = 0.05
    Internal final time = 0.05005
    Internal solver steps = 1001
-   Total RHS evals:  Fe = 0,  Fi = 3004
+   Total RHS evals:  Fe = 0,  Fi = 2003
    Total number of nonlinear iterations = 1001
    Total number of nonlinear solver convergence failures = 0
    Total linear solver setups = 1

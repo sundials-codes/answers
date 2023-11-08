@@ -1,0 +1,35 @@
+ SPTFQMR SUNLinearSolver Fortran 2003 interface test
+ 
+     PASSED test -- FSUNLinSolGetType
+     PASSED test -- FSUNLinSolSetATimes 
+     PASSED test -- FSUNLinSolSetPreconditioner 
+     PASSED test -- FSUNLinSolSetScalingVectors 
+     PASSED test -- FSUNLinSolInitialize 
+     PASSED test -- FSUNLinSolSpace, lenrw = 1100 leniw = 11
+ SUCCESS: FSUNLinSol_SPTFQMR module, initialization tests passed
+ 
+     PASSED test -- FSUNLinSolSetup 
+     PASSED test -- FSUNLinSolSolve
+     PASSED test -- FSUNLinSolLastFlag (0)
+     PASSED test -- FSUNLinSolNumIters (11)
+     PASSED test -- FSUNLinSolResNorm 
+     PASSED test -- FSUNLinSolResid 
+ SUCCESS: FSUNLinSol_SPTFQMR module, problem 1, all tests passed
+ 
+     PASSED test -- FSUNLinSolSetup 
+     PASSED test -- FSUNLinSolSolve
+     PASSED test -- FSUNLinSolLastFlag (0)
+     PASSED test -- FSUNLinSolNumIters (11)
+     PASSED test -- FSUNLinSolResNorm 
+     PASSED test -- FSUNLinSolResid 
+ SUCCESS: FSUNLinSol_SPTFQMR module, problem 2, all tests passed
+ 
+     PASSED test -- FSUNLinSolSetup 
+     PASSED test -- FSUNLinSolSolve
+     PASSED test -- FSUNLinSolLastFlag (0)
+     PASSED test -- FSUNLinSolNumIters (11)
+     PASSED test -- FSUNLinSolResNorm 
+     PASSED test -- FSUNLinSolResid 
+ SUCCESS: FSUNLinSol_SPTFQMR module, problem 3, all tests passed
+ 
+ SUCCESS: all unit tests passed

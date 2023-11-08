@@ -1,0 +1,8 @@
+ ManyVector N_Vector Fortran 2003 interface test
+ SUCCESS: smoke tests passed
+ PASSED test -- FN_VMake
+ PASSED test -- FN_VConst
+ PASSED test -- FN_VGetArrayPointer
+ PASSED test -- FN_VLinearCombination Case 1a
+ PASSED test -- FN_VLinearCombination Case 3a
+ SUCCESS: all unit tests passed
