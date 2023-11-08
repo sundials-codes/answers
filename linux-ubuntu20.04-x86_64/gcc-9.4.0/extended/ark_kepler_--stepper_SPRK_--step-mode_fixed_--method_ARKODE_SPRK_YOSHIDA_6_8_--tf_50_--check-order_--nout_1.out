@@ -23,7 +23,7 @@ Inequality constraint fails  = 0
 Initial step size            = 0.00099999999999999999995849538558454
 Last step size               = 0.00099999999999723920798114814960378
 Current step size            = 0.00099999999999999999995849538558454
-Explicit RHS fn evals        = 400001
+Explicit RHS fn evals        = 400000
 Implicit RHS fn evals        = 0
 NLS iters                    = 0
 NLS fails                    = 0
@@ -54,8 +54,8 @@ Inequality constraint fails  = 0
 Initial step size            = 0.10000000000000000000135525271561
 Last step size               = 0.10000000000000000000135525271561
 Current step size            = 0.10000000000000000000135525271561
-f1 RHS fn evals              = 4001
-f2 RHS fn evals              = 4001
+f1 RHS fn evals              = 4000
+f2 RHS fn evals              = 4000
 
 
    Begin Kepler Problem
@@ -82,8 +82,8 @@ Inequality constraint fails  = 0
 Initial step size            = 0.050000000000000000000677626357803
 Last step size               = 0.050000000000000000000677626357803
 Current step size            = 0.050000000000000000000677626357803
-f1 RHS fn evals              = 8001
-f2 RHS fn evals              = 8001
+f1 RHS fn evals              = 8000
+f2 RHS fn evals              = 8000
 
 
    Begin Kepler Problem
@@ -110,8 +110,8 @@ Inequality constraint fails  = 0
 Initial step size            = 0.025000000000000000000338813178902
 Last step size               = 0.024999999999999317896564850552399
 Current step size            = 0.025000000000000000000338813178902
-f1 RHS fn evals              = 16001
-f2 RHS fn evals              = 16001
+f1 RHS fn evals              = 16000
+f2 RHS fn evals              = 16000
 
 
    Begin Kepler Problem
@@ -138,8 +138,8 @@ Inequality constraint fails  = 0
 Initial step size            = 0.012500000000000000000169406589451
 Last step size               = 0.012499999999998272904225119807331
 Current step size            = 0.012500000000000000000169406589451
-f1 RHS fn evals              = 32001
-f2 RHS fn evals              = 32001
+f1 RHS fn evals              = 32000
+f2 RHS fn evals              = 32000
 
 
    Begin Kepler Problem
@@ -166,8 +166,8 @@ Inequality constraint fails  = 0
 Initial step size            = 0.0062500000000000000000847032947254
 Last step size               = 2.7443325389953088222041065629297e-15
 Current step size            = 0.0062500000000000000000847032947254
-f1 RHS fn evals              = 64009
-f2 RHS fn evals              = 64009
+f1 RHS fn evals              = 64008
+f2 RHS fn evals              = 64008
 
 
    Begin Kepler Problem
@@ -194,8 +194,8 @@ Inequality constraint fails  = 0
 Initial step size            = 0.0031250000000000000000423516473627
 Last step size               = 6.9215466691474603036220907697341e-15
 Current step size            = 0.0031250000000000000000423516473627
-f1 RHS fn evals              = 128009
-f2 RHS fn evals              = 128009
+f1 RHS fn evals              = 128008
+f2 RHS fn evals              = 128008
 
 
    Begin Kepler Problem
@@ -222,8 +222,8 @@ Inequality constraint fails  = 0
 Initial step size            = 0.0015625000000000000000211758236814
 Last step size               = 0.0015624999999890309958814287429399
 Current step size            = 0.0015625000000000000000211758236814
-f1 RHS fn evals              = 256001
-f2 RHS fn evals              = 256001
+f1 RHS fn evals              = 256000
+f2 RHS fn evals              = 256000
 
 
    Begin Kepler Problem
@@ -250,8 +250,8 @@ Inequality constraint fails  = 0
 Initial step size            = 0.00078125000000000000001058791184068
 Last step size               = 0.00078124999997231103744821124066147
 Current step size            = 0.00078125000000000000001058791184068
-f1 RHS fn evals              = 512001
-f2 RHS fn evals              = 512001
+f1 RHS fn evals              = 512000
+f2 RHS fn evals              = 512000
 
 Order of accuracy wrt solution:    expected = 6, max = 5.9963,  avg = 4.2927,  overall = 4.6203
 Order of accuracy wrt Hamiltonian: expected = 6, max = 7.3647,  avg = 6.1876,  overall = 6.1082
