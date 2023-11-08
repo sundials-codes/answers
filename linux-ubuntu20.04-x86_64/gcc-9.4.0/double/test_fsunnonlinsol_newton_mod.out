@@ -1,0 +1,11 @@
+ Newton SUNNonlinearSolver Fortran 2003 interface test
+ Solution:
+y1 =  0.7794124E+00
+y2 =  0.4966114E+00
+y3 =  0.3699228E+00
+ Solution Error:
+e1 = -0.5784556E-02
+e2 =  0.1655010E-07
+e3 =  0.2876921E-07
+Number of nonlinear iterations:6
+ SUCCESS: all unit tests passed

@@ -1,0 +1,10 @@
+ Band SUNMatrix Fortran 2003 interface test
+     PASSED test -- SUNMatGetID 
+     PASSED test -- SUNMatClone 
+     PASSED test -- SUNMatCopy 
+     PASSED test -- SUNMatZero 
+     PASSED test -- SUNMatScaleAdd 
+     PASSED test -- SUNMatScaleAddI 
+     PASSED test -- SUNMatMatvec 
+     PASSED test -- SUNMatSpace 
+ SUCCESS: all unit tests passed

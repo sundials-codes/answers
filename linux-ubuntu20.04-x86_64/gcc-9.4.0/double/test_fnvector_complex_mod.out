@@ -1,0 +1,47 @@
+ PASSED test -- FN_VGetVectorID
+ PASSED test -- FN_VGetLength
+ PASSED test -- FN_VConst
+ PASSED test -- FN_VLinearSum Case 1a
+ PASSED test -- FN_VLinearSum Case 1b
+ PASSED test -- FN_VLinearSum Case 1c
+ PASSED test -- FN_VLinearSum Case 2a
+ PASSED test -- FN_VLinearSum Case 2b
+ PASSED test -- FN_VLinearSum Case 2c
+ PASSED test -- FN_VLinearSum Case 3
+ PASSED test -- FN_VLinearSum Case 4a
+ PASSED test -- FN_VLinearSum Case 4b
+ PASSED test -- FN_VLinearSum Case 5a
+ PASSED test -- FN_VLinearSum Case 5b
+ PASSED test -- FN_VLinearSum Case 6a
+ PASSED test -- FN_VLinearSum Case 6b
+ PASSED test -- FN_VLinearSum Case 7
+ PASSED test -- FN_VLinearSum Case 8
+ PASSED test -- FN_VLinearSum Case 9
+ PASSED test -- FN_VProd Case 1
+ PASSED test -- FN_VProd Case 2
+ PASSED test -- FN_VProd Case 3
+ PASSED test -- FN_VDiv Case 1
+ PASSED test -- FN_VDiv Case 2
+ PASSED test -- FN_VDiv Case 3
+ PASSED test -- FN_VScale Case 1
+ PASSED test -- FN_VScale Case 2
+ PASSED test -- FN_VScale Case 3
+ PASSED test -- FN_VScale Case 4
+ PASSED test -- FN_VAbs Case 1
+ PASSED test -- FN_VAbs Case 2
+ PASSED test -- FN_VAbs Case 3
+ PASSED test -- FN_VInv Case 1
+ PASSED test -- FN_VInv Case 2
+ PASSED test -- FN_VAddConst
+ PASSED test -- FN_VMaxNorm
+ PASSED test -- FN_VWrmsNorm
+ PASSED test -- FN_VWrmsNormMask
+ PASSED test -- FN_VMin
+ PASSED test -- FN_VWL2Norm
+ PASSED test -- FN_VL1Norm
+ PASSED test -- FN_VInvTest Case 1
+ PASSED test -- FN_VInvTest Case 2
+ PASSED test -- FN_VWSqrSumLocal
+ PASSED test -- FN_VWSqrSumMaskLocal
+ SUCCESS: FNVector module passed all tests
+   

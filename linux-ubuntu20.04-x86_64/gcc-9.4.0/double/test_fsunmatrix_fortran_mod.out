@@ -1,0 +1,9 @@
+ PASSED test -- FSUNMatGetID
+ PASSED test -- FSUNMatZero
+ PASSED test -- FSUNMatCopy
+ PASSED test -- FSUNMatScaleAdd case 1
+ PASSED test -- FSUNMatScaleAdd case 2
+ PASSED test -- FSUNMatScaleAddI
+ PASSED test -- FSUNMatMatvec
+ SUCCESS: FSUNMatrix module passed all tests
+   
