@@ -8,18 +8,18 @@ Conserved Exponential Entropy problem:
  step   t              u              v              e              delta e
  -------------------------------------------------------------------------------
     0   0.000000e+00   1.000000e+00   5.000000e-01   4.367003e+00   0.000000e+00
-   40   3.961759e-01  -1.241936e-02   1.217682e+00   4.367003e+00   4.768372e-07
-   80   8.980590e-01  -1.979881e+00   1.441946e+00   4.367004e+00   9.536743e-07
+   40   6.753916e-01  -1.058175e+00   1.391259e+00   4.366995e+00  -7.629395e-06
+   80   3.495039e+00  -1.328874e+01   1.474074e+00   4.366992e+00  -1.049042e-05
  -------------------------------------------------------------------------------
 
 Final Solver Statistics:
-   Internal solver steps = 118 (attempted = 140)
-   Total number of error test failures = 8
-   Total RHS evals = 680
-   Total Relaxation Fn evals    = 499
-   Total Relaxation Jac evals   = 933
-   Total Relaxation fails       = 14
+   Internal solver steps = 83 (attempted = 85)
+   Total number of error test failures = 2
+   Total RHS evals = 424
+   Total Relaxation Fn evals    = 171
+   Total Relaxation Jac evals   = 426
+   Total Relaxation fails       = 0
    Total Relaxation bound fails = 0
-   Total Relaxation NLS fails   = 14
-   Total Relaxation NLS iters   = 233
+   Total Relaxation NLS fails   = 0
+   Total Relaxation NLS iters   = 1
 
