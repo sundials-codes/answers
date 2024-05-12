@@ -38,15 +38,10 @@ Fe RHS evals:
   expected: 3
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   4
-  expected: 4
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   4
-  expected: 4
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 0
@@ -73,15 +68,10 @@ Fe RHS evals:
   expected: 6
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   7
-  expected: 7
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   8
-  expected: 8
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 1
@@ -108,15 +98,10 @@ Fe RHS evals:
   expected: 10
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   10
-  expected: 10
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   13
-  expected: 13
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 2
@@ -143,15 +128,10 @@ Fe RHS evals:
   expected: 12
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   13
-  expected: 13
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   16
-  expected: 16
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 3
@@ -178,15 +158,10 @@ Fe RHS evals:
   expected: 15
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   16
-  expected: 16
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   20
-  expected: 20
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 4
@@ -213,15 +188,10 @@ Fe RHS evals:
   expected: 18
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   19
-  expected: 19
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   24
-  expected: 24
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 5
@@ -248,15 +218,10 @@ Fe RHS evals:
   expected: 18
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   19
-  expected: 19
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   24
-  expected: 24
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 6
@@ -283,15 +248,10 @@ Fe RHS evals:
   expected: 18
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   20
-  expected: 20
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   25
-  expected: 25
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 7
@@ -318,15 +278,10 @@ Fe RHS evals:
   expected: 18
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   20
-  expected: 20
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   25
-  expected: 25
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 8
@@ -353,15 +308,10 @@ Fe RHS evals:
   expected: 19
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   20
-  expected: 20
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   26
-  expected: 26
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 9
@@ -388,15 +338,10 @@ Fe RHS evals:
   expected: 24
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   26
-  expected: 26
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   33
-  expected: 33
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 10
@@ -423,15 +368,10 @@ Fe RHS evals:
   expected: 24
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   29
-  expected: 29
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   36
-  expected: 36
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 11
@@ -458,15 +398,10 @@ Fe RHS evals:
   expected: 39
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   44
-  expected: 44
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   56
-  expected: 56
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 12
@@ -493,15 +428,10 @@ Fe RHS evals:
   expected: 9
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   10
-  expected: 10
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   12
-  expected: 12
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 13
@@ -528,15 +458,10 @@ Fe RHS evals:
   expected: 21
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   22
-  expected: 22
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   28
-  expected: 28
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 14
@@ -563,15 +488,10 @@ Fe RHS evals:
   expected: 24
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   26
-  expected: 26
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   33
-  expected: 33
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 15
@@ -598,15 +518,10 @@ Fe RHS evals:
   expected: 9
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   10
-  expected: 10
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   12
-  expected: 12
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 16
@@ -633,15 +548,10 @@ Fe RHS evals:
   expected: 13
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   13
-  expected: 13
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   17
-  expected: 17
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 17
@@ -668,15 +578,10 @@ Fe RHS evals:
   expected: 9
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   10
-  expected: 10
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   12
-  expected: 12
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 18
@@ -703,15 +608,10 @@ Fe RHS evals:
   expected: 25
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   29
-  expected: 29
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   37
-  expected: 37
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 19
@@ -738,15 +638,10 @@ Fe RHS evals:
   expected: 30
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   35
-  expected: 35
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   44
-  expected: 44
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 20
@@ -773,15 +668,10 @@ Fe RHS evals:
   expected: 39
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   44
-  expected: 44
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   56
-  expected: 56
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 21
@@ -808,15 +698,10 @@ Fe RHS evals:
   expected: 48
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   53
-  expected: 53
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   68
-  expected: 68
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 22
@@ -843,15 +728,10 @@ Fe RHS evals:
   expected: 3
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   4
-  expected: 4
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   4
-  expected: 4
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 23
@@ -878,15 +758,10 @@ Fe RHS evals:
   expected: 6
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   7
-  expected: 7
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   8
-  expected: 8
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 ERK Table ID 24
@@ -913,15 +788,10 @@ Fe RHS evals:
   expected: 6
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   7
-  expected: 7
---------------------
-Steps: 4
-Fe RHS evals:
-  actual:   8
-  expected: 8
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 Test implicit RK methods
@@ -939,32 +809,10 @@ Implicit Euler
 Steps: 1
 NLS iters: 1
 Fi RHS evals:
-  actual:   3
+  actual:   2
   expected: 3
---------------------
-Steps: 2
-NLS iters: 2
-Fi RHS evals:
-  actual:   5
-  expected: 5
---------------------
-Steps: 3
-NLS iters: 3
-Fi RHS evals:
-  actual:   7
-  expected: 7
---------------------
-Dense Output
-Fi RHS evals:
-  actual:   7
-  expected: 7
---------------------
-Steps: 4
-NLS iters: 4
-Fi RHS evals:
-  actual:   9
-  expected: 9
---------------------
+>>> Check failed <<<
+Failed 1 checks
 
 ========================
 DIRK Table ID 100
@@ -978,32 +826,10 @@ DIRK Table ID 100
 Steps: 1
 NLS iters: 2
 Fi RHS evals:
-  actual:   5
+  actual:   4
   expected: 5
---------------------
-Steps: 2
-NLS iters: 4
-Fi RHS evals:
-  actual:   10
-  expected: 10
---------------------
-Steps: 3
-NLS iters: 6
-Fi RHS evals:
-  actual:   15
-  expected: 15
---------------------
-Dense Output
-Fi RHS evals:
-  actual:   16
-  expected: 16
---------------------
-Steps: 4
-NLS iters: 8
-Fi RHS evals:
-  actual:   20
-  expected: 20
---------------------
+>>> Check failed <<<
+Failed 1 checks
 
 ========================
 DIRK Table ID 101
@@ -1017,32 +843,10 @@ DIRK Table ID 101
 Steps: 1
 NLS iters: 3
 Fi RHS evals:
-  actual:   7
+  actual:   6
   expected: 7
---------------------
-Steps: 2
-NLS iters: 6
-Fi RHS evals:
-  actual:   14
-  expected: 14
---------------------
-Steps: 3
-NLS iters: 9
-Fi RHS evals:
-  actual:   21
-  expected: 21
---------------------
-Dense Output
-Fi RHS evals:
-  actual:   22
-  expected: 22
---------------------
-Steps: 4
-NLS iters: 12
-Fi RHS evals:
-  actual:   28
-  expected: 28
---------------------
+>>> Check failed <<<
+Failed 1 checks
 
 ========================
 DIRK Table ID 102
@@ -1072,16 +876,10 @@ Fi RHS evals:
   expected: 13
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   13
-  expected: 13
---------------------
-Steps: 4
-NLS iters: 8
-Fi RHS evals:
-  actual:   17
-  expected: 17
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 103
@@ -1111,16 +909,10 @@ Fi RHS evals:
   expected: 19
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   19
-  expected: 19
---------------------
-Steps: 4
-NLS iters: 12
-Fi RHS evals:
-  actual:   25
-  expected: 25
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 104
@@ -1150,16 +942,10 @@ Fi RHS evals:
   expected: 19
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   19
-  expected: 19
---------------------
-Steps: 4
-NLS iters: 12
-Fi RHS evals:
-  actual:   25
-  expected: 25
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 105
@@ -1173,32 +959,10 @@ DIRK Table ID 105
 Steps: 1
 NLS iters: 5
 Fi RHS evals:
-  actual:   11
+  actual:   10
   expected: 11
---------------------
-Steps: 2
-NLS iters: 10
-Fi RHS evals:
-  actual:   21
-  expected: 21
---------------------
-Steps: 3
-NLS iters: 15
-Fi RHS evals:
-  actual:   31
-  expected: 31
---------------------
-Dense Output
-Fi RHS evals:
-  actual:   31
-  expected: 31
---------------------
-Steps: 4
-NLS iters: 20
-Fi RHS evals:
-  actual:   41
-  expected: 41
---------------------
+>>> Check failed <<<
+Failed 1 checks
 
 ========================
 DIRK Table ID 106
@@ -1212,32 +976,10 @@ DIRK Table ID 106
 Steps: 1
 NLS iters: 5
 Fi RHS evals:
-  actual:   11
+  actual:   10
   expected: 11
---------------------
-Steps: 2
-NLS iters: 10
-Fi RHS evals:
-  actual:   21
-  expected: 21
---------------------
-Steps: 3
-NLS iters: 15
-Fi RHS evals:
-  actual:   31
-  expected: 31
---------------------
-Dense Output
-Fi RHS evals:
-  actual:   31
-  expected: 31
---------------------
-Steps: 4
-NLS iters: 20
-Fi RHS evals:
-  actual:   41
-  expected: 41
---------------------
+>>> Check failed <<<
+Failed 1 checks
 
 ========================
 DIRK Table ID 107
@@ -1251,32 +993,10 @@ DIRK Table ID 107
 Steps: 1
 NLS iters: 5
 Fi RHS evals:
-  actual:   11
+  actual:   10
   expected: 11
---------------------
-Steps: 2
-NLS iters: 10
-Fi RHS evals:
-  actual:   21
-  expected: 21
---------------------
-Steps: 3
-NLS iters: 15
-Fi RHS evals:
-  actual:   31
-  expected: 31
---------------------
-Dense Output
-Fi RHS evals:
-  actual:   31
-  expected: 31
---------------------
-Steps: 4
-NLS iters: 20
-Fi RHS evals:
-  actual:   41
-  expected: 41
---------------------
+>>> Check failed <<<
+Failed 1 checks
 
 ========================
 DIRK Table ID 108
@@ -1306,16 +1026,10 @@ Fi RHS evals:
   expected: 25
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   25
-  expected: 25
---------------------
-Steps: 4
-NLS iters: 16
-Fi RHS evals:
-  actual:   33
-  expected: 33
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 109
@@ -1345,16 +1059,10 @@ Fi RHS evals:
   expected: 31
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   31
-  expected: 31
---------------------
-Steps: 4
-NLS iters: 20
-Fi RHS evals:
-  actual:   41
-  expected: 41
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 110
@@ -1384,16 +1092,10 @@ Fi RHS evals:
   expected: 37
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   38
-  expected: 38
---------------------
-Steps: 4
-NLS iters: 24
-Fi RHS evals:
-  actual:   50
-  expected: 50
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 111
@@ -1423,16 +1125,10 @@ Fi RHS evals:
   expected: 43
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   44
-  expected: 44
---------------------
-Steps: 4
-NLS iters: 28
-Fi RHS evals:
-  actual:   58
-  expected: 58
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 112
@@ -1462,16 +1158,10 @@ Fi RHS evals:
   expected: 37
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   37
-  expected: 37
---------------------
-Steps: 4
-NLS iters: 24
-Fi RHS evals:
-  actual:   49
-  expected: 49
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 113
@@ -1501,16 +1191,10 @@ Fi RHS evals:
   expected: 43
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   44
-  expected: 44
---------------------
-Steps: 4
-NLS iters: 28
-Fi RHS evals:
-  actual:   58
-  expected: 58
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 114
@@ -1540,16 +1224,10 @@ Fi RHS evals:
   expected: 19
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   19
-  expected: 19
---------------------
-Steps: 4
-NLS iters: 12
-Fi RHS evals:
-  actual:   25
-  expected: 25
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 115
@@ -1579,16 +1257,10 @@ Fi RHS evals:
   expected: 25
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   25
-  expected: 25
---------------------
-Steps: 4
-NLS iters: 16
-Fi RHS evals:
-  actual:   33
-  expected: 33
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 116
@@ -1618,16 +1290,10 @@ Fi RHS evals:
   expected: 25
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   25
-  expected: 25
---------------------
-Steps: 4
-NLS iters: 16
-Fi RHS evals:
-  actual:   33
-  expected: 33
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 117
@@ -1657,16 +1323,10 @@ Fi RHS evals:
   expected: 31
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   31
-  expected: 31
---------------------
-Steps: 4
-NLS iters: 20
-Fi RHS evals:
-  actual:   41
-  expected: 41
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 118
@@ -1696,16 +1356,10 @@ Fi RHS evals:
   expected: 31
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   31
-  expected: 31
---------------------
-Steps: 4
-NLS iters: 20
-Fi RHS evals:
-  actual:   41
-  expected: 41
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 119
@@ -1735,16 +1389,10 @@ Fi RHS evals:
   expected: 31
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   31
-  expected: 31
---------------------
-Steps: 4
-NLS iters: 20
-Fi RHS evals:
-  actual:   41
-  expected: 41
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 120
@@ -1774,16 +1422,10 @@ Fi RHS evals:
   expected: 37
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   37
-  expected: 37
---------------------
-Steps: 4
-NLS iters: 24
-Fi RHS evals:
-  actual:   49
-  expected: 49
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 121
@@ -1813,16 +1455,10 @@ Fi RHS evals:
   expected: 37
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   38
-  expected: 38
---------------------
-Steps: 4
-NLS iters: 24
-Fi RHS evals:
-  actual:   50
-  expected: 50
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 122
@@ -1852,16 +1488,10 @@ Fi RHS evals:
   expected: 37
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   38
-  expected: 38
---------------------
-Steps: 4
-NLS iters: 24
-Fi RHS evals:
-  actual:   50
-  expected: 50
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 123
@@ -1891,16 +1521,10 @@ Fi RHS evals:
   expected: 13
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   13
-  expected: 13
---------------------
-Steps: 4
-NLS iters: 8
-Fi RHS evals:
-  actual:   17
-  expected: 17
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 DIRK Table ID 124
@@ -1914,32 +1538,10 @@ DIRK Table ID 124
 Steps: 1
 NLS iters: 1
 Fi RHS evals:
-  actual:   3
+  actual:   2
   expected: 3
---------------------
-Steps: 2
-NLS iters: 2
-Fi RHS evals:
-  actual:   5
-  expected: 5
---------------------
-Steps: 3
-NLS iters: 3
-Fi RHS evals:
-  actual:   7
-  expected: 7
---------------------
-Dense Output
-Fi RHS evals:
-  actual:   7
-  expected: 7
---------------------
-Steps: 4
-NLS iters: 4
-Fi RHS evals:
-  actual:   9
-  expected: 9
---------------------
+>>> Check failed <<<
+Failed 1 checks
 
 ========================
 DIRK Table ID 125
@@ -1953,32 +1555,10 @@ DIRK Table ID 125
 Steps: 1
 NLS iters: 1
 Fi RHS evals:
-  actual:   3
+  actual:   2
   expected: 3
---------------------
-Steps: 2
-NLS iters: 2
-Fi RHS evals:
-  actual:   6
-  expected: 6
---------------------
-Steps: 3
-NLS iters: 3
-Fi RHS evals:
-  actual:   9
-  expected: 9
---------------------
-Dense Output
-Fi RHS evals:
-  actual:   10
-  expected: 10
---------------------
-Steps: 4
-NLS iters: 4
-Fi RHS evals:
-  actual:   12
-  expected: 12
---------------------
+>>> Check failed <<<
+Failed 1 checks
 
 ========================
 DIRK Table ID 126
@@ -2008,16 +1588,10 @@ Fi RHS evals:
   expected: 7
 --------------------
 Dense Output
-Fi RHS evals:
-  actual:   7
-  expected: 7
---------------------
-Steps: 4
-NLS iters: 4
-Fi RHS evals:
-  actual:   9
-  expected: 9
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 =====================
 Test IMEX ARK methods
@@ -2060,22 +1634,10 @@ Fi RHS evals:
   expected: 7
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   4
-  expected: 4
-Fi RHS evals:
-  actual:   7
-  expected: 7
---------------------
-Steps: 4
-NLS iters: 4
-Fe RHS evals:
-  actual:   5
-  expected: 5
-Fi RHS evals:
-  actual:   9
-  expected: 9
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 IMEX Table ID 0
@@ -2114,22 +1676,10 @@ Fi RHS evals:
   expected: 15
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   10
-  expected: 10
-Fi RHS evals:
-  actual:   16
-  expected: 16
---------------------
-Steps: 4
-NLS iters: 8
-Fe RHS evals:
-  actual:   12
-  expected: 12
-Fi RHS evals:
-  actual:   20
-  expected: 20
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 IMEX Table ID 1
@@ -2168,22 +1718,10 @@ Fi RHS evals:
   expected: 21
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   13
-  expected: 13
-Fi RHS evals:
-  actual:   22
-  expected: 22
---------------------
-Steps: 4
-NLS iters: 12
-Fe RHS evals:
-  actual:   16
-  expected: 16
-Fi RHS evals:
-  actual:   28
-  expected: 28
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 IMEX Table ID 2
@@ -2222,22 +1760,10 @@ Fi RHS evals:
   expected: 33
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   19
-  expected: 19
-Fi RHS evals:
-  actual:   34
-  expected: 34
---------------------
-Steps: 4
-NLS iters: 20
-Fe RHS evals:
-  actual:   24
-  expected: 24
-Fi RHS evals:
-  actual:   44
-  expected: 44
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 IMEX Table ID 3
@@ -2276,22 +1802,10 @@ Fi RHS evals:
   expected: 39
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   22
-  expected: 22
-Fi RHS evals:
-  actual:   40
-  expected: 40
---------------------
-Steps: 4
-NLS iters: 24
-Fe RHS evals:
-  actual:   28
-  expected: 28
-Fi RHS evals:
-  actual:   52
-  expected: 52
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 IMEX Table ID 4
@@ -2330,22 +1844,10 @@ Fi RHS evals:
   expected: 45
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   26
-  expected: 26
-Fi RHS evals:
-  actual:   47
-  expected: 47
---------------------
-Steps: 4
-NLS iters: 28
-Fe RHS evals:
-  actual:   33
-  expected: 33
-Fi RHS evals:
-  actual:   61
-  expected: 61
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
+
 
 ========================
 IMEX Table ID 5
@@ -2384,22 +1886,10 @@ Fi RHS evals:
   expected: 45
 --------------------
 Dense Output
-Fe RHS evals:
-  actual:   26
-  expected: 26
-Fi RHS evals:
-  actual:   47
-  expected: 47
---------------------
-Steps: 4
-NLS iters: 28
-Fe RHS evals:
-  actual:   33
-  expected: 33
-Fi RHS evals:
-  actual:   61
-  expected: 61
---------------------
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:1139][ARKodeGetDky] Missing interpolation structure
+
+SUNDIALS_ERROR: ARKodeGetDky failed with flag = -21
 
 
-All tests passed!
+
+Failed 61 tests!
