@@ -4,7 +4,7 @@ Dahlquist ODE test problem:
   step size    = 0.01
   relative tol = 0.0001
   absolute tol = 1e-06
-  interp type  = Hermite
+  interp type  = None
 
 ========================
 Test explicit RK methods
@@ -36,8 +36,8 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   4
-  expected: 4
+  actual:   3
+  expected: 3
 --------------------
 Steps: 4
 Fe RHS evals:
@@ -71,8 +71,8 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   7
-  expected: 7
+  actual:   6
+  expected: 6
 --------------------
 Steps: 4
 Fe RHS evals:
@@ -141,8 +141,8 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   13
-  expected: 13
+  actual:   12
+  expected: 12
 --------------------
 Steps: 4
 Fe RHS evals:
@@ -176,8 +176,8 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   16
-  expected: 16
+  actual:   15
+  expected: 15
 --------------------
 Steps: 4
 Fe RHS evals:
@@ -211,8 +211,8 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   19
-  expected: 19
+  actual:   18
+  expected: 18
 --------------------
 Steps: 4
 Fe RHS evals:
@@ -246,8 +246,8 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   19
-  expected: 19
+  actual:   18
+  expected: 18
 --------------------
 Steps: 4
 Fe RHS evals:
@@ -281,13 +281,13 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   20
-  expected: 20
+  actual:   18
+  expected: 18
 --------------------
 Steps: 4
 Fe RHS evals:
-  actual:   25
-  expected: 25
+  actual:   24
+  expected: 24
 --------------------
 
 ========================
@@ -316,13 +316,13 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   20
-  expected: 20
+  actual:   18
+  expected: 18
 --------------------
 Steps: 4
 Fe RHS evals:
-  actual:   25
-  expected: 25
+  actual:   24
+  expected: 24
 --------------------
 
 ========================
@@ -351,13 +351,13 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   20
-  expected: 20
+  actual:   19
+  expected: 19
 --------------------
 Steps: 4
 Fe RHS evals:
-  actual:   26
-  expected: 26
+  actual:   25
+  expected: 25
 --------------------
 
 ========================
@@ -386,13 +386,13 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   26
-  expected: 26
+  actual:   24
+  expected: 24
 --------------------
 Steps: 4
 Fe RHS evals:
-  actual:   33
-  expected: 33
+  actual:   32
+  expected: 32
 --------------------
 
 ========================
@@ -421,13 +421,13 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   29
-  expected: 29
+  actual:   24
+  expected: 24
 --------------------
 Steps: 4
 Fe RHS evals:
-  actual:   36
-  expected: 36
+  actual:   32
+  expected: 32
 --------------------
 
 ========================
@@ -456,13 +456,13 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   44
-  expected: 44
+  actual:   39
+  expected: 39
 --------------------
 Steps: 4
 Fe RHS evals:
-  actual:   56
-  expected: 56
+  actual:   52
+  expected: 52
 --------------------
 
 ========================
@@ -491,8 +491,8 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   10
-  expected: 10
+  actual:   9
+  expected: 9
 --------------------
 Steps: 4
 Fe RHS evals:
@@ -526,8 +526,8 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   22
-  expected: 22
+  actual:   21
+  expected: 21
 --------------------
 Steps: 4
 Fe RHS evals:
@@ -561,13 +561,13 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   26
-  expected: 26
+  actual:   24
+  expected: 24
 --------------------
 Steps: 4
 Fe RHS evals:
-  actual:   33
-  expected: 33
+  actual:   32
+  expected: 32
 --------------------
 
 ========================
@@ -596,8 +596,8 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   10
-  expected: 10
+  actual:   9
+  expected: 9
 --------------------
 Steps: 4
 Fe RHS evals:
@@ -666,8 +666,8 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   10
-  expected: 10
+  actual:   9
+  expected: 9
 --------------------
 Steps: 4
 Fe RHS evals:
@@ -701,13 +701,13 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   29
-  expected: 29
+  actual:   25
+  expected: 25
 --------------------
 Steps: 4
 Fe RHS evals:
-  actual:   37
-  expected: 37
+  actual:   33
+  expected: 33
 --------------------
 
 ========================
@@ -736,13 +736,13 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   35
-  expected: 35
+  actual:   30
+  expected: 30
 --------------------
 Steps: 4
 Fe RHS evals:
-  actual:   44
-  expected: 44
+  actual:   40
+  expected: 40
 --------------------
 
 ========================
@@ -771,13 +771,13 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   44
-  expected: 44
+  actual:   39
+  expected: 39
 --------------------
 Steps: 4
 Fe RHS evals:
-  actual:   56
-  expected: 56
+  actual:   52
+  expected: 52
 --------------------
 
 ========================
@@ -806,13 +806,13 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   53
-  expected: 53
+  actual:   48
+  expected: 48
 --------------------
 Steps: 4
 Fe RHS evals:
-  actual:   68
-  expected: 68
+  actual:   64
+  expected: 64
 --------------------
 
 ========================
@@ -841,8 +841,8 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   4
-  expected: 4
+  actual:   3
+  expected: 3
 --------------------
 Steps: 4
 Fe RHS evals:
@@ -876,8 +876,8 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   7
-  expected: 7
+  actual:   6
+  expected: 6
 --------------------
 Steps: 4
 Fe RHS evals:
@@ -911,8 +911,8 @@ Fe RHS evals:
 --------------------
 Dense Output
 Fe RHS evals:
-  actual:   7
-  expected: 7
+  actual:   6
+  expected: 6
 --------------------
 Steps: 4
 Fe RHS evals:
