@@ -21,7 +21,7 @@ Brusselator ODE test problem:
 
 Final Solver Statistics:
    Internal solver steps = 252 (attempted = 262)
-   Total RHS evals:  Fe = 0,  Fi = 1910
+   Total RHS evals:  Fe = 0,  Fi = 1911
    Total linear solver setups = 111
    Total RHS evals for setting up the linear system = 0
    Total number of Jacobian evaluations = 71

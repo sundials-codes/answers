@@ -57,7 +57,7 @@ Final integrator statistics:
   Steps            = 124
   Step attempts    = 125
   Error test fails = 1
-  RHS evals        = 753
+  RHS evals        = 754
   NLS iters        = 375
   NLS fails        = 0
   LS iters         = 12927

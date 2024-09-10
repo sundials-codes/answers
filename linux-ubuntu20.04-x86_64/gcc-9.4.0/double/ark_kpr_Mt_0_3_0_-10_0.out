@@ -117,10 +117,10 @@ Nonlinear Kvaerno-Prothero-Robinson test problem with mass matrix:
 Final Solver Statistics:
    Internal solver steps = 167 (attempted = 167)
    Total number of error test failures = 0
-   Total RHS evals:  Fe = 671,  Fi = 1763
-   Total mass matrix setups = 504
-   Total mass matrix solves = 1340
-   Total mass times evals = 1259
+   Total RHS evals:  Fe = 672,  Fi = 1764
+   Total mass matrix setups = 505
+   Total mass matrix solves = 1342
+   Total mass times evals = 1258
    Total number of Jacobian evaluations = 7
    Total linear solver setups = 18
    Total number of Nonlinear iterations = 1092

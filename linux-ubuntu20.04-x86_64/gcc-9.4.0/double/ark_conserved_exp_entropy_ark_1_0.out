@@ -15,7 +15,7 @@ Conserved Exponential Entropy problem:
 Final Solver Statistics:
    Internal solver steps = 86 (attempted = 86)
    Total number of error test failures = 0
-   Total RHS evals:  Fe = 432,  Fi = 0
+   Total RHS evals:  Fe = 433,  Fi = 0
    Total Relaxation Fn evals    = 266
    Total Relaxation Jac evals   = 524
    Total Relaxation fails       = 0

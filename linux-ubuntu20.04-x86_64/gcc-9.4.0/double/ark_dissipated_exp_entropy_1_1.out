@@ -44,7 +44,7 @@ Dissipated Exponential Entropy problem:
 Final Solver Statistics:
    Internal solver steps = 1245 (attempted = 1246)
    Total number of error test failures = 1
-   Total RHS evals:  Fe = 0,  Fi = 10907
+   Total RHS evals:  Fe = 0,  Fi = 10908
    Total number of Newton iterations = 7168
    Total number of linear solver convergence failures = 111
    Total linear solver setups = 179

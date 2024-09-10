@@ -74,8 +74,8 @@ Final integrator statistics:
   Steps            = 105
   Step attempts    = 112
   Error test fails = 7
-  RHS reaction     = 443
-  RHS diffusion    = 779
+  RHS reaction     = 444
+  RHS diffusion    = 780
   NLS iters        = 336
   NLS fails        = 0
   LS iters         = 2697
