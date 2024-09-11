@@ -18,7 +18,7 @@
   General Solver Stats:
     Total internal steps taken    =      419
     Total internal steps attempts =      424
-    Total rhs function calls      =     5091
+    Total rhs function calls      =     5090
     Num lin solver setup calls    =       43
     Num error test failures       =        5
     First internal step size      = 6.10352E-12

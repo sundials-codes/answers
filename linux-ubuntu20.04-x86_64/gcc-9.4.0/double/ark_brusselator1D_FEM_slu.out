@@ -112,9 +112,9 @@
 
 Final Solver Statistics:
    Internal solver steps = 95 (attempted = 95)
-   Total RHS evals:  Fe = 0,  Fi = 1112
+   Total RHS evals:  Fe = 0,  Fi = 1111
    Total mass matrix setups = 1
-   Total mass matrix solves = 194
+   Total mass matrix solves = 193
    Total mass times evals = 1687
    Total linear solver setups = 31
    Total number of Jacobian evaluations = 11

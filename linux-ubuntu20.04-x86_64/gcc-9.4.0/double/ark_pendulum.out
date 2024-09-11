@@ -20,7 +20,7 @@ Nonlinear Pendulum problem:
 Final Solver Statistics:
   Internal solver steps = 8416 (attempted = 8425)
   Total number of error test failures = 9
-  Total RHS evals:  Fe = 0,  Fi = 35033
+  Total RHS evals:  Fe = 0,  Fi = 35032
   Total number of Newton iterations = 26624
   Total number of linear solver convergence failures = 10
   Total linear solver setups = 459
