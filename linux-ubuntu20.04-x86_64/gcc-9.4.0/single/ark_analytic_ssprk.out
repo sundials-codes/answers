@@ -1,0 +1,30 @@
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:2590][arkHandleFailure] At t = 0.0665424 and h = 2.15214e-07, the error test failed repeatedly or with |h| = hmin.
+
+SUNDIALS_ERROR: ARKodeEvolve() failed with flag = -3
+
+
+Analytical ODE test problem:
+    lambda = -10
+   reltol = 1.0e-08
+   abstol = 1.0e-08
+
+        t           u
+   ---------------------
+   ---------------------
+
+Final Statistics:
+Current time                 = 0.06654239445924759
+Steps                        = 65
+Step attempts                = 113
+Stability limited steps      = 0
+Accuracy limited steps       = 113
+Error test fails             = 48
+NLS step fails               = 0
+Inequality constraint fails  = 0
+Initial step size            = 3.452669830039667e-07
+Last step size               = 0.000885655521415174
+Current step size            = 2.152143423472808e-07
+RHS fn evals                 = 970
+Number of stages used        = 9
+
+ACCURACY at the final time = 5.96046e-08

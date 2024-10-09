@@ -1,0 +1,38 @@
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:808][ARKodeEvolve] At t = 0.00724943, mxstep steps taken before reaching tout.
+
+SUNDIALS_ERROR: LSRKodeEvolve() failed with flag = -1
+
+
+Analytical ODE test problem with a variable Jacobian:
+The stiffness of the problem is directly proportional to
+"lambda - alpha*cos((10 - t)/10*pi)"
+
+    lambda = -1e+06
+     alpha = 100
+    reltol = 1.0e-08
+    abstol = 1.0e-08
+
+        t           u
+   ---------------------
+   ---------------------
+
+Final Statistics:
+Current time                 = 0.007249430753290653
+Steps                        = 1000
+Step attempts                = 1162
+Stability limited steps      = 0
+Accuracy limited steps       = 1162
+Error test fails             = 162
+NLS step fails               = 0
+Inequality constraint fails  = 0
+Initial step size            = 3.452669830039667e-07
+Last step size               = 3.896074304066133e-06
+Current step size            = 3.896074304066133e-06
+RHS fn evals                 = 4497
+Number of dom_eig updates    = 268
+Max. num. of stages used     = 17
+Max. num. of stages allowed  = 200
+Max. spectral radius         = 1009899.00
+Min. spectral radius         = 1009899.00
+
+ACCURACY at the final time   = 3.25963e-09
