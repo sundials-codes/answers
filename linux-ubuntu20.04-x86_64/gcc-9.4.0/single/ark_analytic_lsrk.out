@@ -1,4 +1,4 @@
-
+ 
 Analytical ODE test problem:
     lambda = -1000
    reltol = 1.0e-04
@@ -34,7 +34,7 @@ RHS fn evals                 = 1882
 Number of dom_eig updates    = 1
 Max. num. of stages used     = 24
 Max. num. of stages allowed  = 200
-Max. spectral radius         = 1010.00
-Min. spectral radius         = 1010.00
+Max. spectral radius         = 1010
+Min. spectral radius         = 1010
 
 ACCURACY at the final time   = 5.96046e-07
