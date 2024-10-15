@@ -1,0 +1,108 @@
+Start IDAS Logging test
+Using Newton nonlinear solver
+Using dense direct linear solver
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+          0.000000e+00             1.224745e+00             1.732051e+00             0.000000e+00             0.000000e+00
+[INFO][rank 0][IDAStep][begin-step-attempt] step = 1, tn = 0, h = 0.001000000047497451, q = 1
+[INFO][rank 0][IDANls][begin-nonlinear-solve] tol = 0.3300000131130219
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
+[INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
+[INFO][rank 0][idaLsSolve][begin-linear-solve] iterative = 0
+[INFO][rank 0][idaLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, res-norm = 0
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 47.11439514160156
+[INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
+[INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
+[INFO][rank 0][idaLsSolve][begin-linear-solve] iterative = 0
+[INFO][rank 0][idaLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, res-norm = 0
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 8.223167242249474e-06
+[INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
+[INFO][rank 0][IDANls][end-nonlinear-solve] status = success, iters = 2
+[INFO][rank 0][IDAStep][end-step-attempt] status = failed error test, dsm = 23.55719757080078, kflag = 20
+[INFO][rank 0][IDAStep][begin-step-attempt] step = 1, tn = 0, h = 0.0002500000118743628, q = 1
+[INFO][rank 0][IDANls][begin-nonlinear-solve] tol = 0.3300000131130219
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
+[INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
+[INFO][rank 0][idaLsSolve][begin-linear-solve] iterative = 0
+[INFO][rank 0][idaLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, res-norm = 0
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 2.945748090744019
+[INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
+[INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
+[INFO][rank 0][idaLsSolve][begin-linear-solve] iterative = 0
+[INFO][rank 0][idaLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, res-norm = 0
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 1.295019592362223e-05
+[INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
+[INFO][rank 0][IDANls][end-nonlinear-solve] status = success, iters = 2
+[INFO][rank 0][IDAStep][end-step-attempt] status = failed error test, dsm = 1.472869873046875, kflag = 20
+[INFO][rank 0][IDAStep][begin-step-attempt] step = 1, tn = 0, h = 6.250000296859071e-05, q = 1
+[INFO][rank 0][IDANls][begin-nonlinear-solve] tol = 0.3300000131130219
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
+[INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
+[INFO][rank 0][idaLsSolve][begin-linear-solve] iterative = 0
+[INFO][rank 0][idaLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, res-norm = 0
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 0.1841259449720383
+[INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
+[INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
+[INFO][rank 0][idaLsSolve][begin-linear-solve] iterative = 0
+[INFO][rank 0][idaLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, res-norm = 0
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 9.952342452379526e-07
+[INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
+[INFO][rank 0][IDANls][end-nonlinear-solve] status = success, iters = 2
+[INFO][rank 0][IDAStep][end-step-attempt] status = success, dsm = 0.09206258505582809
+          6.250000e-05             1.224745e+00             1.732050e+00             0.000000e+00             3.576279e-07
+[INFO][rank 0][IDAStep][begin-step-attempt] step = 2, tn = 6.250000296859071e-05, h = 0.0001250000059371814, q = 1
+[INFO][rank 0][IDANls][begin-nonlinear-solve] tol = 0.3300000131130219
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
+[INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
+[INFO][rank 0][idaLsSolve][begin-linear-solve] iterative = 0
+[INFO][rank 0][idaLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, res-norm = 0
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 0.7364802360534668
+[INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
+[INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
+[INFO][rank 0][idaLsSolve][begin-linear-solve] iterative = 0
+[INFO][rank 0][idaLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, res-norm = 0
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 5.732550789616653e-07
+[INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
+[INFO][rank 0][IDANls][end-nonlinear-solve] status = success, iters = 2
+[INFO][rank 0][IDAStep][end-step-attempt] status = success, dsm = 0.490987241268158
+          1.875000e-04             1.224745e+00             1.732048e+00             0.000000e+00             1.192093e-06
+[INFO][rank 0][IDAStep][begin-step-attempt] step = 3, tn = 0.0001875000016298145, h = 0.0001250000059371814, q = 1
+[INFO][rank 0][IDANls][begin-nonlinear-solve] tol = 0.3300000131130219
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
+[INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
+[INFO][rank 0][idaLsSolve][begin-linear-solve] iterative = 0
+[INFO][rank 0][idaLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, res-norm = 0
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 0.736478328704834
+[INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
+[INFO][rank 0][IDANls][end-nonlinear-solve] status = success, iters = 1
+[INFO][rank 0][IDAStep][end-step-attempt] status = success, dsm = 0.368239164352417
+          3.125000e-04             1.224745e+00             1.732043e+00             0.000000e+00             2.145767e-06
+------------------------------------------------------------------------------------------------------------------------------
+Current time                 = 0.0003124999930150807
+Steps                        = 3
+Error test fails             = 2
+NLS step fails               = 0
+Initial step size            = 0.001000000047497451
+Last step size               = 0.0001250000059371814
+Current step size            = 0.0001250000059371814
+Last method order            = 1
+Current method order         = 1
+Residual fn evals            = 9
+IC linesearch backtrack ops  = 0
+NLS iters                    = 9
+NLS fails                    = 0
+NLS iters per step           = 3
+LS setups                    = 4
+Jac fn evals                 = 4
+LS residual fn evals         = 0
+Prec setup evals             = 0
+Prec solves                  = 0
+LS iters                     = 0
+LS fails                     = 0
+Jac-times setups             = 0
+Jac-times evals              = 0
+LS iters per NLS iter        = 0
+Jac evals per NLS iter       = 0.4444444477558136
+Prec evals per NLS iter      = 0
+Root fn evals                = 0
+End IDAS Logging test
