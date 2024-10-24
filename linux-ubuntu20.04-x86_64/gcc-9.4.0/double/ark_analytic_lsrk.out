@@ -22,7 +22,7 @@ Final Statistics:
 Current time                 = 10.00984671802051
 Steps                        = 1481
 Step attempts                = 1482
-Stability limited steps      = 0
+Stability limited steps      = 34
 Accuracy limited steps       = 1482
 Error test fails             = 1
 NLS step fails               = 0
