@@ -38,7 +38,7 @@ RHS fn evals                 = 2114
 Number of dom_eig updates    = 21
 Max. num. of stages used     = 21
 Max. num. of stages allowed  = 200
-Max. spectral radius         = 1020.074462890625
+Max. spectral radius         = 1020.070434570312
 Min. spectral radius         = 999.8999633789062
 
 ACCURACY at the final time   = 1.43051e-06
