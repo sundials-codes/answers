@@ -43,8 +43,8 @@ Adaptive nested multirate nonlinear Kvaerno-Prothero-Robinson test problem:
    ----------------------------------------------------------------------------
 
 Final Solver Statistics:
-   Slow steps = 47  (attempts = 48,  fails = 1)
-   Intermediate steps = 714  (attempts = 868,  fails = 154)
+   Slow steps = 47  (attempts = 48,  fails = 1,  innerfails = 0)
+   Intermediate steps = 714  (attempts = 868,  fails = 154,  innerfails = 0)
    Fast steps = 129455  (attempts = 144940,  fails = 15485)
    u error = 0.000228112, v error = 8.70956e-05, total error = 0.000169225
    Relative accuracy = 6.75352
