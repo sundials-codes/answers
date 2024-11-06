@@ -1,0 +1,4 @@
+[ERROR][rank 0][/__w/sundials/sundials/src/cvodes/cvodes.c:3466][CVode] At t = 0, too much accuracy requested.
+
+SUNDIALS_ERROR: CVode() failed with retval = -2
+
