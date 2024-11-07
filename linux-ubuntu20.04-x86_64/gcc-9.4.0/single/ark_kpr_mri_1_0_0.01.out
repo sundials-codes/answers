@@ -66,4 +66,4 @@ Multirate nonlinear Kvaerno-Prothero-Robinson test problem:
 Final Solver Statistics:
    Steps: nsts = 500, nstf = 50308
    u error = 5.161e-05, v error = 1.153e-03, total error = 8.164e-04
-   Total RHS evals:  Fs = 1501,  Ff = 251590
+   Total RHS evals:  Fs = 1501,  Ff = 150974
