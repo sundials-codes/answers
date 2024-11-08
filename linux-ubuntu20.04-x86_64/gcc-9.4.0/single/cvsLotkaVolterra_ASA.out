@@ -1,4 +1,22 @@
-[ERROR][rank 0][/__w/sundials/sundials/src/cvodes/cvodes.c:3466][CVode] At t = 0, too much accuracy requested.
+Forward Solution at t = 10
+1.02688015e+00
+9.09262836e-01
 
-SUNDIALS_ERROR: CVode() failed with retval = -2
+Adjoint terminal condition:
+1.93614292e+00
+1.93614292e+00
+
+0.00000000e+00
+0.00000000e+00
+0.00000000e+00
+0.00000000e+00
+
+Adjoint Solution at t = 0:
+-1.49851990e+00
+7.75037169e-01
+
+7.91577148e+00
+9.85015810e-01
+2.21512961e+00
+3.48664880e+00
 
