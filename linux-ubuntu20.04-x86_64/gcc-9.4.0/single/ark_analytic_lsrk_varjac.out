@@ -34,11 +34,11 @@ Inequality constraint fails  = 0
 Initial step size            = 3.452669830039667e-07
 Last step size               = 0.06377532333135605
 Current step size            = 0.06377532333135605
-RHS fn evals                 = 2114
+RHS fn evals                 = 2131
 Number of dom_eig updates    = 21
 Max. num. of stages used     = 21
 Max. num. of stages allowed  = 200
-Max. spectral radius         = 1020.070434570312
+Max. spectral radius         = 1020.074462890625
 Min. spectral radius         = 999.8999633789062
 
 ACCURACY at the final time   = 1.43051e-06
