@@ -1,0 +1,40 @@
+ 
+Analytical ODE test problem:
+    lambda = -1000
+   reltol = 1.0e-04
+   abstol = 1.0e-08
+
+        t           u
+   ---------------------
+    1.000000    0.785402
+    2.000000    1.107148
+    3.000000    1.249045
+    4.000000    1.325815
+    5.000000    1.373399
+    6.000000    1.405649
+    7.000000    1.428898
+    8.000000    1.446444
+    9.000000    1.460139
+   10.000000    1.471127
+   ---------------------
+
+Final Statistics:
+Current time                 = 10.01134014129639
+Steps                        = 149
+Step attempts                = 164
+Stability limited steps      = 0
+Accuracy limited steps       = 164
+Error test fails             = 15
+NLS step fails               = 0
+Inequality constraint fails  = 0
+Initial step size            = 3.452669830039667e-07
+Last step size               = 0.1750497967004776
+Current step size            = 0.4429996311664581
+RHS fn evals                 = 1882
+Number of dom_eig updates    = 1
+Max. num. of stages used     = 24
+Max. num. of stages allowed  = 200
+Max. spectral radius         = 1010
+Min. spectral radius         = 1010
+
+ACCURACY at the final time   = 5.96046e-07
