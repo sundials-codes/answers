@@ -1,10 +1,10 @@
 Start MRIStep Logging test
-Using Ex-MRI method
+Using Ex-MRI-GARK method
            t                        u                        v                      u err                    v err            
 ------------------------------------------------------------------------------------------------------------------------------
           0.000000e+00             1.224745e+00             1.732051e+00             0.000000e+00             0.000000e+00
 [INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 1, tn = 0, h = 0.001000000047497451
-[INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 0, stage type = 1, tcur = 0
+[INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 0, stage type = -2, tcur = 0
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stage] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 1, stage type = 0, tcur = 0.0003333333588670939
 [INFO][rank 0][mriStep_StageERKFast][begin-fast-steps] 
@@ -105,7 +105,7 @@ Using Ex-MRI method
 [INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success
           1.000000e-03             1.224745e+00             1.731993e+00             0.000000e+00             3.576279e-07
 [INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 2, tn = 0.001000000047497451, h = 0.001000000047497451
-[INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 0, stage type = 1, tcur = 0.001000000047497451
+[INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 0, stage type = -2, tcur = 0.001000000047497451
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stage] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 1, stage type = 0, tcur = 0.001333333435468376
 [INFO][rank 0][mriStep_StageERKFast][begin-fast-steps] 
@@ -164,7 +164,7 @@ Using Ex-MRI method
 [INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success
           2.000000e-03             1.224744e+00             1.731820e+00             0.000000e+00             2.384186e-07
 [INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 3, tn = 0.002000000094994903, h = 0.001000000047497451
-[INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 0, stage type = 1, tcur = 0.002000000094994903
+[INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 0, stage type = -2, tcur = 0.002000000094994903
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stage] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 1, stage type = 0, tcur = 0.002333333482965827
 [INFO][rank 0][mriStep_StageERKFast][begin-fast-steps] 
