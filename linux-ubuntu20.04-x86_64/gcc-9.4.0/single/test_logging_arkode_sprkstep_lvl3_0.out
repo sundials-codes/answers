@@ -1,0 +1,52 @@
+Start SPRKStep Logging test
+           t                        q1                       q2                     q3                       q4               
+------------------------------------------------------------------------------------------------------------------------------
+          0.000000e+00             4.000000e-01             0.000000e+00             0.000000e+00             2.000000e+00
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 1, tn = 0, h = 0.001000000047497451
+[INFO][rank 0][sprkStep_TakeStep][begin-stage] stage = 0, t = 0.0005153528763912618, that = 0.0001344962074654177
+[INFO][rank 0][sprkStep_TakeStep][end-stage] status = success
+[INFO][rank 0][sprkStep_TakeStep][begin-stage] stage = 1, t = 0.000429570849519223, that = -9.032361413119361e-05
+[INFO][rank 0][sprkStep_TakeStep][end-stage] status = success
+[INFO][rank 0][sprkStep_TakeStep][begin-stage] stage = 2, t = 0.0008711538976058364, that = 0.0006659963983111084
+[INFO][rank 0][sprkStep_TakeStep][end-stage] status = success
+[INFO][rank 0][sprkStep_TakeStep][begin-stage] stage = 3, t = 0.001000000047497451, that = 0.001000000047497451
+[INFO][rank 0][sprkStep_TakeStep][end-stage] status = success
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success
+          1.000000e-03             3.999968e-01             1.999995e-03            -6.249956e-03             1.999984e+00
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 2, tn = 0.001000000047497451, h = 0.001000000047497451
+[INFO][rank 0][sprkStep_TakeStep][begin-stage] stage = 0, t = 0.001515352865681052, that = 0.001134496298618615
+[INFO][rank 0][sprkStep_TakeStep][end-stage] status = success
+[INFO][rank 0][sprkStep_TakeStep][begin-stage] stage = 1, t = 0.001429570838809013, that = 0.0009096764260903001
+[INFO][rank 0][sprkStep_TakeStep][end-stage] status = success
+[INFO][rank 0][sprkStep_TakeStep][begin-stage] stage = 2, t = 0.001871153945103288, that = 0.001665996387600899
+[INFO][rank 0][sprkStep_TakeStep][end-stage] status = success
+[INFO][rank 0][sprkStep_TakeStep][begin-stage] stage = 3, t = 0.002000000094994903, that = 0.002000000094994903
+[INFO][rank 0][sprkStep_TakeStep][end-stage] status = success
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success
+          2.000000e-03             3.999874e-01             3.999958e-03            -1.249964e-02             1.999938e+00
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 3, tn = 0.002000000094994903, h = 0.001000000047497451
+[INFO][rank 0][sprkStep_TakeStep][begin-stage] stage = 0, t = 0.002515353029593825, that = 0.002134496346116066
+[INFO][rank 0][sprkStep_TakeStep][end-stage] status = success
+[INFO][rank 0][sprkStep_TakeStep][begin-stage] stage = 1, t = 0.002429571002721786, that = 0.001909676473587751
+[INFO][rank 0][sprkStep_TakeStep][end-stage] status = success
+[INFO][rank 0][sprkStep_TakeStep][begin-stage] stage = 2, t = 0.002871153876185417, that = 0.002665996551513672
+[INFO][rank 0][sprkStep_TakeStep][end-stage] status = success
+[INFO][rank 0][sprkStep_TakeStep][begin-stage] stage = 3, t = 0.003000000026077032, that = 0.003000000026077032
+[INFO][rank 0][sprkStep_TakeStep][end-stage] status = success
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success
+          3.000000e-03             3.999718e-01             5.999859e-03            -1.874878e-02             1.999859e+00
+------------------------------------------------------------------------------------------------------------------------------
+Current time                 = 0.003000000026077032
+Steps                        = 3
+Step attempts                = 3
+Stability limited steps      = 0
+Accuracy limited steps       = 0
+Error test fails             = 0
+NLS step fails               = 0
+Inequality constraint fails  = 0
+Initial step size            = 0.001000000047497451
+Last step size               = 0.001000000047497451
+Current step size            = 0.001000000047497451
+f1 RHS fn evals              = 12
+f2 RHS fn evals              = 12
+End SPRKStep Logging test
