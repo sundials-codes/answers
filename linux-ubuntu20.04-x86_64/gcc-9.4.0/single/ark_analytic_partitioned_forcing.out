@@ -3,7 +3,7 @@ Analytical ODE test problem:
    integrator = forcing method
    lambda     = 2
 
-Error: 0.00185438
+Error: 0.00185198
 
 Splitting Stepper Statistics:
 Current time                 = 1.009999394416809
@@ -32,7 +32,7 @@ Inequality constraint fails  = 0
 Initial step size            = 0.001999999862164259
 Last step size               = 0.001999999862164259
 Current step size            = 0.001999999862164259
-RHS fn evals                 = 2525
+RHS fn evals                 = 2121
 
 Nonlinear Stepper Statistics:
 Current time                 = 1.009999394416809
@@ -46,7 +46,7 @@ Inequality constraint fails  = 0
 Initial step size            = 0.0009999999310821295
 Last step size               = 0.0009996886365115643
 Current step size            = 0.0009999999310821295
-Explicit RHS fn evals        = 5050
+Explicit RHS fn evals        = 4041
 Implicit RHS fn evals        = 0
 NLS iters                    = 0
 NLS fails                    = 0

@@ -4,7 +4,7 @@ Analytical ODE test problem:
    coefficients = ARKODE_SPLITTING_BEST_2_2_2
    lambda     = 2
 
-Error: 1.16229e-06
+Error: 4.17233e-07
 
 Splitting Stepper Statistics:
 Current time                 = 1.009999394416809
@@ -33,7 +33,7 @@ Inequality constraint fails  = 0
 Initial step size            = 0.001999999862164259
 Last step size               = 0.001071214210242033
 Current step size            = 0.001999999862164259
-RHS fn evals                 = 3030
+RHS fn evals                 = 2626
 
 Nonlinear Stepper Statistics:
 Current time                 = 1.009999394416809
@@ -47,7 +47,7 @@ Inequality constraint fails  = 0
 Initial step size            = 0.0009999999310821295
 Last step size               = 0.0009288783185184002
 Current step size            = 0.0009999999310821295
-Explicit RHS fn evals        = 5555
+Explicit RHS fn evals        = 4646
 Implicit RHS fn evals        = 0
 NLS iters                    = 0
 NLS fails                    = 0
