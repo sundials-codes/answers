@@ -23,7 +23,7 @@ The stiffness of the problem is directly proportional to
    ---------------------
 
 Final Statistics:
-Current time                 = 10.00951671600342
+Current time                 = 10.0095
 Steps                        = 287
 Step attempts                = 304
 Stability limited steps      = 0
@@ -31,14 +31,15 @@ Accuracy limited steps       = 304
 Error test fails             = 17
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 3.452669830039667e-07
-Last step size               = 0.06377532333135605
-Current step size            = 0.06377532333135605
+Initial step size            = 3.45267e-07
+Last step size               = 0.0637753
+Current step size            = 0.0637753
+RHS fn evals                 = 2131
 RHS fn evals                 = 2131
 Number of dom_eig updates    = 21
 Max. num. of stages used     = 21
 Max. num. of stages allowed  = 200
-Max. spectral radius         = 1020.074462890625
-Min. spectral radius         = 999.8999633789062
+Max. spectral radius         = 1020.07
+Min. spectral radius         = 999.9
 
 ACCURACY at the final time   = 1.43051e-06

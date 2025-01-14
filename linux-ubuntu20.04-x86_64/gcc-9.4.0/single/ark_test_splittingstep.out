@@ -1,5 +1,5 @@
 Forward solution of order 1 with 2 partitions completed with an error of 3.57628e-07
-Current time                 = 1.000000596046448
+Current time                 = 1
 Steps                        = 125
 Step attempts                = 125
 Stability limited steps      = 0
@@ -7,75 +7,14 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 125
-Partition 1 evolves          = 125
-
-Forward solution of order 2 with 2 partitions completed with an error of -5.96046e-08
-Current time                 = 1.000000596046448
-Steps                        = 125
-Step attempts                = 125
-Stability limited steps      = 0
-Accuracy limited steps       = 0
-Error test fails             = 0
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 250
-Partition 1 evolves          = 125
-
-Forward solution of order 3 with 2 partitions completed with an error of -1.49012e-07
-Current time                 = 1.000000596046448
-Steps                        = 125
-Step attempts                = 125
-Stability limited steps      = 0
-Accuracy limited steps       = 0
-Error test fails             = 0
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 375
-Partition 1 evolves          = 375
-
-Forward solution of order 4 with 2 partitions completed with an error of -2.68221e-07
-Current time                 = 1.000000596046448
-Steps                        = 125
-Step attempts                = 125
-Stability limited steps      = 0
-Accuracy limited steps       = 0
-Error test fails             = 0
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 500
-Partition 1 evolves          = 375
-
-Forward solution of order 1 with 3 partitions completed with an error of 5.96046e-08
-Current time                 = 1.000000596046448
-Steps                        = 125
-Step attempts                = 125
-Stability limited steps      = 0
-Accuracy limited steps       = 0
-Error test fails             = 0
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 125
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
 Partition 1 evolves          = 125
 Partition 2 evolves          = 125
 
-Forward solution of order 2 with 3 partitions completed with an error of -8.9407e-08
-Current time                 = 1.000000596046448
+Forward solution of order 2 with 2 partitions completed with an error of -5.96046e-08
+Current time                 = 1
 Steps                        = 125
 Step attempts                = 125
 Stability limited steps      = 0
@@ -83,15 +22,14 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 250
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
 Partition 1 evolves          = 250
 Partition 2 evolves          = 125
 
-Forward solution of order 3 with 3 partitions completed with an error of 1.10269e-06
-Current time                 = 1.000000596046448
+Forward solution of order 3 with 2 partitions completed with an error of -1.49012e-07
+Current time                 = 1
 Steps                        = 125
 Step attempts                = 125
 Stability limited steps      = 0
@@ -99,15 +37,14 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 375
-Partition 1 evolves          = 625
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
+Partition 1 evolves          = 375
 Partition 2 evolves          = 375
 
-Forward solution of order 4 with 3 partitions completed with an error of 1.78814e-07
-Current time                 = 1.000000596046448
+Forward solution of order 4 with 2 partitions completed with an error of -2.68221e-07
+Current time                 = 1
 Steps                        = 125
 Step attempts                = 125
 Stability limited steps      = 0
@@ -115,15 +52,14 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 500
-Partition 1 evolves          = 750
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
+Partition 1 evolves          = 500
 Partition 2 evolves          = 375
 
-Forward solution of order 1 with 4 partitions completed with an error of 2.98023e-08
-Current time                 = 1.000000596046448
+Forward solution of order 1 with 3 partitions completed with an error of 5.96046e-08
+Current time                 = 1
 Steps                        = 125
 Step attempts                = 125
 Stability limited steps      = 0
@@ -131,16 +67,15 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 125
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
 Partition 1 evolves          = 125
 Partition 2 evolves          = 125
 Partition 3 evolves          = 125
 
-Forward solution of order 2 with 4 partitions completed with an error of -1.19209e-07
-Current time                 = 1.000000596046448
+Forward solution of order 2 with 3 partitions completed with an error of -8.9407e-08
+Current time                 = 1
 Steps                        = 125
 Step attempts                = 125
 Stability limited steps      = 0
@@ -148,16 +83,15 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 250
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
 Partition 1 evolves          = 250
 Partition 2 evolves          = 250
 Partition 3 evolves          = 125
 
-Forward solution of order 3 with 4 partitions completed with an error of -4.76837e-07
-Current time                 = 1.000000596046448
+Forward solution of order 3 with 3 partitions completed with an error of 1.10269e-06
+Current time                 = 1
 Steps                        = 125
 Step attempts                = 125
 Stability limited steps      = 0
@@ -165,16 +99,15 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 375
-Partition 1 evolves          = 625
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
+Partition 1 evolves          = 375
 Partition 2 evolves          = 625
 Partition 3 evolves          = 375
 
-Forward solution of order 4 with 4 partitions completed with an error of -1.49012e-07
-Current time                 = 1.000000596046448
+Forward solution of order 4 with 3 partitions completed with an error of 1.78814e-07
+Current time                 = 1
 Steps                        = 125
 Step attempts                = 125
 Stability limited steps      = 0
@@ -182,16 +115,15 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 500
-Partition 1 evolves          = 750
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
+Partition 1 evolves          = 500
 Partition 2 evolves          = 750
 Partition 3 evolves          = 375
 
-Forward solution of order 1 with 5 partitions completed with an error of 2.68221e-07
-Current time                 = 1.000000596046448
+Forward solution of order 1 with 4 partitions completed with an error of 2.98023e-08
+Current time                 = 1
 Steps                        = 125
 Step attempts                = 125
 Stability limited steps      = 0
@@ -199,17 +131,16 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 125
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
 Partition 1 evolves          = 125
 Partition 2 evolves          = 125
 Partition 3 evolves          = 125
 Partition 4 evolves          = 125
 
-Forward solution of order 2 with 5 partitions completed with an error of 8.9407e-08
-Current time                 = 1.000000596046448
+Forward solution of order 2 with 4 partitions completed with an error of -1.19209e-07
+Current time                 = 1
 Steps                        = 125
 Step attempts                = 125
 Stability limited steps      = 0
@@ -217,17 +148,16 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 250
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
 Partition 1 evolves          = 250
 Partition 2 evolves          = 250
 Partition 3 evolves          = 250
 Partition 4 evolves          = 125
 
-Forward solution of order 3 with 5 partitions completed with an error of -5.66244e-07
-Current time                 = 1.000000596046448
+Forward solution of order 3 with 4 partitions completed with an error of -4.76837e-07
+Current time                 = 1
 Steps                        = 125
 Step attempts                = 125
 Stability limited steps      = 0
@@ -235,17 +165,16 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 375
-Partition 1 evolves          = 625
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
+Partition 1 evolves          = 375
 Partition 2 evolves          = 625
 Partition 3 evolves          = 625
 Partition 4 evolves          = 375
 
-Forward solution of order 4 with 5 partitions completed with an error of 8.9407e-08
-Current time                 = 1.000000596046448
+Forward solution of order 4 with 4 partitions completed with an error of -1.49012e-07
+Current time                 = 1
 Steps                        = 125
 Step attempts                = 125
 Stability limited steps      = 0
@@ -253,17 +182,88 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 500
-Partition 1 evolves          = 750
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
+Partition 1 evolves          = 500
 Partition 2 evolves          = 750
 Partition 3 evolves          = 750
 Partition 4 evolves          = 375
 
+Forward solution of order 1 with 5 partitions completed with an error of 2.68221e-07
+Current time                 = 1
+Steps                        = 125
+Step attempts                = 125
+Stability limited steps      = 0
+Accuracy limited steps       = 0
+Error test fails             = 0
+NLS step fails               = 0
+Inequality constraint fails  = 0
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
+Partition 1 evolves          = 125
+Partition 2 evolves          = 125
+Partition 3 evolves          = 125
+Partition 4 evolves          = 125
+Partition 5 evolves          = 125
+
+Forward solution of order 2 with 5 partitions completed with an error of 8.9407e-08
+Current time                 = 1
+Steps                        = 125
+Step attempts                = 125
+Stability limited steps      = 0
+Accuracy limited steps       = 0
+Error test fails             = 0
+NLS step fails               = 0
+Inequality constraint fails  = 0
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
+Partition 1 evolves          = 250
+Partition 2 evolves          = 250
+Partition 3 evolves          = 250
+Partition 4 evolves          = 250
+Partition 5 evolves          = 125
+
+Forward solution of order 3 with 5 partitions completed with an error of -5.66244e-07
+Current time                 = 1
+Steps                        = 125
+Step attempts                = 125
+Stability limited steps      = 0
+Accuracy limited steps       = 0
+Error test fails             = 0
+NLS step fails               = 0
+Inequality constraint fails  = 0
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
+Partition 1 evolves          = 375
+Partition 2 evolves          = 625
+Partition 3 evolves          = 625
+Partition 4 evolves          = 625
+Partition 5 evolves          = 375
+
+Forward solution of order 4 with 5 partitions completed with an error of 8.9407e-08
+Current time                 = 1
+Steps                        = 125
+Step attempts                = 125
+Stability limited steps      = 0
+Accuracy limited steps       = 0
+Error test fails             = 0
+NLS step fails               = 0
+Inequality constraint fails  = 0
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
+Partition 1 evolves          = 500
+Partition 2 evolves          = 750
+Partition 3 evolves          = 750
+Partition 4 evolves          = 750
+Partition 5 evolves          = 375
+
 Mixed direction solution using ARKODE_SPLITTING_STRANG_2_2_2 completed with an error of 2.38419e-06
-Current time                 = -0.0009804200381040573
+Current time                 = -0.00098042
 Steps                        = 2279
 Step attempts                = 2279
 Stability limited steps      = 0
@@ -271,14 +271,14 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = -0.001230000052601099
-Last step size               = -0.001230000052601099
-Current step size            = -0.001230000052601099
-Partition 0 evolves          = 4558
-Partition 1 evolves          = 2279
+Initial step size            = -0.00123
+Last step size               = -0.00123
+Current step size            = -0.00123
+Partition 1 evolves          = 4558
+Partition 2 evolves          = 2279
 
 Mixed direction solution using ARKODE_SPLITTING_BEST_2_2_2 completed with an error of 1.70469e-05
-Current time                 = -0.0009804200381040573
+Current time                 = -0.00098042
 Steps                        = 2279
 Step attempts                = 2279
 Stability limited steps      = 0
@@ -286,14 +286,14 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = -0.001230000052601099
-Last step size               = -0.001230000052601099
-Current step size            = -0.001230000052601099
-Partition 0 evolves          = 4558
+Initial step size            = -0.00123
+Last step size               = -0.00123
+Current step size            = -0.00123
 Partition 1 evolves          = 4558
+Partition 2 evolves          = 4558
 
 Mixed direction solution using ARKODE_SPLITTING_SUZUKI_3_3_2 completed with an error of 1.51396e-05
-Current time                 = -0.0009804200381040573
+Current time                 = -0.00098042
 Steps                        = 2279
 Step attempts                = 2279
 Stability limited steps      = 0
@@ -301,14 +301,14 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = -0.001230000052601099
-Last step size               = -0.001230000052601099
-Current step size            = -0.001230000052601099
-Partition 0 evolves          = 6837
+Initial step size            = -0.00123
+Last step size               = -0.00123
+Current step size            = -0.00123
 Partition 1 evolves          = 6837
+Partition 2 evolves          = 6837
 
 Mixed direction solution using ARKODE_SPLITTING_RUTH_3_3_2 completed with an error of 4.76837e-06
-Current time                 = -0.0009804200381040573
+Current time                 = -0.00098042
 Steps                        = 2279
 Step attempts                = 2279
 Stability limited steps      = 0
@@ -316,14 +316,14 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = -0.001230000052601099
-Last step size               = -0.001230000052601099
-Current step size            = -0.001230000052601099
-Partition 0 evolves          = 6837
+Initial step size            = -0.00123
+Last step size               = -0.00123
+Current step size            = -0.00123
 Partition 1 evolves          = 6837
+Partition 2 evolves          = 6837
 
 Resized solution completed with an error of 7.15256e-06
-Current time                 = 1.004001021385193
+Current time                 = 1.004
 Steps                        = 126
 Step attempts                = 126
 Stability limited steps      = 0
@@ -331,14 +331,14 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 252
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
 Partition 1 evolves          = 252
+Partition 2 evolves          = 252
 
 Custom SUNStepper solution of order 4 completed with an error of -2.08616e-07
-Current time                 = 1.00000011920929
+Current time                 = 1
 Steps                        = 10
 Step attempts                = 10
 Stability limited steps      = 0
@@ -346,14 +346,14 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.1000000014901161
-Last step size               = 0.1000000014901161
-Current step size            = 0.1000000014901161
-Partition 0 evolves          = 60
-Partition 1 evolves          = 50
+Initial step size            = 0.1
+Last step size               = 0.1
+Current step size            = 0.1
+Partition 1 evolves          = 60
+Partition 2 evolves          = 50
 
 Custom SUNStepper solution of order 6 completed with an error of 2.08616e-07
-Current time                 = 1.00000011920929
+Current time                 = 1
 Steps                        = 10
 Step attempts                = 10
 Stability limited steps      = 0
@@ -361,14 +361,14 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.1000000014901161
-Last step size               = 0.1000000014901161
-Current step size            = 0.1000000014901161
-Partition 0 evolves          = 260
-Partition 1 evolves          = 250
+Initial step size            = 0.1
+Last step size               = 0.1
+Current step size            = 0.1
+Partition 1 evolves          = 260
+Partition 2 evolves          = 250
 
 Reinitialized solution completed with an error of -3.57628e-07
-Current time                 = 2.000001907348633
+Current time                 = 2
 Steps                        = 125
 Step attempts                = 125
 Stability limited steps      = 0
@@ -376,10 +376,10 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.00800000037997961
-Last step size               = 0.00800000037997961
-Current step size            = 0.00800000037997961
-Partition 0 evolves          = 250
-Partition 1 evolves          = 125
+Initial step size            = 0.008
+Last step size               = 0.008
+Current step size            = 0.008
+Partition 1 evolves          = 250
+Partition 2 evolves          = 125
 
 Success

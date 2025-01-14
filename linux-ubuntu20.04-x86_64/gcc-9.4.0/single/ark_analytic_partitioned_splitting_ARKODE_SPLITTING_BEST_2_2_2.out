@@ -7,7 +7,7 @@ Analytical ODE test problem:
 Error: 1.16229e-06
 
 Splitting Stepper Statistics:
-Current time                 = 1.009999394416809
+Current time                 = 1.01
 Steps                        = 101
 Step attempts                = 101
 Stability limited steps      = 0
@@ -15,14 +15,14 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.009999999776482582
-Last step size               = 0.009999999776482582
-Current step size            = 0.009999999776482582
-Partition 0 evolves          = 202
+Initial step size            = 0.01
+Last step size               = 0.01
+Current step size            = 0.01
 Partition 1 evolves          = 202
+Partition 2 evolves          = 202
 
 Linear Stepper Statistics:
-Current time                 = 1.009999394416809
+Current time                 = 1.01
 Steps                        = 606
 Step attempts                = 606
 Stability limited steps      = 0
@@ -30,13 +30,13 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.001999999862164259
-Last step size               = 0.001071214210242033
-Current step size            = 0.001999999862164259
+Initial step size            = 0.002
+Last step size               = 0.00107121
+Current step size            = 0.002
 RHS fn evals                 = 3030
 
 Nonlinear Stepper Statistics:
-Current time                 = 1.009999394416809
+Current time                 = 1.01
 Steps                        = 1111
 Step attempts                = 1111
 Stability limited steps      = 0
@@ -44,9 +44,9 @@ Accuracy limited steps       = 0
 Error test fails             = 0
 NLS step fails               = 0
 Inequality constraint fails  = 0
-Initial step size            = 0.0009999999310821295
-Last step size               = 0.0009288783185184002
-Current step size            = 0.0009999999310821295
+Initial step size            = 0.001
+Last step size               = 0.000928878
+Current step size            = 0.001
 Explicit RHS fn evals        = 5555
 Implicit RHS fn evals        = 0
 NLS iters                    = 0
