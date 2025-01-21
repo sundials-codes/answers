@@ -28,20 +28,20 @@ Constraints and id not used.
 4.0000e+10   4.3175e-08   1.7270e-13   1.0000e+00 | 531  1   3.7007e+08
 
 Final Statistics:
-Current time                 = 40190042112
+Current time                 = 4.019e+10
 Steps                        = 531
 Error test fails             = 20
 NLS step fails               = 67
-Initial step size            = 2.164955185435247e-05
-Last step size               = 370071584
-Current step size            = 740143168
+Initial step size            = 2.16496e-05
+Last step size               = 3.70072e+08
+Current step size            = 7.40143e+08
 Last method order            = 1
 Current method order         = 1
 Residual fn evals            = 841
 IC linesearch backtrack ops  = 0
 NLS iters                    = 785
 NLS fails                    = 76
-NLS iters per step           = 1.583804130554199
+NLS iters per step           = 1.5838
 LS setups                    = 267
 Jac fn evals                 = 267
 LS residual fn evals         = 0
@@ -52,6 +52,6 @@ LS fails                     = 0
 Jac-times setups             = 0
 Jac-times evals              = 0
 LS iters per NLS iter        = 0
-Jac evals per NLS iter       = 0.3401273787021637
+Jac evals per NLS iter       = 0.340127
 Prec evals per NLS iter      = 0
 Root fn evals                = 558
