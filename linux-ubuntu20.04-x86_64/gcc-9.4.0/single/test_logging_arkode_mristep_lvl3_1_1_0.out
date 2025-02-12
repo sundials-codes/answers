@@ -24,26 +24,12 @@ Using GMRES iterative linear solver
 [INFO][rank 0][arkStep_TakeStep_Z][begin-compute-solution] mass type = 0
 [INFO][rank 0][arkStep_TakeStep_Z][end-compute-solution] status = success
 [INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 1.59705e-15
-[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 2, tn = 1.74151e-06, h = 0.000143394
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 2, tn = 1.74151e-06, h = 0.000331592
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 1.74151e-06
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 5.90991e-05
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.000134378
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 2, implicit = 0, tcur = 8.77779e-05
-[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 3, implicit = 0, tcur = 0.000145135
-[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 4, implicit = 0, tcur = 0.000145135
-[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-compute-solution] mass type = 0
-[INFO][rank 0][arkStep_TakeStep_Z][end-compute-solution] status = success
-[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 3.48073e-07
-[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 3, tn = 0.000145135, h = 0.000188198
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.000145135
-[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.000220415
-[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 2, implicit = 0, tcur = 0.000258054
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 2, implicit = 0, tcur = 0.000200697
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 3, implicit = 0, tcur = 0.000333333
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -51,7 +37,7 @@ Using GMRES iterative linear solver
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
 [INFO][rank 0][arkStep_TakeStep_Z][begin-compute-solution] mass type = 0
 [INFO][rank 0][arkStep_TakeStep_Z][end-compute-solution] status = success
-[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 1.4387e-06
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 1.85639e-07
 [INFO][rank 0][mriStep_StageERKFast][end-fast-steps] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stage] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 2, stage type = 2, tcur = 0.000333333
@@ -80,7 +66,7 @@ Using GMRES iterative linear solver
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stage] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 3, stage type = 0, tcur = 0.000666667
 [INFO][rank 0][mriStep_StageERKFast][begin-fast-steps] 
-[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 4, tn = 0.000333333, h = 0.000333333
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 3, tn = 0.000333333, h = 0.000333333
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.000333333
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.000466667
@@ -122,7 +108,7 @@ Using GMRES iterative linear solver
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stage] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 5, stage type = 0, tcur = 0.001
 [INFO][rank 0][mriStep_StageERKFast][begin-fast-steps] 
-[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 5, tn = 0.000666667, h = 0.000333333
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 4, tn = 0.000666667, h = 0.000333333
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.000666667
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.0008
@@ -171,7 +157,7 @@ Using GMRES iterative linear solver
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stage] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 1, stage type = 0, tcur = 0.00133333
 [INFO][rank 0][mriStep_StageERKFast][begin-fast-steps] 
-[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 6, tn = 0.001, h = 0.000333333
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 5, tn = 0.001, h = 0.000333333
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.001
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.00113333
@@ -213,7 +199,7 @@ Using GMRES iterative linear solver
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stage] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 3, stage type = 0, tcur = 0.00166667
 [INFO][rank 0][mriStep_StageERKFast][begin-fast-steps] 
-[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 7, tn = 0.00133333, h = 0.000333333
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 6, tn = 0.00133333, h = 0.000333333
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.00133333
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.00146667
@@ -255,7 +241,7 @@ Using GMRES iterative linear solver
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stage] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 5, stage type = 0, tcur = 0.002
 [INFO][rank 0][mriStep_StageERKFast][begin-fast-steps] 
-[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 8, tn = 0.00166667, h = 0.000333333
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 7, tn = 0.00166667, h = 0.000333333
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.00166667
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.0018
@@ -304,7 +290,7 @@ Using GMRES iterative linear solver
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stage] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 1, stage type = 0, tcur = 0.00233333
 [INFO][rank 0][mriStep_StageERKFast][begin-fast-steps] 
-[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 9, tn = 0.002, h = 0.000333333
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 8, tn = 0.002, h = 0.000333333
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.002
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.00213333
@@ -346,7 +332,7 @@ Using GMRES iterative linear solver
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stage] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 3, stage type = 0, tcur = 0.00266667
 [INFO][rank 0][mriStep_StageERKFast][begin-fast-steps] 
-[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 10, tn = 0.00233333, h = 0.000333333
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 9, tn = 0.00233333, h = 0.000333333
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.00233333
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.00246667
@@ -394,7 +380,7 @@ Using GMRES iterative linear solver
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stage] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stage] stage = 5, stage type = 0, tcur = 0.003
 [INFO][rank 0][mriStep_StageERKFast][begin-fast-steps] 
-[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 11, tn = 0.00266667, h = 0.000333333
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 10, tn = 0.00266667, h = 0.000333333
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.00266667
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.0028

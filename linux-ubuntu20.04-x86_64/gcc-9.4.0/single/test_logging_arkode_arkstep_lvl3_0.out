@@ -3,67 +3,81 @@ Using ERK method
            t                        u                        v                      u err                    v err            
 ------------------------------------------------------------------------------------------------------------------------------
           0.000000e+00             1.224745e+00             1.732051e+00             0.000000e+00             0.000000e+00
-[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 1, tn = 0, h = 0.0001029860213748179
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 1, tn = 0, h = 0.000102986
 [INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 4.119440927752294e-05
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 4.11944e-05
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 2, implicit = 0, tcur = 6.179161573527381e-05
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 2, implicit = 0, tcur = 6.17916e-05
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 3, implicit = 0, tcur = 0.0001029860213748179
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 3, implicit = 0, tcur = 0.000102986
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 4, implicit = 0, tcur = 0.0001029860213748179
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 4, implicit = 0, tcur = 0.000102986
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
 [INFO][rank 0][arkStep_TakeStep_Z][begin-compute-solution] mass type = 0
 [INFO][rank 0][arkStep_TakeStep_Z][end-compute-solution] status = success
-[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 2.680117283659911e-08
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 2.68012e-08
           1.029860e-04             1.224745e+00             1.732050e+00             0.000000e+00             0.000000e+00
-[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 2, tn = 0.0001029860213748179, h = 0.002660084282979369
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.0001029860213748179
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 2, tn = 0.000102986, h = 0.0288603
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.000102986
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.001167019712738693
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.0116471
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 2, implicit = 0, tcur = 0.001699036685749888
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 2, implicit = 0, tcur = 0.0174192
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 3, implicit = 0, tcur = 0.002763070398941636
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 3, implicit = 0, tcur = 0.0289633
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 4, implicit = 0, tcur = 0.002763070398941636
-[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-compute-solution] mass type = 0
-[INFO][rank 0][arkStep_TakeStep_Z][end-compute-solution] status = success
-[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 0.0007267760229296982
-          2.763070e-03             1.224744e+00             1.731610e+00             0.000000e+00             0.000000e+00
-[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 3, tn = 0.002763070398941636, h = 0.002660084282979369
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.002763070398941636
-[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.003827104112133384
-[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 2, implicit = 0, tcur = 0.004359120968729258
-[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 3, implicit = 0, tcur = 0.005423154681921005
-[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
-[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 4, implicit = 0, tcur = 0.005423154681921005
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 4, implicit = 0, tcur = 0.0289633
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
 [INFO][rank 0][arkStep_TakeStep_Z][begin-compute-solution] mass type = 0
 [INFO][rank 0][arkStep_TakeStep_Z][end-compute-solution] status = success
-[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 0.0007407162920571864
-          5.423155e-03             1.224742e+00             1.730354e+00             0.000000e+00             0.000000e+00
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = failed error test, dsm = 9.67269, kflag = 5
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 2, tn = 0.000102986, h = 0.0113595
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.0289633
+[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.00464679
+[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 2, implicit = 0, tcur = 0.00691869
+[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 3, implicit = 0, tcur = 0.0114625
+[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 4, implicit = 0, tcur = 0.0114625
+[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
+[INFO][rank 0][arkStep_TakeStep_Z][begin-compute-solution] mass type = 0
+[INFO][rank 0][arkStep_TakeStep_Z][end-compute-solution] status = success
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 0.246699
+          1.146250e-02             1.224731e+00             1.724482e+00             0.000000e+00             0.000000e+00
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 3, tn = 0.0114625, h = 0.0113595
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 0, implicit = 0, tcur = 0.0114625
+[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 1, implicit = 0, tcur = 0.0160063
+[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 2, implicit = 0, tcur = 0.0182782
+[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 3, implicit = 0, tcur = 0.022822
+[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
+[INFO][rank 0][arkStep_TakeStep_Z][begin-stage] stage = 4, implicit = 0, tcur = 0.022822
+[INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
+[INFO][rank 0][arkStep_TakeStep_Z][begin-compute-solution] mass type = 0
+[INFO][rank 0][arkStep_TakeStep_Z][end-compute-solution] status = success
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 0.233748
+          2.282201e-02             1.224692e+00             1.702242e+00             0.000000e+00             1.192093e-07
 ------------------------------------------------------------------------------------------------------------------------------
-Current time                 = 0.005423154681921005
-Steps                        = 3
-Step attempts                = 3
-Stability limited steps      = 0
-Accuracy limited steps       = 3
-Error test fails             = 0
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 0.0001029860213748179
-Last step size               = 0.002660084282979369
-Current step size            = 0.01041052304208279
-Explicit RHS fn evals        = 15
-Implicit RHS fn evals        = 0
-NLS iters                    = 0
-NLS fails                    = 0
-NLS iters per step           = 0
-LS setups                    = 0
+Current time                  = 0.022822
+Steps                         = 3
+Step attempts                 = 4
+Stability limited steps       = 0
+Accuracy limited steps        = 4
+Error test fails              = 1
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.000102986
+Last step size                = 0.0113595
+Current step size             = 0.0219752
+Explicit RHS fn evals         = 19
+Implicit RHS fn evals         = 0
+NLS iters                     = 0
+NLS fails                     = 0
+NLS iters per step            = 0
+LS setups                     = 0
 End ARKStep Logging test
