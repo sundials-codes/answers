@@ -5,24 +5,24 @@ Using fixed-point nonlinear solver
 ------------------------------------------------------------------------------------------------------------------------------
  0.000000000000000e+00    1.224744871391589e+00    1.732050807568877e+00    0.000000000000000e+00    0.000000000000000e+00
  1.029860256095084e-04    1.224744870309105e+00    1.732050195224278e+00    1.332267629550188e-15    8.881784197001252e-16
- 5.077128011123421e-03    1.224742240522223e+00    1.730563198063739e+00    5.210498699170785e-12    3.727240738271576e-12
- 7.971479493571786e-03    1.224738385936593e+00    1.728385952122810e+00    9.707123993507594e-12    3.469446951953614e-12
+ 1.436424415973660e-02    1.224723812003494e+00    1.720179271761616e+00    9.475544793247082e-10    2.684319211354591e-09
+ 2.862550229386369e-02    1.224661242043244e+00    1.685391295939396e+00    5.633498112445068e-10    8.399831941119373e-10
 ------------------------------------------------------------------------------------------------------------------------------
-Current time                 = 0.007971479493571786
-Steps                        = 3
-Step attempts                = 3
-Stability limited steps      = 0
-Accuracy limited steps       = 3
-Error test fails             = 0
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 0.0001029860256095084
-Last step size               = 0.002894351482448365
-Current step size            = 0.01488513257624006
-Explicit RHS fn evals        = 0
-Implicit RHS fn evals        = 49
-NLS iters                    = 31
-NLS fails                    = 0
-NLS iters per step           = 10.33333333333333
-LS setups                    = 0
+Current time                  = 0.0286255022938637
+Steps                         = 3
+Step attempts                 = 5
+Stability limited steps       = 0
+Accuracy limited steps        = 4
+Error test fails              = 1
+NLS step fails                = 1
+Inequality constraint fails   = 0
+Initial step size             = 0.000102986025609508
+Last step size                = 0.0142612581341271
+Current step size             = 0.0284914047108388
+Explicit RHS fn evals         = 0
+Implicit RHS fn evals         = 78
+NLS iters                     = 55
+NLS fails                     = 1
+NLS iters per step            = 18.3333333333333
+LS setups                     = 0
 End ARKStep Logging test
