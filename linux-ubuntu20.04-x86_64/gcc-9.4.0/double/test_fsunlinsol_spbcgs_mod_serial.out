@@ -11,7 +11,7 @@
      PASSED test -- FSUNLinSolSetup 
      PASSED test -- FSUNLinSolSolve
      PASSED test -- FSUNLinSolLastFlag (0)
-     PASSED test -- FSUNLinSolNumIters (13)
+     PASSED test -- FSUNLinSolNumIters (12)
      PASSED test -- FSUNLinSolResNorm 
      PASSED test -- FSUNLinSolResid 
  SUCCESS: FSUNLinSol_SPBCGS module, problem 1, all tests passed
@@ -19,7 +19,7 @@
      PASSED test -- FSUNLinSolSetup 
      PASSED test -- FSUNLinSolSolve
      PASSED test -- FSUNLinSolLastFlag (0)
-     PASSED test -- FSUNLinSolNumIters (13)
+     PASSED test -- FSUNLinSolNumIters (12)
      PASSED test -- FSUNLinSolResNorm 
      PASSED test -- FSUNLinSolResid 
  SUCCESS: FSUNLinSol_SPBCGS module, problem 2, all tests passed
@@ -27,7 +27,7 @@
      PASSED test -- FSUNLinSolSetup 
      PASSED test -- FSUNLinSolSolve
      PASSED test -- FSUNLinSolLastFlag (0)
-     PASSED test -- FSUNLinSolNumIters (13)
+     PASSED test -- FSUNLinSolNumIters (12)
      PASSED test -- FSUNLinSolResNorm 
      PASSED test -- FSUNLinSolResid 
  SUCCESS: FSUNLinSol_SPBCGS module, problem 3, all tests passed
