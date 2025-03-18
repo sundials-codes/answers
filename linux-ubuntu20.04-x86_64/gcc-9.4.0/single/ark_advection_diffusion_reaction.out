@@ -31,29 +31,29 @@ Problem parameters and options:
           t                     ||y||_rms      
  ----------------------------------------------
           0.000000e+00             4.029897e+00
-          3.000000e-01             3.942481e+00
-          6.000000e-01             3.877611e+00
-          9.000000e-01             3.793779e+00
-          1.200000e+00             3.689103e+00
-          1.500000e+00             3.566911e+00
-          1.800000e+00             3.439111e+00
-          2.100000e+00             3.320126e+00
-          2.400000e+00             3.219627e+00
-          2.700000e+00             3.146949e+00
-          3.000000e+00             3.110924e+00
+          3.000000e-01             3.942231e+00
+          6.000000e-01             3.877389e+00
+          9.000000e-01             3.793734e+00
+          1.200000e+00             3.689065e+00
+          1.500000e+00             3.567133e+00
+          1.800000e+00             3.439294e+00
+          2.100000e+00             3.320256e+00
+          2.400000e+00             3.219773e+00
+          2.700000e+00             3.146951e+00
+          3.000000e+00             3.110901e+00
  ----------------------------------------------
 
 Final integrator statistics:
-  Steps              = 22
-  Step attempts      = 22
-  Error test fails   = 0
-  Explicit RHS evals = 90
-  Implicit RHS evals = 268
-  NLS iters          = 178
-  NLS fails          = 4
-  LS setups          = 12
-  J evals            = 5
+  Steps              = 21
+  Step attempts      = 23
+  Error test fails   = 1
+  Explicit RHS evals = 89
+  Implicit RHS evals = 272
+  NLS iters          = 183
+  NLS fails          = 6
+  LS setups          = 15
+  J evals            = 7
 
-  Avg NLS iters per step attempt = 8.090909
-  Avg LS setups per NLS iter     = 0.067416
+  Avg NLS iters per step attempt = 7.956522
+  Avg LS setups per NLS iter     = 0.081967
 
