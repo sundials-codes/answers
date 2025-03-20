@@ -123,17 +123,17 @@ ROOT RETURN:	  g[0] =  -1, y[0] = -1.6, y[1] = -1.7756e-15, num. orbits is now 1
 t = 97.3894, H(p,q)-H0 = 2.1772523228769103e-09, L(p,q)-L0 = -3.4459213260618071e-11
 t = 98.0000, H(p,q)-H0 = 2.1904080771406598e-09, L(p,q)-L0 = 0.0000000000000000e+00
 t = 100.0000, H(p,q)-H0 = 1.8950303548592728e-09, L(p,q)-L0 = 0.0000000000000000e+00
-Current time                 = 100
-Steps                        = 10000
-Step attempts                = 10000
-Stability limited steps      = 0
-Accuracy limited steps       = 0
-Error test fails             = 0
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 0.01
-Last step size               = 0.01
-Current step size            = 0.01
-Root fn evals                = 10280
-f1 RHS fn evals              = 40031
-f2 RHS fn evals              = 40031
+Current time                  = 100
+Steps                         = 10000
+Step attempts                 = 10000
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.01
+Last step size                = 0.01
+Current step size             = 0.01
+Root fn evals                 = 10280
+f1 RHS fn evals               = 40032
+f2 RHS fn evals               = 40032

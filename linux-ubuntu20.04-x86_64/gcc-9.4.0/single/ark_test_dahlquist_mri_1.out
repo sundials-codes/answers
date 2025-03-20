@@ -60,7 +60,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.980199
    y_n         = 0.980199
-   Error       = -4.17233e-07
+   Error       = -5.36442e-07
    Steps       = 1
    Fe evals    = 2
    Fi evals    = 0
@@ -87,7 +87,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.980199
    y_n         = 0.980199
-   Error       = -4.17233e-07
+   Error       = -4.76837e-07
    Steps       = 1
    Fe evals    = 2
    Fi evals    = 0
@@ -122,7 +122,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.980199
    y_n         = 0.980199
-   Error       = 5.96046e-08
+   Error       = 0
    Steps       = 1
    Fe evals    = 3
    Fi evals    = 0
@@ -161,7 +161,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.980199
    y_n         = 0.980199
-   Error       = 0
+   Error       = 5.96046e-08
    Steps       = 1
    Fe evals    = 5
    Fi evals    = 0
@@ -187,7 +187,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.980199
    y_n         = 0.9801
-   Error       = 9.90629e-05
+   Error       = 9.90033e-05
    Steps       = 1
    Fe evals    = 1
    Fi evals    = 0
@@ -249,7 +249,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.980199
    y_n         = 0.980199
-   Error       = 0
+   Error       = -5.96046e-08
    Steps       = 1
    Fe evals    = 3
    Fi evals    = 0
@@ -280,7 +280,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.980199
    y_n         = 0.980297
-   Error       = -9.799e-05
+   Error       = -9.80496e-05
    Steps       = 1
    Fe evals    = 0
    Fi evals    = 2
@@ -373,7 +373,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.980199
    y_n         = 0.980199
-   Error       = -1.19209e-07
+   Error       = 0
    Steps       = 1
    Fe evals    = 0
    Fi evals    = 10
@@ -439,7 +439,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.980199
    y_n         = 0.980199
-   Error       = 5.96046e-08
+   Error       = 0
    Steps       = 1
    Fe evals    = 0
    Fi evals    = 2
@@ -491,7 +491,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.970446
    y_n         = 0.970446
-   Error       = 0
+   Error       = -5.96046e-08
    Steps       = 1
    Fe evals    = 4
    Fi evals    = 7
@@ -624,8 +624,8 @@ Testing method ARKODE_IMEX_MRI_GARK4
 MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.970446
-   y_n         = 0.970445
-   Error       = 5.96046e-08
+   y_n         = 0.970446
+   Error       = -5.96046e-08
    Steps       = 1
    Fe evals    = 6
    Fi evals    = 11
@@ -663,7 +663,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.970446
    y_n         = 0.970445
-   Error       = 4.17233e-07
+   Error       = 4.76837e-07
    Steps       = 1
    Fe evals    = 1
    Fi evals    = 2
@@ -788,7 +788,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.980199
    y_n         = 0.980199
-   Error       = -4.76837e-07
+   Error       = -4.17233e-07
    Steps       = 1
    Fe evals    = 2
    Fi evals    = 0
@@ -827,7 +827,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.980199
    y_n         = 0.980199
-   Error       = -5.96046e-08
+   Error       = 0
    Steps       = 1
    Fe evals    = 3
    Fi evals    = 0
@@ -883,7 +883,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.980199
    y_n         = 0.980199
-   Error       = -5.96046e-08
+   Error       = 0
    Steps       = 1
    Fe evals    = 6
    Fi evals    = 0
@@ -966,7 +966,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.980199
    y_n         = 0.980199
-   Error       = 1.19209e-07
+   Error       = 5.96046e-08
    Steps       = 1
    Fe evals    = 10
    Fi evals    = 0
@@ -1005,7 +1005,7 @@ MRIStep Statistics:
    Time        = 0.01
    y(t)        = 0.970446
    y_n         = 0.970445
-   Error       = 7.15256e-07
+   Error       = 5.96046e-07
    Steps       = 1
    Fe evals    = 3
    Fi evals    = 6

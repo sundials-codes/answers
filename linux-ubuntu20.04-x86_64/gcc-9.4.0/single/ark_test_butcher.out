@@ -69,6 +69,20 @@ ARKodeButcherTable_CheckOrder:
 Testing method ARKODE_FORWARD_EULER_1_1:  table matches predicted method/embedding orders of 1/0
 Testing method ARKODE_RALSTON_EULER_2_1_2:  table matches predicted method/embedding orders of 2/1
 Testing method ARKODE_EXPLICIT_MIDPOINT_EULER_2_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_RALSTON_3_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_TSITOURAS_7_4_5:  WARNING:
+ARKodeButcherTable_CheckOrder:
+  method order >= 6; reverting to simplifying assumptions
+  method order = 6
+
+  embedding fails order 5 condition A
+  embedding fails order 5 condition B
+  embedding fails order 5 condition D
+  embedding fails order 5 condition E
+  embedding fails order 5 condition F
+  embedding fails order 5 condition G
+  embedding fails order 5 condition H
+  embedding fails order 5 condition I
 
 Testing individual DIRK methods:
 

@@ -6,35 +6,35 @@ Analytical ODE test problem:
 
         t           u
    ---------------------
-    1.000000    0.785402
-    2.000000    1.107148
+    1.000000    0.785399
+    2.000000    1.107150
     3.000000    1.249045
-    4.000000    1.325815
-    5.000000    1.373399
-    6.000000    1.405649
-    7.000000    1.428898
-    8.000000    1.446444
-    9.000000    1.460139
-   10.000000    1.471127
+    4.000000    1.325817
+    5.000000    1.373401
+    6.000000    1.405647
+    7.000000    1.428899
+    8.000000    1.446442
+    9.000000    1.460140
+   10.000000    1.471128
    ---------------------
 
 Final Statistics:
-Current time                  = 10.0113
-Steps                         = 149
-Step attempts                 = 164
+Current time                  = 10.0481
+Steps                         = 166
+Step attempts                 = 181
 Stability limited steps       = 0
-Accuracy limited steps        = 164
+Accuracy limited steps        = 181
 Error test fails              = 15
 NLS step fails                = 0
 Inequality constraint fails   = 0
 Initial step size             = 3.45267e-07
-Last step size                = 0.17505
-Current step size             = 0.443
-RHS fn evals                  = 1897
+Last step size                = 0.10337
+Current step size             = 0.10337
+RHS fn evals                  = 2026
 Number of dom_eig updates     = 1
-Max. num. of stages used      = 24
+Max. num. of stages used      = 33
 Max. num. of stages allowed   = 200
 Max. spectral radius          = 1010
 Min. spectral radius          = 1010
 
-ACCURACY at the final time   = 5.96046e-07
+ACCURACY at the final time   = 4.76837e-07
