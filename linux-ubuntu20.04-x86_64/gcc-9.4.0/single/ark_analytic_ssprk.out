@@ -6,31 +6,31 @@ Analytical ODE test problem:
 
         t           u
    ---------------------
-    1.000000    0.785405
-    2.000000    1.107157
-    3.000000    1.249056
-    4.000000    1.325830
-    5.000000    1.373409
-    6.000000    1.405657
-    7.000000    1.428908
-    8.000000    1.446462
-    9.000000    1.460151
-   10.000000    1.471135
+    1.000000    0.785420
+    2.000000    1.107180
+    3.000000    1.249084
+    4.000000    1.325859
+    5.000000    1.373441
+    6.000000    1.405684
+    7.000000    1.428928
+    8.000000    1.446467
+    9.000000    1.460172
+   10.000000    1.471191
    ---------------------
 
 Final Statistics:
-Current time                  = 10.1052
-Steps                         = 68
-Step attempts                 = 69
+Current time                  = 10.6815
+Steps                         = 46
+Step attempts                 = 47
 Stability limited steps       = 0
-Accuracy limited steps        = 69
+Accuracy limited steps        = 47
 Error test fails              = 1
 NLS step fails                = 0
 Inequality constraint fails   = 0
 Initial step size             = 3.45267e-07
-Last step size                = 0.468567
-Current step size             = 0.732162
-RHS fn evals                  = 620
+Last step size                = 1.06606
+Current step size             = 1.2387
+RHS fn evals                  = 422
 Number of stages used         = 9
 
-ACCURACY at the final time = 7.62939e-06
+ACCURACY at the final time = 6.35386e-05

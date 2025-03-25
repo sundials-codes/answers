@@ -36,7 +36,7 @@
   order_fast     = 3
   fixed h slow   = 0.0762939
   fixed h fast   = 0
-  controller     = 0
+  controller     = I
   linear         = 1
  --------------------------------- 
   linear solver  = PCG
