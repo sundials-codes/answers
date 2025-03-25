@@ -10,21 +10,21 @@ Solution method: Anderson accelerated fixed point iteration.
     tolerance    = 1.49012e-06
     max iters    = 30
     m_aa         = 2
-    delay_aa     = 2
+    delay_aa     = 0
     damping_aa   = 1
     damping_fp   = 1
-    damping_fn   = OFF
+    damping_fn   = ON
     orth routine = 0
 
 Final Statistics:
-Number of nonlinear iterations:      5
-Number of function evaluations:      5
+Number of nonlinear iterations:      6
+Number of function evaluations:      6
 Computed solution:
     x = 0.5
     y = 1
     z = -0.523599
 Solution error:
-    ex = 1.86552e-10
-    ey = 9.36789e-10
-    ez = 2.67979e-09
+    ex = 1.31657e-07
+    ey = 3.55001e-07
+    ez = 1.52996e-07
 PASS
