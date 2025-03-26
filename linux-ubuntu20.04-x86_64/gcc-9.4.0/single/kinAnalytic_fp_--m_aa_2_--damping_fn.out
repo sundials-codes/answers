@@ -20,11 +20,11 @@ Final Statistics:
 Number of nonlinear iterations:      3
 Number of function evaluations:      3
 Computed solution:
-    x = 0.50324
-    y = 0.997018
-    z = -0.527153
+    x = 0.4948
+    y = 0.99499
+    z = -0.532035
 Solution error:
-    ex = 0.00323987
-    ey = 0.00298238
-    ez = 0.00355381
+    ex = 0.00519952
+    ey = 0.00501049
+    ez = 0.00843626
 PASS
