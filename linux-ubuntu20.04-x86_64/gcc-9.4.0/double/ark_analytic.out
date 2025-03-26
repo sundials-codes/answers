@@ -1,33 +1,30 @@
 
 Analytical ODE test problem:
    lambda = -100
-   reltol = 1.0e-06
+   reltol = 1.0e-05
    abstol = 1.0e-10
 
         t           u
    ---------------------
-    1.000000    0.785397
-    2.000000    1.107149
-    3.000000    1.249047
-    4.000000    1.325819
-    5.000000    1.373403
-    6.000000    1.405647
-    7.000000    1.428901
-    8.000000    1.446440
-    9.000000    1.460142
-   10.000000    1.471130
+    1.000000    0.785382
+    2.000000    1.107157
+    3.000000    1.249062
+    4.000000    1.325839
+    5.000000    1.373382
+    6.000000    1.405646
+    7.000000    1.428893
+    8.000000    1.446424
+    9.000000    1.460154
+   10.000000    1.471143
    ---------------------
 
 Final Solver Statistics:
-   Internal solver steps = 58 (attempted = 59)
-   Total RHS evals:  Fe = 0,  Fi = 593
-   Total linear solver setups = 59
+   Internal solver steps = 34 (attempted = 35)
+   Total RHS evals:  Fe = 0,  Fi = 353
+   Total linear solver setups = 35
    Total RHS evals for setting up the linear system = 0
    Total number of Jacobian evaluations = 2
-   Total number of Newton iterations = 295
+   Total number of Newton iterations = 175
    Total number of linear solver convergence failures = 0
    Total number of error test failures = 1
-
-
-SUNDIALS_WARNING: check_ans error=1.34625
 
