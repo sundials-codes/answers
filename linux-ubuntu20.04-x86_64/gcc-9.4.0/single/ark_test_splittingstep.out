@@ -321,7 +321,6 @@ Last step size                = -0.00123
 Current step size             = -0.00123
 Partition 1 evolves           = 6837
 Partition 2 evolves           = 6837
-Error exceeded tolerance of 2e-05
 
 Resized solution completed with an error of 7.21216e-06
 Current time                  = 1.004
@@ -383,4 +382,4 @@ Current step size             = 0.008
 Partition 1 evolves           = 250
 Partition 2 evolves           = 125
 
-1 Test Failures
+Success
