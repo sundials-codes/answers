@@ -13,17 +13,19 @@ Solution method: Anderson accelerated fixed point iteration.
     delay_aa     = 0
     damping_aa   = 0.5
     damping_fp   = 1
+    damping_fn   = OFF
+    depth_fn     = OFF
     orth routine = 0
 
 Final Statistics:
 Number of nonlinear iterations:      3
 Number of function evaluations:      3
 Computed solution:
-    x = 0.469984
-    y = 1.01464
-    z = -0.505813
+    x = 0.494518
+    y = 0.99683
+    z = -0.528286
 Solution error:
-    ex = 0.0300159
-    ey = 0.0146375
-    ez = 0.0177858
+    ex = 0.0054816
+    ey = 0.00317049
+    ez = 0.00468725
 PASS
