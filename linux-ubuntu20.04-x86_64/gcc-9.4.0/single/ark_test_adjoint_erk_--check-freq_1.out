@@ -1,0 +1,138 @@
+
+-- Do forward problem --
+
+Initial condition:
+1.0000000000000000e+00
+1.0000000000000000e+00
+
+Forward Solution:
+2.7728509018414425e+00
+2.5871087814255617e-01
+
+ARKODE Stats for Forward Solution:
+Current time                 = 1.000099999999906
+Steps                        = 10001
+Step attempts                = 10001
+Stability limited steps      = 0
+Accuracy limited steps       = 0
+Error test fails             = 0
+NLS step fails               = 0
+Inequality constraint fails  = 0
+Initial step size            = 0.0001
+Last step size               = 0.0001
+Current step size            = 0.0001
+RHS fn evals                 = 50006
+
+>>> PASS
+
+-- Do adjoint problem using Jacobian matrix --
+
+Adjoint terminal condition:
+1.7728509018414425e+00
+-7.4128912185744378e-01
+
+0.0000000000000000e+00
+0.0000000000000000e+00
+0.0000000000000000e+00
+0.0000000000000000e+00
+
+Adjoint Solution:
+3.5207831490549144e+00
+-2.1932637766049958e+00
+
+4.3427040241996622e+00
+-2.0015185264353814e+00
+1.0104864425829565e+00
+-1.3962067805978968e+00
+
+
+SUNAdjointStepper Stats:
+Num backwards steps    = 10001
+Num recompute passes   = 0
+Jac fn evals           = 50005
+JacP fn evals          = 50005
+
+
+>>> PASS
+
+-- Redo adjoint problem using JVP --
+
+Adjoint Solution:
+3.5207831490549144e+00
+-2.1932637766049958e+00
+
+4.3427040241996622e+00
+-2.0015185264353814e+00
+1.0104864425829565e+00
+-1.3962067805978968e+00
+
+
+SUNAdjointStepper Stats:
+Num backwards steps    = 10001
+Num recompute passes   = 0
+Jac-times-v evals      = 50005
+JacP-times-v evals     = 50005
+
+
+>>> PASS
+
+-- Redo adjoint problem using VJP --
+
+Adjoint Solution:
+3.5207831490549144e+00
+-2.1932637766049958e+00
+
+4.3427040241996622e+00
+-2.0015185264353814e+00
+1.0104864425829565e+00
+-1.3962067805978968e+00
+
+
+SUNAdjointStepper Stats:
+Num backwards steps    = 10001
+Num recompute passes   = 0
+v-times-Jac evals      = 50005
+v-times-Jacp evals     = 50005
+
+>>> PASS
+
+-- Redo adjoint problem of forward problem done backwards  --
+
+Initial condition:
+2.7728509018414425e+00
+2.5871087814255617e-01
+
+Forward Solution:
+9.9999999999998568e-01
+1.0000000000000000e+00
+
+ARKODE Stats for Forward Solution:
+Current time                 = -9.999999990618245e-05
+Steps                        = 10001
+Step attempts                = 10001
+Stability limited steps      = 0
+Accuracy limited steps       = 0
+Error test fails             = 0
+NLS step fails               = 0
+Inequality constraint fails  = 0
+Initial step size            = -0.0001
+Last step size               = -0.0001
+Current step size            = -0.0001
+RHS fn evals                 = 50006
+
+Adjoint Solution:
+1.7734694927407413e+00
+-7.4255440786962523e-01
+
+5.9549759084802454e-04
+4.7202796882155789e-05
+-2.8241856597795482e-04
+2.2417575632081158e-04
+
+
+SUNAdjointStepper Stats:
+Num backwards steps    = 10001
+Num recompute passes   = 0
+Jac fn evals           = 50005
+JacP fn evals          = 50005
+
