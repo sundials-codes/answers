@@ -1,52 +1,44 @@
 Initial condition:
-1.00000000e+00
-1.00000000e+00
-
+ 1.000000e+00
+ 1.000000e+00
 Forward Solution:
-1.02611601e+00
-9.10409510e-01
-
+ 1.026099e+00
+ 9.104304e-01
 ARKODE Stats for Forward Solution:
-Current time                 = 10.00041103363037
-Steps                        = 10000
-Step attempts                = 10000
-Stability limited steps      = 0
-Accuracy limited steps       = 0
-Error test fails             = 0
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 0.001000000047497451
-Last step size               = 0.001000000047497451
-Current step size            = 0.001000000047497451
-Explicit RHS fn evals        = 50001
-Implicit RHS fn evals        = 0
-NLS iters                    = 0
-NLS fails                    = 0
-NLS iters per step           = 0
-LS setups                    = 0
+Current time                  = 10.0004
+Steps                         = 10000
+Step attempts                 = 10000
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.001
+Last step size                = 0.001
+Current step size             = 0.001
+Explicit RHS fn evals         = 40001
+Implicit RHS fn evals         = 0
+NLS iters                     = 0
+NLS fails                     = 0
+NLS iters per step            = 0
+LS setups                     = 0
 
 Adjoint terminal condition:
-1.93652558e+00
-1.93652558e+00
-
-0.00000000e+00
-0.00000000e+00
-0.00000000e+00
-0.00000000e+00
-
+ 2.609897e-02
+-8.956963e-02
+ 0.000000e+00
+ 0.000000e+00
+ 0.000000e+00
+ 0.000000e+00
 Adjoint Solution:
--1.51478589e+00
-7.59594738e-01
-
--7.83256912e+00
--1.05175865e+00
--2.17692709e+00
--3.54667974e+00
-
+ 2.970532e-01
+-1.392756e-02
+ 6.167234e-01
+ 6.757151e-02
+ 1.677780e-01
+ 2.703296e-01
 
 SUNAdjointStepper Stats:
-Num backwards steps    = 10000
-Num recompute passes   = 2000
-v-times-Jac evals      = 50000
-v-times-Jacp evals     = 50000
+Num backwards steps           = 10000
+Num recompute passes          = 2000
 
