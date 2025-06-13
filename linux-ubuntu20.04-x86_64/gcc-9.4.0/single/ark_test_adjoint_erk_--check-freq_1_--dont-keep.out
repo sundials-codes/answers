@@ -2,15 +2,15 @@
 -- Do forward problem --
 
 Initial condition:
- 1.000000000000000e+00
- 1.000000000000000e+00
+ 1.000000e+00
+ 1.000000e+00
 Forward Solution:
- 2.772850901841442e+00
- 2.587108781425562e-01
+ 2.772668e+00
+ 2.587142e-01
 ARKODE Stats for Forward Solution:
-Current time                  = 1.00009999999991
-Steps                         = 10001
-Step attempts                 = 10001
+Current time                  = 1.00005
+Steps                         = 10000
+Step attempts                 = 10000
 Stability limited steps       = 0
 Accuracy limited steps        = 0
 Error test fails              = 0
@@ -19,43 +19,43 @@ Inequality constraint fails   = 0
 Initial step size             = 0.0001
 Last step size                = 0.0001
 Current step size             = 0.0001
-RHS fn evals                  = 40005
+RHS fn evals                  = 40001
 
 
 -- Do adjoint problem using Jacobian matrix --
 
 Adjoint terminal condition:
- 1.772850901841442e+00
--7.412891218574438e-01
- 0.000000000000000e+00
- 0.000000000000000e+00
- 0.000000000000000e+00
- 0.000000000000000e+00
+ 1.772668e+00
+-7.412858e-01
+ 0.000000e+00
+ 0.000000e+00
+ 0.000000e+00
+ 0.000000e+00
 Adjoint Solution:
- 3.520550418956932e+00
--2.193097020595348e+00
- 4.341801299342482e+00
--2.000817493764758e+00
- 1.010049357896938e+00
--1.395694683755538e+00
+ 3.519865e+00
+-2.192545e+00
+ 4.340536e+00
+-2.000397e+00
+ 1.009807e+00
+-1.395284e+00
 
 SUNAdjointStepper Stats:
-Num backwards steps           = 10001
-Num recompute passes          = 0
+Num backwards steps           = 10000
+Num recompute steps           = 0
 
 
 -- Redo adjoint problem using VJP --
 
 Initial condition:
- 1.000000000000000e+00
- 1.000000000000000e+00
+ 1.000000e+00
+ 1.000000e+00
 Forward Solution:
- 2.772850901841442e+00
- 2.587108781425562e-01
+ 2.772668e+00
+ 2.587142e-01
 ARKODE Stats for Forward Solution:
-Current time                  = 1.00009999999991
-Steps                         = 10001
-Step attempts                 = 10001
+Current time                  = 1.00005
+Steps                         = 10000
+Step attempts                 = 10000
 Stability limited steps       = 0
 Accuracy limited steps        = 0
 Error test fails              = 0
@@ -64,33 +64,33 @@ Inequality constraint fails   = 0
 Initial step size             = 0.0001
 Last step size                = 0.0001
 Current step size             = 0.0001
-RHS fn evals                  = 40005
+RHS fn evals                  = 40001
 
 Adjoint Solution:
- 3.520550418956932e+00
--2.193097020595348e+00
- 4.341685917743410e+00
--2.000883243764453e+00
- 1.010121298083820e+00
--1.395734974499229e+00
+ 3.519865e+00
+-2.192545e+00
+ 4.340424e+00
+-2.000466e+00
+ 1.009880e+00
+-1.395324e+00
 
 SUNAdjointStepper Stats:
-Num backwards steps           = 10001
-Num recompute passes          = 0
+Num backwards steps           = 10000
+Num recompute steps           = 0
 
 
 -- Redo adjoint problem with change of variables tau = -t  --
 
 Initial condition:
- 1.000000000000000e+00
- 1.000000000000000e+00
+ 1.000000e+00
+ 1.000000e+00
 Forward Solution:
- 2.772850901841443e+00
- 2.587108781425562e-01
+ 2.772668e+00
+ 2.587142e-01
 ARKODE Stats for Forward Solution:
-Current time                  = -9.99999999061824e-05
-Steps                         = 10001
-Step attempts                 = 10001
+Current time                  = -5.35883e-05
+Steps                         = 10000
+Step attempts                 = 10000
 Stability limited steps       = 0
 Accuracy limited steps        = 0
 Error test fails              = 0
@@ -99,24 +99,24 @@ Inequality constraint fails   = 0
 Initial step size             = -0.0001
 Last step size                = -0.0001
 Current step size             = -0.0001
-RHS fn evals                  = 40005
+RHS fn evals                  = 40001
 
 Adjoint terminal condition:
- 1.772850901841443e+00
--7.412891218574438e-01
- 0.000000000000000e+00
- 0.000000000000000e+00
- 0.000000000000000e+00
- 0.000000000000000e+00
+ 1.772668e+00
+-7.412858e-01
+ 0.000000e+00
+ 0.000000e+00
+ 0.000000e+00
+ 0.000000e+00
 Adjoint Solution:
- 3.520550418956936e+00
--2.193097020595350e+00
- 4.341685917743414e+00
--2.000883243764455e+00
- 1.010121298083821e+00
--1.395734974499230e+00
+ 3.519863e+00
+-2.192544e+00
+ 4.340421e+00
+-2.000465e+00
+ 1.009880e+00
+-1.395324e+00
 
 SUNAdjointStepper Stats:
-Num backwards steps           = 10001
-Num recompute passes          = 0
+Num backwards steps           = 10000
+Num recompute steps           = 0
 
