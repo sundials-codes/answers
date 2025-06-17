@@ -56,6 +56,7 @@ PASSED test -- N_VConstrMask Case 1
 PASSED test -- N_VConstrMask Case 2 
 PASSED test -- N_VMinQuotient Case 1 
 PASSED test -- N_VMinQuotient Case 2 
+PASSED test -- N_VRandom 
 
 Testing fused and vector array operations (disabled):
 
