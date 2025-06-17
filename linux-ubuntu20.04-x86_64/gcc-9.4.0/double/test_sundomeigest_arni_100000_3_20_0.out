@@ -1,0 +1,26 @@
+
+DomEig module test:
+  Problem size = 100000
+  Krylov subspace dimension = 3
+  Number of preprocessing = 20
+  Timing output flag = 0
+
+    PASSED test -- SUNDomEigEstGetID 
+    PASSED test -- SUNDomEigEstSetATimes 
+    PASSED test -- SUNDomEigEstSetNumPreProcess 
+    PASSED test -- SUNDomEigEstSetMaxPowerIter 
+    PASSED test -- SUNDomEigEstInitialize 
+    PASSED test -- SUNDomEigEstPreProcess 
+    PASSED test -- SUNDomEigEstComputeHess 
+    PASSED test -- SUNDomEigEstimate 
+    PASSED test -- SUNDomEigEstNumIters 
+    PASSED test -- SUNDomEigEstRes 
+SUCCESS: SUNDomEigEst_ArnI module passed all initialization tests
+
+
+computed dominant eigenvalue =        -9905433.0503 +               0.0000i
+    true dominant eigenvalue =       -10000000.0000 +               0.0000i
+
+
+PASS:   relative error = 0.009547
+

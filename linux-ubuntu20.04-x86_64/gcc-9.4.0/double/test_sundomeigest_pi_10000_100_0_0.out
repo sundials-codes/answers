@@ -1,0 +1,26 @@
+
+DomEig module test:
+  Problem size = 10000
+  Number of power iterations = 100
+  Number of preprocessing = 0
+  Timing output flag = 0
+
+    PASSED test -- SUNDomEigEstGetID 
+    PASSED test -- SUNDomEigEstSetATimes 
+    PASSED test -- SUNDomEigEstSetNumPreProcess 
+    PASSED test -- SUNDomEigEstSetMaxPowerIter 
+    PASSED test -- SUNDomEigEstInitialize 
+    PASSED test -- SUNDomEigEstPreProcess 
+    PASSED test -- SUNDomEigEstComputeHess 
+    PASSED test -- SUNDomEigEstimate 
+    PASSED test -- SUNDomEigEstNumIters 
+    PASSED test -- SUNDomEigEstRes 
+SUCCESS: SUNDomEigEst_PI module passed all initialization tests
+
+
+computed dominant eigenvalue =         -995064.8840 +               0.0000i
+    true dominant eigenvalue =        -1000000.0000 +               0.0000i
+
+
+PASS:   relative error = 0.004960
+
