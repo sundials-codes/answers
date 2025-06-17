@@ -6,6 +6,7 @@ Dense matrix test: size 200 by 1000
     PASSED test -- SUNMatCopy 
     PASSED test -- SUNMatZero 
     PASSED test -- SUNMatMatvec 
+    PASSED test -- SUNMatHermitianTransposeVec 
     PASSED test -- SUNMatSpace lenrw=200000 leniw=1003
 SUCCESS: SUNMatrix module passed all tests 
  
