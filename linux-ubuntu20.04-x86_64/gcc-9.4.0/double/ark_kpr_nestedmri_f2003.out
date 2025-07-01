@@ -23,7 +23,6 @@
   5.000000000000000E+00  1.460953298338492E+00  1.470134387042476E+00  1.643590770857166E+00  2.546306284485933E-03  3.678699021167353E-02  1.189678851420295E-03
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
 Slow Integrator Stats
 Current time                  = 5
 Steps                         = 242
@@ -44,7 +43,6 @@ NLS fails                     = 0
 NLS iters per step            = 0
 LS setups                     = 0
 
-
 Intermediate Integrator Stats
 Current time                  = 5
 Steps                         = 2982
@@ -64,7 +62,6 @@ NLS iters                     = 0
 NLS fails                     = 0
 NLS iters per step            = 0
 LS setups                     = 0
-
 
 Fast Integrator Stats
 Current time                  = 5
