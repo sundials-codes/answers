@@ -1,0 +1,28 @@
+Start MRIStep Logging test
+Using Ex-MRI-SR method
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+0.000000000000000000e+00 1.224744871391589049e+00 1.732050807568877294e+00 0.000000000000000000e+00 0.000000000000000000e+00
+1.000000000000000000e-03 1.224744769314268501e+00 1.731993073495856213e+00 1.525218438960113110e-11 8.358981367327655843e-12
+2.000000000000000000e-03 1.224744463112884798e+00 1.731819882840888137e+00 3.048182854129694030e-11 1.673107832833586883e-11
+3.000000000000000000e-03 1.224743952787590982e+00 1.731531270248452938e+00 4.568898254522779645e-11 2.511742159747032410e-11
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.003
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.001
+Last step size                = 0.001
+Current step size             = 0.001
+Explicit slow RHS fn evals    = 9
+Implicit slow RHS fn evals    = 0
+Inner stepper failures        = 0
+NLS iters                     = 0
+NLS fails                     = 0
+NLS iters per step            = 0
+LS setups                     = 0
+End MRIStep Logging test

@@ -1,8 +1,8 @@
 
 Analytical ODE test problem:
     lambda = -10
-   reltol = 1.0e-09
-   abstol = 1.0e-09
+   reltol = 1.0e-08
+   abstol = 1.0e-08
 
         t           u
    ---------------------
@@ -19,18 +19,18 @@ Analytical ODE test problem:
    ---------------------
 
 Final Statistics:
-Current time                 = 10.007995934261343870703975245107
-Steps                        = 2250
-Step attempts                = 2251
-Stability limited steps      = 0
-Accuracy limited steps       = 2251
-Error test fails             = 1
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 5.1020836256135713498183845473047e-12
-Last step size               = 0.010680653872584741312028275717766
-Current step size            = 0.010680653872584741312028275717766
-RHS fn evals                 = 20260
-Number of stages used        = 9
+Current time                  = 10.025818378063389
+Steps                         = 720
+Step attempts                 = 721
+Stability limited steps       = 0
+Accuracy limited steps        = 721
+Error test fails              = 1
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 2.86911246725951658e-11
+Last step size                = 0.0405524117208380851
+Current step size             = 0.0407196862099983048
+RHS fn evals                  = 6490
+Number of stages used         = 9
 
-ACCURACY at the final time = 1.67376e-10
+ACCURACY at the final time = 9.01746e-09
