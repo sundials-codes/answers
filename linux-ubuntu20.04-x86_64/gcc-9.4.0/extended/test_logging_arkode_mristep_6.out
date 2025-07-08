@@ -1,0 +1,28 @@
+Start MRIStep Logging test
+Using MERK method
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+0.000000000000000000e+00 1.224744871391589049e+00 1.732050807568877294e+00 0.000000000000000000e+00 0.000000000000000000e+00
+1.000000000000000000e-03 1.224744769278490715e+00 1.731993073504352586e+00 5.102997050528829126e-11 1.373908582388838617e-13
+2.000000000000000000e-03 1.224744463041408710e+00 1.731819882857855656e+00 1.019579161766828723e-10 2.364414003128145758e-13
+3.000000000000000000e-03 1.224743952680495913e+00 1.731531270273867568e+00 1.527840521198947643e-10 2.972081131549786370e-13
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.003
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.001
+Last step size                = 0.001
+Current step size             = 0.001
+Explicit slow RHS fn evals    = 6
+Implicit slow RHS fn evals    = 0
+Inner stepper failures        = 0
+NLS iters                     = 0
+NLS fails                     = 0
+NLS iters per step            = 0
+LS setups                     = 0
+End MRIStep Logging test

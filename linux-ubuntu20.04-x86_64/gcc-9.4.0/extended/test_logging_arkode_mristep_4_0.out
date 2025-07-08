@@ -1,0 +1,29 @@
+Start MRIStep Logging test
+Using Im-MRI-SR method
+Using fixed-point nonlinear solver
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+0.000000000000000000e+00 1.224744871391589049e+00 1.732050807568877294e+00 0.000000000000000000e+00 0.000000000000000000e+00
+1.000000000000000000e-03 1.224744769293107804e+00 1.731993073495864872e+00 3.641288193276942531e-11 8.350322928778186604e-12
+2.000000000000000000e-03 1.224744463044450081e+00 1.731819882840894873e+00 9.891654563585344784e-11 1.672434250549886814e-11
+3.000000000000000000e-03 1.224743952645808916e+00 1.731531270248434149e+00 1.874710489927974844e-10 2.513621082111949789e-11
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.003
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.001
+Last step size                = 0.001
+Current step size             = 0.001
+Explicit slow RHS fn evals    = 0
+Implicit slow RHS fn evals    = 27
+Inner stepper failures        = 0
+NLS iters                     = 18
+NLS fails                     = 0
+NLS iters per step            = 6
+LS setups                     = 0
+End MRIStep Logging test

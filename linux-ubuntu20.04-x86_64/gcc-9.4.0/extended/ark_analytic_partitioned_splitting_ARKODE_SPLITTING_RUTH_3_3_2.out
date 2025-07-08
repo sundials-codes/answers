@@ -1,0 +1,55 @@
+
+Analytical ODE test problem:
+   integrator = splitting method
+   coefficients = ARKODE_SPLITTING_RUTH_3_3_2
+   lambda     = 2
+
+Error: 6.71891e-09
+
+Splitting Stepper Statistics:
+Current time                  = 1.01
+Steps                         = 101
+Step attempts                 = 101
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.01
+Last step size                = 0.01
+Current step size             = 0.01
+Partition 1 evolves           = 303
+Partition 2 evolves           = 303
+
+Linear Stepper Statistics:
+Current time                  = 1.01
+Steps                         = 1313
+Step attempts                 = 1313
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.002
+Last step size                = 0.000666666666666666536
+Current step size             = 0.002
+RHS fn evals                  = 5555
+
+Nonlinear Stepper Statistics:
+Current time                  = 1.01
+Steps                         = 1212
+Step attempts                 = 1212
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.001
+Last step size                = 0.000916666666666666649
+Current step size             = 0.001
+Explicit RHS fn evals         = 5151
+Implicit RHS fn evals         = 0
+NLS iters                     = 0
+NLS fails                     = 0
+NLS iters per step            = 0
+LS setups                     = 0

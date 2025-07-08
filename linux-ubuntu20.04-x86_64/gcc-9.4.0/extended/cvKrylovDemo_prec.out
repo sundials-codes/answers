@@ -339,7 +339,7 @@ Species 4
 35579.4   35804.2   36281.9   36845     37331.5   37564.5   
 35393.2   35577     35973.6   36442.3   36845     37034.1   
 35168.3   35306.8   35611.4   35973.6   36281.9   36423.1   
-34983.5   35080.9   35306.8   35577     35804.2   35903.6   
+34983.5   35081     35306.8   35577     35804.2   35903.6   
 34907.7   34983.5   35168.3   35393.2   35579.4   35655.3   
 
 Species 5
@@ -362,7 +362,7 @@ t =   8.00e+00  nst = 331  nfe = 369  nni = 366  qu = 3  hu =    1.04e-01
 
 t =   9.00e+00  nst = 341  nfe = 379  nni = 376  qu = 3  hu =    1.04e-01
 
-t =   1.00e+01  nst = 351  nfe = 390  nni = 387  qu = 3  hu =    1.04e-01
+t =   1.00e+01  nst = 350  nfe = 390  nni = 387  qu = 2  hu =    1.74e-01
 
 c values at t = 10:
 
@@ -370,49 +370,49 @@ Species 1
 1.18838   1.19667   1.21399   1.23437   1.25205   1.26066   
 1.18585   1.19335   1.20928   1.22805   1.24428   1.25205   
 1.17964   1.18578   1.199     1.21463   1.22805   1.23437   
-1.17215   1.17677   1.18693   1.199     1.20928   1.21399   
-1.16598   1.16925   1.17677   1.18578   1.19335   1.19667   
+1.17215   1.17676   1.18693   1.199     1.20928   1.21399   
+1.16598   1.16925   1.17676   1.18578   1.19335   1.19667   
 1.16347   1.16598   1.17215   1.17964   1.18585   1.18838   
 
 Species 2
 1.18838   1.19667   1.21399   1.23437   1.25205   1.26066   
 1.18585   1.19335   1.20928   1.22805   1.24428   1.25205   
 1.17964   1.18578   1.199     1.21463   1.22805   1.23437   
-1.17215   1.17677   1.18693   1.199     1.20928   1.21399   
-1.16598   1.16925   1.17677   1.18578   1.19335   1.19667   
+1.17215   1.17676   1.18693   1.199     1.20928   1.21399   
+1.16598   1.16925   1.17676   1.18578   1.19335   1.19667   
 1.16347   1.16598   1.17215   1.17964   1.18585   1.18838   
 
 Species 3
 1.18838   1.19667   1.21399   1.23437   1.25205   1.26066   
 1.18585   1.19335   1.20928   1.22805   1.24428   1.25205   
 1.17964   1.18578   1.199     1.21463   1.22805   1.23437   
-1.17215   1.17677   1.18693   1.199     1.20928   1.21399   
-1.16598   1.16925   1.17677   1.18578   1.19335   1.19667   
+1.17215   1.17676   1.18693   1.199     1.20928   1.21399   
+1.16598   1.16925   1.17676   1.18578   1.19335   1.19667   
 1.16347   1.16598   1.17215   1.17964   1.18585   1.18838   
 
 Species 4
-35650.7   35898.8   36418.4   37029.2   37559.5   37817.3   
-35574.5   35799.6   36277.1   36840.1   37326.6   37559.5   
-35388.5   35572.2   35968.7   36437.4   36840.1   37029.2   
-35163.7   35302     35606.7   35968.7   36277.1   36418.4   
-34978.6   35076.5   35302     35572.2   35799.6   35898.8   
-34903.2   34978.6   35163.7   35388.5   35574.5   35650.7   
+35650.8   35898.7   36418.5   37029.1   37559.6   37817.2   
+35574.4   35799.6   36277     36840.2   37326.4   37559.6   
+35388.5   35572.2   35968.8   36437.3   36840.2   37029.1   
+35163.7   35301.9   35606.7   35968.8   36277     36418.5   
+34978.5   35076.5   35301.9   35572.2   35799.6   35898.7   
+34903.3   34978.5   35163.7   35388.5   35574.4   35650.8   
 
 Species 5
-35650.7   35898.8   36418.4   37029.2   37559.5   37817.3   
-35574.5   35799.6   36277.1   36840.1   37326.6   37559.5   
-35388.5   35572.2   35968.7   36437.4   36840.1   37029.2   
-35163.7   35302     35606.7   35968.7   36277.1   36418.4   
-34978.6   35076.5   35302     35572.2   35799.6   35898.8   
-34903.2   34978.6   35163.7   35388.5   35574.5   35650.7   
+35650.8   35898.7   36418.5   37029.1   37559.6   37817.2   
+35574.4   35799.6   36277     36840.2   37326.4   37559.6   
+35388.5   35572.2   35968.8   36437.3   36840.2   37029.1   
+35163.7   35301.9   35606.7   35968.8   36277     36418.5   
+34978.5   35076.5   35301.9   35572.2   35799.6   35898.7   
+34903.3   34978.5   35163.7   35388.5   35574.4   35650.8   
 
 Species 6
-35650.7   35898.8   36418.4   37029.2   37559.5   37817.3   
-35574.5   35799.6   36277.1   36840.1   37326.6   37559.5   
-35388.5   35572.2   35968.7   36437.4   36840.1   37029.2   
-35163.7   35302     35606.7   35968.7   36277.1   36418.4   
-34978.6   35076.5   35302     35572.2   35799.6   35898.8   
-34903.2   34978.6   35163.7   35388.5   35574.5   35650.7   
+35650.8   35898.7   36418.5   37029.1   37559.6   37817.2   
+35574.4   35799.6   36277     36840.2   37326.4   37559.6   
+35388.5   35572.2   35968.8   36437.3   36840.2   37029.1   
+35163.7   35301.9   35606.7   35968.8   36277     36418.5   
+34978.5   35076.5   35301.9   35572.2   35799.6   35898.7   
+34903.3   34978.5   35163.7   35388.5   35574.4   35650.8   
 
 
 
@@ -422,19 +422,19 @@ Species 6
  CVode integer workspace length        =   53 
  CVLS real workspace length            = 2646 
  CVLS integer workspace length         =   42 
- Number of steps                       =  351 
+ Number of steps                       =  350 
  Number of f-s                         =  390 
- Number of f-s (SPGMR)                 =  579 
- Number of f-s (TOTAL)                 =  969 
- Number of setups                      =   47 
+ Number of f-s (SPGMR)                 =  575 
+ Number of f-s (TOTAL)                 =  965 
+ Number of setups                      =   48 
  Number of nonlinear iterations        =  387 
- Number of linear iterations           =  579 
- Number of preconditioner evaluations  =   47 
- Number of preconditioner solves       =  948 
+ Number of linear iterations           =  575 
+ Number of preconditioner evaluations  =   48 
+ Number of preconditioner solves       =  944 
  Number of error test failures         =    2 
  Number of nonlinear conv. failures    =    0 
  Number of linear convergence failures =    0 
- Average Krylov subspace dimension     = 1.496 
+ Average Krylov subspace dimension     = 1.486 
 
 
 ----------------------------------------------------------------------------
@@ -480,7 +480,7 @@ t =   8.00e+00  nst = 331  nfe = 369  nni = 366  qu = 3  hu =    1.04e-01
 
 t =   9.00e+00  nst = 341  nfe = 379  nni = 376  qu = 3  hu =    1.04e-01
 
-t =   1.00e+01  nst = 351  nfe = 390  nni = 387  qu = 3  hu =    1.04e-01
+t =   1.00e+01  nst = 351  nfe = 391  nni = 388  qu = 2  hu =    1.61e-01
 
 
 
@@ -491,18 +491,18 @@ t =   1.00e+01  nst = 351  nfe = 390  nni = 387  qu = 3  hu =    1.04e-01
  CVLS real workspace length            = 2646 
  CVLS integer workspace length         =   42 
  Number of steps                       =  351 
- Number of f-s                         =  390 
- Number of f-s (SPGMR)                 =  576 
- Number of f-s (TOTAL)                 =  966 
- Number of setups                      =   47 
- Number of nonlinear iterations        =  387 
- Number of linear iterations           =  576 
- Number of preconditioner evaluations  =   47 
- Number of preconditioner solves       =  945 
+ Number of f-s                         =  391 
+ Number of f-s (SPGMR)                 =  578 
+ Number of f-s (TOTAL)                 =  969 
+ Number of setups                      =   48 
+ Number of nonlinear iterations        =  388 
+ Number of linear iterations           =  578 
+ Number of preconditioner evaluations  =   48 
+ Number of preconditioner solves       =  948 
  Number of error test failures         =    2 
  Number of nonlinear conv. failures    =    0 
  Number of linear convergence failures =    0 
- Average Krylov subspace dimension     = 1.488 
+ Average Krylov subspace dimension     = 1.490 
 
 
 ----------------------------------------------------------------------------
@@ -546,9 +546,9 @@ t =   7.00e+00  nst = 249  nfe = 293  nni = 290  qu = 5  hu =    1.70e-01
 
 t =   8.00e+00  nst = 255  nfe = 299  nni = 296  qu = 5  hu =    1.70e-01
 
-t =   9.00e+00  nst = 261  nfe = 306  nni = 303  qu = 5  hu =    1.70e-01
+t =   9.00e+00  nst = 261  nfe = 305  nni = 302  qu = 5  hu =    1.70e-01
 
-t =   1.00e+01  nst = 275  nfe = 322  nni = 319  qu = 4  hu =    1.17e-01
+t =   1.00e+01  nst = 272  nfe = 319  nni = 316  qu = 4  hu =    1.46e-01
 
 
 
@@ -558,19 +558,19 @@ t =   1.00e+01  nst = 275  nfe = 322  nni = 319  qu = 4  hu =    1.17e-01
  CVode integer workspace length        =   53 
  CVLS real workspace length            = 2646 
  CVLS integer workspace length         =   42 
- Number of steps                       =  275 
- Number of f-s                         =  322 
- Number of f-s (SPGMR)                 =  649 
- Number of f-s (TOTAL)                 =  971 
+ Number of steps                       =  272 
+ Number of f-s                         =  319 
+ Number of f-s (SPGMR)                 =  644 
+ Number of f-s (TOTAL)                 =  963 
  Number of setups                      =   48 
- Number of nonlinear iterations        =  319 
- Number of linear iterations           =  649 
+ Number of nonlinear iterations        =  316 
+ Number of linear iterations           =  644 
  Number of preconditioner evaluations  =   48 
- Number of preconditioner solves       =  935 
+ Number of preconditioner solves       =  927 
  Number of error test failures         =    3 
  Number of nonlinear conv. failures    =    1 
- Number of linear convergence failures =   49 
- Average Krylov subspace dimension     = 2.034 
+ Number of linear convergence failures =   53 
+ Average Krylov subspace dimension     = 2.038 
 
 
 ----------------------------------------------------------------------------
@@ -614,9 +614,9 @@ t =   7.00e+00  nst = 249  nfe = 293  nni = 290  qu = 5  hu =    1.70e-01
 
 t =   8.00e+00  nst = 255  nfe = 299  nni = 296  qu = 5  hu =    1.70e-01
 
-t =   9.00e+00  nst = 263  nfe = 311  nni = 308  qu = 5  hu =    4.26e-02
+t =   9.00e+00  nst = 266  nfe = 314  nni = 311  qu = 4  hu =    6.41e-02
 
-t =   1.00e+01  nst = 273  nfe = 321  nni = 318  qu = 3  hu =    2.94e-01
+t =   1.00e+01  nst = 273  nfe = 321  nni = 318  qu = 3  hu =    2.74e-01
 
 
 
@@ -628,17 +628,17 @@ t =   1.00e+01  nst = 273  nfe = 321  nni = 318  qu = 3  hu =    2.94e-01
  CVLS integer workspace length         =   42 
  Number of steps                       =  273 
  Number of f-s                         =  321 
- Number of f-s (SPGMR)                 =  649 
- Number of f-s (TOTAL)                 =  970 
+ Number of f-s (SPGMR)                 =  648 
+ Number of f-s (TOTAL)                 =  969 
  Number of setups                      =   49 
  Number of nonlinear iterations        =  318 
- Number of linear iterations           =  649 
+ Number of linear iterations           =  648 
  Number of preconditioner evaluations  =   49 
- Number of preconditioner solves       =  934 
+ Number of preconditioner solves       =  933 
  Number of error test failures         =    3 
  Number of nonlinear conv. failures    =    2 
  Number of linear convergence failures =   49 
- Average Krylov subspace dimension     = 2.041 
+ Average Krylov subspace dimension     = 2.038 
 
 
 ----------------------------------------------------------------------------

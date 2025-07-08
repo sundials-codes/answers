@@ -1,0 +1,29 @@
+Start MRIStep Logging test
+Using Im-MRI-GARK method
+Using fixed-point nonlinear solver
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+0.000000000000000000e+00 1.224744871391589049e+00 1.732050807568877294e+00 0.000000000000000000e+00 0.000000000000000000e+00
+1.000000000000000000e-03 1.224744769312645104e+00 1.731993073504226184e+00 1.687558166124647485e-11 1.098936480009582439e-14
+2.000000000000000000e-03 1.224744463066094291e+00 1.731819882857627798e+00 7.727233599080091109e-11 8.583411759133241503e-15
+3.000000000000000000e-03 1.224743952652198292e+00 1.731531270273541283e+00 1.810816729853545470e-10 2.907732648410599197e-14
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.003
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.001
+Last step size                = 0.001
+Current step size             = 0.001
+Explicit slow RHS fn evals    = 0
+Implicit slow RHS fn evals    = 27
+Inner stepper failures        = 0
+NLS iters                     = 18
+NLS fails                     = 0
+NLS iters per step            = 6
+LS setups                     = 0
+End MRIStep Logging test
