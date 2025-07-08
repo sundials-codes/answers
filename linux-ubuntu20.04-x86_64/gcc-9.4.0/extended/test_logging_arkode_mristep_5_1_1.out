@@ -1,0 +1,41 @@
+Start MRIStep Logging test
+Using ImEx-MRI-SR method
+Using Newton nonlinear solver
+Using dense direct linear solver
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+0.000000000000000000e+00 1.224744871391589049e+00 1.732050807568877294e+00 0.000000000000000000e+00 0.000000000000000000e+00
+1.000000000000000000e-03 1.224744769394183957e+00 1.731993073509035772e+00 6.466327126530835301e-11 4.820577097219835849e-12
+2.000000000000000000e-03 1.224744463272501755e+00 1.731819882893632120e+00 1.291351279381069972e-10 3.601290522303041142e-11
+3.000000000000000000e-03 1.224743953054847752e+00 1.731531408143760977e+00 2.215677867957802083e-10 1.378701906174688643e-07
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.003
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.001
+Last step size                = 0.001
+Current step size             = 0.001
+Explicit slow RHS fn evals    = 9
+Implicit slow RHS fn evals    = 24
+Inner stepper failures        = 0
+NLS iters                     = 15
+NLS fails                     = 0
+NLS iters per step            = 5
+LS setups                     = 1
+Jac fn evals                  = 1
+LS RHS fn evals               = 0
+Prec setup evals              = 0
+Prec solves                   = 0
+LS iters                      = 0
+LS fails                      = 0
+Jac-times setups              = 0
+Jac-times evals               = 0
+LS iters per NLS iter         = 0
+Jac evals per NLS iter        = 0.0666666666666666667
+Prec evals per NLS iter       = 0
+End MRIStep Logging test

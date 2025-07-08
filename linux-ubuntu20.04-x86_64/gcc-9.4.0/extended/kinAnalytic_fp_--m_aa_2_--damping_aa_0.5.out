@@ -13,6 +13,8 @@ Solution method: Anderson accelerated fixed point iteration.
     delay_aa     = 0
     damping_aa   = 0.5
     damping_fp   = 1
+    damping_fn   = OFF
+    depth_fn     = OFF
     orth routine = 0
 
 Final Statistics:
@@ -23,7 +25,7 @@ Computed solution:
     y = 1
     z = -0.523599
 Solution error:
-    ex = 3.85815e-09
-    ey = 1.00179e-08
-    ez = 2.03906e-08
+    ex = 1.48354e-08
+    ey = 9.77862e-09
+    ez = 1.37959e-08
 PASS

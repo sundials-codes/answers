@@ -1,26 +1,26 @@
 Start LSRKStep Logging test
-                      t                      y                  y err
----------------------------------------------------------------------
-  0.000000000000000e+00  0.000000000000000e+00  0.000000000000000e+00
-  6.103515625000001e-12  6.103515624999988e-12  1.211690350419474e-26
-  4.660370515962586e-09  4.660370515962578e-09  7.444625512977249e-24
-  9.774571052271429e-08  9.774571052271400e-08  2.646977960169689e-23
----------------------------------------------------------------------
-Current time                 = 9.774571052271429e-08
-Steps                        = 3
-Step attempts                = 3
-Stability limited steps      = 0
-Accuracy limited steps       = 3
-Error test fails             = 0
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 6.103515625000001e-12
-Last step size               = 9.30853400067517e-08
-Current step size            = 1.861706800135034e-06
-RHS fn evals                 = 9
-Number of dom_eig updates    = 1
-Max. num. of stages used     = 2
-Max. num. of stages allowed  = 200
-Max. spectral radius         = 999.9
-Min. spectral radius         = 999.9
+                         t                         y                     y err
+------------------------------------------------------------------------------
+  0.000000000000000000e+00  0.000000000000000000e+00  0.000000000000000000e+00
+  9.072930259725349935e-13  9.072930259725349932e-13  2.958228394578794270e-31
+  9.073837552751322471e-09  9.073837552751322375e-09  1.526729841528537408e-25
+  1.905324427472583212e-07  1.905324427472572880e-07  1.272488125442121667e-21
+------------------------------------------------------------------------------
+Current time                  = 1.90532442747258321e-07
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 3
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 9.07293025972534994e-13
+Last step size                = 1.81458605194506999e-07
+Current step size             = 3.62917210389013997e-06
+RHS fn evals                  = 9
+Number of dom_eig updates     = 1
+Max. num. of stages used      = 2
+Max. num. of stages allowed   = 200
+Max. spectral radius          = 999.9
+Min. spectral radius          = 999.9
 End LSRKStep Logging test
