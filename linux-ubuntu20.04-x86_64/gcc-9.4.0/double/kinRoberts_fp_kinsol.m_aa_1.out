@@ -1,140 +1,17 @@
+Example problem from chemical kinetics solving
+the first time step in a Backward Euler solution for the
+following three rate equations:
+    dy1/dt = -.04*y1 + 1.e4*y2*y3
+    dy2/dt = .04*y1 - 1.e4*y2*y3 - 3.e2*(y2)^2
+    dy3/dt = 3.e2*(y2)^2
+on the interval from t = 0.0 to t = 0.1, with initial
+conditions: y1 = 1.0, y2 = y3 = 0.
+Solution method: Anderson accelerated fixed point iteration.
 
-=================================================================
-==11337==ERROR: LeakSanitizer: detected memory leaks
+Computed solution (||F|| = 1.40454e-12):
 
-Direct leak of 24 byte(s) in 1 object(s) allocated from:
-    #0 0x7fc08eda7808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
-    #1 0x7fc08ea7680b in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:53
-    #2 0x7fc08ec36c2c in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:280
-    #3 0x7fc08ec36ed9 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:310
-    #4 0x7fc08ea78df8 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:287
-    #5 0x7fc08ea7cf01 in N_VCloneVectorArray /__w/sundials/sundials/src/sundials/sundials_nvector.c:1052
-    #6 0x7fc08ec1655e in KINAllocVectors /__w/sundials/sundials/src/kinsol/kinsol.c:1109
-    #7 0x7fc08ec10994 in KINInit /__w/sundials/sundials/src/kinsol/kinsol.c:380
-    #8 0x564b2c15a9d9 in main /__w/sundials/sundials/examples/kinsol/serial/kinRoberts_fp.c:137
-    #9 0x7fc08e870082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+y =  9.967854e-01    2.953006e-03    2.616073e-04
 
-Direct leak of 24 byte(s) in 1 object(s) allocated from:
-    #0 0x7fc08eda7808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
-    #1 0x7fc08ea7680b in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:53
-    #2 0x7fc08ec36c2c in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:280
-    #3 0x7fc08ec36ed9 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:310
-    #4 0x7fc08ea78df8 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:287
-    #5 0x7fc08ea7cf01 in N_VCloneVectorArray /__w/sundials/sundials/src/sundials/sundials_nvector.c:1052
-    #6 0x7fc08ec1592b in KINAllocVectors /__w/sundials/sundials/src/kinsol/kinsol.c:1060
-    #7 0x7fc08ec10994 in KINInit /__w/sundials/sundials/src/kinsol/kinsol.c:380
-    #8 0x564b2c15a9d9 in main /__w/sundials/sundials/examples/kinsol/serial/kinRoberts_fp.c:137
-    #9 0x7fc08e870082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+Final Statistics.. 
 
-Direct leak of 24 byte(s) in 1 object(s) allocated from:
-    #0 0x7fc08eda7808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
-    #1 0x7fc08ea7680b in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:53
-    #2 0x7fc08ec36c2c in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:280
-    #3 0x7fc08ec36ed9 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:310
-    #4 0x7fc08ea78df8 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:287
-    #5 0x7fc08ea7cf01 in N_VCloneVectorArray /__w/sundials/sundials/src/sundials/sundials_nvector.c:1052
-    #6 0x7fc08ec15eec in KINAllocVectors /__w/sundials/sundials/src/kinsol/kinsol.c:1084
-    #7 0x7fc08ec10994 in KINInit /__w/sundials/sundials/src/kinsol/kinsol.c:380
-    #8 0x564b2c15a9d9 in main /__w/sundials/sundials/examples/kinsol/serial/kinRoberts_fp.c:137
-    #9 0x7fc08e870082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
-
-Indirect leak of 448 byte(s) in 1 object(s) allocated from:
-    #0 0x7fc08eda7808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
-    #1 0x7fc08ea7687c in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:58
-    #2 0x7fc08ec36c2c in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:280
-    #3 0x7fc08ec36ed9 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:310
-    #4 0x7fc08ea78df8 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:287
-    #5 0x7fc08ea7cf01 in N_VCloneVectorArray /__w/sundials/sundials/src/sundials/sundials_nvector.c:1052
-    #6 0x7fc08ec1655e in KINAllocVectors /__w/sundials/sundials/src/kinsol/kinsol.c:1109
-    #7 0x7fc08ec10994 in KINInit /__w/sundials/sundials/src/kinsol/kinsol.c:380
-    #8 0x564b2c15a9d9 in main /__w/sundials/sundials/examples/kinsol/serial/kinRoberts_fp.c:137
-    #9 0x7fc08e870082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
-
-Indirect leak of 448 byte(s) in 1 object(s) allocated from:
-    #0 0x7fc08eda7808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
-    #1 0x7fc08ea7687c in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:58
-    #2 0x7fc08ec36c2c in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:280
-    #3 0x7fc08ec36ed9 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:310
-    #4 0x7fc08ea78df8 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:287
-    #5 0x7fc08ea7cf01 in N_VCloneVectorArray /__w/sundials/sundials/src/sundials/sundials_nvector.c:1052
-    #6 0x7fc08ec1592b in KINAllocVectors /__w/sundials/sundials/src/kinsol/kinsol.c:1060
-    #7 0x7fc08ec10994 in KINInit /__w/sundials/sundials/src/kinsol/kinsol.c:380
-    #8 0x564b2c15a9d9 in main /__w/sundials/sundials/examples/kinsol/serial/kinRoberts_fp.c:137
-    #9 0x7fc08e870082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
-
-Indirect leak of 448 byte(s) in 1 object(s) allocated from:
-    #0 0x7fc08eda7808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
-    #1 0x7fc08ea7687c in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:58
-    #2 0x7fc08ec36c2c in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:280
-    #3 0x7fc08ec36ed9 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:310
-    #4 0x7fc08ea78df8 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:287
-    #5 0x7fc08ea7cf01 in N_VCloneVectorArray /__w/sundials/sundials/src/sundials/sundials_nvector.c:1052
-    #6 0x7fc08ec15eec in KINAllocVectors /__w/sundials/sundials/src/kinsol/kinsol.c:1084
-    #7 0x7fc08ec10994 in KINInit /__w/sundials/sundials/src/kinsol/kinsol.c:380
-    #8 0x564b2c15a9d9 in main /__w/sundials/sundials/examples/kinsol/serial/kinRoberts_fp.c:137
-    #9 0x7fc08e870082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
-
-Indirect leak of 24 byte(s) in 1 object(s) allocated from:
-    #0 0x7fc08eda7808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
-    #1 0x7fc08ec36faf in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:319
-    #2 0x7fc08ea78df8 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:287
-    #3 0x7fc08ea7cf01 in N_VCloneVectorArray /__w/sundials/sundials/src/sundials/sundials_nvector.c:1052
-    #4 0x7fc08ec15eec in KINAllocVectors /__w/sundials/sundials/src/kinsol/kinsol.c:1084
-    #5 0x7fc08ec10994 in KINInit /__w/sundials/sundials/src/kinsol/kinsol.c:380
-    #6 0x564b2c15a9d9 in main /__w/sundials/sundials/examples/kinsol/serial/kinRoberts_fp.c:137
-    #7 0x7fc08e870082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
-
-Indirect leak of 24 byte(s) in 1 object(s) allocated from:
-    #0 0x7fc08eda7808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
-    #1 0x7fc08ec36faf in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:319
-    #2 0x7fc08ea78df8 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:287
-    #3 0x7fc08ea7cf01 in N_VCloneVectorArray /__w/sundials/sundials/src/sundials/sundials_nvector.c:1052
-    #4 0x7fc08ec1592b in KINAllocVectors /__w/sundials/sundials/src/kinsol/kinsol.c:1060
-    #5 0x7fc08ec10994 in KINInit /__w/sundials/sundials/src/kinsol/kinsol.c:380
-    #6 0x564b2c15a9d9 in main /__w/sundials/sundials/examples/kinsol/serial/kinRoberts_fp.c:137
-    #7 0x7fc08e870082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
-
-Indirect leak of 24 byte(s) in 1 object(s) allocated from:
-    #0 0x7fc08eda7808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
-    #1 0x7fc08ec36faf in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:319
-    #2 0x7fc08ea78df8 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:287
-    #3 0x7fc08ea7cf01 in N_VCloneVectorArray /__w/sundials/sundials/src/sundials/sundials_nvector.c:1052
-    #4 0x7fc08ec1655e in KINAllocVectors /__w/sundials/sundials/src/kinsol/kinsol.c:1109
-    #5 0x7fc08ec10994 in KINInit /__w/sundials/sundials/src/kinsol/kinsol.c:380
-    #6 0x564b2c15a9d9 in main /__w/sundials/sundials/examples/kinsol/serial/kinRoberts_fp.c:137
-    #7 0x7fc08e870082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
-
-Indirect leak of 16 byte(s) in 1 object(s) allocated from:
-    #0 0x7fc08eda7808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
-    #1 0x7fc08ec36ceb in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:288
-    #2 0x7fc08ec36ed9 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:310
-    #3 0x7fc08ea78df8 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:287
-    #4 0x7fc08ea7cf01 in N_VCloneVectorArray /__w/sundials/sundials/src/sundials/sundials_nvector.c:1052
-    #5 0x7fc08ec1655e in KINAllocVectors /__w/sundials/sundials/src/kinsol/kinsol.c:1109
-    #6 0x7fc08ec10994 in KINInit /__w/sundials/sundials/src/kinsol/kinsol.c:380
-    #7 0x564b2c15a9d9 in main /__w/sundials/sundials/examples/kinsol/serial/kinRoberts_fp.c:137
-    #8 0x7fc08e870082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
-
-Indirect leak of 16 byte(s) in 1 object(s) allocated from:
-    #0 0x7fc08eda7808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
-    #1 0x7fc08ec36ceb in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:288
-    #2 0x7fc08ec36ed9 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:310
-    #3 0x7fc08ea78df8 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:287
-    #4 0x7fc08ea7cf01 in N_VCloneVectorArray /__w/sundials/sundials/src/sundials/sundials_nvector.c:1052
-    #5 0x7fc08ec15eec in KINAllocVectors /__w/sundials/sundials/src/kinsol/kinsol.c:1084
-    #6 0x7fc08ec10994 in KINInit /__w/sundials/sundials/src/kinsol/kinsol.c:380
-    #7 0x564b2c15a9d9 in main /__w/sundials/sundials/examples/kinsol/serial/kinRoberts_fp.c:137
-    #8 0x7fc08e870082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
-
-Indirect leak of 16 byte(s) in 1 object(s) allocated from:
-    #0 0x7fc08eda7808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
-    #1 0x7fc08ec36ceb in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:288
-    #2 0x7fc08ec36ed9 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:310
-    #3 0x7fc08ea78df8 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:287
-    #4 0x7fc08ea7cf01 in N_VCloneVectorArray /__w/sundials/sundials/src/sundials/sundials_nvector.c:1052
-    #5 0x7fc08ec1592b in KINAllocVectors /__w/sundials/sundials/src/kinsol/kinsol.c:1060
-    #6 0x7fc08ec10994 in KINInit /__w/sundials/sundials/src/kinsol/kinsol.c:380
-    #7 0x564b2c15a9d9 in main /__w/sundials/sundials/examples/kinsol/serial/kinRoberts_fp.c:137
-    #8 0x7fc08e870082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
-
-SUMMARY: AddressSanitizer: 1536 byte(s) leaked in 12 allocation(s).
+nni      =     11    nfe     =     11 
