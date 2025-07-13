@@ -13,8 +13,8 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 1
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -23,8 +23,8 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 1
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -33,8 +33,8 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 1
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -43,8 +43,8 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 1
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -53,13 +53,13 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -68,8 +68,8 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 1
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -85,13 +85,13 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -100,13 +100,13 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -115,13 +115,13 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -130,13 +130,13 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -145,13 +145,13 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -160,13 +160,13 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -182,18 +182,18 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 3, total-iters = 3, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 3, total-iters = 3, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 3
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -202,18 +202,18 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 3, total-iters = 3, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 3, total-iters = 3, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 3
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -222,18 +222,18 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 3, total-iters = 3, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 3, total-iters = 3, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 3
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -242,13 +242,13 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -257,18 +257,18 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 3, total-iters = 3, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 3, total-iters = 3, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 3
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success
@@ -277,18 +277,18 @@ Using dense direct linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 1, total-iters = 1, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 2, total-iters = 2, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-nonlinear-iterate] 
 [INFO][rank 0][arkLsSolve][begin-linear-solve] iterative = 0
-[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.952661384176259e-310
-[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 3, total-iters = 3, update-norm = 6.95266138419365e-310
+[INFO][rank 0][arkLsSolve][end-linear-solve] status = success, iters = 0, p-solves = 0, resnorm = 6.953040144356382e-310
+[INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-iterate] cur-iter = 3, total-iters = 3, update-norm = 6.953040144373773e-310
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-nonlinear-iterate] status = success
 [INFO][rank 0][arkStep_Nls][end-nonlinear-solve] status = success, iters = 3
 [INFO][rank 0][arkStep_TakeStep_Z][end-stage] status = success

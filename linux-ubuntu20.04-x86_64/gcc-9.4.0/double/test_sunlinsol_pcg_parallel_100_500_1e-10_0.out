@@ -39,7 +39,7 @@ SUCCESS: SUNLinSol_PCG module, problem 2, passed all tests
     PASSED test -- SUNLinSolSolve 
     PASSED test -- SUNLinSolSolve 
     PASSED test -- SUNLinSolLastFlag (0) 
-    PASSED test -- SUNLinSolNumIters (64) 
+    PASSED test -- SUNLinSolNumIters (30) 
     PASSED test -- SUNLinSolResNorm
     PASSED test -- SUNLinSolResid
 SUCCESS: SUNLinSol_PCG module, problem 3, passed all tests
@@ -48,7 +48,7 @@ SUCCESS: SUNLinSol_PCG module, problem 3, passed all tests
     PASSED test -- SUNLinSolSolve 
     PASSED test -- SUNLinSolSolve 
     PASSED test -- SUNLinSolLastFlag (0) 
-    PASSED test -- SUNLinSolNumIters (4) 
+    PASSED test -- SUNLinSolNumIters (5) 
     PASSED test -- SUNLinSolResNorm
     PASSED test -- SUNLinSolResid
 SUCCESS: SUNLinSol_PCG module, problem 4, passed all tests

@@ -61,16 +61,16 @@ t = 94.0000, H(p,q)-H0 = -7.9522960135317011e-10, L(p,q)-L0 = 1.9515639104739080
 t = 96.0000, H(p,q)-H0 = 2.1895043904828198e-09, L(p,q)-L0 = 1.2468324983583301e-18
 t = 98.0000, H(p,q)-H0 = 2.1904078717656632e-09, L(p,q)-L0 = 1.1384122811097797e-18
 t = 100.0000, H(p,q)-H0 = 1.8950301876752979e-09, L(p,q)-L0 = 1.1926223897340549e-18
-Current time                 = 100
-Steps                        = 10000
-Step attempts                = 10000
-Stability limited steps      = 0
-Accuracy limited steps       = 0
-Error test fails             = 0
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 0.009999999999999999999796712092659
-Last step size               = 0.0099999999999996133605965095529633
-Current step size            = 0.009999999999999999999796712092659
-f1 RHS fn evals              = 40000
-f2 RHS fn evals              = 40000
+Current time                  = 100
+Steps                         = 10000
+Step attempts                 = 10000
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.01
+Last step size                = 0.00999999999999961336
+Current step size             = 0.01
+f1 RHS fn evals               = 40000
+f2 RHS fn evals               = 40000

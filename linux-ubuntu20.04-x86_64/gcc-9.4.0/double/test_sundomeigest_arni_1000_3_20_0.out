@@ -5,22 +5,35 @@ DomEig module test:
   Number of preprocessing = 20
   Timing output flag = 0
 
-    PASSED test -- SUNDomEigEstGetID 
-    PASSED test -- SUNDomEigEstSetATimes 
-    PASSED test -- SUNDomEigEstSetNumPreProcess 
-    PASSED test -- SUNDomEigEstSetMaxPowerIter 
-    PASSED test -- SUNDomEigEstInitialize 
-    PASSED test -- SUNDomEigEstPreProcess 
-    PASSED test -- SUNDomEigEstComputeHess 
-    PASSED test -- SUNDomEigEstimate 
-    PASSED test -- SUNDomEigEstNumIters 
-    PASSED test -- SUNDomEigEstRes 
+    PASSED test -- SUNDomEigEst_SetATimes 
+    PASSED test -- SUNDomEigEst_SetMaxIters 
+    PASSED test -- SUNDomEigEst_SetNumPreProcess 
+    PASSED test -- SUNDomEigEst_SetTol 
+    PASSED test -- SUNDomEigEst_Initialize 
+    PASSED test -- SUNDomEigEst_PreProcess 
+    PASSED test -- SUNDomEigEst_ComputeHess 
+    PASSED test -- SUNDomEig_Estimate 
+    PASSED test -- SUNDomEigEst_GetCurRes 
+    PASSED test -- SUNDomEigEst_GetCurNumIters 
+    PASSED test -- SUNDomEigEst_GetMaxNumIters 
+    PASSED test -- SUNDomEigEst_GetMinNumIters 
+    PASSED test -- SUNDomEigEst_GetNumATimesCalls 
+    SUNDomEigEst_PrintStats: 
+    --------------------------------------------
+
+Arnoldi Iteration DEE Statistics:
+------------------------------------------------
+Krylov dimensions             = 3
+Num. of warmups               = 20
+Num. of ATimes calls          = 23
+    --------------------------------------------
+    PASSED test -- SUNDomEigEst_PrintStats 
 SUCCESS: SUNDomEigEst_ArnI module passed all initialization tests
 
 
-computed dominant eigenvalue =          -99043.0802 +               0.0000i
-    true dominant eigenvalue =         -100000.0000 +               0.0000i
+computed dominant eigenvalue = -99043.0802491716 + 0 i
+    true dominant eigenvalue = -100000 + 0 i
 
 
-PASS:   relative error = 0.009662
+PASS:   relative error = 0.00966165176225339 
 
