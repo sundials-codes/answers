@@ -123,21 +123,21 @@ ROOT RETURN:	  g[0] =  -1, y[0] = -1.6, y[1] = -2.08675e-17, num. orbits is now 
 t = 97.3893, H(p,q)-H0 = -2.0076058918565938e-07, L(p,q)-L0 = -2.9960132190572607e-08
 t = 98.0000, H(p,q)-H0 = -2.0076044726852812e-07, L(p,q)-L0 = -2.9960541961476881e-08
 t = 100.0000, H(p,q)-H0 = -2.0018591077820488e-07, L(p,q)-L0 = -2.9965236273744346e-08
-Current time                 = 100
-Steps                        = 10000
-Step attempts                = 10000
-Stability limited steps      = 0
-Accuracy limited steps       = 0
-Error test fails             = 0
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 0.009999999999999999999796712092659
-Last step size               = 0.0099999999999996133605965095529633
-Current step size            = 0.009999999999999999999796712092659
-Root fn evals                = 10352
-Explicit RHS fn evals        = 50000
-Implicit RHS fn evals        = 0
-NLS iters                    = 0
-NLS fails                    = 0
-NLS iters per step           = 0
-LS setups                    = 0
+Current time                  = 100
+Steps                         = 10000
+Step attempts                 = 10000
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.01
+Last step size                = 0.00999999999999961336
+Current step size             = 0.01
+Root fn evals                 = 10352
+Explicit RHS fn evals         = 50000
+Implicit RHS fn evals         = 0
+NLS iters                     = 0
+NLS fails                     = 0
+NLS iters per step            = 0
+LS setups                     = 0

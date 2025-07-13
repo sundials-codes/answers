@@ -68,7 +68,7 @@ SUCCESS: SUNLinSol_SPGMR module, problem 5, passed all tests
     PASSED test -- SUNLinSolSolve 
     PASSED test -- SUNLinSolSolve 
     PASSED test -- SUNLinSolLastFlag (0) 
-    PASSED test -- SUNLinSolNumIters (6) 
+    PASSED test -- SUNLinSolNumIters (5) 
     PASSED test -- SUNLinSolResNorm
     PASSED test -- SUNLinSolResid
 SUCCESS: SUNLinSol_SPGMR module, problem 6, passed all tests

@@ -1,0 +1,39 @@
+
+DomEig module test:
+  Problem size = 1000
+  Krylov subspace dimension = 3
+  Number of preprocessing = 20
+  Timing output flag = 0
+
+    PASSED test -- SUNDomEigEst_SetATimes 
+    PASSED test -- SUNDomEigEst_SetMaxIters 
+    PASSED test -- SUNDomEigEst_SetNumPreProcess 
+    PASSED test -- SUNDomEigEst_SetTol 
+    PASSED test -- SUNDomEigEst_Initialize 
+    PASSED test -- SUNDomEigEst_PreProcess 
+    PASSED test -- SUNDomEigEst_ComputeHess 
+    PASSED test -- SUNDomEig_Estimate 
+    PASSED test -- SUNDomEigEst_GetCurRes 
+    PASSED test -- SUNDomEigEst_GetCurNumIters 
+    PASSED test -- SUNDomEigEst_GetMaxNumIters 
+    PASSED test -- SUNDomEigEst_GetMinNumIters 
+    PASSED test -- SUNDomEigEst_GetNumATimesCalls 
+    SUNDomEigEst_PrintStats: 
+    --------------------------------------------
+
+Arnoldi Iteration DEE Statistics:
+------------------------------------------------
+Krylov dimensions             = 3
+Num. of warmups               = 20
+Num. of ATimes calls          = 23
+    --------------------------------------------
+    PASSED test -- SUNDomEigEst_PrintStats 
+SUCCESS: SUNDomEigEst_ArnI module passed all initialization tests
+
+
+computed dominant eigenvalue = -99039.6 + 0 i
+    true dominant eigenvalue = -100000 + 0 i
+
+
+PASS:   relative error = 0.00969727 
+
