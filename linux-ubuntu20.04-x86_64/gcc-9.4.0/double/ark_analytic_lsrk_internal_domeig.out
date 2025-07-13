@@ -23,29 +23,34 @@ The stiffness of the problem is directly proportional to
    ---------------------
 
 Final Statistics:
-Current time                  = 10.0094320135723
-Steps                         = 1218
-Step attempts                 = 1274
-Stability limited steps       = 99
-Accuracy limited steps        = 1274
-Error test fails              = 56
+Current time                  = 10.0225297852833
+Steps                         = 1228
+Step attempts                 = 1293
+Stability limited steps       = 100
+Accuracy limited steps        = 1293
+Error test fails              = 65
 NLS step fails                = 0
 Inequality constraint fails   = 0
 Initial step size             = 1.93010111094261e-10
-Last step size                = 0.0231428583133173
-Current step size             = 0.0356302645950913
-RHS fn evals                  = 132522
-Number of dom_eig updates     = 81
-Number of warmups in DEE      = 0
-Max. num. of iters in DEE     = 100
-Num. of current iters in DEE  = 1
-Num. of total iters in DEE    = 576
-Tolerance in DEE              = 0.01
-Current residual in DEE       = 0.00942520599346608
-Number of fe calls for DEE    = 952
+Last step size                = 0.0231428574002256
+Current step size             = 0.0355362892083706
+RHS fn evals                  = 134017
+Number of dom_eig updates     = 85
+Number of fe calls for DEE    = 1764
 Max. num. of stages used      = 199
 Max. num. of stages allowed   = 200
-Max. spectral radius          = 1010100.95901471
+Max. spectral radius          = 1010100.99886782
 Min. spectral radius          = 1009899.00000001
 
-ACCURACY at the final time   = 2.23155e-13
+Power Iteration DEE Statistics:
+------------------------------------------------
+Max. num. of iters allowed    = 100
+Num. of warmups               = 10
+Power iteration tolerance     = 0.01
+Cur. residual                 = 0
+Cur. num. of power iters      = 2
+Max. num. of power iters      = 2
+Min. num. of power iters      = 2
+Num. of ATimes calls          = 1020
+
+ACCURACY at the final time   = 2.41362e-13
