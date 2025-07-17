@@ -11,7 +11,6 @@ DomEig module test:
     PASSED test -- SUNDomEigEst_SetTol 
     PASSED test -- SUNDomEigEst_Initialize 
     PASSED test -- SUNDomEigEst_PreProcess 
-    PASSED test -- SUNDomEigEst_ComputeHess 
     PASSED test -- SUNDomEig_Estimate 
     PASSED test -- SUNDomEigEst_GetCurRes 
     PASSED test -- SUNDomEigEst_GetCurNumIters 
