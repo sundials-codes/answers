@@ -26,7 +26,7 @@ Num. of warmups               = 20
 Num. of ATimes calls          = 23
     --------------------------------------------
     PASSED test -- SUNDomEigEst_PrintStats 
-SUCCESS: SUNDomEigEst_ArnI module passed all initialization tests
+SUCCESS: SUNDomEigEst_Arnoldi module passed all initialization tests
 
 
 computed dominant eigenvalue = -9905433.05033658 + 0 i
