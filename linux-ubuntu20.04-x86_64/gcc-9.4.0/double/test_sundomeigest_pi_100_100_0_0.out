@@ -31,7 +31,7 @@ Min. num. of power iters      = 5
 Num. of ATimes calls          = 5
     --------------------------------------------
     PASSED test -- SUNDomEigEst_PrintStats 
-SUCCESS: SUNDomEigEst_PI module passed all initialization tests
+SUCCESS: SUNDomEigEst_Power module passed all initialization tests
 
 
 computed dominant eigenvalue = -39996.46047158 + 0 i

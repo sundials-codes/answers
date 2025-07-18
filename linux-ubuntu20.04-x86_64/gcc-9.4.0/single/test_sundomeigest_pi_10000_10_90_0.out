@@ -15,7 +15,7 @@ DomEig module test:
     PASSED test -- SUNDomEigEstimate 
     PASSED test -- SUNDomEigEstNumIters 
     PASSED test -- SUNDomEigEstRes 
-SUCCESS: SUNDomEigEst_PI module passed all initialization tests
+SUCCESS: SUNDomEigEst_Power module passed all initialization tests
 
 
 computed dominant eigenvalue =         -995064.8750 +               0.0000i
