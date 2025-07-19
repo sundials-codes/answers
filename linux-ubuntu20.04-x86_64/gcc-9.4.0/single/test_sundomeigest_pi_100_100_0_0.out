@@ -7,8 +7,9 @@ DomEig module test:
 
     PASSED test -- SUNDomEigEst_SetATimes 
     PASSED test -- SUNDomEigEst_SetMaxIters 
-    PASSED test -- SUNDomEigEst_SetNumPreProcess 
-    PASSED test -- SUNDomEigEst_SetTol 
+    PASSED test -- SUNDomEigEst_SetNumInitialPreProcess 
+    PASSED test -- SUNDomEigEst_SetNumSucceedingPreProcess 
+    PASSED test -- SUNDomEigEst_SetRelTol 
     PASSED test -- SUNDomEigEst_Initialize 
     PASSED test -- SUNDomEig_Estimate 
     PASSED test -- SUNDomEigEst_GetCurRes 
