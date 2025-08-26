@@ -3,8 +3,8 @@ Analytical ODE test problem:
    lambda = -100
 
 ARKODE solver parameters:
-  Solver relative tolerance = 1e-05
-  Solver absolute tolerance = 1e-10
+  Solver relative tolerance = 1e-06
+  Solver absolute tolerance = 1e-08
 
   Maximum step increase (first step) = 10000
   Step reduction factor on multiple error fails = 0.3
@@ -32,7 +32,7 @@ Soderlind SUNAdaptController module:
   Maximum number of error test failures = 7
   Maximum number of convergence test failures = 10
 ARKStep time step module parameters:
-  Method order 4
+  Method order 5
   Linear implicit problem (time-independent Jacobian)
   Implicit integrator
   Implicit predictor method = 0
@@ -40,30 +40,30 @@ ARKStep time step module parameters:
   Maximum number of nonlinear corrections = 3
   Nonlinear convergence rate constant = 0.3
   Nonlinear divergence tolerance = 2.3
-  Gamma factor LSetup tolerance = 1.19209e-05
+  Gamma factor LSetup tolerance = 1.08420217248550443e-17
   Number of steps between LSetup calls = 20
 
         t           u
    ---------------------
-    1.000000    0.785381
-    2.000000    1.107157
-    3.000000    1.249061
-    4.000000    1.325837
-    5.000000    1.373382
-    6.000000    1.405644
-    7.000000    1.428889
-    8.000000    1.446428
-    9.000000    1.460146
-   10.000000    1.471149
+    1.000000    0.785396
+    2.000000    1.107147
+    3.000000    1.249042
+    4.000000    1.325813
+    5.000000    1.373394
+    6.000000    1.405642
+    7.000000    1.428897
+    8.000000    1.446441
+    9.000000    1.460126
+   10.000000    1.471113
    ---------------------
 
 Final Solver Statistics:
-   Internal solver steps = 37 (attempted = 38)
-   Total RHS evals:  Fe = 0,  Fi = 381
-   Total linear solver setups = 38
+   Internal solver steps = 81 (attempted = 82)
+   Total RHS evals:  Fe = 0,  Fi = 997
+   Total linear solver setups = 82
    Total RHS evals for setting up the linear system = 0
-   Total number of Jacobian evaluations = 2
-   Total number of Newton iterations = 190
+   Total number of Jacobian evaluations = 3
+   Total number of Newton iterations = 492
    Total number of linear solver convergence failures = 0
    Total number of error test failures = 1
 
