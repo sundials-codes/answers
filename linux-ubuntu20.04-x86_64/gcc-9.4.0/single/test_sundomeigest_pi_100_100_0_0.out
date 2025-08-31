@@ -5,19 +5,19 @@ DomEig module test:
   Number of preprocessing = 0
   Timing output flag = 0
 
-    PASSED test -- SUNDomEigEst_SetATimes 
-    PASSED test -- SUNDomEigEst_SetMaxIters 
-    PASSED test -- SUNDomEigEst_SetNumInitialPreProcess 
-    PASSED test -- SUNDomEigEst_SetNumSucceedingPreProcess 
-    PASSED test -- SUNDomEigEst_SetRelTol 
-    PASSED test -- SUNDomEigEst_Initialize 
-    PASSED test -- SUNDomEig_Estimate 
-    PASSED test -- SUNDomEigEst_GetCurRes 
-    PASSED test -- SUNDomEigEst_GetCurNumIters 
-    PASSED test -- SUNDomEigEst_GetMaxNumIters 
-    PASSED test -- SUNDomEigEst_GetMinNumIters 
-    PASSED test -- SUNDomEigEst_GetNumATimesCalls 
-    SUNDomEigEst_PrintStats: 
+    PASSED test -- SUNDomEigEstimator_SetATimes 
+    PASSED test -- SUNDomEigEstimator_SetMaxIters 
+    PASSED test -- SUNDomEigEstimator_SetNumInitialPreProcess 
+    PASSED test -- SUNDomEigEstimator_SetNumSucceedingPreProcess 
+    PASSED test -- SUNDomEigEstimator_SetRelTol 
+    PASSED test -- SUNDomEigEstimator_Initialize 
+    PASSED test -- SUNDomEigEstimator_Estimate 
+    PASSED test -- SUNDomEigEstimator_GetCurRes 
+    PASSED test -- SUNDomEigEstimator_GetCurNumIters 
+    PASSED test -- SUNDomEigEstimator_GetMaxNumIters 
+    PASSED test -- SUNDomEigEstimator_GetMinNumIters 
+    PASSED test -- SUNDomEigEstimator_GetNumATimesCalls 
+    SUNDomEigEstimator_PrintStats: 
     --------------------------------------------
 
 Power Iteration DEE Statistics:
@@ -31,8 +31,8 @@ Max. num. of power iters      = 5
 Min. num. of power iters      = 5
 Num. of ATimes calls          = 5
     --------------------------------------------
-    PASSED test -- SUNDomEigEst_PrintStats 
-SUCCESS: SUNDomEigEst_Power module passed all initialization tests
+    PASSED test -- SUNDomEigEstimator_PrintStats 
+SUCCESS: SUNDomEigEstimator_Power module passed all initialization tests
 
 
 computed dominant eigenvalue = -39996.5 + 0 i
