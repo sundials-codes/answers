@@ -2,31 +2,29 @@
 DomEig module test:
   Problem size = 100
   Krylov subspace dimension = 3
-  Number of preprocessing = 20
+  Number of preprocessing iters = 20
   Timing output flag = 0
 
     PASSED test -- SUNDomEigEstimator_SetATimes 
     PASSED test -- SUNDomEigEstimator_SetMaxIters 
-    PASSED test -- SUNDomEigEstimator_SetNumInitialPreProcess 
-    PASSED test -- SUNDomEigEstimator_SetNumSucceedingPreProcess 
+    PASSED test -- SUNDomEigEstimator_SetNumPreprocessIters 
     PASSED test -- SUNDomEigEstimator_SetRelTol 
+    PASSED test -- SUNDomEigEstimator_SetInitialGuess 
     PASSED test -- SUNDomEigEstimator_Initialize 
     PASSED test -- SUNDomEigEstimator_Estimate 
-    PASSED test -- SUNDomEigEstimator_GetCurRes 
-    PASSED test -- SUNDomEigEstimator_GetCurNumIters 
-    PASSED test -- SUNDomEigEstimator_GetMaxNumIters 
-    PASSED test -- SUNDomEigEstimator_GetMinNumIters 
+    PASSED test -- SUNDomEigEstimator_GetRes 
+    PASSED test -- SUNDomEigEstimator_GetNumIters 
     PASSED test -- SUNDomEigEstimator_GetNumATimesCalls 
-    SUNDomEigEstimator_PrintStats: 
+    SUNDomEigEstimator_Write: 
     --------------------------------------------
 
-Arnoldi Iteration DEE Statistics:
-------------------------------------------------
-Krylov dimensions             = 3
-Num. of warmups               = 20
-Num. of ATimes calls          = 23
+Arnoldi Iteration SUNDomEigEstimator:Krylov dimension         = 3
+Num. preprocessing iters = 20
+Num. iters               = 23
+Num. ATimes calls        = 23
+
     --------------------------------------------
-    PASSED test -- SUNDomEigEstimator_PrintStats 
+    PASSED test -- SUNDomEigEstimator_Write 
 SUCCESS: SUNDomEigEstimator_Arnoldi module passed all initialization tests
 
 
