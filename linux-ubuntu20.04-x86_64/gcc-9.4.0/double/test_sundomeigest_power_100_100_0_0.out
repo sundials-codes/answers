@@ -1,0 +1,38 @@
+
+DomEig module test:
+  Problem size = 100
+  Number of power iterations = 100
+  Number of preprocessing iters = 0
+  Timing output flag = 0
+
+    PASSED test -- SUNDomEigEstimator_SetATimes 
+    PASSED test -- SUNDomEigEstimator_SetMaxIters 
+    PASSED test -- SUNDomEigEstimator_SetNumPreprocessIters 
+    PASSED test -- SUNDomEigEstimator_SetRelTol 
+    PASSED test -- SUNDomEigEstimator_SetInitialGuess 
+    PASSED test -- SUNDomEigEstimator_Initialize 
+    PASSED test -- SUNDomEigEstimator_Estimate 
+    PASSED test -- SUNDomEigEstimator_GetRes 
+    PASSED test -- SUNDomEigEstimator_GetNumIters 
+    PASSED test -- SUNDomEigEstimator_GetNumATimesCalls 
+    SUNDomEigEstimator_Write: 
+    --------------------------------------------
+
+Power Iteration SUNDomEigEstimator:Max. iters               = 100
+Num. preprocessing iters = 0
+Relative tolerance       = 0.01
+Residual                 = 0.00104534816700907
+Num. iters               = 5
+Num. ATimes calls        = 5
+
+    --------------------------------------------
+    PASSED test -- SUNDomEigEstimator_Write 
+SUCCESS: SUNDomEigEstimator_Power module passed all initialization tests
+
+
+computed dominant eigenvalue = -39996.46047158 + 0 i
+    true dominant eigenvalue = -40000 + 0 i
+
+
+PASS:   relative error = 8.84960413553896e-05 
+

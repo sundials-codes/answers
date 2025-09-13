@@ -10,6 +10,7 @@ Sparse matrix test: size 4000 by 800, type = 1
     PASSED test -- SUNMatScaleAdd2 check 2 
     PASSED test -- SUNMatScaleAdd2 check 3 
     PASSED test -- SUNMatMatvec 
+    PASSED test -- SUNMatHermitianTransposeVec 
     PASSED test -- SUNMatSpace lenrw=3994 leniw=8004
     PASSED test -- SUNSparseMatrixToCSC
 SUCCESS: SUNMatrix module passed all tests 

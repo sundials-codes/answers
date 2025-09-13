@@ -11,16 +11,16 @@ t = 4.712389, x(t) = -0.000000, E = 50.000000, sol. err = 6.4424093881538239e-15
 t = 5.497787, x(t) = 7.071068, E = 50.000000, sol. err = 7.7203326134454487e-15
 t = 6.283185, x(t) = 10.000000, E = 50.000000, sol. err = 5.9563813943734351e-15
 
-Current time                 = 6.2831853071795864770256179188124
-Steps                        = 6288
-Step attempts                = 6288
-Stability limited steps      = 0
-Accuracy limited steps       = 0
-Error test fails             = 0
-NLS step fails               = 0
-Inequality constraint fails  = 0
-Initial step size            = 0.00099999999999999999995849538558454
-Last step size               = 0.00039816339744829301587126457143574
-Current step size            = 0.00099999999999999999995849538558454
-f1 RHS fn evals              = 25152
-f2 RHS fn evals              = 25152
+Current time                  = 6.28318530717958648
+Steps                         = 6288
+Step attempts                 = 6288
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.001
+Last step size                = 0.000398163397448293016
+Current step size             = 0.001
+f1 RHS fn evals               = 25152
+f2 RHS fn evals               = 25152
