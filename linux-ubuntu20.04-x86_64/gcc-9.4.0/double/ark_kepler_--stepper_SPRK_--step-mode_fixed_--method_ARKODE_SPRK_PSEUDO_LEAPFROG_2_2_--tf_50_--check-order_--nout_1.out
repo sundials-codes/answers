@@ -55,7 +55,7 @@ Initial step size             = 0.001
 Last step size                = 2.58282284448796e-11
 Current step size             = 0.001
 f1 RHS fn evals               = 100002
-f2 RHS fn evals               = 100002
+f2 RHS fn evals               = 50001
 
 
    Begin Kepler Problem
@@ -83,7 +83,7 @@ Initial step size             = 0.0005
 Last step size                = 0.000499999943286866
 Current step size             = 0.0005
 f1 RHS fn evals               = 200000
-f2 RHS fn evals               = 200000
+f2 RHS fn evals               = 100000
 
 
    Begin Kepler Problem
@@ -111,7 +111,7 @@ Initial step size             = 0.00025
 Last step size                = 0.000249999852272253
 Current step size             = 0.00025
 f1 RHS fn evals               = 400000
-f2 RHS fn evals               = 400000
+f2 RHS fn evals               = 200000
 
 
    Begin Kepler Problem
@@ -139,7 +139,7 @@ Initial step size             = 0.000125
 Last step size                = 3.18358672757313e-10
 Current step size             = 0.000125
 f1 RHS fn evals               = 800002
-f2 RHS fn evals               = 800002
+f2 RHS fn evals               = 400001
 
 
    Begin Kepler Problem
@@ -167,7 +167,7 @@ Initial step size             = 6.25e-05
 Last step size                = 7.5034733981738e-10
 Current step size             = 6.25e-05
 f1 RHS fn evals               = 1600002
-f2 RHS fn evals               = 1600002
+f2 RHS fn evals               = 800001
 
 
    Begin Kepler Problem
@@ -195,7 +195,7 @@ Initial step size             = 3.125e-05
 Last step size                = 9.66345226061093e-10
 Current step size             = 3.125e-05
 f1 RHS fn evals               = 3200002
-f2 RHS fn evals               = 3200002
+f2 RHS fn evals               = 1600001
 
 
    Begin Kepler Problem
@@ -223,7 +223,7 @@ Initial step size             = 1.5625e-05
 Last step size                = 1.56219816247471e-05
 Current step size             = 1.5625e-05
 f1 RHS fn evals               = 6400000
-f2 RHS fn evals               = 6400000
+f2 RHS fn evals               = 3200000
 
 
    Begin Kepler Problem
@@ -251,7 +251,7 @@ Initial step size             = 7.8125e-06
 Last step size                = 7.80589764559635e-06
 Current step size             = 7.8125e-06
 f1 RHS fn evals               = 12800000
-f2 RHS fn evals               = 12800000
+f2 RHS fn evals               = 6400000
 
 Order of accuracy wrt solution:    expected = 2, max = 2.0019,  avg = 1.9630,  overall = 1.9766
 Order of accuracy wrt Hamiltonian: expected = 2, max = 2.0012,  avg = 2.0000,  overall = 2.0001
