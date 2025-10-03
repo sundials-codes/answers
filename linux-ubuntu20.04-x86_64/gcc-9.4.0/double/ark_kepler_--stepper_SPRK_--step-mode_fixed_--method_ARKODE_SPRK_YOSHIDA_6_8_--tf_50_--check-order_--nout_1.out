@@ -55,7 +55,7 @@ Initial step size             = 0.1
 Last step size                = 0.0999999999995608
 Current step size             = 0.1
 f1 RHS fn evals               = 4000
-f2 RHS fn evals               = 4000
+f2 RHS fn evals               = 3500
 
 
    Begin Kepler Problem
@@ -83,7 +83,7 @@ Initial step size             = 0.05
 Last step size                = 0.05
 Current step size             = 0.05
 f1 RHS fn evals               = 8000
-f2 RHS fn evals               = 8000
+f2 RHS fn evals               = 7000
 
 
    Begin Kepler Problem
@@ -111,7 +111,7 @@ Initial step size             = 0.025
 Last step size                = 1.76925141204265e-12
 Current step size             = 0.025
 f1 RHS fn evals               = 16008
-f2 RHS fn evals               = 16008
+f2 RHS fn evals               = 14007
 
 
    Begin Kepler Problem
@@ -139,7 +139,7 @@ Initial step size             = 0.0125
 Last step size                = 0.0124999999971962
 Current step size             = 0.0125
 f1 RHS fn evals               = 32000
-f2 RHS fn evals               = 32000
+f2 RHS fn evals               = 28000
 
 
    Begin Kepler Problem
@@ -167,7 +167,7 @@ Initial step size             = 0.00625
 Last step size                = 0.0062499999929173
 Current step size             = 0.00625
 f1 RHS fn evals               = 64000
-f2 RHS fn evals               = 64000
+f2 RHS fn evals               = 56000
 
 
    Begin Kepler Problem
@@ -195,7 +195,7 @@ Initial step size             = 0.003125
 Last step size                = 1.12407860797248e-11
 Current step size             = 0.003125
 f1 RHS fn evals               = 128008
-f2 RHS fn evals               = 128008
+f2 RHS fn evals               = 112007
 
 
    Begin Kepler Problem
@@ -223,7 +223,7 @@ Initial step size             = 0.0015625
 Last step size                = 2.83577605841856e-11
 Current step size             = 0.0015625
 f1 RHS fn evals               = 256008
-f2 RHS fn evals               = 256008
+f2 RHS fn evals               = 224007
 
 
    Begin Kepler Problem
@@ -251,7 +251,7 @@ Initial step size             = 0.00078125
 Last step size                = 0.000781249955068119
 Current step size             = 0.00078125
 f1 RHS fn evals               = 512000
-f2 RHS fn evals               = 512000
+f2 RHS fn evals               = 448000
 
 Order of accuracy wrt solution:    expected = 6, max = 5.9959,  avg = 3.9792,  overall = 4.5039
 Order of accuracy wrt Hamiltonian: expected = 6, max = 6.2667,  avg = 4.6429,  overall = 4.9135

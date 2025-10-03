@@ -54,7 +54,7 @@ Inequality constraint fails   = 0
 Initial step size             = 0.001
 Last step size                = 0.000999999999997239208
 Current step size             = 0.001
-f1 RHS fn evals               = 100000
+f1 RHS fn evals               = 50000
 f2 RHS fn evals               = 100000
 
 
@@ -82,7 +82,7 @@ Inequality constraint fails   = 0
 Initial step size             = 0.0005
 Last step size                = 0.000499999999976415143
 Current step size             = 0.0005
-f1 RHS fn evals               = 200000
+f1 RHS fn evals               = 100000
 f2 RHS fn evals               = 200000
 
 
@@ -110,7 +110,7 @@ Inequality constraint fails   = 0
 Initial step size             = 0.00025
 Last step size                = 0.000249999999966003111
 Current step size             = 0.00025
-f1 RHS fn evals               = 400000
+f1 RHS fn evals               = 200000
 f2 RHS fn evals               = 400000
 
 
@@ -138,7 +138,7 @@ Inequality constraint fails   = 0
 Initial step size             = 0.000125
 Last step size                = 0.00012499999996079883
 Current step size             = 0.000125
-f1 RHS fn evals               = 800000
+f1 RHS fn evals               = 400000
 f2 RHS fn evals               = 800000
 
 
@@ -166,7 +166,7 @@ Inequality constraint fails   = 0
 Initial step size             = 6.25e-05
 Last step size                = 6.24999999581966892e-05
 Current step size             = 6.25e-05
-f1 RHS fn evals               = 1600000
+f1 RHS fn evals               = 800000
 f2 RHS fn evals               = 1600000
 
 
@@ -194,7 +194,7 @@ Inequality constraint fails   = 0
 Initial step size             = 3.125e-05
 Last step size                = 3.12499999568956188e-05
 Current step size             = 3.125e-05
-f1 RHS fn evals               = 3200000
+f1 RHS fn evals               = 1600000
 f2 RHS fn evals               = 3200000
 
 
@@ -222,7 +222,7 @@ Inequality constraint fails   = 0
 Initial step size             = 1.5625e-05
 Last step size                = 1.95464477936724279e-12
 Current step size             = 1.5625e-05
-f1 RHS fn evals               = 6400002
+f1 RHS fn evals               = 3200001
 f2 RHS fn evals               = 6400002
 
 
@@ -250,7 +250,7 @@ Inequality constraint fails   = 0
 Initial step size             = 7.8125e-06
 Last step size                = 3.73067549075400961e-12
 Current step size             = 7.8125e-06
-f1 RHS fn evals               = 12800002
+f1 RHS fn evals               = 6400001
 f2 RHS fn evals               = 12800002
 
 Order of accuracy wrt solution:    expected = 2, max = 2.0000,  avg = 1.9995,  overall = 1.9997
