@@ -12,12 +12,12 @@ Find dG/dp for
 
 
 Create and allocate CVODES memory for forward runs
-Forward integration ... done ( nst = 336 )
+Forward integration ... done ( nst = 344 )
 
 ncheck = 2
 
 --------------------------------------------------------
-G:            3.9991e+07 
+G:            3.9993e+07 
 --------------------------------------------------------
 
 Create and allocate CVODES memory for backward run
@@ -26,16 +26,16 @@ Backward integration from tB0 =   4.0000e+07
 --------------------------------------------------------
 returned t:   4.0000e+01
 tout:         4.0000e+01
-lambda(t):    3.9933e+07   3.9933e+07   3.9933e+07
+lambda(t):    3.9964e+07   3.9964e+07   3.9964e+07
 y(t):         7.1571e-01   9.1806e-06   2.8428e-01
 --------------------------------------------------------
 
-Done ( nst = 241 )
+Done ( nst = 348 )
 --------------------------------------------------------
 returned t:   0.0000e+00
-lambda(t0):   3.9933e+07   3.9933e+07   3.9933e+07
+lambda(t0):   3.9964e+07   3.9964e+07   3.9964e+07
 y(t0):        1.0000e+00   0.0000e+00   0.0000e+00
-dG/dp:        1.6068e+06  -6.4208e+00   1.0652e-03
+dG/dp:        8.3897e+05  -3.3476e+00   5.5700e-04
 --------------------------------------------------------
 
 Re-initialize CVODES memory for backward run
