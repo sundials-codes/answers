@@ -16,6 +16,7 @@ Current time                  = 10.0010511995073861
 Steps                         = 1577
 Error test fails              = 137
 NLS step fails                = 0
+Constraint fails              = 0
 Initial step size             = 0.000102986025609450996
 Last step size                = 0.00689940683219205766
 Current step size             = 0.00689940683219205766
