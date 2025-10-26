@@ -17,6 +17,7 @@ Steps                         = 1649
 Error test fails              = 64
 NLS step fails                = 0
 Constraint fails              = 0
+Constraint corrections        = 0
 Initial step size             = 0.000102986025609450996
 Last step size                = 0.00520905439662547823
 Current step size             = 0.00520905439662547823
