@@ -4,48 +4,48 @@ Using fixed-point nonlinear solver
 ------------------------------------------------------------------------------------------------------------------------------
 0.000000000000000000e+00 1.224744871391589049e+00 1.732050807568877294e+00 0.000000000000000000e+00 0.000000000000000000e+00
 [INFO][rank 0][cvStep][begin-step-attempt] step = 1, tn = 0, h = 0.000102986025609450996, q = 1
-[INFO][rank 0][cvNls][begin-nonlinear-solve] tol = 8.463344513260553e-321
+[INFO][rank 0][cvNls][begin-nonlinear-solve] tol = 0.2
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 2.761826960252568e-321
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 0.499975381317298443
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 2.761826960252568e-321
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 6.25902623328378972e-05
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
 [INFO][rank 0][cvNls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][cvStep][end-step-attempt] status = success, dsm = 0.249962189954984026
 1.029860256094509959e-04 1.224744869195305397e+00 1.732049582942475243e+00 1.113800912502620200e-09 6.122818016698764257e-07
 [INFO][rank 0][cvStep][begin-step-attempt] step = 2, tn = 0.000102986025609450996, h = 0.000102986025609450996, q = 1
-[INFO][rank 0][cvNls][begin-nonlinear-solve] tol = 8.463344513260553e-321
+[INFO][rank 0][cvNls][begin-nonlinear-solve] tol = 0.2
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 2.761826960252568e-321
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 0.499974683995856618
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 2.761826960252568e-321
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 6.23019457979198783e-05
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
 [INFO][rank 0][cvNls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][cvStep][end-step-attempt] status = success, dsm = 0.249962018078801642
 2.059720512189019918e-04 1.224744864802767178e+00 1.732047133691378913e+00 2.258890919801248565e-09 1.224500395777738601e-06
 [INFO][rank 0][cvStep][begin-step-attempt] step = 3, tn = 0.000205972051218901992, h = 0.00102986025609450996, q = 2
-[INFO][rank 0][cvNls][begin-nonlinear-solve] tol = 8.463344513260553e-321
+[INFO][rank 0][cvNls][begin-nonlinear-solve] tol = 0.406451612903225806
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 2.761826960252568e-321
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 33.3437764838281501
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 2.761826960252568e-321
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.0264464352088691847
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
 [INFO][rank 0][cvNls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][cvStep][end-step-attempt] status = failed error test, dsm = 8.1984729551313206, eflag = 5
 [INFO][rank 0][cvStep][begin-step-attempt] step = 3, tn = 0.000205972051218901992, h = 0.000281071475540960512, q = 2
-[INFO][rank 0][cvNls][begin-nonlinear-solve] tol = 8.463344513260553e-321
+[INFO][rank 0][cvNls][begin-nonlinear-solve] tol = 0.421768331512943208
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 2.761826960252568e-321
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 2.48294408404720521
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 2.761826960252568e-321
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.0005559126276779091
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
 [INFO][rank 0][cvNls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][cvStep][end-step-attempt] status = success, dsm = 0.58859211384163409
