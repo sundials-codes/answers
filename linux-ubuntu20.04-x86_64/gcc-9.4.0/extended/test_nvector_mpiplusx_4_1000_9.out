@@ -10,574 +10,574 @@ PASSED test -- N_VGetCommunicator
 Testing standard vector operations:
 
 PASSED test -- N_VConst 
-N_VConst Time:  3.380399999997064e-05
+N_VConst Time:  8.455000000018309e-06
 
 PASSED test -- N_VLinearSum Case 1a 
-N_VLinearSum Time:  2.020699999993880e-05
+N_VLinearSum Time:  1.073200000001329e-05
 
 PASSED test -- N_VLinearSum Case 1b 
-N_VLinearSum Time:  1.025900000006796e-05
+N_VLinearSum Time:  7.343000000048505e-06
 
 PASSED test -- N_VLinearSum Case 1c 
-N_VLinearSum Time Time:  1.210299999998554e-05
+N_VLinearSum Time Time:  8.059000000004701e-06
 
 PASSED test -- N_VLinearSum Case 2a 
-N_VLinearSum Time:  1.038899999994403e-05
+N_VLinearSum Time:  7.467000000038748e-06
 
 PASSED test -- N_VLinearSum Case 2b 
-N_VLinearSum Time:  1.040900000004452e-05
+N_VLinearSum Time:  7.474000000007308e-06
 
 PASSED test -- N_VLinearSum Case 2c 
-N_VLinearSum Time:  1.240299999993866e-05
+N_VLinearSum Time:  8.080000000021403e-06
 
 PASSED test -- N_VLinearSum Case 3 
-N_VLinearSum Time:  1.028899999999666e-05
+N_VLinearSum Time:  7.541999999971516e-06
 
 PASSED test -- N_VLinearSum Case 4a 
-N_VLinearSum Time:  1.027899999994641e-05
+N_VLinearSum Time:  7.511999999987307e-06
 
 PASSED test -- N_VLinearSum Case 4b 
-N_VLinearSum Time:  1.032999999994733e-05
+N_VLinearSum Time:  7.566000000014395e-06
 
 PASSED test -- N_VLinearSum Case 5a 
-N_VLinearSum Time:  1.312500000005823e-05
+N_VLinearSum Time:  8.355999999987151e-06
 
 PASSED test -- N_VLinearSum Case 5b 
-N_VLinearSum Time:  1.307500000002904e-05
+N_VLinearSum Time:  8.131999999994033e-06
 
 PASSED test -- N_VLinearSum Case 6a 
-N_VLinearSum Time Time:  1.301399999997788e-05
+N_VLinearSum Time Time:  8.355999999987151e-06
 
 PASSED test -- N_VLinearSum Case 6b 
-N_VLinearSum Time:  1.298399999993816e-05
+N_VLinearSum Time:  8.351999999989257e-06
 
 PASSED test -- N_VLinearSum Case 7 
-N_VLinearSum Time:  1.284400000001185e-05
+N_VLinearSum Time:  2.003000000000421e-05
 
 PASSED test -- N_VLinearSum Case 8 
-N_VLinearSum Time:  1.286400000000132e-05
+N_VLinearSum Time:  2.002400000000737e-05
 
 PASSED test -- N_VLinearSum Case 9 
-N_VLinearSum Time:  1.569899999998015e-05
+N_VLinearSum Time:  1.144699999999776e-05
 
 PASSED test -- N_VProd 
-N_VProd Time:  1.417599999997687e-05
+N_VProd Time:  1.162200000004443e-05
 
 PASSED test -- N_VDiv 
-N_VDiv Time:  2.199199999997070e-05
+N_VDiv Time:  2.194700000002214e-05
 
 PASSED test -- N_VScale Case 1 
-N_VScale Time:  3.321299999992089e-05
+N_VScale Time:  3.684199999998139e-05
 
 PASSED test -- N_VScale Case 2 
-N_VScale Time:  7.284000000051805e-06
+N_VScale Time:  6.222000000000172e-06
 
 PASSED test -- N_VScale Case 3 
-N_VScale Time:  7.885000000040776e-06
+N_VScale Time:  6.044000000038352e-06
 
 PASSED test -- N_VScale Case 4 
-N_VScale Time:  9.488000000001939e-06
+N_VScale Time:  6.598000000024307e-06
 
 PASSED test -- N_VAbs 
-N_VAbs Time:  3.469400000000178e-05
+N_VAbs Time:  3.959799999997404e-05
 
 PASSED test -- N_VInv 
-N_VInv Time:  1.758299999998769e-05
+N_VInv Time:  1.740999999999548e-05
 
 PASSED test -- N_VAddConst 
-N_VAddConst Time:  1.135200000002001e-05
+N_VAddConst Time:  7.833000000012635e-06
 
 PASSED test -- N_VDotProd 
-N_VDotProd Time:  1.144825999999988e-03
+N_VDotProd Time:  2.017389999999786e-04
 
 PASSED test -- N_VMaxNorm Case 1
-N_VMaxNorm Time:  1.099850000000346e-04
+N_VMaxNorm Time:  8.843599999996954e-05
 
 PASSED test -- N_VMaxNorm Case 2
-N_VMaxNorm Time:  2.584900000002222e-05
+N_VMaxNorm Time:  2.287400000000606e-05
 
 PASSED test -- N_VWrmsNorm 
-N_VWrmsNorm Time:  8.801399999991411e-05
+N_VWrmsNorm Time:  6.714200000002002e-05
 
 PASSED test -- N_VWrmsNormMask 
-N_VWrmsNormMask Time:  1.161669999999448e-04
+N_VWrmsNormMask Time:  7.980400000001664e-05
 
 PASSED test -- N_VMin 
-N_VMin Time:  9.243199999997564e-05
+N_VMin Time:  5.948500000002577e-05
 
 PASSED test -- N_VMin 
-N_VMin Time:  4.413300000005727e-05
+N_VMin Time:  2.163099999996643e-05
 
 PASSED test -- N_VWL2Norm 
-N_VWL2Norm Time:  5.493200000006304e-05
+N_VWL2Norm Time:  5.135100000003279e-05
 
 PASSED test -- N_VL1Norm 
-N_VL1Norm Time:  1.023609999999398e-04
+N_VL1Norm Time:  5.363199999997015e-05
 
 PASSED test -- N_VCompare 
-N_VCompare Time:  4.207900000008369e-05
+N_VCompare Time:  3.903399999999335e-05
 
 PASSED test -- N_VInvTest Case 1 
-N_VInvTest Time:  1.372360000000405e-04
+N_VInvTest Time:  6.193200000004229e-05
 
 PASSED test -- N_VInvTest Case 2 
-N_VInvTest Time:  6.422999999999845e-05
+N_VInvTest Time:  2.590799999996340e-05
 
 PASSED test -- N_VConstrMask Case 1 
-N_VConstrMask Time:  1.180299999999912e-04
+N_VConstrMask Time:  8.544200000004665e-05
 
 PASSED test -- N_VConstrMask Case 2 
-N_VConstrMask Time:  8.276500000004017e-05
+N_VConstrMask Time:  5.521200000002668e-05
 
 PASSED test -- N_VMinQuotient Case 1 
-N_VMinQuotient Time:  1.216370000000078e-04
+N_VMinQuotient Time:  7.788199999997358e-05
 
 PASSED test -- N_VMinQuotient Case 2 
-N_VMinQuotient Time:  2.443600000001656e-05
+N_VMinQuotient Time:  2.365999999998092e-05
 
 
 Testing fused and vector array operations (disabled):
 
 PASSED test -- N_VLinearCombination Case 1a 
-N_VLinearCombination Time:  3.958400000003692e-05
+N_VLinearCombination Time:  3.697699999999360e-05
 
 PASSED test -- N_VLinearCombination Case 1b 
-N_VLinearCombination Time:  9.818999999966493e-06
+N_VLinearCombination Time:  7.058999999975946e-06
 
 PASSED test -- N_VLinearCombination Case 2a 
-N_VLinearCombination Time:  2.123899999995071e-05
+N_VLinearCombination Time:  1.397999999996902e-05
 
 PASSED test -- N_VLinearCombination Case 2b 
-N_VLinearCombination Time:  2.117899999998230e-05
+N_VLinearCombination Time:  1.349000000000489e-05
 
 PASSED test -- N_VLinearCombination Case 3a 
-N_VLinearCombination Time:  3.288099999998462e-05
+N_VLinearCombination Time:  2.098400000000167e-05
 
 PASSED test -- N_VLinearCombination Case 3b 
-N_VLinearCombination Time:  3.025599999995077e-05
+N_VLinearCombination Time:  2.081599999997907e-05
 
 PASSED test -- N_VLinearCombination Case 3c 
-N_VLinearCombination Time:  3.022600000002207e-05
+N_VLinearCombination Time:  1.978199999996821e-05
 
 PASSED test -- N_VScaleAddMulti Case 1a 
-N_VScaleAddMulti Time:  2.530699999991892e-05
+N_VScaleAddMulti Time:  2.251699999999968e-05
 
 PASSED test -- N_VScaleAddMulti Case 1b 
-N_VScaleAddMulti Time:  1.335499999999268e-05
+N_VScaleAddMulti Time:  8.057000000005754e-06
 
 PASSED test -- N_VScaleAddMulti Case 2a 
-N_VScaleAddMulti Time:  3.312199999994103e-05
+N_VScaleAddMulti Time:  2.113300000000651e-05
 
 PASSED test -- N_VScaleAddMulti Case 2b 
-N_VScaleAddMulti Time:  3.510600000000696e-05
+N_VScaleAddMulti Time:  2.061999999997122e-05
 
 PASSED test -- N_VDotProdMulti Case 1 
-N_VDotProdMulti Time:  2.795199999994225e-05
+N_VDotProdMulti Time:  2.264299999998887e-05
 
 PASSED test -- N_VDotProdMulti Case 2 
-N_VDotProdMulti Time:  1.031630000000172e-04
+N_VDotProdMulti Time:  4.353299999998450e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 0 
-N_VLinearSumVectorArray Time:  1.957600000002113e-05
+N_VLinearSumVectorArray Time:  2.755399999998520e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 1a 
-N_VLinearSumVectorArray Time:  3.018599999993210e-05
+N_VLinearSumVectorArray Time:  2.072200000002855e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 1b 
-N_VLinearSumVectorArray Time:  3.008700000006748e-05
+N_VLinearSumVectorArray Time:  2.048499999995901e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 1c 
-N_VLinearSumVectorArray Time:  3.597700000002035e-05
+N_VLinearSumVectorArray Time:  2.248699999995996e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 2a 
-N_VLinearSumVectorArray Time:  2.999599999997660e-05
+N_VLinearSumVectorArray Time:  2.053600000001543e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 2b 
-N_VLinearSumVectorArray Time:  2.995599999999765e-05
+N_VLinearSumVectorArray Time:  2.109000000000139e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 2c 
-N_VLinearSumVectorArray Time:  3.557599999992611e-05
+N_VLinearSumVectorArray Time:  2.188199999997309e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 3 
-N_VLinearSumVectorArray Time:  4.271000000000136e-05
+N_VLinearSumVectorArray Time:  3.492399999999174e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 4a 
-N_VLinearSumVectorArray Time:  3.036699999992010e-05
+N_VLinearSumVectorArray Time:  2.097599999995037e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 4b 
-N_VLinearSumVectorArray Time:  3.030699999995168e-05
+N_VLinearSumVectorArray Time:  2.080599999998434e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 5a 
-N_VLinearSumVectorArray Time:  3.834099999999729e-05
+N_VLinearSumVectorArray Time:  2.216599999999014e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 5b 
-N_VLinearSumVectorArray Time:  3.816099999998102e-05
+N_VLinearSumVectorArray Time:  2.214500000002895e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 6a 
-N_VLinearSumVectorArray Time:  3.858100000009301e-05
+N_VLinearSumVectorArray Time:  2.272000000003160e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 6b 
-N_VLinearSumVectorArray Time:  3.831199999992929e-05
+N_VLinearSumVectorArray Time:  2.276799999995083e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 7 
-N_VLinearSumVectorArray Time:  3.765000000000018e-05
+N_VLinearSumVectorArray Time:  3.079799999999855e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 8 
-N_VLinearSumVectorArray Time:  3.774099999998004e-05
+N_VLinearSumVectorArray Time:  2.275000000001581e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 9 
-N_VLinearSumVectorArray Time:  4.330000000007939e-05
+N_VLinearSumVectorArray Time:  3.211499999999923e-05
 
 PASSED test -- N_VScaleVectorArray Case 1a 
-N_VScaleVectorArray Time:  4.095699999995261e-05
+N_VScaleVectorArray Time:  3.862700000001329e-05
 
 PASSED test -- N_VScaleVectorArray Case 1b 
-N_VScaleVectorArray Time:  9.787999999955055e-06
+N_VScaleVectorArray Time:  3.054699999999189e-05
 
 PASSED test -- N_VScaleVectorArray Case 2a 
-N_VScaleVectorArray Time:  2.812299999999102e-05
+N_VScaleVectorArray Time:  1.848100000001462e-05
 
 PASSED test -- N_VScaleVectorArray Case 2b 
-N_VScaleVectorArray Time:  2.817300000002021e-05
+N_VScaleVectorArray Time:  2.274800000001687e-05
 
 PASSED test -- N_VConstVectorArray Case 1a 
-N_VConstVectorArray Time:  2.326399999996731e-05
+N_VConstVectorArray Time:  2.193300000002951e-05
 
 PASSED test -- N_VConstVectorArray Case 1b 
-N_VConstVectorArray Time:  1.974700000006990e-05
+N_VConstVectorArray Time:  1.508099999997237e-05
 
 PASSED test -- N_VWrmsNormVectorArray Case 1a 
-N_VWrmsNormVectorArray Time:  4.825999999991115e-05
+N_VWrmsNormVectorArray Time:  4.138400000003317e-05
 
 PASSED test -- N_VWrmsNormVectorArray Case 1b 
-N_VWrmsNormVectorArray Time:  8.307499999993251e-05
+N_VWrmsNormVectorArray Time:  5.510699999999868e-05
 
 PASSED test -- N_VWrmsNormMaskVectorArray Case 1 
-N_VWrmsNormVectorArray Time:  2.920500000003212e-05
+N_VWrmsNormVectorArray Time:  2.006499999995803e-05
 
 PASSED test -- N_VWrmsNormMaskVectorArray Case 2 
-N_VWrmsNormVectorArray Time:  1.364940000000425e-04
+N_VWrmsNormVectorArray Time:  5.912200000002255e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 1a 
-N_VScaleAddMultiVectorArray Time:  1.866400000005708e-05
+N_VScaleAddMultiVectorArray Time:  1.396900000000256e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 1b 
-N_VScaleAddMultiVectorArray Time:  1.353500000000896e-05
+N_VScaleAddMultiVectorArray Time:  8.310999999983082e-06
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 2a 
-N_VScaleAddMultiVectorArray Time:  3.322199999999942e-05
+N_VScaleAddMultiVectorArray Time:  2.123999999997794e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 2b 
-N_VScaleAddMultiVectorArray Time:  3.478499999998164e-05
+N_VScaleAddMultiVectorArray Time:  2.127299999998833e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 3a 
-N_VScaleAddMultiVectorArray Time:  3.732000000000735e-05
+N_VScaleAddMultiVectorArray Time:  2.304199999997314e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 3b 
-N_VScaleAddMultiVectorArray Time:  3.864300000000487e-05
+N_VScaleAddMultiVectorArray Time:  2.445200000000813e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 4a 
-N_VScaleAddMultiVectorArray Time:  9.781300000000215e-05
+N_VScaleAddMultiVectorArray Time:  6.194799999997835e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 4b 
-N_VScaleAddMultiVectorArray Time:  1.034629999999703e-04
+N_VScaleAddMultiVectorArray Time:  6.210499999997898e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 1a 
-N_VLinearCombinationVectorArray Time:  2.498600000000462e-05
+N_VLinearCombinationVectorArray Time:  2.226400000004958e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 1b 
-N_VLinearCombinationVectorArray Time:  1.017899999999905e-05
+N_VLinearCombinationVectorArray Time:  6.899999999976369e-06
 
 PASSED test -- N_VLinearCombinationVectorArray Case 2a 
-N_VLinearCombinationVectorArray Time:  1.951599999994169e-05
+N_VLinearCombinationVectorArray Time:  1.300399999998314e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 2b 
-N_VLinearCombinationVectorArray Time:  1.936600000007616e-05
+N_VLinearCombinationVectorArray Time:  1.356200000002250e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 3a 
-N_VLinearCombinationVectorArray Time:  3.089700000002971e-05
+N_VLinearCombinationVectorArray Time:  1.991100000003909e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 3b 
-N_VLinearCombinationVectorArray Time:  3.057699999997610e-05
+N_VLinearCombinationVectorArray Time:  1.987200000003186e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 4a 
-N_VLinearCombinationVectorArray Time:  2.863300000000013e-05
+N_VLinearCombinationVectorArray Time:  1.888300000002507e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 4b 
-N_VLinearCombinationVectorArray Time:  4.383200000002141e-05
+N_VLinearCombinationVectorArray Time:  1.973900000001860e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 5a 
-N_VLinearCombinationVectorArray Time:  6.214599999998516e-05
+N_VLinearCombinationVectorArray Time:  4.031500000001298e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 5b 
-N_VLinearCombinationVectorArray Time:  6.206500000005555e-05
+N_VLinearCombinationVectorArray Time:  3.997100000002751e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 6a 
-N_VLinearCombinationVectorArray Time:  9.018800000004656e-05
+N_VLinearCombinationVectorArray Time:  5.925099999998240e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 6b 
-N_VLinearCombinationVectorArray Time:  9.085900000005420e-05
+N_VLinearCombinationVectorArray Time:  5.926499999997503e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 6c 
-N_VLinearCombinationVectorArray Time:  1.024010000000297e-04
+N_VLinearCombinationVectorArray Time:  5.884299999997511e-05
 
 
 Testing fused and vector array operations (enabled):
 
 PASSED test -- N_VLinearCombination Case 1a 
-N_VLinearCombination Time:  1.041000000001624e-05
+N_VLinearCombination Time:  7.242000000018400e-06
 
 PASSED test -- N_VLinearCombination Case 1b 
-N_VLinearCombination Time:  9.938999999903331e-06
+N_VLinearCombination Time:  6.761999999993495e-06
 
 PASSED test -- N_VLinearCombination Case 2a 
-N_VLinearCombination Time:  1.518900000008205e-05
+N_VLinearCombination Time:  1.131500000001173e-05
 
 PASSED test -- N_VLinearCombination Case 2b 
-N_VLinearCombination Time:  1.496800000000409e-05
+N_VLinearCombination Time:  1.130999999998661e-05
 
 PASSED test -- N_VLinearCombination Case 3a 
-N_VLinearCombination Time:  3.831100000006860e-05
+N_VLinearCombination Time:  1.580299999998092e-05
 
 PASSED test -- N_VLinearCombination Case 3b 
-N_VLinearCombination Time:  3.409300000001281e-05
+N_VLinearCombination Time:  2.049700000000820e-05
 
 PASSED test -- N_VLinearCombination Case 3c 
-N_VLinearCombination Time:  3.343300000002714e-05
+N_VLinearCombination Time:  2.144100000001092e-05
 
 PASSED test -- N_VScaleAddMulti Case 1a 
-N_VScaleAddMulti Time:  1.302400000002812e-05
+N_VScaleAddMulti Time:  8.691999999976829e-06
 
 PASSED test -- N_VScaleAddMulti Case 1b 
-N_VScaleAddMulti Time:  1.357599999995962e-05
+N_VScaleAddMulti Time:  8.092999999986805e-06
 
 PASSED test -- N_VScaleAddMulti Case 2a 
-N_VScaleAddMulti Time:  3.842199999992690e-05
+N_VScaleAddMulti Time:  2.140299999997541e-05
 
 PASSED test -- N_VScaleAddMulti Case 2b 
-N_VScaleAddMulti Time:  4.820999999999298e-05
+N_VScaleAddMulti Time:  2.177899999999955e-05
 
 PASSED test -- N_VDotProdMulti Case 1 
-N_VDotProdMulti Time:  1.758300000009871e-05
+N_VDotProdMulti Time:  1.150700000002169e-05
 
 PASSED test -- N_VDotProdMulti Case 2 
-N_VDotProdMulti Time:  8.753299999997299e-05
+N_VDotProdMulti Time:  3.861500000001961e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 0 
-N_VLinearSumVectorArray Time:  1.533899999994759e-05
+N_VLinearSumVectorArray Time:  1.149999999999762e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 1a 
-N_VLinearSumVectorArray Time:  2.990599999996846e-05
+N_VLinearSumVectorArray Time:  2.068799999999094e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 1b 
-N_VLinearSumVectorArray Time:  3.604700000003902e-05
+N_VLinearSumVectorArray Time:  2.060799999997753e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 1c 
-N_VLinearSumVectorArray Time:  5.090499999993447e-05
+N_VLinearSumVectorArray Time:  2.239300000000943e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 2a 
-N_VLinearSumVectorArray Time:  2.975599999999190e-05
+N_VLinearSumVectorArray Time:  3.022699999999379e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 2b 
-N_VLinearSumVectorArray Time:  2.990599999996846e-05
+N_VLinearSumVectorArray Time:  2.054199999995676e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 2c 
-N_VLinearSumVectorArray Time:  3.580700000005432e-05
+N_VLinearSumVectorArray Time:  2.228900000000866e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 3 
-N_VLinearSumVectorArray Time:  3.062700000000529e-05
+N_VLinearSumVectorArray Time:  2.088399999999879e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 4a 
-N_VLinearSumVectorArray Time:  3.030599999997996e-05
+N_VLinearSumVectorArray Time:  2.088299999997156e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 4b 
-N_VLinearSumVectorArray Time:  3.027599999994024e-05
+N_VLinearSumVectorArray Time:  2.110300000002230e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 5a 
-N_VLinearSumVectorArray Time:  3.896300000005848e-05
+N_VLinearSumVectorArray Time:  2.275499999998543e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 5b 
-N_VLinearSumVectorArray Time:  3.844200000002740e-05
+N_VLinearSumVectorArray Time:  2.256299999997546e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 6a 
-N_VLinearSumVectorArray Time:  3.847099999998438e-05
+N_VLinearSumVectorArray Time:  2.282700000000304e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 6b 
-N_VLinearSumVectorArray Time:  3.791099999994607e-05
+N_VLinearSumVectorArray Time:  2.244899999997996e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 7 
-N_VLinearSumVectorArray Time:  4.829000000006189e-05
+N_VLinearSumVectorArray Time:  2.254300000004150e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 8 
-N_VLinearSumVectorArray Time:  3.774000000000832e-05
+N_VLinearSumVectorArray Time:  2.252400000002375e-05
 
 PASSED test -- N_VLinearSumVectorArray Case 9 
-N_VLinearSumVectorArray Time:  4.370200000003432e-05
+N_VLinearSumVectorArray Time:  3.211800000002540e-05
 
 PASSED test -- N_VScaleVectorArray Case 1a 
-N_VScaleVectorArray Time:  2.484700000005002e-05
+N_VScaleVectorArray Time:  7.382000000000222e-06
 
 PASSED test -- N_VScaleVectorArray Case 1b 
-N_VScaleVectorArray Time:  9.917999999942140e-06
+N_VScaleVectorArray Time:  6.778000000040585e-06
 
 PASSED test -- N_VScaleVectorArray Case 2a 
-N_VScaleVectorArray Time:  2.813300000004126e-05
+N_VScaleVectorArray Time:  1.856599999999764e-05
 
 PASSED test -- N_VScaleVectorArray Case 2b 
-N_VScaleVectorArray Time:  2.821200000002744e-05
+N_VScaleVectorArray Time:  1.861399999997237e-05
 
 PASSED test -- N_VConstVectorArray Case 1a 
-N_VConstVectorArray Time:  7.474000000007308e-06
+N_VConstVectorArray Time:  5.927999999988387e-06
 
 PASSED test -- N_VConstVectorArray Case 1b 
-N_VConstVectorArray Time:  1.882500000005560e-05
+N_VConstVectorArray Time:  1.531799999998640e-05
 
 PASSED test -- N_VWrmsNormVectorArray Case 1a 
-N_VWrmsNormVectorArray Time:  3.660799999993802e-05
+N_VWrmsNormVectorArray Time:  1.597000000003179e-05
 
 PASSED test -- N_VWrmsNormVectorArray Case 1b 
-N_VWrmsNormVectorArray Time:  1.006279999999915e-04
+N_VWrmsNormVectorArray Time:  5.845200000004214e-05
 
 PASSED test -- N_VWrmsNormMaskVectorArray Case 1 
-N_VWrmsNormVectorArray Time:  2.559700000004383e-05
+N_VWrmsNormVectorArray Time:  1.834600000000242e-05
 
 PASSED test -- N_VWrmsNormMaskVectorArray Case 2 
-N_VWrmsNormVectorArray Time:  1.111980000000345e-04
+N_VWrmsNormVectorArray Time:  6.353799999997412e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 1a 
-N_VScaleAddMultiVectorArray Time:  1.357499999998790e-05
+N_VScaleAddMultiVectorArray Time:  9.144999999988190e-06
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 1b 
-N_VScaleAddMultiVectorArray Time:  1.371599999999695e-05
+N_VScaleAddMultiVectorArray Time:  8.275999999973749e-06
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 2a 
-N_VScaleAddMultiVectorArray Time:  5.073499999996844e-05
+N_VScaleAddMultiVectorArray Time:  2.187600000003176e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 2b 
-N_VScaleAddMultiVectorArray Time:  3.840200000004845e-05
+N_VScaleAddMultiVectorArray Time:  2.197399999998018e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 3a 
-N_VScaleAddMultiVectorArray Time:  3.754000000000257e-05
+N_VScaleAddMultiVectorArray Time:  2.335000000003307e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 3b 
-N_VScaleAddMultiVectorArray Time:  5.203700000000477e-05
+N_VScaleAddMultiVectorArray Time:  2.308400000000654e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 4a 
-N_VScaleAddMultiVectorArray Time:  1.271269999999491e-04
+N_VScaleAddMultiVectorArray Time:  6.382600000004457e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 4b 
-N_VScaleAddMultiVectorArray Time:  1.280790000000032e-04
+N_VScaleAddMultiVectorArray Time:  6.356600000001489e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 1a 
-N_VLinearCombinationVectorArray Time:  1.077999999998802e-05
+N_VLinearCombinationVectorArray Time:  8.065000000001543e-06
 
 PASSED test -- N_VLinearCombinationVectorArray Case 1b 
-N_VLinearCombinationVectorArray Time:  1.682199999997191e-05
+N_VLinearCombinationVectorArray Time:  6.989000000012791e-06
 
 PASSED test -- N_VLinearCombinationVectorArray Case 2a 
-N_VLinearCombinationVectorArray Time:  1.351499999990846e-05
+N_VLinearCombinationVectorArray Time:  8.283999999969538e-06
 
 PASSED test -- N_VLinearCombinationVectorArray Case 2b 
-N_VLinearCombinationVectorArray Time:  1.332500000006398e-05
+N_VLinearCombinationVectorArray Time:  8.445999999995291e-06
 
 PASSED test -- N_VLinearCombinationVectorArray Case 3a 
-N_VLinearCombinationVectorArray Time:  3.403300000004439e-05
+N_VLinearCombinationVectorArray Time:  2.054499999998294e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 3b 
-N_VLinearCombinationVectorArray Time:  3.383300000003864e-05
+N_VLinearCombinationVectorArray Time:  2.159600000001261e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 4a 
-N_VLinearCombinationVectorArray Time:  4.189799999998467e-05
+N_VLinearCombinationVectorArray Time:  1.955800000003061e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 4b 
-N_VLinearCombinationVectorArray Time:  2.841300000000491e-05
+N_VLinearCombinationVectorArray Time:  1.947299999999208e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 5a 
-N_VLinearCombinationVectorArray Time:  4.652700000007393e-05
+N_VLinearCombinationVectorArray Time:  3.243999999996694e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 5b 
-N_VLinearCombinationVectorArray Time:  4.431299999996252e-05
+N_VLinearCombinationVectorArray Time:  3.246800000000771e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 6a 
-N_VLinearCombinationVectorArray Time:  8.585000000005394e-05
+N_VLinearCombinationVectorArray Time:  4.652199999999329e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 6b 
-N_VLinearCombinationVectorArray Time:  1.181199999999993e-04
+N_VLinearCombinationVectorArray Time:  6.070400000002252e-05
 
 PASSED test -- N_VLinearCombinationVectorArray Case 6c 
-N_VLinearCombinationVectorArray Time:  9.866400000002606e-05
+N_VLinearCombinationVectorArray Time:  6.266499999996178e-05
 
 
 Testing local reduction operations:
 
 PASSED test -- N_VDotProdLocal
-N_VDotProdLocal Time:  1.275400000000371e-05
+N_VDotProdLocal Time:  2.102600000003507e-05
 
 PASSED test -- N_VMaxNormLocal
-N_VMaxNormLocal Time:  8.746999999975635e-06
+N_VMaxNormLocal Time:  2.723199999998815e-05
 
 PASSED test -- N_VMinLocal
-N_VMinLocal Time:  6.944000000008721e-06
+N_VMinLocal Time:  1.813999999999982e-05
 
 PASSED test -- N_VL1NormLocal
-N_VL1NormLocal Time:  1.050999999996360e-05
+N_VL1NormLocal Time:  3.475600000002466e-05
 
 PASSED test -- N_VWSqrSumLocal
-N_VWL2NormLocal Time:  1.731199999999156e-05
+N_VWL2NormLocal Time:  1.216700000000737e-05
 
 PASSED test -- N_VWSqrSumMaskLocal
-N_VWSqrSumMaskLocal Time:  2.157999999996552e-05
+N_VWSqrSumMaskLocal Time:  1.401600000000558e-05
 
 PASSED test -- N_VInvTestLocal Case 1
-N_VInvTestLocal Time:  1.198300000004870e-05
+N_VInvTestLocal Time:  9.321000000006574e-06
 
 PASSED test -- N_VInvTestLocal Case 2
-N_VInvTestLocal Time:  8.886000000041250e-06
+N_VInvTestLocal Time:  8.651000000026166e-06
 
 PASSED test -- N_VConstrMaskLocal Case 1 
-N_VConstrMaskLocal Time:  2.610899999999639e-05
+N_VConstrMaskLocal Time:  2.154399999998446e-05
 
 PASSED test -- N_VConstrMaskLocal Case 2 
-N_VConstrMaskLocal Time:  3.629800000004568e-05
+N_VConstrMaskLocal Time:  2.405999999999242e-05
 
 PASSED test -- N_VMinQuotientLocal Case 1 
-N_VMinQuotientLocal Time:  2.670999999998536e-05
+N_VMinQuotientLocal Time:  1.519900000002128e-05
 
 PASSED test -- N_VMinQuotientLocal Case 2 
-N_VMinQuotientLocal Time:  1.756200000002650e-05
+N_VMinQuotientLocal Time:  1.805500000001681e-05
 
 
 Testing local fused reduction operations:
 
 PASSED test -- N_VDotProdMultiLocal Case 1 
-N_VDotProdMultiLocal Time:  4.603599999997154e-05
+N_VDotProdMultiLocal Time:  4.362300000004815e-05
 
 PASSED test -- N_VDotProdMultiLocal Case 2 
-N_VDotProdMultiLocal Time:  3.643799999997199e-05
+N_VDotProdMultiLocal Time:  3.380499999999786e-05
 
 PASSED test -- N_VDotProdMultiAllReduce Case 1 
-N_VDotProdMultiLocal Time:  1.285399999995107e-05
+N_VDotProdMultiLocal Time:  8.147000000013893e-06
 
 PASSED test -- N_VDotProdMultiAllReduce Case 1 
-N_VDotProdMultiAllReduce Time:  5.746699999997773e-05
+N_VDotProdMultiAllReduce Time:  2.907299999999058e-05
 
 PASSED test -- N_VDotProdMultiLocal Case 2 
-N_VDotProdMultiLocal Time:  3.659799999999880e-05
+N_VDotProdMultiLocal Time:  2.415999999999530e-05
 
 PASSED test -- N_VDotProdMultiAllReduce Case 2 
-N_VDotProdMultiAllReduce Time:  7.579100000010275e-05
+N_VDotProdMultiAllReduce Time:  3.369300000000131e-05
 
 
 Testing XBraid interface operations:
 
 PASSED test -- N_VBufSize
-N_VBufSize Time:  4.458299999998694e-05
+N_VBufSize Time:  5.159100000001748e-05
 
 PASSED test -- N_VBufPack
-N_VBufPack Time:  2.010699999999144e-05
+N_VBufPack Time:  2.100299999996391e-05
 
 PASSED test -- N_VBufUnpack
-N_VBufUnpack Time:  1.503800000002276e-05
+N_VBufUnpack Time:  1.413799999999688e-05
 
 SUCCESS: NVector module passed all tests 
 
