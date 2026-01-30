@@ -1,0 +1,69 @@
+Start MRIStep StageInfo test
+Using ImEx-MRI-SR method
+Using Newton nonlinear solver
+Using GMRES iterative linear solver
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+ 0.000000000000000e+00    1.224744871391589e+00    1.732050807568877e+00    0.000000000000000e+00    0.000000000000000e+00
+    [Pre-RHS processing (stage 0 of 5) at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 2.1213203436e+00]
+    [Pre-step processing at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00),||y||_2 = 2.1213203436e+00]
+    [Pre-RHS processing (stage 0 of 5) at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 2.1213203436e+00]
+    [Post-stage processing (stage 1 of 5) at t = 6.76e-02 (tn = 0.00e+00 , tcur = 6.76e-02), ||y||_2 = 1.9277014052e+00]
+    [Pre-RHS processing (stage 1 of 5) at t = 6.76e-02 (tn = 0.00e+00 , tcur = 6.76e-02), ||y||_2 = 1.9277014052e+00]
+    [Post-stage processing (stage 2 of 5) at t = 8.00e-02 (tn = 0.00e+00 , tcur = 8.00e-02), ||y||_2 = 1.8630468331e+00]
+    [Pre-RHS processing (stage 2 of 5) at t = 8.00e-02 (tn = 0.00e+00 , tcur = 8.00e-02), ||y||_2 = 1.8630468331e+00]
+    [Post-stage processing (stage 3 of 5) at t = 1.13e-01 (tn = 0.00e+00 , tcur = 1.13e-01), ||y||_2 = 1.6895511338e+00]
+    [Pre-RHS processing (stage 3 of 5) at t = 1.13e-01 (tn = 0.00e+00 , tcur = 1.13e-01), ||y||_2 = 1.6895511338e+00]
+    [Post-stage processing (stage 4 of 5) at t = 1.00e-01 (tn = 0.00e+00 , tcur = 1.00e-01), ||y||_2 = 1.7553780461e+00]
+=================================================================
+==12225==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x604000000d78 at pc 0x55ccfcc302fb bp 0x7ffe54922c60 sp 0x7ffe54922c50
+READ of size 8 at 0x604000000d78 thread T0
+    #0 0x55ccfcc302fa in mriStep_TakeStepMRISR /__w/sundials/sundials/src/arkode/arkode_mristep.c:2576
+    #1 0x55ccfcc697e0 in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:923
+    #2 0x55ccfcacd985 in main /__w/sundials/sundials/test/unit_tests/arkode/CXX_serial/ark_test_stageinfo_mristep.cpp:229
+    #3 0x7fba17cb7082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+    #4 0x55ccfcac9fcd in _start (/__w/sundials/sundials/test/build_double_32_both_OFF_DEV_0a72941e6b78/test/unit_tests/arkode/CXX_serial/ark_test_stageinfo_mristep+0x51fcd)
+
+0x604000000d78 is located 0 bytes to the right of 40-byte region [0x604000000d50,0x604000000d78)
+allocated by thread T0 here:
+    #0 0x7fba1834fa06 in __interceptor_calloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:153
+    #1 0x55ccfcc0c30e in MRIStepCoupling_Alloc /__w/sundials/sundials/src/arkode/arkode_mri_tables.c:196
+    #2 0x55ccfcc0e28c in MRIStepCoupling_Copy /__w/sundials/sundials/src/arkode/arkode_mri_tables.c:483
+    #3 0x55ccfcc12e5f in MRIStepSetCoupling /__w/sundials/sundials/src/arkode/arkode_mristep_io.c:78
+    #4 0x55ccfcaccbcd in main /__w/sundials/sundials/test/unit_tests/arkode/CXX_serial/ark_test_stageinfo_mristep.cpp:163
+    #5 0x7fba17cb7082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow /__w/sundials/sundials/src/arkode/arkode_mristep.c:2576 in mriStep_TakeStepMRISR
+Shadow bytes around the buggy address:
+  0x0c087fff8150: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
+  0x0c087fff8160: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
+  0x0c087fff8170: fa fa 00 00 00 00 00 00 fa fa 00 00 00 00 00 00
+  0x0c087fff8180: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
+  0x0c087fff8190: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
+=>0x0c087fff81a0: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00[fa]
+  0x0c087fff81b0: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
+  0x0c087fff81c0: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
+  0x0c087fff81d0: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
+  0x0c087fff81e0: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
+  0x0c087fff81f0: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==12225==ABORTING
