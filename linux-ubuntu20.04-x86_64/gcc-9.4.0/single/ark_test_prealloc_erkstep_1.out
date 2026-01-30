@@ -1,0 +1,21 @@
+Start ERKStep preallocation test
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+          0.000000e+00             1.224745e+00             1.732051e+00             0.000000e+00             0.000000e+00
+          1.029860e-04             1.224745e+00             1.732050e+00             0.000000e+00             0.000000e+00
+          8.071457e-03             1.224738e+00             1.728294e+00             0.000000e+00             0.000000e+00
+          2.405403e-02             1.224686e+00             1.698969e+00             0.000000e+00             0.000000e+00
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.024054
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 3
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.000102986
+Last step size                = 0.0159826
+Current step size             = 0.016162
+RHS fn evals                  = 15
+End ERKStep preallocation test
