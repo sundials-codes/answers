@@ -53,8 +53,8 @@ Error test fails              = 16
 NLS step fails                = 0
 Inequality constraint fails   = 0
 Initial step size             = 3.06125017536814281e-07
-Last step size                = 0.0139416096256085266
-Current step size             = 0.0139416096256085266
+Last step size                = 0.0139416096256085278
+Current step size             = 0.0139416096256085278
 RHS fn evals                  = 145
 
 Diffusion Stepper Statistics:
@@ -67,8 +67,8 @@ Error test fails              = 77
 NLS step fails                = 0
 Inequality constraint fails   = 0
 Initial step size             = 3.06125017536814281e-07
-Last step size                = 0.00428821387105637934
-Current step size             = 0.00428821387105637934
+Last step size                = 0.00428821387105637875
+Current step size             = 0.00428821387105637875
 Explicit RHS fn evals         = 0
 Implicit RHS fn evals         = 1859
 NLS iters                     = 920

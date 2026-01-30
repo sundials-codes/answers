@@ -15,19 +15,19 @@ Robertson ODE test problem (with rootfinding):
    4.00000e+06   5.16865e-04   2.06858e-09   9.99483e-01
    2.07880e+07   1.00000e-04   4.00234e-10   9.99900e-01
       rootsfound[] =  -1   0
-   4.00000e+08   5.20833e-06   2.10025e-11   9.99995e-01
-   4.00000e+09   5.20867e-07   2.06591e-12   9.99999e-01
-   4.00000e+10   5.20836e-08   1.86699e-13   1.00000e+00
+   4.00000e+08   5.20833e-06   2.10029e-11   9.99995e-01
+   4.00000e+09   5.21035e-07   2.14829e-12   9.99999e-01
+   4.00000e+10   5.20891e-08   2.15984e-13   1.00000e+00
    -----------------------------------------------------
 
 Final Solver Statistics:
-   Internal solver steps = 107 (attempted = 127)
-   Total RHS evals:  Fe = 0,  Fi = 4032
-   Total linear solver setups = 160
+   Internal solver steps = 104 (attempted = 122)
+   Total RHS evals:  Fe = 0,  Fi = 3982
+   Total linear solver setups = 156
    Total RHS evals for setting up the linear system = 0
-   Total number of Jacobian evaluations = 71
-   Total number of Newton iterations = 3486
-   Total root-function g evals = 147
-   Total number of nonlinear solver convergence failures = 70
+   Total number of Jacobian evaluations = 68
+   Total number of Newton iterations = 3448
+   Total root-function g evals = 136
+   Total number of nonlinear solver convergence failures = 67
    Total number of error test failures = 0
-   Total number of failed steps from solver failure = 20
+   Total number of failed steps from solver failure = 18
