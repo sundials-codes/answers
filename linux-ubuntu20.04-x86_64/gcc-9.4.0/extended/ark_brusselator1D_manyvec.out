@@ -63,7 +63,7 @@
     5.400000    0.360684    2.837328    1.999993
     5.500000    0.354771    2.869085    1.999993
     5.600000    0.349641    2.900573    1.999993
-    5.700000    0.345224    2.931786    1.999993
+    5.700000    0.345224    2.931786    1.999994
     5.800000    0.341455    2.962716    1.999994
     5.900000    0.338270    2.993362    1.999994
     6.000000    0.335614    3.023721    1.999994
@@ -84,7 +84,7 @@
     7.500000    0.333401    3.444494    1.999994
     7.600000    0.334721    3.470197    1.999994
     7.700000    0.336154    3.495592    1.999994
-    7.800000    0.337695    3.520673    1.999993
+    7.800000    0.337695    3.520673    1.999994
     7.900000    0.339341    3.545436    1.999993
     8.000000    0.341088    3.569873    1.999993
     8.100000    0.342934    3.593980    1.999993
@@ -113,9 +113,9 @@ Final Solver Statistics:
    Internal solver steps = 299 (attempted = 318)
    Total RHS evals:  Fe = 2207,  Fi = 6256
    Total linear solver setups = 0
-   Total linear iterations = 12407
+   Total linear iterations = 12388
    Total linear convergence failures = 0
-   Total J*v evaluations = 12407
+   Total J*v evaluations = 12388
    Total RHS evals in linear solver = 0
    Total number of Newton iterations = 4049
    Total number of nonlinear solver convergence failures = 1
