@@ -4,7 +4,7 @@ Using Newton nonlinear solver
 Using GMRES iterative linear solver
            t                        u                        v                      u err                    v err            
 ------------------------------------------------------------------------------------------------------------------------------
- 0.000000000000000e+00    1.224744871391589e+00    1.732050807568877e+00    0.000000000000000e+00    0.000000000000000e+00
+0.000000000000000000e+00 1.224744871391589049e+00 1.732050807568877294e+00 0.000000000000000000e+00 0.000000000000000000e+00
     [Pre-RHS processing (stage 0 of 5) at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 2.1213203436e+00]
     [Pre-step processing at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00),||y||_2 = 2.1213203436e+00]
     [Pre-RHS processing (stage 0 of 5) at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 2.1213203436e+00]
@@ -27,7 +27,7 @@ Using GMRES iterative linear solver
     [Post-stage processing (stage 4 of 5) at t = 5.44e-02 (tn = 0.00e+00 , tcur = 5.44e-02), ||y||_2 = 1.9907845791e+00]
     [Post-stage processing (stage 5 of 5) at t = 5.44e-02 (tn = 0.00e+00 , tcur = 5.44e-02), ||y||_2 = 1.9907852935e+00]
     [Post-step processing at t = 5.44e-02 (tn = 0.00e+00 , tcur = 5.44e-02),||y||_2 = 1.9907845791e+00]
-      5.4416549223e-02         1.2244425898e+00         1.5697017502e+00         9.6643187675e-08         2.9671727630e-07
+      5.4416549221e-02         1.2244425898e+00         1.5697017502e+00         9.6643187874e-08         2.9671727607e-07
     [Pre-step processing at t = 5.44e-02 (tn = 5.44e-02 , tcur = 5.44e-02),||y||_2 = 1.9907845791e+00]
     [Pre-RHS processing (stage 0 of 5) at t = 5.44e-02 (tn = 5.44e-02 , tcur = 5.44e-02), ||y||_2 = 1.9907845791e+00]
     [Post-stage processing (stage 1 of 5) at t = 9.12e-02 (tn = 5.44e-02 , tcur = 9.12e-02), ||y||_2 = 1.8018482507e+00]
@@ -39,7 +39,7 @@ Using GMRES iterative linear solver
     [Post-stage processing (stage 4 of 5) at t = 1.09e-01 (tn = 5.44e-02 , tcur = 1.09e-01), ||y||_2 = 1.7110128262e+00]
     [Post-stage processing (stage 5 of 5) at t = 1.09e-01 (tn = 5.44e-02 , tcur = 1.09e-01), ||y||_2 = 1.7110136723e+00]
     [Post-step processing at t = 1.09e-01 (tn = 5.44e-02 , tcur = 1.09e-01),||y||_2 = 1.7110128262e+00]
-      1.0883309845e-01         1.2235363746e+00         1.1960449956e+00         2.0469684348e-07         1.0505289332e-06
+      1.0883309844e-01         1.2235363746e+00         1.1960449956e+00         2.0469684346e-07         1.0505289331e-06
     [Pre-step processing at t = 1.09e-01 (tn = 1.09e-01 , tcur = 1.09e-01),||y||_2 = 1.7110128262e+00]
     [Pre-RHS processing (stage 0 of 5) at t = 1.09e-01 (tn = 1.09e-01 , tcur = 1.09e-01), ||y||_2 = 1.7110128262e+00]
     [Post-stage processing (stage 1 of 5) at t = 1.48e-01 (tn = 1.09e-01 , tcur = 1.48e-01), ||y||_2 = 1.5848610090e+00]
@@ -51,9 +51,9 @@ Using GMRES iterative linear solver
     [Post-stage processing (stage 4 of 5) at t = 1.66e-01 (tn = 1.09e-01 , tcur = 1.66e-01), ||y||_2 = 1.5843328694e+00]
     [Post-stage processing (stage 5 of 5) at t = 1.66e-01 (tn = 1.09e-01 , tcur = 1.66e-01), ||y||_2 = 1.5843338593e+00]
     [Post-step processing at t = 1.66e-01 (tn = 1.09e-01 , tcur = 1.66e-01),||y||_2 = 1.5843328694e+00]
-      1.6631602874e-01         1.2219246454e+00         1.0084695345e+00         3.4011255723e-07         1.4555240655e-06
+      1.6631602874e-01         1.2219246454e+00         1.0084695345e+00         3.4011255719e-07         1.4555240660e-06
 ------------------------------------------------------------------------------------------------------------------------------
-Current time                  = 0.166316028741297
+Current time                  = 0.166316028737083693
 Steps                         = 3
 Step attempts                 = 4
 Stability limited steps       = 0
@@ -62,8 +62,8 @@ Error test fails              = 1
 NLS step fails                = 0
 Inequality constraint fails   = 0
 Initial step size             = 0.1
-Last step size                = 0.0574829302950284
-Current step size             = 0.0577668918899196
+Last step size                = 0.0574829302947100404
+Current step size             = 0.0577668918825757104
 Explicit slow RHS fn evals    = 0
 Implicit slow RHS fn evals    = 64
 Inner stepper failures        = 0
@@ -79,7 +79,7 @@ LS iters                      = 59
 LS fails                      = 0
 Jac-times setups              = 0
 Jac-times evals               = 59
-LS iters per NLS iter         = 1.22916666666667
+LS iters per NLS iter         = 1.22916666666666667
 Jac evals per NLS iter        = 0
 Prec evals per NLS iter       = 0
 End MRIStep StageInfo test

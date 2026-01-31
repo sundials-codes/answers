@@ -15,58 +15,71 @@ Using GMRES iterative linear solver
     [Post-stage processing (stage 3 of 5) at t = 1.13e-01 (tn = 0.00e+00 , tcur = 1.13e-01), ||y||_2 = 1.6895511338e+00]
     [Pre-RHS processing (stage 3 of 5) at t = 1.13e-01 (tn = 0.00e+00 , tcur = 1.13e-01), ||y||_2 = 1.6895511338e+00]
     [Post-stage processing (stage 4 of 5) at t = 1.00e-01 (tn = 0.00e+00 , tcur = 1.00e-01), ||y||_2 = 1.7553780461e+00]
-=================================================================
-==12218==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x604000000638 at pc 0x560d8444f2fb bp 0x7ffd9f8824b0 sp 0x7ffd9f8824a0
-READ of size 8 at 0x604000000638 thread T0
-    #0 0x560d8444f2fa in mriStep_TakeStepMRISR /__w/sundials/sundials/src/arkode/arkode_mristep.c:2576
-    #1 0x560d844887e0 in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:923
-    #2 0x560d842ec985 in main /__w/sundials/sundials/test/unit_tests/arkode/CXX_serial/ark_test_stageinfo_mristep.cpp:229
-    #3 0x7fda3285c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
-    #4 0x560d842e8fcd in _start (/__w/sundials/sundials/test/build_double_32_both_OFF_DEV_0a72941e6b78/test/unit_tests/arkode/CXX_serial/ark_test_stageinfo_mristep+0x51fcd)
-
-0x604000000638 is located 0 bytes to the right of 40-byte region [0x604000000610,0x604000000638)
-allocated by thread T0 here:
-    #0 0x7fda32ef4a06 in __interceptor_calloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:153
-    #1 0x560d8442b30e in MRIStepCoupling_Alloc /__w/sundials/sundials/src/arkode/arkode_mri_tables.c:196
-    #2 0x560d84407700 in MRIStepCoupling_LoadTable /__w/sundials/sundials/src/arkode/arkode_mri_tables.def:697
-    #3 0x560d844545a6 in mriStep_SetCoupling /__w/sundials/sundials/src/arkode/arkode_mristep.c:3324
-    #4 0x560d84443353 in mriStep_Init /__w/sundials/sundials/src/arkode/arkode_mristep.c:974
-    #5 0x560d8448f60f in arkInitialSetup /__w/sundials/sundials/src/arkode/arkode.c:2095
-    #6 0x560d84486f48 in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:726
-    #7 0x560d842ec985 in main /__w/sundials/sundials/test/unit_tests/arkode/CXX_serial/ark_test_stageinfo_mristep.cpp:229
-    #8 0x7fda3285c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
-
-SUMMARY: AddressSanitizer: heap-buffer-overflow /__w/sundials/sundials/src/arkode/arkode_mristep.c:2576 in mriStep_TakeStepMRISR
-Shadow bytes around the buggy address:
-  0x0c087fff8070: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
-  0x0c087fff8080: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 00
-  0x0c087fff8090: fa fa 00 00 00 00 00 00 fa fa 00 00 00 00 00 fa
-  0x0c087fff80a0: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
-  0x0c087fff80b0: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
-=>0x0c087fff80c0: fa fa 00 00 00 00 00[fa]fa fa 00 00 00 00 00 fa
-  0x0c087fff80d0: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
-  0x0c087fff80e0: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
-  0x0c087fff80f0: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
-  0x0c087fff8100: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 fa
-  0x0c087fff8110: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 00
-Shadow byte legend (one shadow byte represents 8 application bytes):
-  Addressable:           00
-  Partially addressable: 01 02 03 04 05 06 07 
-  Heap left redzone:       fa
-  Freed heap region:       fd
-  Stack left redzone:      f1
-  Stack mid redzone:       f2
-  Stack right redzone:     f3
-  Stack after return:      f5
-  Stack use after scope:   f8
-  Global redzone:          f9
-  Global init order:       f6
-  Poisoned by user:        f7
-  Container overflow:      fc
-  Array cookie:            ac
-  Intra object redzone:    bb
-  ASan internal:           fe
-  Left alloca redzone:     ca
-  Right alloca redzone:    cb
-  Shadow gap:              cc
-==12218==ABORTING
+    [Post-stage processing (stage 5 of 5) at t = 1.00e-01 (tn = 0.00e+00 , tcur = 1.00e-01), ||y||_2 = 1.7553690226e+00]
+    [Post-step failure processing at t = 1.00e-01 (tn = 0.00e+00 , tcur = 1.00e-01),||y||_2 = 1.7553780461e+00]
+    [Pre-step processing at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00),||y||_2 = 2.1213203436e+00]
+    [Post-stage processing (stage 1 of 5) at t = 3.18e-02 (tn = 0.00e+00 , tcur = 3.18e-02), ||y||_2 = 2.0746627548e+00]
+    [Pre-RHS processing (stage 1 of 5) at t = 3.18e-02 (tn = 0.00e+00 , tcur = 3.18e-02), ||y||_2 = 2.0746627548e+00]
+    [Post-stage processing (stage 2 of 5) at t = 3.76e-02 (tn = 0.00e+00 , tcur = 3.76e-02), ||y||_2 = 2.0566853389e+00]
+    [Pre-RHS processing (stage 2 of 5) at t = 3.76e-02 (tn = 0.00e+00 , tcur = 3.76e-02), ||y||_2 = 2.0566853389e+00]
+    [Post-stage processing (stage 3 of 5) at t = 5.33e-02 (tn = 0.00e+00 , tcur = 5.33e-02), ||y||_2 = 1.9956059674e+00]
+    [Pre-RHS processing (stage 3 of 5) at t = 5.33e-02 (tn = 0.00e+00 , tcur = 5.33e-02), ||y||_2 = 1.9956059674e+00]
+    [Post-stage processing (stage 4 of 5) at t = 4.70e-02 (tn = 0.00e+00 , tcur = 4.70e-02), ||y||_2 = 2.0220308045e+00]
+    [Post-stage processing (stage 5 of 5) at t = 4.70e-02 (tn = 0.00e+00 , tcur = 4.70e-02), ||y||_2 = 2.0220301555e+00]
+    [Post-step processing at t = 4.70e-02 (tn = 0.00e+00 , tcur = 4.70e-02),||y||_2 = 2.0220308045e+00]
+      4.7038717251e-02         1.2245191379e+00         1.6090871497e+00         7.2407223550e-08         3.3077079564e-07
+    [Pre-step processing at t = 4.70e-02 (tn = 4.70e-02 , tcur = 4.70e-02),||y||_2 = 2.0220308045e+00]
+    [Pre-RHS processing (stage 0 of 5) at t = 4.70e-02 (tn = 4.70e-02 , tcur = 4.70e-02), ||y||_2 = 2.0220308045e+00]
+    [Post-stage processing (stage 1 of 5) at t = 7.89e-02 (tn = 4.70e-02 , tcur = 7.89e-02), ||y||_2 = 1.8687693366e+00]
+    [Pre-RHS processing (stage 1 of 5) at t = 7.89e-02 (tn = 4.70e-02 , tcur = 7.89e-02), ||y||_2 = 1.8687693366e+00]
+    [Post-stage processing (stage 2 of 5) at t = 8.47e-02 (tn = 4.70e-02 , tcur = 8.47e-02), ||y||_2 = 1.8374772654e+00]
+    [Pre-RHS processing (stage 2 of 5) at t = 8.47e-02 (tn = 4.70e-02 , tcur = 8.47e-02), ||y||_2 = 1.8374772654e+00]
+    [Post-stage processing (stage 3 of 5) at t = 1.00e-01 (tn = 4.70e-02 , tcur = 1.00e-01), ||y||_2 = 1.7534837182e+00]
+    [Pre-RHS processing (stage 3 of 5) at t = 1.00e-01 (tn = 4.70e-02 , tcur = 1.00e-01), ||y||_2 = 1.7534837182e+00]
+    [Post-stage processing (stage 4 of 5) at t = 9.41e-02 (tn = 4.70e-02 , tcur = 9.41e-02), ||y||_2 = 1.7866195703e+00]
+    [Post-stage processing (stage 5 of 5) at t = 9.41e-02 (tn = 4.70e-02 , tcur = 9.41e-02), ||y||_2 = 1.7866191432e+00]
+    [Post-step processing at t = 9.41e-02 (tn = 4.70e-02 , tcur = 9.41e-02),||y||_2 = 1.7866195703e+00]
+      9.4077434502e-02         1.2238419876e+00         1.3016221719e+00         8.9882908672e-08         1.7942663670e-06
+    [Pre-step processing at t = 9.41e-02 (tn = 9.41e-02 , tcur = 9.41e-02),||y||_2 = 1.7866195703e+00]
+    [Pre-RHS processing (stage 0 of 5) at t = 9.41e-02 (tn = 9.41e-02 , tcur = 9.41e-02), ||y||_2 = 1.7866195703e+00]
+    [Post-stage processing (stage 1 of 5) at t = 1.28e-01 (tn = 9.41e-02 , tcur = 1.28e-01), ||y||_2 = 1.6322862177e+00]
+    [Pre-RHS processing (stage 1 of 5) at t = 1.28e-01 (tn = 9.41e-02 , tcur = 1.28e-01), ||y||_2 = 1.6322862177e+00]
+    [Post-stage processing (stage 2 of 5) at t = 1.34e-01 (tn = 9.41e-02 , tcur = 1.34e-01), ||y||_2 = 1.6132224525e+00]
+    [Pre-RHS processing (stage 2 of 5) at t = 1.34e-01 (tn = 9.41e-02 , tcur = 1.34e-01), ||y||_2 = 1.6132224525e+00]
+    [Post-stage processing (stage 3 of 5) at t = 1.50e-01 (tn = 9.41e-02 , tcur = 1.50e-01), ||y||_2 = 1.5821211389e+00]
+    [Pre-RHS processing (stage 3 of 5) at t = 1.50e-01 (tn = 9.41e-02 , tcur = 1.50e-01), ||y||_2 = 1.5821211389e+00]
+    [Post-stage processing (stage 4 of 5) at t = 1.44e-01 (tn = 9.41e-02 , tcur = 1.44e-01), ||y||_2 = 1.5906968040e+00]
+    [Post-stage processing (stage 5 of 5) at t = 1.44e-01 (tn = 9.41e-02 , tcur = 1.44e-01), ||y||_2 = 1.5906958151e+00]
+    [Post-step processing at t = 1.44e-01 (tn = 9.41e-02 , tcur = 1.44e-01),||y||_2 = 1.5906968040e+00]
+      1.4372138646e-01         1.2226386256e+00         1.0175810108e+00         1.1664470589e-07         2.7813679990e-06
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.143721386460302
+Steps                         = 3
+Step attempts                 = 4
+Stability limited steps       = 0
+Accuracy limited steps        = 4
+Error test fails              = 1
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.1
+Last step size                = 0.0496439519587947
+Current step size             = 0.0499492708186441
+Explicit slow RHS fn evals    = 16
+Implicit slow RHS fn evals    = 64
+Inner stepper failures        = 0
+NLS iters                     = 48
+NLS fails                     = 0
+NLS iters per step            = 16
+LS setups                     = 0
+Jac fn evals                  = 0
+LS RHS fn evals               = 58
+Prec setup evals              = 0
+Prec solves                   = 0
+LS iters                      = 58
+LS fails                      = 0
+Jac-times setups              = 0
+Jac-times evals               = 58
+LS iters per NLS iter         = 1.20833333333333
+Jac evals per NLS iter        = 0
+Prec evals per NLS iter       = 0
+End MRIStep StageInfo test
