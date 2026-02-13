@@ -10,37 +10,126 @@ The stiffness of the problem is directly proportional to
 
         t           u
    ---------------------
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     1.000000    0.785398
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     2.000000    1.107149
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     3.000000    1.249046
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     4.000000    1.325818
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     5.000000    1.373401
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     6.000000    1.405648
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     7.000000    1.428899
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     8.000000    1.446441
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     9.000000    1.460139
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
    10.000000    1.471128
    ---------------------
 
 Final Statistics:
-Current time                  = 10.0130009063227
-Steps                         = 1223
-Step attempts                 = 1276
-Stability limited steps       = 100
-Accuracy limited steps        = 1276
-Error test fails              = 53
+Current time                  = 10.0138465766486
+Steps                         = 1218
+Step attempts                 = 1280
+Stability limited steps       = 49
+Accuracy limited steps        = 1280
+Error test fails              = 62
 NLS step fails                = 0
 Inequality constraint fails   = 0
 Initial step size             = 1.93010111094261e-10
-Last step size                = 0.0231428628739609
-Current step size             = 0.0360909196792253
-RHS fn evals                  = 132505
-Number of dom_eig updates     = 81
-Number of fe calls for DEE    = 142
-Number of iterations for DEE  = 91
+Last step size                = 0.0232720339333526
+Current step size             = 0.0256672680471915
+RHS fn evals                  = 132158
+Number of dom_eig updates     = 89
+Number of fe calls for DEE    = 158
+Number of iterations for DEE  = 99
 Max. num. of stages used      = 199
 Max. num. of stages allowed   = 200
-Max. spectral radius          = 1010100.75995937
+Max. spectral radius          = 1010100.99429664
 Min. spectral radius          = 1009899
 
-ACCURACY at the final time   = 2.46692e-13
+ACCURACY at the final time   = 7.31193e-13

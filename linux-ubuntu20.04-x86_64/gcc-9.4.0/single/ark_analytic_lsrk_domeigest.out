@@ -10,37 +10,71 @@ The stiffness of the problem is directly proportional to
 
         t           u
    ---------------------
-    1.000000    0.785397
-    2.000000    1.107147
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+    1.000000    0.785396
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+    2.000000    1.107148
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     3.000000    1.249046
-    4.000000    1.325819
-    5.000000    1.373396
-    6.000000    1.405648
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+    4.000000    1.325817
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+    5.000000    1.373402
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+    6.000000    1.405649
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     7.000000    1.428900
-    8.000000    1.446441
-    9.000000    1.460139
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+    8.000000    1.446444
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+    9.000000    1.460138
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
    10.000000    1.471129
    ---------------------
 
 Final Statistics:
-Current time                  = 10.0123
-Steps                         = 119
-Step attempts                 = 151
+Current time                  = 10.0052
+Steps                         = 133
+Step attempts                 = 170
 Stability limited steps       = 0
-Accuracy limited steps        = 151
-Error test fails              = 32
+Accuracy limited steps        = 170
+Error test fails              = 37
 NLS step fails                = 0
 Inequality constraint fails   = 0
 Initial step size             = 3.45267e-07
-Last step size                = 0.155688
-Current step size             = 0.202026
-RHS fn evals                  = 1881
-Number of dom_eig updates     = 28
-Number of fe calls for DEE    = 118
-Number of iterations for DEE  = 66
-Max. num. of stages used      = 31
+Last step size                = 0.156658
+Current step size             = 0.214037
+RHS fn evals                  = 1999
+Number of dom_eig updates     = 34
+Number of fe calls for DEE    = 142
+Number of iterations for DEE  = 78
+Max. num. of stages used      = 24
 Max. num. of stages allowed   = 200
-Max. spectral radius          = 1019.86
+Max. spectral radius          = 1020.06
 Min. spectral radius          = 999.331
 
-ACCURACY at the final time   = 1.07288e-06
+ACCURACY at the final time   = 1.19209e-06

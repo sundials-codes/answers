@@ -40,13 +40,13 @@ Using fixed-point nonlinear solver
 [INFO][rank 0][mriStep_StageERKFast][end-fast-steps] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stages-list] stage = 2, stage type = 2, tcur = 0.000435867
-[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1000000014901161
+[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 4.477104663848877
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 4.4771
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.001385469338856637
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.00138547
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
 [INFO][rank 0][mriStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
@@ -69,13 +69,13 @@ Using fixed-point nonlinear solver
 [INFO][rank 0][mriStep_StageERKFast][end-fast-steps] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stages-list] stage = 4, stage type = 2, tcur = 0.000717933
-[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1000000014901161
+[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 12.16604614257812
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 12.166
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.003749425988644361
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.00374943
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
 [INFO][rank 0][mriStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
@@ -98,13 +98,13 @@ Using fixed-point nonlinear solver
 [INFO][rank 0][mriStep_StageERKFast][end-fast-steps] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stages-list] stage = 6, stage type = 2, tcur = 0.001
-[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1000000014901161
+[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 23.60216331481934
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 23.6022
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.007200239226222038
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.00720024
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
 [INFO][rank 0][mriStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
@@ -134,13 +134,13 @@ Using fixed-point nonlinear solver
 [INFO][rank 0][mriStep_StageERKFast][end-fast-steps] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stages-list] stage = 2, stage type = 2, tcur = 0.00143587
-[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1000000014901161
+[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 25.01429748535156
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 25.0143
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.007666607387363911
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.00766661
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
 [INFO][rank 0][mriStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
@@ -163,13 +163,13 @@ Using fixed-point nonlinear solver
 [INFO][rank 0][mriStep_StageERKFast][end-fast-steps] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stages-list] stage = 4, stage type = 2, tcur = 0.00171793
-[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1000000014901161
+[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 45.98934173583984
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 45.9893
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.01407759636640549
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.0140776
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
 [INFO][rank 0][mriStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
@@ -192,13 +192,13 @@ Using fixed-point nonlinear solver
 [INFO][rank 0][mriStep_StageERKFast][end-fast-steps] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stages-list] stage = 6, stage type = 2, tcur = 0.002
-[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1000000014901161
+[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 70.71179962158203
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 70.7118
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.02162445336580276
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.0216245
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
 [INFO][rank 0][mriStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
@@ -228,13 +228,13 @@ Using fixed-point nonlinear solver
 [INFO][rank 0][mriStep_StageERKFast][end-fast-steps] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stages-list] stage = 2, stage type = 2, tcur = 0.00243587
-[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1000000014901161
+[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 45.55577850341797
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 45.5558
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.01398943178355694
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.0139894
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
 [INFO][rank 0][mriStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
@@ -257,13 +257,13 @@ Using fixed-point nonlinear solver
 [INFO][rank 0][mriStep_StageERKFast][end-fast-steps] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stages-list] stage = 4, stage type = 2, tcur = 0.00271793
-[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1000000014901161
+[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 79.81997680664062
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 79.82
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.02447291277348995
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.0244729
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
 [INFO][rank 0][mriStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
@@ -286,13 +286,13 @@ Using fixed-point nonlinear solver
 [INFO][rank 0][mriStep_StageERKFast][end-fast-steps] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success
 [INFO][rank 0][mriStep_TakeStepMRIGARK][begin-stages-list] stage = 6, stage type = 2, tcur = 0.003
-[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1000000014901161
+[INFO][rank 0][mriStep_Nls][begin-nonlinear-solve] tol = 0.1
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 117.8318939208984
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 117.832
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
-[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.03613271191716194
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.0361327
 [INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
 [INFO][rank 0][mriStep_Nls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][mriStep_TakeStepMRIGARK][end-stages-list] status = success

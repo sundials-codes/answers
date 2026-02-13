@@ -1,3 +1,7 @@
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode.c:823][ARKodeEvolve] At t = 1.99498, mxstep steps taken before reaching tout.
+
+SUNDIALS_ERROR: ARKodeEvolve() failed with flag = -1
+
 
 Analytical ODE test problem:
     lambda = -1000
@@ -7,32 +11,23 @@ Analytical ODE test problem:
         t           u
    ---------------------
     1.000000    0.785398
-    2.000000    1.107147
-    3.000000    1.249045
-    4.000000    1.325817
-    5.000000    1.373401
-    6.000000    1.405647
-    7.000000    1.428906
-    8.000000    1.446450
-    9.000000    1.460138
-   10.000000    1.471127
    ---------------------
 
 Final Statistics:
-Current time                  = 10.1477
-Steps                         = 108
-Step attempts                 = 140
-Stability limited steps       = 0
-Accuracy limited steps        = 140
-Error test fails              = 32
+Current time                  = 1.99498
+Steps                         = 1977
+Step attempts                 = 1977
+Stability limited steps       = 1974
+Accuracy limited steps        = 1977
+Error test fails              = 0
 NLS step fails                = 0
 Inequality constraint fails   = 0
 Initial step size             = 3.45267e-07
-Last step size                = 0.170909
-Current step size             = 0.170909
-RHS fn evals                  = 2008
+Last step size                = 0.00100871
+Current step size             = 0.00100871
+RHS fn evals                  = 3955
 Number of dom_eig updates     = 1
-Max. num. of stages used      = 36
+Max. num. of stages used      = 2
 Max. num. of stages allowed   = 200
 Max. spectral radius          = 1010
 Min. spectral radius          = 1010

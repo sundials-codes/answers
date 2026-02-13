@@ -27,7 +27,7 @@
      PASSED test -- FSUNLinSolSetup 
      PASSED test -- FSUNLinSolSolve
      PASSED test -- FSUNLinSolLastFlag (0)
-     PASSED test -- FSUNLinSolNumIters (253)
+     PASSED test -- FSUNLinSolNumIters (205)
      PASSED test -- FSUNLinSolResNorm 
      PASSED test -- FSUNLinSolResid 
  SUCCESS: FSUNLinSol_PCG module, problem 3, all tests passed

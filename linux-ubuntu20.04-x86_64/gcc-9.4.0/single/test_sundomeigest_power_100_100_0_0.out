@@ -2,36 +2,33 @@
 DomEig module test:
   Problem size = 100
   Number of power iterations = 100
-  Number of preprocessing = 0
+  Number of preprocessing iters = 0
   Timing output flag = 0
 
     PASSED test -- SUNDomEigEstimator_SetATimes 
     PASSED test -- SUNDomEigEstimator_SetMaxIters 
-    PASSED test -- SUNDomEigEstimator_SetNumInitialPreProcess 
-    PASSED test -- SUNDomEigEstimator_SetNumSucceedingPreProcess 
+    PASSED test -- SUNDomEigEstimator_SetNumPreprocessIters 
     PASSED test -- SUNDomEigEstimator_SetRelTol 
+    PASSED test -- SUNDomEigEstimator_SetInitialGuess 
     PASSED test -- SUNDomEigEstimator_Initialize 
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     PASSED test -- SUNDomEigEstimator_Estimate 
-    PASSED test -- SUNDomEigEstimator_GetCurRes 
-    PASSED test -- SUNDomEigEstimator_GetCurNumIters 
-    PASSED test -- SUNDomEigEstimator_GetMaxNumIters 
-    PASSED test -- SUNDomEigEstimator_GetMinNumIters 
+    PASSED test -- SUNDomEigEstimator_GetRes 
+    PASSED test -- SUNDomEigEstimator_GetNumIters 
     PASSED test -- SUNDomEigEstimator_GetNumATimesCalls 
-    SUNDomEigEstimator_PrintStats: 
+    SUNDomEigEstimator_Write: 
     --------------------------------------------
 
-Power Iteration DEE Statistics:
-------------------------------------------------
-Max. num. of iters allowed    = 100
-Num. of warmups               = 0
-Power iteration tolerance     = 0.01
-Cur. residual                 = 0.00104541
-Cur. num. of power iters      = 5
-Max. num. of power iters      = 5
-Min. num. of power iters      = 5
-Num. of ATimes calls          = 5
+Power Iteration SUNDomEigEstimator:
+Max. iters               = 100
+Num. preprocessing iters = 0
+Relative tolerance       = 0.01
+Residual                 = 41.8125
+Num. iters               = 5
+Num. ATimes calls        = 5
+
     --------------------------------------------
-    PASSED test -- SUNDomEigEstimator_PrintStats 
+    PASSED test -- SUNDomEigEstimator_Write 
 SUCCESS: SUNDomEigEstimator_Power module passed all initialization tests
 
 
