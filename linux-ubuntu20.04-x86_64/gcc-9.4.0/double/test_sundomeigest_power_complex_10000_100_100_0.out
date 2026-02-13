@@ -1,0 +1,40 @@
+
+DomEig module test:
+  Problem size = 10000
+  Number of power iterations = 100
+  Number of preprocessing iters = 100
+  Timing output flag = 0
+
+    PASSED test -- SUNDomEigEstimator_SetATimes 
+    PASSED test -- SUNDomEigEstimator_SetMaxIters 
+    PASSED test -- SUNDomEigEstimator_SetNumPreprocessIters 
+    PASSED test -- SUNDomEigEstimator_SetRelTol 
+    PASSED test -- SUNDomEigEstimator_SetInitialGuess 
+    PASSED test -- SUNDomEigEstimator_Initialize 
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
+    PASSED test -- SUNDomEigEstimator_Estimate 
+    PASSED test -- SUNDomEigEstimator_GetRes 
+    PASSED test -- SUNDomEigEstimator_GetNumIters 
+    PASSED test -- SUNDomEigEstimator_GetNumATimesCalls 
+    SUNDomEigEstimator_Write: 
+    --------------------------------------------
+
+Power Iteration SUNDomEigEstimator:
+Max. iters               = 100
+Num. preprocessing iters = 100
+Relative tolerance       = 0.01
+Residual                 = 5.14136030597729
+Num. iters               = 102
+Num. ATimes calls        = 102
+
+    --------------------------------------------
+    PASSED test -- SUNDomEigEstimator_Write 
+SUCCESS: SUNDomEigEstimator_Power module passed all initialization tests
+
+
+computed dominant eigenvalue = -99516.8715676826 + 0 i
+    true dominant eigenvalue = -100000 + 0 i
+
+
+PASS:   relative error = 0.00485473894734359 
+
