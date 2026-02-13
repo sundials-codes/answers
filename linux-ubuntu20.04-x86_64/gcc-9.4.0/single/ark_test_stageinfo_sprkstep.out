@@ -1,0 +1,64 @@
+Start SPRKStep StageInfo test
+           t                        q1                       q2                     q3                       q4               
+------------------------------------------------------------------------------------------------------------------------------
+          0.000000e+00             4.000000e-01             0.000000e+00             0.000000e+00             2.000000e+00
+    [Pre-step processing at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00),||y||_2 = 2.0396077633e+00]
+    [Pre-RHS processing (stage 0 of 4) at t = 1.34e-04 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 2.0396077633e+00]
+    [Pre-RHS processing (stage 0 of 4) at t = 5.15e-04 (tn = 0.00e+00 , tcur = 1.34e-04), ||y||_2 = 2.0396080017e+00]
+    [Post-stage processing (stage 0 of 4) at t = 1.34e-04 (tn = 0.00e+00 , tcur = 1.34e-04), ||y||_2 = 2.0396080017e+00]
+    [Pre-RHS processing (stage 1 of 4) at t = -9.03e-05 (tn = 0.00e+00 , tcur = 1.34e-04), ||y||_2 = 2.0396080017e+00]
+    [Pre-RHS processing (stage 1 of 4) at t = 4.30e-04 (tn = 0.00e+00 , tcur = -9.03e-05), ||y||_2 = 2.0396115780e+00]
+    [Post-stage processing (stage 1 of 4) at t = -9.03e-05 (tn = 0.00e+00 , tcur = -9.03e-05), ||y||_2 = 2.0396115780e+00]
+    [Pre-RHS processing (stage 2 of 4) at t = 6.66e-04 (tn = 0.00e+00 , tcur = -9.03e-05), ||y||_2 = 2.0396115780e+00]
+    [Pre-RHS processing (stage 2 of 4) at t = 8.71e-04 (tn = 0.00e+00 , tcur = 6.66e-04), ||y||_2 = 2.0396056175e+00]
+    [Post-stage processing (stage 2 of 4) at t = 6.66e-04 (tn = 0.00e+00 , tcur = 6.66e-04), ||y||_2 = 2.0396058559e+00]
+    [Pre-RHS processing (stage 3 of 4) at t = 1.00e-03 (tn = 0.00e+00 , tcur = 6.66e-04), ||y||_2 = 2.0396058559e+00]
+    [Pre-RHS processing (stage 3 of 4) at t = 1.00e-03 (tn = 0.00e+00 , tcur = 1.00e-03), ||y||_2 = 2.0396022797e+00]
+    [Post-stage processing (stage 3 of 4) at t = 1.00e-03 (tn = 0.00e+00 , tcur = 1.00e-03), ||y||_2 = 2.0396022797e+00]
+    [Post-step processing at t = 1.00e-03 (tn = 0.00e+00 , tcur = 1.00e-03),||y||_2 = 2.0396022797e+00]
+      1.0000000475e-03         3.9999681711e-01         1.9999947399e-03        -6.2499558553e-03         1.9999843836e+00
+    [Pre-step processing at t = 1.00e-03 (tn = 1.00e-03 , tcur = 1.00e-03),||y||_2 = 2.0396022797e+00]
+    [Pre-RHS processing (stage 0 of 4) at t = 1.13e-03 (tn = 1.00e-03 , tcur = 1.00e-03), ||y||_2 = 2.0396022797e+00]
+    [Pre-RHS processing (stage 0 of 4) at t = 1.52e-03 (tn = 1.00e-03 , tcur = 1.13e-03), ||y||_2 = 2.0396010876e+00]
+    [Post-stage processing (stage 0 of 4) at t = 1.13e-03 (tn = 1.00e-03 , tcur = 1.13e-03), ||y||_2 = 2.0396018028e+00]
+    [Pre-RHS processing (stage 1 of 4) at t = 9.10e-04 (tn = 1.00e-03 , tcur = 1.13e-03), ||y||_2 = 2.0396018028e+00]
+    [Pre-RHS processing (stage 1 of 4) at t = 1.43e-03 (tn = 1.00e-03 , tcur = 9.10e-04), ||y||_2 = 2.0396077633e+00]
+    [Post-stage processing (stage 1 of 4) at t = 9.10e-04 (tn = 1.00e-03 , tcur = 9.10e-04), ||y||_2 = 2.0396075249e+00]
+    [Pre-RHS processing (stage 2 of 4) at t = 1.67e-03 (tn = 1.00e-03 , tcur = 9.10e-04), ||y||_2 = 2.0396075249e+00]
+    [Pre-RHS processing (stage 2 of 4) at t = 1.87e-03 (tn = 1.00e-03 , tcur = 1.67e-03), ||y||_2 = 2.0395929813e+00]
+    [Post-stage processing (stage 2 of 4) at t = 1.67e-03 (tn = 1.00e-03 , tcur = 1.67e-03), ||y||_2 = 2.0395936966e+00]
+    [Pre-RHS processing (stage 3 of 4) at t = 2.00e-03 (tn = 1.00e-03 , tcur = 1.67e-03), ||y||_2 = 2.0395936966e+00]
+    [Pre-RHS processing (stage 3 of 4) at t = 2.00e-03 (tn = 1.00e-03 , tcur = 2.00e-03), ||y||_2 = 2.0395860672e+00]
+    [Post-stage processing (stage 3 of 4) at t = 2.00e-03 (tn = 1.00e-03 , tcur = 2.00e-03), ||y||_2 = 2.0395863056e+00]
+    [Post-step processing at t = 2.00e-03 (tn = 1.00e-03 , tcur = 2.00e-03),||y||_2 = 2.0395863056e+00]
+      2.0000000950e-03         3.9998742938e-01         3.9999582805e-03        -1.2499639764e-02         1.9999375343e+00
+    [Pre-step processing at t = 2.00e-03 (tn = 2.00e-03 , tcur = 2.00e-03),||y||_2 = 2.0395863056e+00]
+    [Pre-RHS processing (stage 0 of 4) at t = 2.13e-03 (tn = 2.00e-03 , tcur = 2.00e-03), ||y||_2 = 2.0395863056e+00]
+    [Pre-RHS processing (stage 0 of 4) at t = 2.52e-03 (tn = 2.00e-03 , tcur = 2.13e-03), ||y||_2 = 2.0395834446e+00]
+    [Post-stage processing (stage 0 of 4) at t = 2.13e-03 (tn = 2.00e-03 , tcur = 2.13e-03), ||y||_2 = 2.0395841599e+00]
+    [Pre-RHS processing (stage 1 of 4) at t = 1.91e-03 (tn = 2.00e-03 , tcur = 2.13e-03), ||y||_2 = 2.0395841599e+00]
+    [Pre-RHS processing (stage 1 of 4) at t = 2.43e-03 (tn = 2.00e-03 , tcur = 1.91e-03), ||y||_2 = 2.0395927429e+00]
+    [Post-stage processing (stage 1 of 4) at t = 1.91e-03 (tn = 2.00e-03 , tcur = 1.91e-03), ||y||_2 = 2.0395927429e+00]
+    [Pre-RHS processing (stage 2 of 4) at t = 2.67e-03 (tn = 2.00e-03 , tcur = 1.91e-03), ||y||_2 = 2.0395927429e+00]
+    [Pre-RHS processing (stage 2 of 4) at t = 2.87e-03 (tn = 2.00e-03 , tcur = 2.67e-03), ||y||_2 = 2.0395693779e+00]
+    [Post-stage processing (stage 2 of 4) at t = 2.67e-03 (tn = 2.00e-03 , tcur = 2.67e-03), ||y||_2 = 2.0395703316e+00]
+    [Pre-RHS processing (stage 3 of 4) at t = 3.00e-03 (tn = 2.00e-03 , tcur = 2.67e-03), ||y||_2 = 2.0395703316e+00]
+    [Pre-RHS processing (stage 3 of 4) at t = 3.00e-03 (tn = 2.00e-03 , tcur = 3.00e-03), ||y||_2 = 2.0395591259e+00]
+    [Post-stage processing (stage 3 of 4) at t = 3.00e-03 (tn = 2.00e-03 , tcur = 3.00e-03), ||y||_2 = 2.0395593643e+00]
+    [Post-step processing at t = 3.00e-03 (tn = 2.00e-03 , tcur = 3.00e-03),||y||_2 = 2.0395593643e+00]
+      3.0000000261e-03         3.9997178316e-01         5.9998594224e-03        -1.8748776987e-02         1.9998593330e+00
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.003
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.001
+Last step size                = 0.001
+Current step size             = 0.001
+f1 RHS fn evals               = 12
+f2 RHS fn evals               = 12
+End SPRKStep StageInfo test

@@ -1,0 +1,60 @@
+Start ARKStep StageInfo test
+Using ERK method
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+          0.000000e+00             1.224745e+00             1.732051e+00             0.000000e+00             0.000000e+00
+    [Pre-RHS processing (stage 0 of 5) at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 2.1213202477e+00]
+    [Pre-RHS processing (stage 0 of 5) at t = 1.09e-03 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 2.1213202477e+00]
+    [Pre-RHS processing (stage 0 of 5) at t = 2.06e-04 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 2.1213202477e+00]
+    [Pre-step processing at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00),||y||_2 = 2.1213202477e+00]
+    [Post-stage processing (stage 1 of 5) at t = 4.12e-05 (tn = 0.00e+00 , tcur = 4.12e-05), ||y||_2 = 2.1213202477e+00]
+    [Pre-RHS processing (stage 1 of 5) at t = 4.12e-05 (tn = 0.00e+00 , tcur = 4.12e-05), ||y||_2 = 2.1213202477e+00]
+    [Post-stage processing (stage 2 of 5) at t = 6.18e-05 (tn = 0.00e+00 , tcur = 6.18e-05), ||y||_2 = 2.1213200092e+00]
+    [Pre-RHS processing (stage 2 of 5) at t = 6.18e-05 (tn = 0.00e+00 , tcur = 6.18e-05), ||y||_2 = 2.1213200092e+00]
+    [Post-stage processing (stage 3 of 5) at t = 1.03e-04 (tn = 0.00e+00 , tcur = 1.03e-04), ||y||_2 = 2.1213200092e+00]
+    [Pre-RHS processing (stage 3 of 5) at t = 1.03e-04 (tn = 0.00e+00 , tcur = 1.03e-04), ||y||_2 = 2.1213200092e+00]
+    [Post-stage processing (stage 4 of 5) at t = 1.03e-04 (tn = 0.00e+00 , tcur = 1.03e-04), ||y||_2 = 2.1213200092e+00]
+    [Pre-RHS processing (stage 4 of 5) at t = 1.03e-04 (tn = 0.00e+00 , tcur = 1.03e-04), ||y||_2 = 2.1213200092e+00]
+    [Post-step processing at t = 1.03e-04 (tn = 0.00e+00 , tcur = 1.03e-04),||y||_2 = 2.1213200092e+00]
+      1.0298602137e-04         1.2247449160e+00         1.7320501804e+00         0.0000000000e+00         0.0000000000e+00
+    [Pre-step processing at t = 1.03e-04 (tn = 1.03e-04 , tcur = 1.03e-04),||y||_2 = 2.1213200092e+00]
+    [Post-stage processing (stage 1 of 5) at t = 3.00e-03 (tn = 1.03e-04 , tcur = 3.00e-03), ||y||_2 = 2.1212916374e+00]
+    [Pre-RHS processing (stage 1 of 5) at t = 3.00e-03 (tn = 1.03e-04 , tcur = 3.00e-03), ||y||_2 = 2.1212916374e+00]
+    [Post-stage processing (stage 2 of 5) at t = 4.45e-03 (tn = 1.03e-04 , tcur = 4.45e-03), ||y||_2 = 2.1197912693e+00]
+    [Pre-RHS processing (stage 2 of 5) at t = 4.45e-03 (tn = 1.03e-04 , tcur = 4.45e-03), ||y||_2 = 2.1197912693e+00]
+    [Post-stage processing (stage 3 of 5) at t = 7.35e-03 (tn = 1.03e-04 , tcur = 7.35e-03), ||y||_2 = 2.1192269325e+00]
+    [Pre-RHS processing (stage 3 of 5) at t = 7.35e-03 (tn = 1.03e-04 , tcur = 7.35e-03), ||y||_2 = 2.1192269325e+00]
+    [Post-stage processing (stage 4 of 5) at t = 7.35e-03 (tn = 1.03e-04 , tcur = 7.35e-03), ||y||_2 = 2.1187756062e+00]
+    [Pre-RHS processing (stage 4 of 5) at t = 7.35e-03 (tn = 1.03e-04 , tcur = 7.35e-03), ||y||_2 = 2.1187756062e+00]
+    [Post-step processing at t = 7.35e-03 (tn = 1.03e-04 , tcur = 7.35e-03),||y||_2 = 2.1187756062e+00]
+      7.3470505886e-03         1.2247394323e+00         1.7289371490e+00         1.1920928955e-07         0.0000000000e+00
+    [Pre-step processing at t = 7.35e-03 (tn = 7.35e-03 , tcur = 7.35e-03),||y||_2 = 2.1187756062e+00]
+    [Post-stage processing (stage 1 of 5) at t = 1.32e-02 (tn = 7.35e-03 , tcur = 1.32e-02), ||y||_2 = 2.1147556305e+00]
+    [Pre-RHS processing (stage 1 of 5) at t = 1.32e-02 (tn = 7.35e-03 , tcur = 1.32e-02), ||y||_2 = 2.1147556305e+00]
+    [Post-stage processing (stage 2 of 5) at t = 1.61e-02 (tn = 7.35e-03 , tcur = 1.61e-02), ||y||_2 = 2.1068511009e+00]
+    [Pre-RHS processing (stage 2 of 5) at t = 1.61e-02 (tn = 7.35e-03 , tcur = 1.61e-02), ||y||_2 = 2.1068511009e+00]
+    [Post-stage processing (stage 3 of 5) at t = 2.19e-02 (tn = 7.35e-03 , tcur = 2.19e-02), ||y||_2 = 2.1007206440e+00]
+    [Pre-RHS processing (stage 3 of 5) at t = 2.19e-02 (tn = 7.35e-03 , tcur = 2.19e-02), ||y||_2 = 2.1007206440e+00]
+    [Post-stage processing (stage 4 of 5) at t = 2.19e-02 (tn = 7.35e-03 , tcur = 2.19e-02), ||y||_2 = 2.0989658833e+00]
+    [Pre-RHS processing (stage 4 of 5) at t = 2.19e-02 (tn = 7.35e-03 , tcur = 2.19e-02), ||y||_2 = 2.0989658833e+00]
+    [Post-step processing at t = 2.19e-02 (tn = 7.35e-03 , tcur = 2.19e-02),||y||_2 = 2.0989658833e+00]
+      2.1879218519e-02         1.2246960402e+00         1.7046341896e+00         0.0000000000e+00         1.1920928955e-07
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.0218792
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 3
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.000102986
+Last step size                = 0.0145322
+Current step size             = 0.0146339
+Explicit RHS fn evals         = 15
+Implicit RHS fn evals         = 0
+NLS iters                     = 0
+NLS fails                     = 0
+NLS iters per step            = 0
+LS setups                     = 0
+End ARKStep StageInfo test
