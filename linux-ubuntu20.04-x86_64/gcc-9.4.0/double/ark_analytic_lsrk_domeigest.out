@@ -10,104 +10,15 @@ The stiffness of the problem is directly proportional to
 
         t           u
    ---------------------
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     1.000000    0.785398
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     2.000000    1.107149
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     3.000000    1.249046
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     4.000000    1.325818
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     5.000000    1.373401
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     6.000000    1.405648
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     7.000000    1.428899
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     8.000000    1.446441
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     9.000000    1.460139
-Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
    10.000000    1.471128
    ---------------------
 
