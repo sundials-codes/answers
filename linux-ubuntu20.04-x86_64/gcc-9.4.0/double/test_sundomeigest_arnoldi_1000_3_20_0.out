@@ -18,7 +18,8 @@ DomEig module test:
     SUNDomEigEstimator_Write: 
     --------------------------------------------
 
-Arnoldi Iteration SUNDomEigEstimator:Krylov dimension         = 3
+Arnoldi Iteration SUNDomEigEstimator:
+Krylov dimension         = 3
 Num. preprocessing iters = 20
 Num. iters               = 23
 Num. ATimes calls        = 23
@@ -28,9 +29,9 @@ Num. ATimes calls        = 23
 SUCCESS: SUNDomEigEstimator_Arnoldi module passed all initialization tests
 
 
-computed dominant eigenvalue = -99043.0802491716 + 0 i
+computed dominant eigenvalue = -99043.0802491715 + 0 i
     true dominant eigenvalue = -100000 + 0 i
 
 
-PASS:   relative error = 0.00966165176225339 
+PASS:   relative error = 0.00966165176225398 
 

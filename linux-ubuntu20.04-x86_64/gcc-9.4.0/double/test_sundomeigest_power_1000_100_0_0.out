@@ -11,6 +11,7 @@ DomEig module test:
     PASSED test -- SUNDomEigEstimator_SetRelTol 
     PASSED test -- SUNDomEigEstimator_SetInitialGuess 
     PASSED test -- SUNDomEigEstimator_Initialize 
+Warning: Projection matrix is ill-conditioned. Returning dominant eigenvalue as real part only.
     PASSED test -- SUNDomEigEstimator_Estimate 
     PASSED test -- SUNDomEigEstimator_GetRes 
     PASSED test -- SUNDomEigEstimator_GetNumIters 
@@ -18,10 +19,11 @@ DomEig module test:
     SUNDomEigEstimator_Write: 
     --------------------------------------------
 
-Power Iteration SUNDomEigEstimator:Max. iters               = 100
+Power Iteration SUNDomEigEstimator:
+Max. iters               = 100
 Num. preprocessing iters = 0
 Relative tolerance       = 0.01
-Residual                 = 0.00959956382300218
+Residual                 = 901.679695682891
 Num. iters               = 8
 Num. ATimes calls        = 8
 
