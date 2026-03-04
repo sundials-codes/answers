@@ -76,12 +76,9 @@ ARKodeButcherTable_CheckOrder:
   method order = 6
 
   embedding fails order 5 condition A
-  embedding fails order 5 condition B
   embedding fails order 5 condition D
   embedding fails order 5 condition E
   embedding fails order 5 condition F
-  embedding fails order 5 condition G
-  embedding fails order 5 condition H
   embedding fails order 5 condition I
 
 Testing individual DIRK methods:
