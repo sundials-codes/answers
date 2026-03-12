@@ -3,24 +3,27 @@ Using RKL method
              t             y         y err
 ------------------------------------------
   0.000000e+00  0.000000e+00  0.000000e+00
-    [Pre-RHS processing (stage 0 of 0) at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 0.0000000000e+00]
-    [Pre-step processing at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00),||y||_2 = 0.0000000000e+00]
+    [Pre-RHS (stage 0 of 0) at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 0.0000000000e+00]
+    [Pre-step at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00), step = 0, attempt = 1, ||y||_2 = 0.0000000000e+00]
     [Post-stage processing (stage 0 of 2) at t = 1.15e-08 (tn = 0.00e+00 , tcur = 1.15e-08), ||y||_2 = 1.1508900499e-08]
-    [Pre-RHS processing (stage 1 of 2) at t = 1.15e-08 (tn = 0.00e+00 , tcur = 1.15e-08), ||y||_2 = 1.1508900499e-08]
-    [Pre-RHS processing (stage 2 of 2) at t = 3.45e-08 (tn = 0.00e+00 , tcur = 3.45e-08), ||y||_2 = 3.4526703274e-08]
-    [Post-step processing at t = 3.45e-08 (tn = 0.00e+00 , tcur = 3.45e-08),||y||_2 = 3.4526703274e-08]
+    [Pre-RHS (stage 1 of 2) at t = 1.15e-08 (tn = 0.00e+00 , tcur = 1.15e-08), ||y||_2 = 1.1508900499e-08]
+    [Postprocess-step at t = 6.91e-08 (tn = 0.00e+00 , tcur = 3.45e-08),||y||_2 = 3.4526703274e-08]
+    [Pre-RHS (stage 2 of 2) at t = 3.45e-08 (tn = 0.00e+00 , tcur = 3.45e-08), ||y||_2 = 3.4526703274e-08]
+    [Post-step at t = 3.45e-08 (tn = 0.00e+00 , tcur = 3.45e-08), step = 0, ||y||_2 = 3.4526703274e-08]
 3.4526699721e-083.4526703274e-083.5527136788e-15
-    [Pre-step processing at t = 3.45e-08 (tn = 3.45e-08 , tcur = 3.45e-08),||y||_2 = 3.4526703274e-08]
+    [Pre-step at t = 3.45e-08 (tn = 3.45e-08 , tcur = 3.45e-08), step = 1, attempt = 1, ||y||_2 = 3.4526703274e-08]
     [Post-stage processing (stage 0 of 2) at t = 3.50e-07 (tn = 3.45e-08 , tcur = 3.50e-07), ||y||_2 = 3.4960822859e-07]
-    [Pre-RHS processing (stage 1 of 2) at t = 3.50e-07 (tn = 3.45e-08 , tcur = 3.50e-07), ||y||_2 = 3.4960822859e-07]
-    [Pre-RHS processing (stage 2 of 2) at t = 9.80e-07 (tn = 3.45e-08 , tcur = 9.80e-07), ||y||_2 = 9.7977135738e-07]
-    [Post-step processing at t = 9.80e-07 (tn = 3.45e-08 , tcur = 9.80e-07),||y||_2 = 9.7977135738e-07]
+    [Pre-RHS (stage 1 of 2) at t = 3.50e-07 (tn = 3.45e-08 , tcur = 3.50e-07), ||y||_2 = 3.4960822859e-07]
+    [Postprocess-step at t = 1.93e-06 (tn = 3.45e-08 , tcur = 9.80e-07),||y||_2 = 9.7977135738e-07]
+    [Pre-RHS (stage 2 of 2) at t = 9.80e-07 (tn = 3.45e-08 , tcur = 9.80e-07), ||y||_2 = 9.7977135738e-07]
+    [Post-step at t = 9.80e-07 (tn = 3.45e-08 , tcur = 9.80e-07), step = 1, ||y||_2 = 9.7977135738e-07]
 9.7977124369e-079.7977135738e-071.1368683772e-13
-    [Pre-step processing at t = 9.80e-07 (tn = 9.80e-07 , tcur = 9.80e-07),||y||_2 = 9.7977135738e-07]
+    [Pre-step at t = 9.80e-07 (tn = 9.80e-07 , tcur = 9.80e-07), step = 2, attempt = 1, ||y||_2 = 9.7977135738e-07]
     [Post-stage processing (stage 0 of 2) at t = 4.40e-06 (tn = 9.80e-07 , tcur = 4.40e-06), ||y||_2 = 4.4034168241e-06]
-    [Pre-RHS processing (stage 1 of 2) at t = 4.40e-06 (tn = 9.80e-07 , tcur = 4.40e-06), ||y||_2 = 4.4034168241e-06]
-    [Pre-RHS processing (stage 2 of 2) at t = 1.13e-05 (tn = 9.80e-07 , tcur = 1.13e-05), ||y||_2 = 1.1250707757e-05]
-    [Post-step processing at t = 1.13e-05 (tn = 9.80e-07 , tcur = 1.13e-05),||y||_2 = 1.1250707757e-05]
+    [Pre-RHS (stage 1 of 2) at t = 4.40e-06 (tn = 9.80e-07 , tcur = 4.40e-06), ||y||_2 = 4.4034168241e-06]
+    [Postprocess-step at t = 2.15e-05 (tn = 9.80e-07 , tcur = 1.13e-05),||y||_2 = 1.1250707757e-05]
+    [Pre-RHS (stage 2 of 2) at t = 1.13e-05 (tn = 9.80e-07 , tcur = 1.13e-05), ||y||_2 = 1.1250707757e-05]
+    [Post-step at t = 1.13e-05 (tn = 9.80e-07 , tcur = 1.13e-05), step = 2, ||y||_2 = 1.1250707757e-05]
 1.1250706848e-051.1250707757e-059.0949470177e-13
 ------------------------------------------
 Current time                  = 1.12507e-05
