@@ -1,0 +1,379 @@
+
+=================================================================
+==12694==ERROR: LeakSanitizer: detected memory leaks
+
+Indirect leak of 448 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a9416a in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:61
+    #2 0x7f3bd1de24d1 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:283
+    #3 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #4 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #5 0x7f3bd1f39560 in SUNDomEigEstimator_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:155
+    #6 0x5558a042713b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:298
+    #7 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #8 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #9 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #10 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #11 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 448 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a9416a in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:61
+    #2 0x7f3bd1de24d1 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:283
+    #3 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #4 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #5 0x7f3bd1f3943d in SUNDomEigEstimator_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:149
+    #6 0x5558a042713b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:298
+    #7 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #8 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #9 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #10 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #11 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 448 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a9416a in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:61
+    #2 0x7f3bd1de24d1 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:283
+    #3 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #4 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #5 0x7f3bd1f3b4f3 in SUNDomEigEstimator_Estimate_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:376
+    #6 0x7f3bd1a7ebcb in SUNDomEigEstimator_Estimate /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:307
+    #7 0x5558a042736d in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:325
+    #8 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #9 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #10 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #11 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #12 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 448 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a9416a in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:61
+    #2 0x7f3bd1de24d1 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:283
+    #3 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #4 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #5 0x7f3bd1f39c94 in SUNDomEigEstimator_SetRHSLinearizationPoint_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:214
+    #6 0x7f3bd1a7e55f in SUNDomEigEstimator_SetRHSLinearizationPoint /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:214
+    #7 0x5558a042720b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:306
+    #8 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #9 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #10 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #11 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #12 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 448 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a9416a in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:61
+    #2 0x7f3bd1de24d1 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:283
+    #3 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #4 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #5 0x7f3bd1f3ddb8 in dee_DQJtimes /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:663
+    #6 0x7f3bd1f3b6e0 in SUNDomEigEstimator_Estimate_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:391
+    #7 0x7f3bd1a7ebcb in SUNDomEigEstimator_Estimate /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:307
+    #8 0x5558a042736d in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:325
+    #9 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #10 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #11 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #12 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #13 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 448 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a9416a in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:61
+    #2 0x7f3bd1de24d1 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:283
+    #3 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #4 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #5 0x7f3bd1f3de98 in dee_DQJtimes /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:668
+    #6 0x7f3bd1f3b6e0 in SUNDomEigEstimator_Estimate_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:391
+    #7 0x7f3bd1a7ebcb in SUNDomEigEstimator_Estimate /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:307
+    #8 0x5558a042736d in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:325
+    #9 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #10 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #11 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #12 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #13 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 152 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1f38fdd in SUNDomEigEstimator_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:121
+    #2 0x5558a042713b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:298
+    #3 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #4 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #5 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #6 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #7 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 120 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a7dab2 in SUNDomEigEstimator_NewEmpty /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:63
+    #2 0x7f3bd1f38c7b in SUNDomEigEstimator_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:99
+    #3 0x5558a042713b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:298
+    #4 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #5 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #6 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #7 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #8 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 32 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a7da41 in SUNDomEigEstimator_NewEmpty /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:58
+    #2 0x7f3bd1f38c7b in SUNDomEigEstimator_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:99
+    #3 0x5558a042713b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:298
+    #4 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #5 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #6 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #7 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #8 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1de281f in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:322
+    #2 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #3 0x7f3bd1f39560 in SUNDomEigEstimator_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:155
+    #4 0x5558a042713b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:298
+    #5 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #6 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #7 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #8 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #9 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1de281f in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:322
+    #2 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #3 0x7f3bd1f3b4f3 in SUNDomEigEstimator_Estimate_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:376
+    #4 0x7f3bd1a7ebcb in SUNDomEigEstimator_Estimate /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:307
+    #5 0x5558a042736d in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:325
+    #6 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #7 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #8 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #9 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #10 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1de2590 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:291
+    #2 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #3 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #4 0x7f3bd1f3b4f3 in SUNDomEigEstimator_Estimate_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:376
+    #5 0x7f3bd1a7ebcb in SUNDomEigEstimator_Estimate /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:307
+    #6 0x5558a042736d in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:325
+    #7 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #8 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #9 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #10 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #11 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a940f9 in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:56
+    #2 0x7f3bd1de24d1 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:283
+    #3 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #4 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #5 0x7f3bd1f3ddb8 in dee_DQJtimes /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:663
+    #6 0x7f3bd1f3b6e0 in SUNDomEigEstimator_Estimate_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:391
+    #7 0x7f3bd1a7ebcb in SUNDomEigEstimator_Estimate /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:307
+    #8 0x5558a042736d in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:325
+    #9 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #10 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #11 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #12 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #13 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1de2590 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:291
+    #2 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #3 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #4 0x7f3bd1f3ddb8 in dee_DQJtimes /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:663
+    #5 0x7f3bd1f3b6e0 in SUNDomEigEstimator_Estimate_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:391
+    #6 0x7f3bd1a7ebcb in SUNDomEigEstimator_Estimate /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:307
+    #7 0x5558a042736d in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:325
+    #8 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #9 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #10 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #11 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #12 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1de2590 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:291
+    #2 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #3 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #4 0x7f3bd1f39560 in SUNDomEigEstimator_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:155
+    #5 0x5558a042713b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:298
+    #6 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #7 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #8 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #9 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #10 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1de2590 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:291
+    #2 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #3 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #4 0x7f3bd1f3943d in SUNDomEigEstimator_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:149
+    #5 0x5558a042713b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:298
+    #6 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #7 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #8 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #9 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #10 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a940f9 in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:56
+    #2 0x7f3bd1de24d1 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:283
+    #3 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #4 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #5 0x7f3bd1f3b4f3 in SUNDomEigEstimator_Estimate_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:376
+    #6 0x7f3bd1a7ebcb in SUNDomEigEstimator_Estimate /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:307
+    #7 0x5558a042736d in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:325
+    #8 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #9 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #10 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #11 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #12 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1de281f in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:322
+    #2 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #3 0x7f3bd1f39c94 in SUNDomEigEstimator_SetRHSLinearizationPoint_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:214
+    #4 0x7f3bd1a7e55f in SUNDomEigEstimator_SetRHSLinearizationPoint /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:214
+    #5 0x5558a042720b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:306
+    #6 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #7 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #8 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #9 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #10 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a940f9 in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:56
+    #2 0x7f3bd1de24d1 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:283
+    #3 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #4 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #5 0x7f3bd1f39560 in SUNDomEigEstimator_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:155
+    #6 0x5558a042713b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:298
+    #7 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #8 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #9 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #10 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #11 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1de281f in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:322
+    #2 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #3 0x7f3bd1f3de98 in dee_DQJtimes /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:668
+    #4 0x7f3bd1f3b6e0 in SUNDomEigEstimator_Estimate_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:391
+    #5 0x7f3bd1a7ebcb in SUNDomEigEstimator_Estimate /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:307
+    #6 0x5558a042736d in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:325
+    #7 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #8 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #9 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #10 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #11 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1de2590 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:291
+    #2 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #3 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #4 0x7f3bd1f3de98 in dee_DQJtimes /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:668
+    #5 0x7f3bd1f3b6e0 in SUNDomEigEstimator_Estimate_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:391
+    #6 0x7f3bd1a7ebcb in SUNDomEigEstimator_Estimate /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:307
+    #7 0x5558a042736d in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:325
+    #8 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #9 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #10 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #11 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #12 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1de2590 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:291
+    #2 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #3 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #4 0x7f3bd1f39c94 in SUNDomEigEstimator_SetRHSLinearizationPoint_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:214
+    #5 0x7f3bd1a7e55f in SUNDomEigEstimator_SetRHSLinearizationPoint /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:214
+    #6 0x5558a042720b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:306
+    #7 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #8 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #9 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #10 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #11 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a940f9 in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:56
+    #2 0x7f3bd1de24d1 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:283
+    #3 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #4 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #5 0x7f3bd1f3de98 in dee_DQJtimes /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:668
+    #6 0x7f3bd1f3b6e0 in SUNDomEigEstimator_Estimate_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:391
+    #7 0x7f3bd1a7ebcb in SUNDomEigEstimator_Estimate /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:307
+    #8 0x5558a042736d in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:325
+    #9 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #10 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #11 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #12 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #13 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1de281f in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:322
+    #2 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #3 0x7f3bd1f3ddb8 in dee_DQJtimes /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:663
+    #4 0x7f3bd1f3b6e0 in SUNDomEigEstimator_Estimate_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:391
+    #5 0x7f3bd1a7ebcb in SUNDomEigEstimator_Estimate /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:307
+    #6 0x5558a042736d in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:325
+    #7 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #8 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #9 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #10 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #11 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a940f9 in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:56
+    #2 0x7f3bd1de24d1 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:283
+    #3 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #4 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #5 0x7f3bd1f39c94 in SUNDomEigEstimator_SetRHSLinearizationPoint_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:214
+    #6 0x7f3bd1a7e55f in SUNDomEigEstimator_SetRHSLinearizationPoint /__w/sundials/sundials/src/sundials/sundials_domeigestimator.c:214
+    #7 0x5558a042720b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:306
+    #8 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #9 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #10 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #11 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #12 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1de281f in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:322
+    #2 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #3 0x7f3bd1f3943d in SUNDomEigEstimator_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:149
+    #4 0x5558a042713b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:298
+    #5 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #6 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #7 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #8 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #9 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x7f3bd2065808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x7f3bd1a940f9 in N_VNewEmpty /__w/sundials/sundials/src/sundials/sundials_nvector.c:56
+    #2 0x7f3bd1de24d1 in N_VCloneEmpty_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:283
+    #3 0x7f3bd1de2758 in N_VClone_Serial /__w/sundials/sundials/src/nvector/serial/nvector_serial.c:313
+    #4 0x7f3bd1a966e6 in N_VClone /__w/sundials/sundials/src/sundials/sundials_nvector.c:290
+    #5 0x7f3bd1f3943d in SUNDomEigEstimator_Power /__w/sundials/sundials/src/sundomeigest/power/sundomeigest_power.c:149
+    #6 0x5558a042713b in dom_eig /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:298
+    #7 0x7f3bd1d40821 in lsrkStep_ComputeNewDomEig /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:2419
+    #8 0x7f3bd1d352cd in lsrkStep_TakeStepRKL /__w/sundials/sundials/src/arkode/arkode_lsrkstep.c:925
+    #9 0x7f3bd1dcf26b in ARKodeEvolve /__w/sundials/sundials/src/arkode/arkode.c:911
+    #10 0x5558a042668b in main /__w/sundials/sundials/examples/arkode/C_serial/ark_brusselator_lsrk_externaldomeigest.c:218
+    #11 0x7f3bd188c082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082)
+
+SUMMARY: AddressSanitizer: 3424 byte(s) leaked in 27 allocation(s).
