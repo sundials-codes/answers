@@ -7,33 +7,33 @@ Brusselator ODE test problem:
         t           u           v           w
    -------------------------------------------
     0.000000    1.200000    3.100000    3.000000
-    1.000000    1.103727    3.012934    3.499984
-    2.000000    0.687308    3.521837    3.499992
-    3.000000    0.409152    4.278653    3.499991
-    4.000000    0.367794    4.942006    3.499994
-    5.000000    0.413867    5.512106    3.499994
-    6.000000    0.589985    5.857151    3.499992
-    7.000000    4.748254    0.735172    3.499918
-    8.000000    1.808908    1.578501    3.499969
-    9.000000    0.526594    2.809930    3.499991
-   10.000000    0.305562    3.659364    3.499995
+    1.000000    1.104155    3.013005    3.499981
+    2.000000    0.688715    3.520155    3.499985
+    3.000000    0.409702    4.276936    3.499993
+    4.000000    0.367981    4.942158    3.499995
+    5.000000    0.413888    5.511053    3.499993
+    6.000000    0.589660    5.856901    3.499988
+    7.000000    4.751703    0.735046    3.499915
+    8.000000    1.810341    1.577590    3.499966
+    9.000000    0.527023    2.809233    3.499989
+   10.000000    0.305553    3.658873    3.499996
    -------------------------------------------
 
 Final Statistics:
-Current time                  = 10.001
-Steps                         = 2869
-Step attempts                 = 3917
+Current time                  = 10.0028
+Steps                         = 4063
+Step attempts                 = 5571
 Stability limited steps       = 0
-Accuracy limited steps        = 3917
-Error test fails              = 1048
+Accuracy limited steps        = 5571
+Error test fails              = 1508
 NLS step fails                = 0
 Inequality constraint fails   = 0
 Initial step size             = 5.9833e-06
-Last step size                = 0.00623402
-Current step size             = 0.00615051
-RHS fn evals                  = 154680
+Last step size                = 0.00374231
+Current step size             = 0.00404421
+RHS fn evals                  = 185826
 Number of dom_eig updates     = 1
-Max. num. of stages used      = 145
+Max. num. of stages used      = 100
 Max. num. of stages allowed   = 200
 Max. spectral radius          = 201974
 Min. spectral radius          = 201974
