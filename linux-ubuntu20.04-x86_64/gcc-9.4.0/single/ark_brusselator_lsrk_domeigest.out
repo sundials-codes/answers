@@ -1,0 +1,41 @@
+
+Brusselator ODE test problem:
+    initial conditions:  u0 = 1.2,  v0 = 3.1,  w0 = 3
+    problem parameters:  a = 1,  b = 3.5,  ep = 5e-06
+    reltol = 1.0e-04,  abstol = 1.0e-08
+
+        t           u           v           w
+   -------------------------------------------
+    0.000000    1.200000    3.100000    3.000000
+    1.000000    1.103345    3.013792    3.499981
+    2.000000    0.687989    3.522404    3.499988
+    3.000000    0.409669    4.279697    3.499993
+    4.000000    0.368123    4.943795    3.499988
+    5.000000    0.414239    5.512233    3.499993
+    6.000000    0.590680    5.854764    3.499990
+    7.000000    4.742688    0.735648    3.499916
+    8.000000    1.806154    1.580099    3.499970
+    9.000000    0.525736    2.811371    3.499989
+   10.000000    0.305488    3.659994    3.499994
+   -------------------------------------------
+
+Final Statistics:
+Current time                  = 10.0005
+Steps                         = 2937
+Step attempts                 = 4015
+Stability limited steps       = 0
+Accuracy limited steps        = 4015
+Error test fails              = 1078
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 5.9833e-06
+Last step size                = 0.00692574
+Current step size             = 0.00801813
+RHS fn evals                  = 156980
+Number of dom_eig updates     = 1
+Number of fe calls for DEE    = 12
+Number of iterations for DEE  = 12
+Max. num. of stages used      = 110
+Max. num. of stages allowed   = 200
+Max. spectral radius          = 201961
+Min. spectral radius          = 201961
