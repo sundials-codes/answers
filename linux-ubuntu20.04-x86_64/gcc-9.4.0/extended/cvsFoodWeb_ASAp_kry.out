@@ -15,37 +15,37 @@ Create and allocate CVODES memory for backward run
 Backward integration
 
 Maximum sensitivity with respect to I.C. of species 1
-  mu max = 5.048188e-04
+  mu max = 5.869002e-04
 at
-  x = 1.000000e+00
-  y = 1.000000e+00
+  x = 7.368421e-01
+  y = 6.842105e-01
 
 Maximum sensitivity with respect to I.C. of species 2
-  mu max = 4.807149e-04
+  mu max = 5.594498e-04
 at
-  x = 1.000000e+00
-  y = 1.000000e+00
+  x = 8.421053e-01
+  y = 7.894737e-01
 
 Maximum sensitivity with respect to I.C. of species 3
-  mu max = 4.585091e-04
+  mu max = 5.354077e-04
 at
-  x = 1.000000e+00
-  y = 1.000000e+00
+  x = 8.421053e-01
+  y = 7.894737e-01
 
 Maximum sensitivity with respect to I.C. of species 4
-  mu max = 2.796665e-12
+  mu max = 7.683920e-12
 at
-  x = 0.000000e+00
-  y = 5.263158e-02
+  x = 6.842105e-01
+  y = 5.789474e-01
 
 Maximum sensitivity with respect to I.C. of species 5
-  mu max = 1.439527e-12
+  mu max = 7.697135e-12
 at
-  x = 0.000000e+00
-  y = 5.263158e-02
+  x = 6.842105e-01
+  y = 5.789474e-01
 
 Maximum sensitivity with respect to I.C. of species 6
-  mu max = -7.263441e-13
+  mu max = 6.798286e-12
 at
-  x = 1.000000e+00
-  y = 0.000000e+00
+  x = 6.842105e-01
+  y = 5.789474e-01

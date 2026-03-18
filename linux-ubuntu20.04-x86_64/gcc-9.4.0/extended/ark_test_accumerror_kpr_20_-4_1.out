@@ -319,7 +319,7 @@ Fixed-step runs:
   h 7.8125e-05  rk_type 1  order 4  acc 2  t 2.25  dsm 3.67138e-16  dsm_est 5.79833e-16  nsteps 4801
   h 7.8125e-05  rk_type 1  order 4  acc 2  t 2.5  dsm 2.13394e-17  dsm_est 9.91327e-17  nsteps 4801
   h 7.8125e-05  rk_type 1  order 4  acc 2  t 2.75  dsm 2.60846e-17  dsm_est 7.47675e-17  nsteps 4801
-  h 7.8125e-05  rk_type 1  order 4  acc 2  t 3  dsm 1.20075e-16  dsm_est 2.7923e-16  nsteps 4801
+  h 7.8125e-05  rk_type 1  order 4  acc 2  t 3  dsm 1.20075e-16  dsm_est 2.79279e-16  nsteps 4801
   h 7.8125e-05  rk_type 1  order 4  acc 2  t 3.25  dsm 8.06388e-17  dsm_est 2.16971e-16  nsteps 4801
   h 7.8125e-05  rk_type 1  order 4  acc 2  t 3.5  dsm 1.79917e-17  dsm_est 1.5449e-16  nsteps 4801
   h 7.8125e-05  rk_type 1  order 4  acc 2  t 3.75  dsm 1.78111e-17  dsm_est 1.28403e-16  nsteps 4801
