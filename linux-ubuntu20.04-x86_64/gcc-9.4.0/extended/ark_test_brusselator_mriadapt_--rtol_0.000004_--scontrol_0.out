@@ -38,6 +38,6 @@ Adaptive multirate stiff Brusselator test problem:
 Final Solver Statistics:
    Slow steps = 1000  (attempts = 1000,  fails = 0)
    Fast steps = 10527  (attempts = 15417,  fails = 4890)
-   u error = 2.18318e-06, v error = 2.01541e-06, w error = 9.39521e-05, total error = 5.42704e-05
+   u error = 2.18318e-06, v error = 2.01541e-06, w error = 9.39519e-05, total error = 5.42703e-05
    Relative accuracy = 78.8191
    Total RHS evals:  Fse = 5000, Fsi = 0, Ff = 62671
