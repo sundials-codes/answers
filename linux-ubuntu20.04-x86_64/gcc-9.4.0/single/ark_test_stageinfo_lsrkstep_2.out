@@ -1,0 +1,45 @@
+Start LSRKStep StageInfo test
+Using SSP(s,2) method
+             t             y         y err
+------------------------------------------
+  0.000000e+00  0.000000e+00  0.000000e+00
+    [Pre-RHS (stage 0 of 2) at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 0.0000000000e+00]
+    [Pre-step at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00), step = 0, attempt = 1, ||y||_2 = 0.0000000000e+00]
+    [Post-stage processing (stage 0 of 2) at t = 3.45e-08 (tn = 0.00e+00 , tcur = 3.45e-08), ||y||_2 = 3.4526699721e-08]
+    [Pre-RHS (stage 1 of 2) at t = 3.45e-08 (tn = 0.00e+00 , tcur = 3.45e-08), ||y||_2 = 3.4526699721e-08]
+    [Postprocess-step at t = 3.45e-08 (tn = 0.00e+00 , tcur = 3.45e-08),||y||_2 = 3.4526699721e-08]
+    [Post-step at t = 3.45e-08 (tn = 0.00e+00 , tcur = 3.45e-08), step = 0, ||y||_2 = 3.4526699721e-08]
+3.4526699721e-083.4526699721e-080.0000000000e+00
+    [Pre-step at t = 3.45e-08 (tn = 3.45e-08 , tcur = 3.45e-08), step = 1, attempt = 1, ||y||_2 = 3.4526699721e-08]
+    [Pre-RHS (stage 0 of 2) at t = 3.45e-08 (tn = 3.45e-08 , tcur = 3.45e-08), ||y||_2 = 3.4526699721e-08]
+    [Post-stage processing (stage 0 of 2) at t = 3.45e-04 (tn = 3.45e-08 , tcur = 3.45e-04), ||y||_2 = 3.4530152334e-04]
+    [Pre-RHS (stage 1 of 2) at t = 3.45e-04 (tn = 3.45e-08 , tcur = 3.45e-04), ||y||_2 = 3.4530152334e-04]
+    [Postprocess-step at t = 3.45e-04 (tn = 3.45e-08 , tcur = 3.45e-04),||y||_2 = 3.4530152334e-04]
+    [Post-step at t = 3.45e-04 (tn = 3.45e-08 , tcur = 3.45e-04), step = 1, ||y||_2 = 3.4530152334e-04]
+3.4530152334e-043.4530152334e-040.0000000000e+00
+    [Pre-step at t = 3.45e-04 (tn = 3.45e-04 , tcur = 3.45e-04), step = 2, attempt = 1, ||y||_2 = 3.4530152334e-04]
+    [Pre-RHS (stage 0 of 2) at t = 3.45e-04 (tn = 3.45e-04 , tcur = 3.45e-04), ||y||_2 = 3.4530152334e-04]
+    [Post-stage processing (stage 0 of 2) at t = 7.25e-03 (tn = 3.45e-04 , tcur = 7.25e-03), ||y||_2 = 7.2506405413e-03]
+    [Pre-RHS (stage 1 of 2) at t = 7.25e-03 (tn = 3.45e-04 , tcur = 7.25e-03), ||y||_2 = 7.2506405413e-03]
+    [Postprocess-step at t = 7.25e-03 (tn = 3.45e-04 , tcur = 7.25e-03),||y||_2 = 7.2500281967e-03]
+    [Pre-step at t = 3.45e-04 (tn = 3.45e-04 , tcur = 3.45e-04), step = 2, attempt = 2, ||y||_2 = 3.4530152334e-04]
+    [Post-stage processing (stage 0 of 2) at t = 1.04e-03 (tn = 3.45e-04 , tcur = 1.04e-03), ||y||_2 = 1.0358354775e-03]
+    [Pre-RHS (stage 1 of 2) at t = 1.04e-03 (tn = 3.45e-04 , tcur = 1.04e-03), ||y||_2 = 1.0358354775e-03]
+    [Postprocess-step at t = 1.04e-03 (tn = 3.45e-04 , tcur = 1.04e-03),||y||_2 = 1.0358350119e-03]
+    [Post-step at t = 1.04e-03 (tn = 3.45e-04 , tcur = 1.04e-03), step = 2, ||y||_2 = 1.0358350119e-03]
+1.0358355939e-031.0358350119e-032.3283064365e-10
+------------------------------------------
+Current time                  = 0.00103584
+Steps                         = 3
+Step attempts                 = 4
+Stability limited steps       = 0
+Accuracy limited steps        = 4
+Error test fails              = 1
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 3.45267e-08
+Last step size                = 0.000690534
+Current step size             = 0.000690534
+RHS fn evals                  = 7
+Number of stages used         = 2
+End LSRKStep StageInfo test

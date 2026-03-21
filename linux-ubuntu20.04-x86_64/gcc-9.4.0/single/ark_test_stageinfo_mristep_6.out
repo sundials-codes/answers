@@ -1,0 +1,52 @@
+Start MRIStep StageInfo test
+Using MERK method
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+          0.000000e+00             1.224745e+00             1.732051e+00             0.000000e+00             0.000000e+00
+    [Pre-step at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00), step = 0, attempt = 1, ||y||_2 = 2.1213202477e+00]
+    [Pre-RHS (stage 0 of 4) at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 2.1213202477e+00]
+    [Post-stage processing (stage 1 of 4) at t = 5.00e-04 (tn = 0.00e+00 , tcur = 5.00e-04), ||y||_2 = 2.1213085651e+00]
+    [Pre-RHS (stage 1 of 4) at t = 5.00e-04 (tn = 0.00e+00 , tcur = 5.00e-04), ||y||_2 = 2.1213085651e+00]
+    [Post-stage processing (stage 2 of 4) at t = 6.67e-04 (tn = 0.00e+00 , tcur = 6.67e-04), ||y||_2 = 2.1212995052e+00]
+    [Pre-RHS (stage 2 of 4) at t = 6.67e-04 (tn = 0.00e+00 , tcur = 6.67e-04), ||y||_2 = 2.1212995052e+00]
+    [Postprocess-step at t = 1.00e-03 (tn = 0.00e+00 , tcur = 1.00e-03),||y||_2 = 2.1212730408e+00]
+    [Post-step at t = 1.00e-03 (tn = 0.00e+00 , tcur = 1.00e-03), step = 0, ||y||_2 = 2.1212730408e+00]
+      1.0000000475e-03         1.2247447968e+00         1.7319930792e+00         0.0000000000e+00         0.0000000000e+00
+    [Pre-step at t = 1.00e-03 (tn = 1.00e-03 , tcur = 1.00e-03), step = 1, attempt = 1, ||y||_2 = 2.1212730408e+00]
+    [Pre-RHS (stage 0 of 4) at t = 1.00e-03 (tn = 1.00e-03 , tcur = 1.00e-03), ||y||_2 = 2.1212730408e+00]
+    [Post-stage processing (stage 1 of 4) at t = 1.50e-03 (tn = 1.00e-03 , tcur = 1.50e-03), ||y||_2 = 2.1212141514e+00]
+    [Pre-RHS (stage 1 of 4) at t = 1.50e-03 (tn = 1.00e-03 , tcur = 1.50e-03), ||y||_2 = 2.1212141514e+00]
+    [Post-stage processing (stage 2 of 4) at t = 1.67e-03 (tn = 1.00e-03 , tcur = 1.67e-03), ||y||_2 = 2.1211893559e+00]
+    [Pre-RHS (stage 2 of 4) at t = 1.67e-03 (tn = 1.00e-03 , tcur = 1.67e-03), ||y||_2 = 2.1211893559e+00]
+    [Postprocess-step at t = 2.00e-03 (tn = 1.00e-03 , tcur = 2.00e-03),||y||_2 = 2.1211314201e+00]
+    [Post-step at t = 2.00e-03 (tn = 1.00e-03 , tcur = 2.00e-03), step = 1, ||y||_2 = 2.1211314201e+00]
+      2.0000000950e-03         1.2247444391e+00         1.7318198681e+00         0.0000000000e+00         0.0000000000e+00
+    [Pre-step at t = 2.00e-03 (tn = 2.00e-03 , tcur = 2.00e-03), step = 2, attempt = 1, ||y||_2 = 2.1211314201e+00]
+    [Pre-RHS (stage 0 of 4) at t = 2.00e-03 (tn = 2.00e-03 , tcur = 2.00e-03), ||y||_2 = 2.1211314201e+00]
+    [Post-stage processing (stage 1 of 4) at t = 2.50e-03 (tn = 2.00e-03 , tcur = 2.50e-03), ||y||_2 = 2.1210253239e+00]
+    [Pre-RHS (stage 1 of 4) at t = 2.50e-03 (tn = 2.00e-03 , tcur = 2.50e-03), ||y||_2 = 2.1210253239e+00]
+    [Post-stage processing (stage 2 of 4) at t = 2.67e-03 (tn = 2.00e-03 , tcur = 2.67e-03), ||y||_2 = 2.1209847927e+00]
+    [Pre-RHS (stage 2 of 4) at t = 2.67e-03 (tn = 2.00e-03 , tcur = 2.67e-03), ||y||_2 = 2.1209847927e+00]
+    [Postprocess-step at t = 3.00e-03 (tn = 2.00e-03 , tcur = 3.00e-03),||y||_2 = 2.1208956242e+00]
+    [Post-step at t = 3.00e-03 (tn = 2.00e-03 , tcur = 3.00e-03), step = 2, ||y||_2 = 2.1208956242e+00]
+      3.0000000261e-03         1.2247439623e+00         1.7315312624e+00         0.0000000000e+00         0.0000000000e+00
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.003
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.001
+Last step size                = 0.001
+Current step size             = 0.001
+Explicit slow RHS fn evals    = 9
+Implicit slow RHS fn evals    = 0
+Inner stepper failures        = 0
+NLS iters                     = 0
+NLS fails                     = 0
+NLS iters per step            = 0
+LS setups                     = 0
+End MRIStep StageInfo test
