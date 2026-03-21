@@ -23,7 +23,7 @@ Using SSP(10,4) method
     [Pre-RHS (stage 8 of 10) at t = 2.88e-08 (tn = 0.00e+00 , tcur = 2.88e-08), ||y||_2 = 2.8772250360e-08]
     [Post-stage processing (stage 8 of 10) at t = 3.45e-08 (tn = 0.00e+00 , tcur = 3.45e-08), ||y||_2 = 3.4526699721e-08]
     [Pre-RHS (stage 9 of 10) at t = 3.45e-08 (tn = 0.00e+00 , tcur = 3.45e-08), ||y||_2 = 3.4526699721e-08]
-    [Post-stage processing (stage 9 of 10) at t = 3.45e-08 (tn = 0.00e+00 , tcur = 3.45e-08), ||y||_2 = 3.4526699721e-08]
+    [Postprocess-step at t = 3.45e-08 (tn = 0.00e+00 , tcur = 3.45e-08),||y||_2 = 3.4526699721e-08]
     [Post-step at t = 3.45e-08 (tn = 0.00e+00 , tcur = 3.45e-08), step = 0, ||y||_2 = 3.4526699721e-08]
 3.4526699721e-083.4526699721e-080.0000000000e+00
     [Pre-step at t = 3.45e-08 (tn = 3.45e-08 , tcur = 3.45e-08), step = 1, attempt = 1, ||y||_2 = 3.4526699721e-08]
@@ -46,7 +46,7 @@ Using SSP(10,4) method
     [Pre-RHS (stage 8 of 10) at t = 2.88e-04 (tn = 3.45e-08 , tcur = 2.88e-04), ||y||_2 = 2.8775708051e-04]
     [Post-stage processing (stage 8 of 10) at t = 3.45e-04 (tn = 3.45e-08 , tcur = 3.45e-04), ||y||_2 = 3.4530158155e-04]
     [Pre-RHS (stage 9 of 10) at t = 3.45e-04 (tn = 3.45e-08 , tcur = 3.45e-04), ||y||_2 = 3.4530158155e-04]
-    [Post-stage processing (stage 9 of 10) at t = 3.45e-04 (tn = 3.45e-08 , tcur = 3.45e-04), ||y||_2 = 3.4530155244e-04]
+    [Postprocess-step at t = 3.45e-04 (tn = 3.45e-08 , tcur = 3.45e-04),||y||_2 = 3.4530155244e-04]
     [Post-step at t = 3.45e-04 (tn = 3.45e-08 , tcur = 3.45e-04), step = 1, ||y||_2 = 3.4530155244e-04]
 3.4530152334e-043.4530155244e-042.9103830457e-11
     [Pre-step at t = 3.45e-04 (tn = 3.45e-04 , tcur = 3.45e-04), step = 2, attempt = 1, ||y||_2 = 3.4530155244e-04]
@@ -69,7 +69,7 @@ Using SSP(10,4) method
     [Pre-RHS (stage 8 of 10) at t = 6.42e-04 (tn = 3.45e-04 , tcur = 6.42e-04), ||y||_2 = 6.4179068431e-04]
     [Post-stage processing (stage 8 of 10) at t = 7.01e-04 (tn = 3.45e-04 , tcur = 7.01e-04), ||y||_2 = 7.0108845830e-04]
     [Pre-RHS (stage 9 of 10) at t = 7.01e-04 (tn = 3.45e-04 , tcur = 7.01e-04), ||y||_2 = 7.0108845830e-04]
-    [Post-stage processing (stage 9 of 10) at t = 7.01e-04 (tn = 3.45e-04 , tcur = 7.01e-04), ||y||_2 = 7.0108851651e-04]
+    [Postprocess-step at t = 7.01e-04 (tn = 3.45e-04 , tcur = 7.01e-04),||y||_2 = 7.0108851651e-04]
     [Post-step at t = 7.01e-04 (tn = 3.45e-04 , tcur = 7.01e-04), step = 2, ||y||_2 = 7.0108851651e-04]
 7.0108845830e-047.0108851651e-041.7462298274e-10
 ------------------------------------------
