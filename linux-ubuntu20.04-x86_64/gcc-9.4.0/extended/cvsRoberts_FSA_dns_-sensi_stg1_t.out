@@ -79,15 +79,15 @@ Sensitivity: YES ( STAGGERED1 + FULL ERROR CONTROL )
 -----------------------------------------------------------------------
 
 Final Statistics:
-Current time                  = 40937696960.0411656
+Current time                  = 40937735714.4042937
 Steps                         = 955
 Error test fails              = 0
 NLS step fails                = 0
 Constraint fails              = 0
 Constraint corrections        = 0
 Initial step size             = 8.06710253479434295e-15
-Last step size                = 1401779509.80744975
-Current step size             = 1401779509.80744975
+Last step size                = 1401781023.36365604
+Current step size             = 1401781023.36365604
 Last method order             = 4
 Current method order          = 4
 Stab. lim. order reductions   = 0

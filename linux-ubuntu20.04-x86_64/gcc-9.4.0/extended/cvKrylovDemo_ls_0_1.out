@@ -4,8 +4,8 @@
  
 2-species diurnal advection-diffusion problem
 
-t = 8.64e+04   no. steps = 502   order = 5   stepsize = 7.55e+02
-c1 (bot.left/middle/top rt.) =    2.151e-10     3.502e-10     2.399e-10
+t = 8.64e+04   no. steps = 486   order = 5   stepsize = 7.33e+02
+c1 (bot.left/middle/top rt.) =    1.386e-13     8.665e-13     1.554e-13
 c2 (bot.left/middle/top rt.) =    3.352e+11     9.106e+11     4.163e+11
 
 
@@ -13,12 +13,12 @@ Final Statistics..
 
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2454     leniwLS =    42
-nst     =   502
-nfe     =   671     nfeLS   =   660
-nni     =   668     nli     =   660
-nsetups =   100     netf    =    38
-npe     =     9     nps     =  1265
-ncfn    =     0     ncfl    =     1
+nst     =   486
+nfe     =   626     nfeLS   =   620
+nni     =   623     nli     =   620
+nsetups =    83     netf    =    28
+npe     =     9     nps     =  1186
+ncfn    =     0     ncfl    =     0
 
 ======================================================================
 
@@ -52,8 +52,8 @@ ncfn    =     0     ncfl    =     0
  
 2-species diurnal advection-diffusion problem
 
-t = 8.64e+04   no. steps = 447   order = 5   stepsize = 5.95e+02
-c1 (bot.left/middle/top rt.) =   -9.867e-27    -1.825e-22    -1.557e-27
+t = 8.64e+04   no. steps = 449   order = 5   stepsize = 5.73e+02
+c1 (bot.left/middle/top rt.) =   -6.806e-27    -9.629e-23    -9.447e-28
 c2 (bot.left/middle/top rt.) =    3.352e+11     9.107e+11     4.163e+11
 
 
@@ -61,11 +61,11 @@ Final Statistics..
 
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2202     leniwLS =    41
-nst     =   447
-nfe     =   569     nfeLS   =   964
-nni     =   566     nli     =   482
+nst     =   449
+nfe     =   570     nfeLS   =   968
+nni     =   567     nli     =   484
 nsetups =    72     netf    =    25
-npe     =     8     nps     =  1453
+npe     =     8     nps     =  1459
 ncfn    =     0     ncfl    =     0
 
  --------- 
@@ -74,8 +74,8 @@ ncfn    =     0     ncfl    =     0
  
 2-species diurnal advection-diffusion problem
 
-t = 8.64e+04   no. steps = 489   order = 5   stepsize = 6.13e+02
-c1 (bot.left/middle/top rt.) =   -1.095e-18     1.674e-16    -3.006e-18
+t = 8.64e+04   no. steps = 496   order = 5   stepsize = 6.46e+02
+c1 (bot.left/middle/top rt.) =    6.108e-21     3.553e-16     1.593e-20
 c2 (bot.left/middle/top rt.) =    3.352e+11     9.107e+11     4.163e+11
 
 
@@ -83,10 +83,10 @@ Final Statistics..
 
 lenrw   =  2689     leniw   =    53
 lenrwLS =  2602     leniwLS =    43
-nst     =   489
-nfe     =   624     nfeLS   =  1278
-nni     =   621     nli     =   546
+nst     =   496
+nfe     =   631     nfeLS   =  1258
+nni     =   628     nli     =   542
 nsetups =    78     netf    =    27
-npe     =     9     nps     =  1967
+npe     =     9     nps     =  1953
 ncfn    =     0     ncfl    =     0
 
