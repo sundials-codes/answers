@@ -101,15 +101,15 @@ dG/dp1: -5.9491e+00
 dG/dp1:  9.9152e-04
 
 Final Statistics:
-Current time                  = 43635899744.5387629
+Current time                  = 43635882181.2880119
 Steps                         = 1225
 Error test fails              = 5
 NLS step fails                = 0
 Constraint fails              = 0
 Constraint corrections        = 0
 Initial step size             = 2.16506350946027912e-13
-Last step size                = 8217630611.30481856
-Current step size             = 7395867550.17433671
+Last step size                = 8217627006.08723961
+Current step size             = 7395864305.47851565
 Last method order             = 2
 Current method order          = 2
 Residual fn evals             = 1535

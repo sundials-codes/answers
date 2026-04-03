@@ -480,7 +480,7 @@ t =   8.00e+00  nst = 331  nfe = 369  nni = 366  qu = 3  hu =    1.04e-01
 
 t =   9.00e+00  nst = 341  nfe = 379  nni = 376  qu = 3  hu =    1.04e-01
 
-t =   1.00e+01  nst = 351  nfe = 391  nni = 388  qu = 2  hu =    1.61e-01
+t =   1.00e+01  nst = 351  nfe = 390  nni = 387  qu = 3  hu =    1.04e-01
 
 
 
@@ -491,18 +491,18 @@ t =   1.00e+01  nst = 351  nfe = 391  nni = 388  qu = 2  hu =    1.61e-01
  CVLS real workspace length            = 2646 
  CVLS integer workspace length         =   42 
  Number of steps                       =  351 
- Number of f-s                         =  391 
- Number of f-s (SPGMR)                 =  578 
+ Number of f-s                         =  390 
+ Number of f-s (SPGMR)                 =  579 
  Number of f-s (TOTAL)                 =  969 
- Number of setups                      =   48 
- Number of nonlinear iterations        =  388 
- Number of linear iterations           =  578 
- Number of preconditioner evaluations  =   48 
+ Number of setups                      =   47 
+ Number of nonlinear iterations        =  387 
+ Number of linear iterations           =  579 
+ Number of preconditioner evaluations  =   47 
  Number of preconditioner solves       =  948 
  Number of error test failures         =    2 
  Number of nonlinear conv. failures    =    0 
  Number of linear convergence failures =    0 
- Average Krylov subspace dimension     = 1.490 
+ Average Krylov subspace dimension     = 1.496 
 
 
 ----------------------------------------------------------------------------
