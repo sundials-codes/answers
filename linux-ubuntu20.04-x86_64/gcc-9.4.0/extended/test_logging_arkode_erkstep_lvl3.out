@@ -32,7 +32,7 @@ Start ERKStep Logging test
 [INFO][rank 0][erkStep_TakeStep][end-compute-solution] status = success
 [INFO][rank 0][ARKodeEvolve][end-step-attempt] status = failed error test, dsm = 1.00314629841468771, kflag = 5
 [INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 2, tn = 0.000102986025609450996, h = 0.0159606593183232506
-[INFO][rank 0][erkStep_TakeStep][begin-stages-list] stage = 0, tcur = 0.0162375302503037379
+[INFO][rank 0][erkStep_TakeStep][begin-stages-list] stage = 0, tcur = 0.000102986025609450996
 [INFO][rank 0][erkStep_TakeStep][end-stages-list] status = success
 [INFO][rank 0][erkStep_TakeStep][begin-stages-list] stage = 1, tcur = 0.00648724975293875124
 [INFO][rank 0][erkStep_TakeStep][end-stages-list] status = success
