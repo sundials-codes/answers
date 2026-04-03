@@ -1,0 +1,82 @@
+Start LSRKStep StageInfo test
+Using SSP(s,3) method
+                         t                         y                     y err
+------------------------------------------------------------------------------
+  0.000000000000000000e+00  0.000000000000000000e+00  0.000000000000000000e+00
+    [Pre-RHS processing (stage 0 of 9) at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 0.0000000000e+00]
+    [Pre-RHS processing (stage 0 of 9) at t = 3.29e-14 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 3.2927225399e-14]
+    [Pre-RHS processing (stage 0 of 9) at t = 1.81e-12 (tn = 0.00e+00 , tcur = 0.00e+00), ||y||_2 = 1.8145860519e-12]
+    [Pre-step processing at t = 0.00e+00 (tn = 0.00e+00 , tcur = 0.00e+00),||y||_2 = 0.0000000000e+00]
+    [Post-stage processing (stage 0 of 9) at t = 1.51e-13 (tn = 0.00e+00 , tcur = 1.51e-13), ||y||_2 = 1.5121550433e-13]
+    [Pre-RHS processing (stage 1 of 9) at t = 1.51e-13 (tn = 0.00e+00 , tcur = 1.51e-13), ||y||_2 = 1.5121550433e-13]
+    [Post-stage processing (stage 1 of 9) at t = 3.02e-13 (tn = 0.00e+00 , tcur = 3.02e-13), ||y||_2 = 3.0243100866e-13]
+    [Pre-RHS processing (stage 2 of 9) at t = 3.02e-13 (tn = 0.00e+00 , tcur = 3.02e-13), ||y||_2 = 3.0243100866e-13]
+    [Post-stage processing (stage 2 of 9) at t = 4.54e-13 (tn = 0.00e+00 , tcur = 4.54e-13), ||y||_2 = 4.5364651299e-13]
+    [Pre-RHS processing (stage 3 of 9) at t = 4.54e-13 (tn = 0.00e+00 , tcur = 4.54e-13), ||y||_2 = 4.5364651299e-13]
+    [Post-stage processing (stage 3 of 9) at t = 6.05e-13 (tn = 0.00e+00 , tcur = 6.05e-13), ||y||_2 = 6.0486201732e-13]
+    [Pre-RHS processing (stage 4 of 9) at t = 6.05e-13 (tn = 0.00e+00 , tcur = 6.05e-13), ||y||_2 = 6.0486201732e-13]
+    [Post-stage processing (stage 4 of 9) at t = 7.56e-13 (tn = 0.00e+00 , tcur = 7.56e-13), ||y||_2 = 7.5607752164e-13]
+    [Pre-RHS processing (stage 5 of 9) at t = 7.56e-13 (tn = 0.00e+00 , tcur = 7.56e-13), ||y||_2 = 7.5607752164e-13]
+    [Post-stage processing (stage 5 of 9) at t = 4.54e-13 (tn = 0.00e+00 , tcur = 4.54e-13), ||y||_2 = 4.5364651299e-13]
+    [Pre-RHS processing (stage 6 of 9) at t = 4.54e-13 (tn = 0.00e+00 , tcur = 4.54e-13), ||y||_2 = 4.5364651299e-13]
+    [Post-stage processing (stage 6 of 9) at t = 6.05e-13 (tn = 0.00e+00 , tcur = 6.05e-13), ||y||_2 = 6.0486201732e-13]
+    [Pre-RHS processing (stage 7 of 9) at t = 6.05e-13 (tn = 0.00e+00 , tcur = 6.05e-13), ||y||_2 = 6.0486201732e-13]
+    [Post-stage processing (stage 7 of 9) at t = 7.56e-13 (tn = 0.00e+00 , tcur = 7.56e-13), ||y||_2 = 7.5607752164e-13]
+    [Pre-RHS processing (stage 8 of 9) at t = 7.56e-13 (tn = 0.00e+00 , tcur = 7.56e-13), ||y||_2 = 7.5607752164e-13]
+    [Post-step processing at t = 9.07e-13 (tn = 0.00e+00 , tcur = 9.07e-13),||y||_2 = 9.0729302597e-13]
+          9.0729302597e-13          9.0729302597e-13          0.0000000000e+00
+    [Pre-step processing at t = 9.07e-13 (tn = 9.07e-13 , tcur = 9.07e-13),||y||_2 = 9.0729302597e-13]
+    [Pre-RHS processing (stage 0 of 9) at t = 9.07e-13 (tn = 9.07e-13 , tcur = 9.07e-13), ||y||_2 = 9.0729302597e-13]
+    [Post-stage processing (stage 0 of 9) at t = 1.51e-09 (tn = 9.07e-13 , tcur = 1.51e-09), ||y||_2 = 1.5130623363e-09]
+    [Pre-RHS processing (stage 1 of 9) at t = 1.51e-09 (tn = 9.07e-13 , tcur = 1.51e-09), ||y||_2 = 1.5130623363e-09]
+    [Post-stage processing (stage 1 of 9) at t = 3.03e-09 (tn = 9.07e-13 , tcur = 3.03e-09), ||y||_2 = 3.0252173796e-09]
+    [Pre-RHS processing (stage 2 of 9) at t = 3.03e-09 (tn = 9.07e-13 , tcur = 3.03e-09), ||y||_2 = 3.0252173796e-09]
+    [Post-stage processing (stage 2 of 9) at t = 4.54e-09 (tn = 9.07e-13 , tcur = 4.54e-09), ||y||_2 = 4.5373724229e-09]
+    [Pre-RHS processing (stage 3 of 9) at t = 4.54e-09 (tn = 9.07e-13 , tcur = 4.54e-09), ||y||_2 = 4.5373724229e-09]
+    [Post-stage processing (stage 3 of 9) at t = 6.05e-09 (tn = 9.07e-13 , tcur = 6.05e-09), ||y||_2 = 6.0495274662e-09]
+    [Pre-RHS processing (stage 4 of 9) at t = 6.05e-09 (tn = 9.07e-13 , tcur = 6.05e-09), ||y||_2 = 6.0495274662e-09]
+    [Post-stage processing (stage 4 of 9) at t = 7.56e-09 (tn = 9.07e-13 , tcur = 7.56e-09), ||y||_2 = 7.5616825095e-09]
+    [Pre-RHS processing (stage 5 of 9) at t = 7.56e-09 (tn = 9.07e-13 , tcur = 7.56e-09), ||y||_2 = 7.5616825095e-09]
+    [Post-stage processing (stage 5 of 9) at t = 4.54e-09 (tn = 9.07e-13 , tcur = 4.54e-09), ||y||_2 = 4.5373724229e-09]
+    [Pre-RHS processing (stage 6 of 9) at t = 4.54e-09 (tn = 9.07e-13 , tcur = 4.54e-09), ||y||_2 = 4.5373724229e-09]
+    [Post-stage processing (stage 6 of 9) at t = 6.05e-09 (tn = 9.07e-13 , tcur = 6.05e-09), ||y||_2 = 6.0495274662e-09]
+    [Pre-RHS processing (stage 7 of 9) at t = 6.05e-09 (tn = 9.07e-13 , tcur = 6.05e-09), ||y||_2 = 6.0495274662e-09]
+    [Post-stage processing (stage 7 of 9) at t = 7.56e-09 (tn = 9.07e-13 , tcur = 7.56e-09), ||y||_2 = 7.5616825095e-09]
+    [Pre-RHS processing (stage 8 of 9) at t = 7.56e-09 (tn = 9.07e-13 , tcur = 7.56e-09), ||y||_2 = 7.5616825095e-09]
+    [Post-step processing at t = 9.07e-09 (tn = 9.07e-13 , tcur = 9.07e-09),||y||_2 = 9.0738375528e-09]
+          9.0738375528e-09          9.0738375528e-09          8.0779356695e-28
+    [Pre-step processing at t = 9.07e-09 (tn = 9.07e-09 , tcur = 9.07e-09),||y||_2 = 9.0738375528e-09]
+    [Pre-RHS processing (stage 0 of 9) at t = 9.07e-09 (tn = 9.07e-09 , tcur = 9.07e-09), ||y||_2 = 9.0738375528e-09]
+    [Post-stage processing (stage 0 of 9) at t = 3.93e-08 (tn = 9.07e-09 , tcur = 3.93e-08), ||y||_2 = 3.9316938419e-08]
+    [Pre-RHS processing (stage 1 of 9) at t = 3.93e-08 (tn = 9.07e-09 , tcur = 3.93e-08), ||y||_2 = 3.9316938419e-08]
+    [Post-stage processing (stage 1 of 9) at t = 6.96e-08 (tn = 9.07e-09 , tcur = 6.96e-08), ||y||_2 = 6.9560039284e-08]
+    [Pre-RHS processing (stage 2 of 9) at t = 6.96e-08 (tn = 9.07e-09 , tcur = 6.96e-08), ||y||_2 = 6.9560039284e-08]
+    [Post-stage processing (stage 2 of 9) at t = 9.98e-08 (tn = 9.07e-09 , tcur = 9.98e-08), ||y||_2 = 9.9803140150e-08]
+    [Pre-RHS processing (stage 3 of 9) at t = 9.98e-08 (tn = 9.07e-09 , tcur = 9.98e-08), ||y||_2 = 9.9803140150e-08]
+    [Post-stage processing (stage 3 of 9) at t = 1.30e-07 (tn = 9.07e-09 , tcur = 1.30e-07), ||y||_2 = 1.3004624102e-07]
+    [Pre-RHS processing (stage 4 of 9) at t = 1.30e-07 (tn = 9.07e-09 , tcur = 1.30e-07), ||y||_2 = 1.3004624102e-07]
+    [Post-stage processing (stage 4 of 9) at t = 1.60e-07 (tn = 9.07e-09 , tcur = 1.60e-07), ||y||_2 = 1.6028934188e-07]
+    [Pre-RHS processing (stage 5 of 9) at t = 1.60e-07 (tn = 9.07e-09 , tcur = 1.60e-07), ||y||_2 = 1.6028934188e-07]
+    [Post-stage processing (stage 5 of 9) at t = 9.98e-08 (tn = 9.07e-09 , tcur = 9.98e-08), ||y||_2 = 9.9803140150e-08]
+    [Pre-RHS processing (stage 6 of 9) at t = 9.98e-08 (tn = 9.07e-09 , tcur = 9.98e-08), ||y||_2 = 9.9803140150e-08]
+    [Post-stage processing (stage 6 of 9) at t = 1.30e-07 (tn = 9.07e-09 , tcur = 1.30e-07), ||y||_2 = 1.3004624102e-07]
+    [Pre-RHS processing (stage 7 of 9) at t = 1.30e-07 (tn = 9.07e-09 , tcur = 1.30e-07), ||y||_2 = 1.3004624102e-07]
+    [Post-stage processing (stage 7 of 9) at t = 1.60e-07 (tn = 9.07e-09 , tcur = 1.60e-07), ||y||_2 = 1.6028934188e-07]
+    [Pre-RHS processing (stage 8 of 9) at t = 1.60e-07 (tn = 9.07e-09 , tcur = 1.60e-07), ||y||_2 = 1.6028934188e-07]
+    [Post-step processing at t = 1.91e-07 (tn = 9.07e-09 , tcur = 1.91e-07),||y||_2 = 1.9053244275e-07]
+          1.9053244275e-07          1.9053244275e-07          2.5849394142e-26
+------------------------------------------------------------------------------
+Current time                  = 1.90532442747258321e-07
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 3
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 9.07293025972534994e-13
+Last step size                = 1.81458605194506999e-07
+Current step size             = 3.62917210389013997e-06
+RHS fn evals                  = 29
+Number of stages used         = 9
+End LSRKStep StageInfo test
