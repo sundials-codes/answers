@@ -4,7 +4,7 @@ Using GMRES iterative linear solver
            t                        u                        v                      u err                    v err            
 ------------------------------------------------------------------------------------------------------------------------------
           0.000000e+00             1.224745e+00             1.732051e+00             0.000000e+00             0.000000e+00
-[INFO][rank 0][IDAStep][begin-step-attempt] step = 1, tn = 0, h = 0.001, kk = 1
+[INFO][rank 0][IDAStep][begin-step-attempt] step = 1, tn = 0, h = 0.001, q = 1
 [INFO][rank 0][IDANls][begin-nonlinear-solve] tol = 0.33
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-iterations-list] 
@@ -34,7 +34,7 @@ Using GMRES iterative linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-iterations-list] status = success
 [INFO][rank 0][IDANls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][IDAStep][end-step-attempt] status = failed error test, dsm = 23.5572, kflag = 20
-[INFO][rank 0][IDAStep][begin-step-attempt] step = 1, tn = 0, h = 0.00025, kk = 1
+[INFO][rank 0][IDAStep][begin-step-attempt] step = 1, tn = 0, h = 0.00025, q = 1
 [INFO][rank 0][IDANls][begin-nonlinear-solve] tol = 0.33
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-iterations-list] 
@@ -61,7 +61,7 @@ Using GMRES iterative linear solver
 [INFO][rank 0][SUNNonlinSolSolve_Newton][end-iterations-list] status = success
 [INFO][rank 0][IDANls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][IDAStep][end-step-attempt] status = failed error test, dsm = 1.47173, kflag = 20
-[INFO][rank 0][IDAStep][begin-step-attempt] step = 1, tn = 0, h = 6.25e-05, kk = 1
+[INFO][rank 0][IDAStep][begin-step-attempt] step = 1, tn = 0, h = 6.25e-05, q = 1
 [INFO][rank 0][IDANls][begin-nonlinear-solve] tol = 0.33
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-iterations-list] 
@@ -89,7 +89,7 @@ Using GMRES iterative linear solver
 [INFO][rank 0][IDANls][end-nonlinear-solve] status = success, iters = 2
 [INFO][rank 0][IDAStep][end-step-attempt] status = success, dsm = 0.0973519
           6.250000e-05             1.224745e+00             1.732050e+00             0.000000e+00             3.576279e-07
-[INFO][rank 0][IDAStep][begin-step-attempt] step = 2, tn = 6.25e-05, h = 0.000125, kk = 1
+[INFO][rank 0][IDAStep][begin-step-attempt] step = 2, tn = 6.25e-05, h = 0.000125, q = 1
 [INFO][rank 0][IDANls][begin-nonlinear-solve] tol = 0.33
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-iterations-list] 
@@ -109,7 +109,7 @@ Using GMRES iterative linear solver
 [INFO][rank 0][IDANls][end-nonlinear-solve] status = success, iters = 1
 [INFO][rank 0][IDAStep][end-step-attempt] status = success, dsm = 0.477175
           1.875000e-04             1.224745e+00             1.732048e+00             0.000000e+00             1.192093e-06
-[INFO][rank 0][IDAStep][begin-step-attempt] step = 3, tn = 0.0001875, h = 0.000125, kk = 1
+[INFO][rank 0][IDAStep][begin-step-attempt] step = 3, tn = 0.0001875, h = 0.000125, q = 1
 [INFO][rank 0][IDANls][begin-nonlinear-solve] tol = 0.33
 [INFO][rank 0][SUNNonlinSolSolve_Newton][nonlinear-solver] solver = Newton
 [INFO][rank 0][SUNNonlinSolSolve_Newton][begin-iterations-list] 
