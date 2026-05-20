@@ -80,6 +80,12 @@ ARKodeButcherTable_CheckOrder:
   embedding fails order 5 condition E
   embedding fails order 5 condition F
   embedding fails order 5 condition I
+Testing method ARKODE_SSP_ERK_3_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_SSP_ERK_4_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_SSP_ERK_4_2_3:  table matches predicted method/embedding orders of 3/2
+Testing method ARKODE_SSP_ERK_10_3_4:  table matches predicted method/embedding orders of 4/3
+Testing method ARKODE_SSP_LSPUM_ERK_3_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_ASCHER_ERK_3_1_2:  table matches predicted method/embedding orders of 2/1
 
 Testing individual DIRK methods:
 
@@ -152,7 +158,9 @@ Testing method ARKODE_ESDIRK325L2SA_5_2_3:  table matches predicted method/embed
 Testing method ARKODE_ESDIRK32I5L2SA_5_2_3:  table matches predicted method/embedding orders of 3/2
 Testing method ARKODE_ESDIRK436L2SA_6_3_4:  table matches predicted method/embedding orders of 4/3
 Testing method ARKODE_ESDIRK43I6L2SA_6_3_4:  table matches predicted method/embedding orders of 4/3
-Testing method ARKODE_QESDIRK436L2SA_6_3_4:  table matches predicted method/embedding orders of 4/3
+Testing method ARKODE_QESDIRK436L2SA_6_3_4:  table matches predicted method/embedding o[ERROR][rank 0][/__w/sundials/sundials/src/sundials/sundials_errors.c:145][SUNGlobalFallbackErrHandler] The SUNDIALS SUNContext was corrupt or NULL when an error occurred. As such, error messages have been printed to stderr.
+[ERROR][rank 0][/__w/sundials/sundials/src/arkode/arkode_butcher_erk.c:97][arkButcherTableERKNameToID] Unknown Butcher table
+rders of 4/3
 Testing method ARKODE_ESDIRK437L2SA_7_3_4:  table matches predicted method/embedding orders of 4/3
 Testing method ARKODE_ESDIRK547L2SA_7_4_5:  table matches predicted method/embedding orders of 5/4
 Testing method ARKODE_ESDIRK547L2SA2_7_4_5:  table matches predicted method/embedding orders of 5/4
@@ -160,33 +168,13 @@ Testing method ARKODE_ARK2_DIRK_3_1_2:  table matches predicted method/embedding
 Testing method ARKODE_BACKWARD_EULER_1_1:  table matches predicted method/embedding orders of 1/0
 Testing method ARKODE_IMPLICIT_MIDPOINT_1_2:  table matches predicted method/embedding orders of 2/0
 Testing method ARKODE_IMPLICIT_TRAPEZOIDAL_2_2:  table matches predicted method/embedding orders of 2/0
+Testing method ARKODE_SSP_DIRK_3_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_SSP_LSPUM_SDIRK_3_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_SSP_ESDIRK_4_2_3:  table matches predicted method/embedding orders of 3/2
+Testing method ARKODE_ASCHER_SDIRK_3_1_2:  table matches predicted method/embedding orders of 2/1
 
 Testing ARK pairs:
 
 Testing method ARKODE_ARK2_3_1_2:  Method/embedding match predicted orders of 2/1
-Testing method ARKODE_ARK324L2SA_4_2_3:  Method/embedding match predicted orders of 3/2
-Testing method ARKODE_ARK436L2SA_6_3_4:  Method/embedding match predicted orders of 4/3
-Testing method ARKODE_ARK437L2SA_7_3_4:  WARNING:
-ARKodeButcherTable_CheckARKOrder:
-  method fails order 5 conditions A
-  method fails order 5 conditions B
-  method fails order 5 conditions C
-  method fails order 5 conditions D
-  method fails order 5 conditions E
-  method fails order 5 conditions F
-  method fails order 5 conditions G
-  method fails order 5 conditions H
-  method fails order 5 conditions I
-
-  embedding fails order 5 conditions A
-  embedding fails order 5 conditions B
-  embedding fails order 5 conditions C
-  embedding fails order 5 conditions D
-  embedding fails order 5 conditions E
-  embedding fails order 5 conditions F
-  embedding fails order 5 conditions G
-  embedding fails order 5 conditions H
-  embedding fails order 5 conditions I
-Testing method ARKODE_ARK548L2SA_8_4_5:  Method/embedding match predicted orders of 5/4
-Testing method ARKODE_ARK548L2SAb_8_4_5:  Method/embedding match predicted orders of 5/4
-All Butcher tables passed
+Testing method ARKODE_ASCHER_ARK_3_1_2:  Method/embedding match predicted orders of 2/1
+Testing method ARKODE_SSP_ARK_2_1_2:  error retrieving explicit table, aborting
