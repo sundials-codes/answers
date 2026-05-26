@@ -7,35 +7,35 @@ Brusselator ODE test problem:
         t           u           v           w
    -------------------------------------------
     0.000000    1.200000    3.100000    3.000000
-    1.000000    1.104197    3.012926    3.499979
-    2.000000    0.688400    3.521101    3.499987
-    3.000000    0.409659    4.277937    3.499994
-    4.000000    0.367906    4.941155    3.499994
-    5.000000    0.413923    5.511216    3.500001
-    6.000000    0.589514    5.856162    3.499987
-    7.000000    4.753693    0.735243    3.499915
-    8.000000    1.811670    1.576834    3.499968
-    9.000000    0.527395    2.808288    3.499991
-   10.000000    0.305575    3.658474    3.499998
+    1.000000    1.104015    3.012831    3.499979
+    2.000000    0.688285    3.521191    3.499987
+    3.000000    0.409606    4.277853    3.499991
+    4.000000    0.367859    4.940681    3.499994
+    5.000000    0.413758    5.511217    3.499992
+    6.000000    0.589128    5.856289    3.499996
+    7.000000    4.757175    0.735382    3.499917
+    8.000000    1.813374    1.575701    3.499964
+    9.000000    0.527840    2.807386    3.499990
+   10.000000    0.305594    3.657147    3.499998
    -------------------------------------------
 
 Final Statistics:
-Current time                  = 10.0003
-Steps                         = 4029
-Step attempts                 = 5558
+Current time                  = 10.0015
+Steps                         = 4116
+Step attempts                 = 5700
 Stability limited steps       = 0
-Accuracy limited steps        = 5558
-Error test fails              = 1529
+Accuracy limited steps        = 5700
+Error test fails              = 1584
 NLS step fails                = 0
 Inequality constraint fails   = 0
 Initial step size             = 5.9833e-06
-Last step size                = 0.000935605
-Current step size             = 0.000991908
-RHS fn evals                  = 186213
-Number of dom_eig updates     = 1
-Number of fe calls for DEE    = 12
-Number of iterations for DEE  = 12
-Max. num. of stages used      = 100
+Last step size                = 0.00316924
+Current step size             = 0.00430049
+RHS fn evals                  = 189397
+Number of dom_eig updates     = 1157
+Number of fe calls for DEE    = 4634
+Number of iterations for DEE  = 2324
+Max. num. of stages used      = 89
 Max. num. of stages allowed   = 200
-Max. spectral radius          = 201961
+Max. spectral radius          = 202031
 Min. spectral radius          = 201961
