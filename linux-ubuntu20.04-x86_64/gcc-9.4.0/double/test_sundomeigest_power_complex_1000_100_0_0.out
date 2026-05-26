@@ -23,8 +23,8 @@ Max. iters               = 100
 Num. preprocessing iters = 0
 Relative tolerance       = 0.01
 Residual                 = 151.853158996135
-Num. iters               = 7
-Num. ATimes calls        = 7
+Num. iters               = 5
+Num. ATimes calls        = 6
 
     --------------------------------------------
     PASSED test -- SUNDomEigEstimator_Write 
