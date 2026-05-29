@@ -24,21 +24,21 @@
      0.900000       76       76        0      964
      1.000000       77       77        0      974
     -------------------------------------------------
-Max. absolute error is   4.66E-09
+Max. absolute error is   4.70E-09
    
  Final Solver Statistics:
    Internal solver steps =     77 (attempted =     77)
    Total explicit RHS evals =      0
    Total implicit RHS evals =    974
    Total preconditioner setups =      2
-   Total preconditioner solves =   1459
+   Total preconditioner solves =   1312
    Total nonlinear iterations  =    586
-   Total linear iterations     =   1074
-   Average Krylov subspace dimension =   1.8328
+   Total linear iterations     =    927
+   Average Krylov subspace dimension =   1.5819
    Total Convergence Failures - Nonlinear =      0
                               - Linear    =      0
    Total number of error test failures =      0
-   Main solver real/int workspace sizes =    918   291
+   Main solver real/int workspace sizes =    930   285
    Linear solver real/int workspace sizes =    535   126
    BBD preconditioner real/int workspace sizes =    160    72
    Total number of g evals =      4
@@ -59,21 +59,21 @@ Max. absolute error is   4.66E-09
      0.900000       76       76        0      964
      1.000000       77       77        0      974
     -------------------------------------------------
-Max. absolute error is   4.66E-09
+Max. absolute error is   4.70E-09
    
  Final Solver Statistics:
    Internal solver steps =     77 (attempted =     77)
    Total explicit RHS evals =      0
    Total implicit RHS evals =    974
    Total preconditioner setups =      2
-   Total preconditioner solves =   1459
+   Total preconditioner solves =   1312
    Total nonlinear iterations  =    586
-   Total linear iterations     =   1074
-   Average Krylov subspace dimension =   1.8328
+   Total linear iterations     =    927
+   Average Krylov subspace dimension =   1.5819
    Total Convergence Failures - Nonlinear =      0
                               - Linear    =      0
    Total number of error test failures =      0
-   Main solver real/int workspace sizes =    918   297
+   Main solver real/int workspace sizes =    930   285
    Linear solver real/int workspace sizes =    535   126
    BBD preconditioner real/int workspace sizes =    160    72
    Total number of g evals =      4
