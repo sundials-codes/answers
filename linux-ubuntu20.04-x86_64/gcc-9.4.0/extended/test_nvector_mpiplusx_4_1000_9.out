@@ -265,7 +265,7 @@ PASSED test -- N_VScaleAddMultiVectorArray Case 1b
 N_VScaleAddMultiVectorArray Time:  1.366599999999552e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 2a 
-N_VScaleAddMultiVectorArray Time:  3.322199999999942e-05
+N_VScaleAddMultiVectorArray Time:  3.359299999999843e-05
 
 PASSED test -- N_VScaleAddMultiVectorArray Case 2b 
 N_VScaleAddMultiVectorArray Time:  3.519500000000175e-05
