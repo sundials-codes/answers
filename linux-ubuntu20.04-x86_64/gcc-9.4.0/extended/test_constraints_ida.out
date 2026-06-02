@@ -1,0 +1,41 @@
+Start IDA inequality constraints test
+
+y[0]          = 0.1
+y[1]          = -0.55
+Initial step  = 1
+Exact step    = 0.5
+Last step     = 0.45
+Expected step = 0.45
+Failed steps  = 1
+
+Current time                  = 0.45
+Steps                         = 1
+Error test fails              = 0
+NLS step fails                = 0
+Constraint fails              = 1
+Constraint corrections        = 0
+Initial step size             = 1
+Last step size                = 0.45
+Current step size             = 0.9
+Last method order             = 1
+Current method order          = 1
+Residual fn evals             = 2
+IC linesearch backtrack ops   = 0
+NLS iters                     = 2
+NLS fails                     = 0
+NLS iters per step            = 2
+LS setups                     = 2
+Jac fn evals                  = 2
+LS residual fn evals          = 0
+Prec setup evals              = 0
+Prec solves                   = 0
+LS iters                      = 0
+LS fails                      = 0
+Jac-times setups              = 0
+Jac-times evals               = 0
+LS iters per NLS iter         = 0
+Jac evals per NLS iter        = 1
+Prec evals per NLS iter       = 0
+Root fn evals                 = 0
+
+End IDA inequality constraints test
