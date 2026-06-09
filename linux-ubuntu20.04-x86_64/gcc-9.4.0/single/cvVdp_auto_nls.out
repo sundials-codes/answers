@@ -1,0 +1,65 @@
+
+Van der Pol oscillator (CVODE):
+    initial conditions: y1 = 2.000000, y2 = 0.000000
+    mu = 100.000000
+    reltol = 1.00e-04, abstol = 1.00e-04
+
+        t           y1           y2
+   -----------------------------------
+    0.000000    2.000000    0.000000
+   10.000000    1.931148   -0.007075
+   20.000000    1.857898   -0.007577
+   30.000000    1.778745   -0.008221
+   40.000000    1.692061   -0.009071
+   50.000000    1.595213   -0.010276
+   60.000000    1.482790   -0.012321
+   70.000000    1.341087   -0.016610
+   80.000000    1.076828   -0.064649
+   90.000000   -1.939636    0.007022
+  100.000000   -1.866736    0.007513
+  110.000000   -1.788267    0.008136
+  120.000000   -1.702559    0.008966
+  130.000000   -1.606964    0.010153
+  140.000000   -1.496455    0.012071
+  150.000000   -1.358486    0.015979
+  160.000000   -1.131978    0.039856
+  170.000000    1.947999   -0.006970
+  180.000000    1.875648   -0.007449
+  190.000000    1.797931   -0.008053
+  200.000000    1.713244   -0.008851
+  210.000000    1.619252   -0.009978
+  220.000000    1.510910   -0.011760
+  230.000000    1.377621   -0.015172
+  240.000000    1.173116   -0.031047
+  250.000000   -1.955780    0.006874
+   -----------------------------------
+Current time                  = 250
+Steps                         = 4118
+Error test fails              = 235
+NLS step fails                = 183
+Constraint fails              = 0
+Constraint corrections        = 0
+Initial step size             = 7.7204e-05
+Last step size                = 0.00587756
+Current step size             = 0.00587756
+Last method order             = 1
+Current method order          = 1
+Stab. lim. order reductions   = 0
+RHS fn evals                  = 4942
+NLS iters                     = 10558
+NLS fails                     = 137
+NLS iters per step            = 2.56387
+LS setups                     = 274
+Jac fn evals                  = 48
+LS RHS fn evals               = 0
+Prec setup evals              = 0
+Prec solves                   = 0
+LS iters                      = 0
+LS fails                      = 0
+Jac-times setups              = 0
+Jac-times evals               = 0
+LS iters per NLS iter         = 0
+Jac evals per NLS iter        = 0.00454632
+Prec evals per NLS iter       = 0
+Root fn evals                 = 0
+   Auto nonlinear solver iteration totals: newton = 601, fixed-point = 4340
