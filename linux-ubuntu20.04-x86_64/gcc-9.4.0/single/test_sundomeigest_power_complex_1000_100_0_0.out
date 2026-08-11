@@ -14,6 +14,7 @@ DomEig module test:
     PASSED test -- SUNDomEigEstimator_Estimate 
     PASSED test -- SUNDomEigEstimator_GetRes 
     PASSED test -- SUNDomEigEstimator_GetNumIters 
+    PASSED test -- SUNDomEigEstimator_GetNumRhsEvals 
     PASSED test -- SUNDomEigEstimator_GetNumATimesCalls 
     SUNDomEigEstimator_Write: 
     --------------------------------------------
@@ -23,8 +24,8 @@ Max. iters               = 100
 Num. preprocessing iters = 0
 Relative tolerance       = 0.01
 Residual                 = 151.854
-Num. iters               = 7
-Num. ATimes calls        = 7
+Num. iters               = 5
+Num. ATimes calls        = 6
 
     --------------------------------------------
     PASSED test -- SUNDomEigEstimator_Write 
@@ -35,5 +36,5 @@ computed dominant eigenvalue = -29996.9 + 39994.1 i
     true dominant eigenvalue = -30000 + 40000 i
 
 
-PASS:   relative error = 0.000133458 
+PASS:   relative error = 0.000133439 
 

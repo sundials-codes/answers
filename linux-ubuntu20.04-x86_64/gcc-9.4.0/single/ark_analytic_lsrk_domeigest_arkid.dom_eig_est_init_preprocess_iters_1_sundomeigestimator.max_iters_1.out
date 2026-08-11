@@ -36,11 +36,11 @@ Last step size                = 0.156658
 Current step size             = 0.214037
 RHS fn evals                  = 1999
 Number of dom_eig updates     = 34
-Number of fe calls for DEE    = 76
+Number of fe calls for DEE    = 87
 Number of iterations for DEE  = 44
 Max. num. of stages used      = 24
 Max. num. of stages allowed   = 200
-Max. spectral radius          = 1020.13
-Min. spectral radius          = 999.331
+Max. spectral radius          = 1019.99
+Min. spectral radius          = 999.894
 
 ACCURACY at the final time   = 1.19209e-06
