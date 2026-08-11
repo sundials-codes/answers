@@ -31,16 +31,16 @@ Problem parameters and options:
           t                     ||y||_rms      
  ----------------------------------------------
           0.000000e+00             4.029897e+00
-          3.000000e-01             3.940449e+00
-          6.000000e-01             3.900390e+00
-          9.000000e-01             3.872838e+00
-          1.200000e+00             3.854160e+00
-          1.500000e+00             3.843972e+00
-          1.800000e+00             3.839594e+00
-          2.100000e+00             3.840123e+00
-          2.400000e+00             3.843894e+00
-          2.700000e+00             3.849898e+00
-          3.000000e+00             3.857018e+00
+          3.000000e-01             3.940418e+00
+          6.000000e-01             3.900354e+00
+          9.000000e-01             3.872933e+00
+          1.200000e+00             3.854200e+00
+          1.500000e+00             3.843976e+00
+          1.800000e+00             3.839554e+00
+          2.100000e+00             3.840091e+00
+          2.400000e+00             3.843801e+00
+          2.700000e+00             3.849892e+00
+          3.000000e+00             3.857134e+00
  ----------------------------------------------
 
 Final integrator statistics:
@@ -54,9 +54,9 @@ Accuracy limited steps        = 26
 Error test fails              = 0
 NLS step fails                = 0
 Inequality constraint fails   = 0
-Initial step size             = 0.000279149
-Last step size                = 0.155851
-Current step size             = 0.155851
+Initial step size             = 0.00027901
+Last step size                = 0.159913
+Current step size             = 0.159913
 Explicit slow RHS fn evals    = 80
 Implicit slow RHS fn evals    = 140
 Inner stepper failures        = 0
@@ -85,10 +85,10 @@ Accuracy limited steps        = 0
 Error test fails              = 0
 NLS step fails                = 0
 Inequality constraint fails   = 0
-Initial step size             = 0.0645556
-Last step size                = 0.0645556
-Current step size             = 0.0645556
-RHS fn evals                  = 4269
+Initial step size             = 0.0662382
+Last step size                = 0.0662382
+Current step size             = 0.0662382
+RHS fn evals                  = 4267
 Number of dom_eig updates     = 1
 Max. num. of stages used      = 154
 Max. num. of stages allowed   = 10000
