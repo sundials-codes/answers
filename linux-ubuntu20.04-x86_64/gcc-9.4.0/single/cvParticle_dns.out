@@ -14,13 +14,13 @@ tstop      = 0
 
      t            x              y             err x          err y       err constr
 0.0000e+00   1.000000e+00   0.000000e+00   0.000000e+00   0.000000e+00   0.000000e+00
-6.2832e+02   9.978725e-01   6.519555e-02  -2.127469e-03   6.518378e-02   0.000000e+00
+6.2832e+02   9.999871e-01   5.073759e-03  -1.287460e-05   5.061997e-03   0.000000e+00
 
 Integration Statistics:
-Number of steps taken = 4179  
-Number of function evaluations = 6149  
-Number of linear solver setups = 891   
-Number of Jacobian evaluations = 105   
-Number of nonlinear solver iterations = 6148  
-Number of convergence failures = 38    
-Number of error test failures = 371   
+Number of steps taken = 3478  
+Number of function evaluations = 4158  
+Number of linear solver setups = 405   
+Number of Jacobian evaluations = 60    
+Number of nonlinear solver iterations = 4157  
+Number of convergence failures = 0     
+Number of error test failures = 126   
