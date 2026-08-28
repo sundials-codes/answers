@@ -14,43 +14,43 @@ Van der Pol oscillator (CVODE):
    50.000000    1.595920   -0.010257
    60.000000    1.483922   -0.012355
    70.000000    1.341693   -0.016616
-   80.000000    1.079790   -0.062503
-   90.000000   -1.940024    0.007021
-  100.000000   -1.867256    0.007508
-  110.000000   -1.789044    0.008129
-  120.000000   -1.703525    0.008957
-  130.000000   -1.608064    0.010140
-  140.000000   -1.497887    0.012017
-  150.000000   -1.360726    0.015792
-  160.000000   -1.136887    0.038378
-  170.000000    1.948271   -0.006969
-  180.000000    1.876072   -0.007443
-  190.000000    1.798580   -0.008044
-  200.000000    1.714118   -0.008833
-  210.000000    1.620151   -0.009953
-  220.000000    1.512098   -0.011722
-  230.000000    1.379306   -0.015108
-  240.000000    1.182084   -0.029392
-  250.000000   -1.957928    0.006910
+   80.000000    1.079845   -0.062451
+   90.000000   -1.940107    0.007019
+  100.000000   -1.867381    0.007505
+  110.000000   -1.789212    0.008124
+  120.000000   -1.703785    0.008947
+  130.000000   -1.608487    0.010111
+  140.000000   -1.498319    0.011944
+  150.000000   -1.361540    0.015949
+  160.000000   -1.137326    0.038412
+  170.000000    1.948831   -0.006971
+  180.000000    1.876743   -0.007441
+  190.000000    1.799411   -0.008041
+  200.000000    1.714773   -0.008837
+  210.000000    1.620947   -0.009940
+  220.000000    1.513198   -0.011693
+  230.000000    1.381184   -0.015061
+  240.000000    1.183934   -0.029361
+  250.000000   -1.958128    0.006909
    -----------------------------------
-Current time                  = 251.495
-Steps                         = 1101
-Error test fails              = 56
-NLS step fails                = 12
+Current time                  = 255.734
+Steps                         = 3360
+Error test fails              = 223
+NLS step fails                = 3
 Constraint fails              = 0
 Constraint corrections        = 0
 Initial step size             = 7.7204e-05
-Last step size                = 1.57037
-Current step size             = 3.67703
+Last step size                = 6.26413
+Current step size             = 6.26413
 Last method order             = 2
 Current method order          = 2
 Stab. lim. order reductions   = 0
-RHS fn evals                  = 1381
-NLS iters                     = 1380
-NLS fails                     = 23
-NLS iters per step            = 1.25341
-LS setups                     = 75
-Jac fn evals                  = 16
+RHS fn evals                  = 3802
+NLS iters                     = 3801
+NLS fails                     = 17
+NLS iters per step            = 1.13125
+LS setups                     = 84
+Jac fn evals                  = 18
 LS RHS fn evals               = 0
 Prec setup evals              = 0
 Prec solves                   = 0
@@ -59,7 +59,7 @@ LS fails                      = 0
 Jac-times setups              = 0
 Jac-times evals               = 0
 LS iters per NLS iter         = 0
-Jac evals per NLS iter        = 0.0115942
+Jac evals per NLS iter        = 0.0047356
 Prec evals per NLS iter       = 0
 Root fn evals                 = 0
-   Auto nonlinear solver iteration totals: newton = 295, fixed-point = 1085
+   Auto nonlinear solver iteration totals: newton = 302, fixed-point = 3499
