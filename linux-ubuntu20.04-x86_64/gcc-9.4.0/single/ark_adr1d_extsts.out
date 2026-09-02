@@ -1,18 +1,18 @@
 
 Problem parameters and options:
- ---------------------------------
+ --------------------------------- 
   c                = 0.01
   d                = 0.1
   A                = 0.6
   B                = 2
   eps              = 0.01
- ---------------------------------
+ --------------------------------- 
   tf               = 3
   xl               = 0
   xu               = 1
   nx               = 512
   dx               = 0.00195695
- ---------------------------------
+ --------------------------------- 
   integrator       = ExtSTS
   advection        = Explicit
   reaction         = Implicit
@@ -21,26 +21,26 @@ Problem parameters and options:
   atol             = 1e-09
   fixed h          = 0
   ls setup freq    = 0
- ---------------------------------
+ --------------------------------- 
   MRI method       = ARKODE_IMEX_MRI_GARK_GKC21
   STS method       = RKC
- ---------------------------------
+ --------------------------------- 
   output           = 1
- ---------------------------------
+ --------------------------------- 
 
-          t                     ||y||_rms
+          t                     ||y||_rms      
  ----------------------------------------------
           0.000000e+00             4.029897e+00
-          3.000000e-01             3.940418e+00
-          6.000000e-01             3.900354e+00
-          9.000000e-01             3.872933e+00
-          1.200000e+00             3.854200e+00
-          1.500000e+00             3.843976e+00
-          1.800000e+00             3.839554e+00
-          2.100000e+00             3.840091e+00
-          2.400000e+00             3.843801e+00
-          2.700000e+00             3.849892e+00
-          3.000000e+00             3.857134e+00
+          3.000000e-01             3.940469e+00
+          6.000000e-01             3.900440e+00
+          9.000000e-01             3.872860e+00
+          1.200000e+00             3.854166e+00
+          1.500000e+00             3.843982e+00
+          1.800000e+00             3.839630e+00
+          2.100000e+00             3.840142e+00
+          2.400000e+00             3.843824e+00
+          2.700000e+00             3.849908e+00
+          3.000000e+00             3.857163e+00
  ----------------------------------------------
 
 Final integrator statistics:
@@ -55,8 +55,8 @@ Error test fails              = 0
 NLS step fails                = 0
 Inequality constraint fails   = 0
 Initial step size             = 0.00027901
-Last step size                = 0.159913
-Current step size             = 0.159913
+Last step size                = 0.156846
+Current step size             = 0.156846
 Explicit slow RHS fn evals    = 80
 Implicit slow RHS fn evals    = 140
 Inner stepper failures        = 0
@@ -86,9 +86,9 @@ Error test fails              = 0
 NLS step fails                = 0
 Inequality constraint fails   = 0
 Initial step size             = 0.00016344
-Last step size                = 0.0662382
+Last step size                = 0.0649679
 Current step size             = 0
-RHS fn evals                  = 4295
+RHS fn evals                  = 4297
 Number of dom_eig updates     = 1
 Max. num. of stages used      = 154
 Max. num. of stages allowed   = 10000
