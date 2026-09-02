@@ -26,7 +26,7 @@ Testing method ARKODE_ARK548L2SAb_ERK_8_4_5:  table matches predicted method/emb
 Testing individual DIRK methods:
 
 Testing method ARKODE_SDIRK_2_1_2:  table matches predicted method/embedding orders of 2/1
-Testing method ARKODE_GKC21_DIRK_3_1_2:  table matches predicted method/embedding orders of 2/1
+Testing method ARKODE_GKC21_ESDIRK_3_1_2:  table matches predicted method/embedding orders of 2/1
 Testing method ARKODE_BILLINGTON_3_3_2:  table matches predicted method/embedding orders of 2/3
 Testing method ARKODE_TRBDF2_3_3_2:  table matches predicted method/embedding orders of 2/3
 Testing method ARKODE_KVAERNO_4_2_3:  table matches predicted method/embedding orders of 3/2

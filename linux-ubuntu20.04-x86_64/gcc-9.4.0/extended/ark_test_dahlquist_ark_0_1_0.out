@@ -1860,7 +1860,7 @@ Fi RHS evals:
 --------------------
 
 ========================
-DIRK: ARKODE_GKC21_DIRK_3_1_2
+DIRK: ARKODE_GKC21_ESDIRK_3_1_2
   stages:             3
   order:              2
   explicit 1st stage: 1
@@ -2074,7 +2074,7 @@ Fi RHS evals:
 --------------------
 
 ========================
-DIRK: ARKODE_GKC21_DIRK_3_1_2
+DIRK: ARKODE_GKC21_ESDIRK_3_1_2
 ERK: ARKODE_GKC21_ERK_3_1_2
   stages:             3
   order:              2
