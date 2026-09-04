@@ -14,6 +14,7 @@ DomEig module test:
     PASSED test -- SUNDomEigEstimator_Estimate 
     PASSED test -- SUNDomEigEstimator_GetRes 
     PASSED test -- SUNDomEigEstimator_GetNumIters 
+    PASSED test -- SUNDomEigEstimator_GetNumRhsEvals 
     PASSED test -- SUNDomEigEstimator_GetNumATimesCalls 
     SUNDomEigEstimator_Write: 
     --------------------------------------------
