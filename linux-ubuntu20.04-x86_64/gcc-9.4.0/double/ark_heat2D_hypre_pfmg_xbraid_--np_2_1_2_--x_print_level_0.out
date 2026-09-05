@@ -45,7 +45,7 @@
   output         = 1
  --------------------------------- 
 
-  Max error = 3.297249974481664e-03
+  Max error = 3.297249974897443e-03
 
 Final max integrator statistics:
   Steps            = 1780
