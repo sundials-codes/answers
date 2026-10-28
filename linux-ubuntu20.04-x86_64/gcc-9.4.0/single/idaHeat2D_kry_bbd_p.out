@@ -1,0 +1,62 @@
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
+
+idaHeat2D_kry_bbd_p: Heat equation, parallel example problem for IDA
+                Discretized heat equation on 2D unit square.
+                Zero boundary conditions, polynomial initial conditions.
+                Mesh dimensions: 10 x 10        Total system size: 100
+
+Subgrid dimensions: 5 x 5         Processor array: 2 x 2
+Tolerance parameters:  rtol = 0   atol = 0.001
+Constraints set to force all solution components >= 0. 
+SUPPRESSALG = SUNTRUE to suppress local error testing on all boundary components. 
+Linear solver: SUNLinSol_SPGMR.    Preconditioner: IDABBDPRE - Banded-block-diagonal.
+
+
+Case 1. 
+   Difference quotient half-bandwidths = 5   Retained matrix half-bandwidths = 1 
+
+   Output Summary (umax = max-norm of solution) 
+
+  time     umax       k  nst  nni  nli   nre nreLS nge     h      npe nps
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+  0.01   8.24107e-01  2   12   14    7    14    7   96  2.56e-03    8  21
+  0.02   6.88124e-01  3   15   18   12    18   12   96  5.12e-03    8  30
+  0.04   4.70754e-01  3   18   24   22    24   22  108  6.58e-03    9  46
+  0.08   2.16600e-01  3   22   29   30    29   30  108  1.32e-02    9  59
+  0.16   4.57537e-02  4   28   37   43    37   43  120  2.63e-02   10  80
+  0.32   2.14071e-03  4   35   45   62    45   62  120  2.37e-02   10 107
+  0.64   7.42906e-05  1   40   54   77    54   77  156  1.90e-01   13 131
+  1.28   5.69228e-10  1   42   56   77    56   77  180  7.58e-01   15 133
+  2.56   9.06261e-13  1   43   57   77    57   77  192  1.52e+00   16 134
+  5.12   2.08362e-12  1   44   58   77    58   77  204  3.03e+00   17 135
+ 10.24   3.01184e-12  1   45   59   77    59   77  216  6.06e+00   18 136
+
+Error test failures            = 1
+Nonlinear convergence failures = 0
+Linear convergence failures    = 0
+
+
+Case 2. 
+   Difference quotient half-bandwidths = 1   Retained matrix half-bandwidths = 1 
+
+   Output Summary (umax = max-norm of solution) 
+
+  time     umax       k  nst  nni  nli   nre nreLS nge     h      npe nps
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+  0.01   8.24111e-01  2   12   14    7    14    7   32  2.56e-03    8  21
+  0.02   6.88116e-01  3   15   18   13    18   13   32  5.12e-03    8  31
+  0.04   4.70905e-01  3   19   23   21    23   21   36  1.02e-02    9  44
+  0.08   2.16546e-01  3   23   27   33    27   33   36  1.02e-02    9  60
+  0.16   4.52189e-02  4   27   33   45    33   45   40  2.05e-02   10  78
+  0.32   2.19775e-03  3   34   41   68    41   68   44  4.10e-02   11 109
+  0.64   8.07996e-06  1   39   49   88    49   88   52  1.64e-01   13 137
+  1.28   2.73572e-05  1   41   51   89    51   89   60  6.55e-01   15 140
+  2.56   4.08743e-05  1   42   52   90    52   90   64  1.31e+00   16 142
+  5.12   7.43095e-05  1   43   53   91    53   91   68  2.62e+00   17 144
+ 10.24   1.00407e-04  1   44   54   92    54   92   72  5.24e+00   18 146
+
+Error test failures            = 0
+Nonlinear convergence failures = 0
+Linear convergence failures    = 0
