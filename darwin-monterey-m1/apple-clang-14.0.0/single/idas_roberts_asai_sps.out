@@ -1,0 +1,17 @@
+COLAMD failed at line 58 in file get_perm_c.c
+
+
+Adjoint Sensitivity Example for Chemical Kinetics
+-------------------------------------------------
+
+DAE: dy1/dt + p1*y1 - p2*y2*y3 = 0
+     dy2/dt - p1*y1 + p2*y2*y3 + p3*(y2)^2 = 0
+               y1  +  y2  +  y3 = 0
+
+Find dG/dp for
+     G = int_t0^tB0 g(t,p,y) dt
+     g(t,p,y) = y3
+
+
+Create and allocate IDAS memory for forward runs
+Forward integration ... 
