@@ -30,41 +30,41 @@ Problem parameters and options:
 
           t                     ||y||_rms      
  ----------------------------------------------
- 0.000000000000000e+00    4.029895706298216e+00
- 3.000000000000000e-01    3.939328671827731e+00
- 6.000000000000000e-01    3.900245209572577e+00
- 8.999999999999999e-01    3.872398409088238e+00
- 1.200000000000000e+00    3.854088155462374e+00
- 1.500000000000000e+00    3.843706026073485e+00
- 1.800000000000000e+00    3.839389064874619e+00
- 2.100000000000000e+00    3.839874094934145e+00
- 2.400000000000000e+00    3.844185235623036e+00
- 2.700000000000000e+00    3.851290602196539e+00
- 3.000000000000000e+00    3.859225546990977e+00
+          0.000000e+00             4.029897e+00
+          3.000000e-01             3.939160e+00
+          6.000000e-01             3.900050e+00
+          9.000000e-01             3.873175e+00
+          1.200000e+00             3.854388e+00
+          1.500000e+00             3.843495e+00
+          1.800000e+00             3.839363e+00
+          2.100000e+00             3.839946e+00
+          2.400000e+00             3.843916e+00
+          2.700000e+00             3.849994e+00
+          3.000000e+00             3.857335e+00
  ----------------------------------------------
 
 Final integrator statistics:
 
 ExtSTS Integrator:
 Current time                  = 3
-Steps                         = 45
-Step attempts                 = 48
+Steps                         = 523
+Step attempts                 = 523
 Stability limited steps       = 0
-Accuracy limited steps        = 48
-Error test fails              = 3
+Accuracy limited steps        = 523
+Error test fails              = 0
 NLS step fails                = 0
 Inequality constraint fails   = 0
-Initial step size             = 0.000285136376195514
-Last step size                = 0.0766208153190381
-Current step size             = 0.0766208153190381
-Explicit slow RHS fn evals    = 143
-Implicit slow RHS fn evals    = 221
+Initial step size             = 0.00027901
+Last step size                = 0.00174475
+Current step size             = 0.00174475
+Explicit slow RHS fn evals    = 1571
+Implicit slow RHS fn evals    = 1706
 Inner stepper failures        = 0
-NLS iters                     = 174
+NLS iters                     = 1181
 NLS fails                     = 0
-NLS iters per step            = 3.86666666666667
-LS setups                     = 20
-Jac fn evals                  = 20
+NLS iters per step            = 2.25813
+LS setups                     = 46
+Jac fn evals                  = 46
 LS RHS fn evals               = 0
 Prec setup evals              = 0
 Prec solves                   = 0
@@ -73,24 +73,24 @@ LS fails                      = 0
 Jac-times setups              = 0
 Jac-times evals               = 0
 LS iters per NLS iter         = 0
-Jac evals per NLS iter        = 0.114942528735632
+Jac evals per NLS iter        = 0.03895
 Prec evals per NLS iter       = 0
 
 Inner STS Method:
 Current time                  = 3
-Steps                         = 96
-Step attempts                 = 96
+Steps                         = 1046
+Step attempts                 = 1046
 Stability limited steps       = 0
 Accuracy limited steps        = 0
 Error test fails              = 0
 NLS step fails                = 0
 Inequality constraint fails   = 0
-Initial step size             = 0.000167029022049415
-Last step size                = 0.0317373808652297
+Initial step size             = 0.00016344
+Last step size                = 0.000722647
 Current step size             = 0
-RHS fn evals                  = 6750
+RHS fn evals                  = 24496
 Number of dom_eig updates     = 1
-Max. num. of stages used      = 133
+Max. num. of stages used      = 26
 Max. num. of stages allowed   = 10000
-Max. spectral radius          = 105492.884
-Min. spectral radius          = 105492.884
+Max. spectral radius          = 105493
+Min. spectral radius          = 105493
