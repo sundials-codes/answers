@@ -1,0 +1,31 @@
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
+
+g(tf) = 2.446466e-02
+
+dgdp(tf)
+  [ 1]: -1.502371e-01
+  [ 2]: -1.098113e-02
+
+mu(t0)
+  [ 1]: 2.776953e-04
+  [ 2]: 5.621322e-04
+  [ 3]: 8.478461e-04
+  [ 4]: 1.126722e-03
+  [ 5]: 1.393951e-03
+  [ 6]: 1.640058e-03
+  [ 7]: 1.861416e-03
+  [ 8]: 2.047960e-03
+  [ 9]: 2.197708e-03
+  [10]: 2.300908e-03
+  [11]: 2.357577e-03
+  [12]: 2.359242e-03
+  [13]: 2.308114e-03
+  [14]: 2.197936e-03
+  [15]: 2.033126e-03
+  [16]: 1.810457e-03
+  [17]: 1.536353e-03
+  [18]: 1.211231e-03
+  [19]: 8.431054e-04
+  [20]: 4.363627e-04
