@@ -58,8 +58,6 @@ At top right:    c1, c2 =   -1.635e-09    4.163e+11
 
 Final Statistics: 
 
-lenrw   =  2689     leniw   =   144
-lenrwls =  2454     leniwls =   126
 nst     =   525
 nfe     =   629     nfels   =   617
 nni     =   628     nli     =   617
@@ -67,8 +65,7 @@ nsetups =    69     netf    =    20
 npe     =    12     nps     =  1205
 ncfn    =     0     ncfl    =     0
 
-In CVBBDPRE: real/integer local work space sizes = 1300, 192
-             no. flocal evals. = 264
+In CVBBDPRE: no. flocal evals. = 264
 
 
 -------------------------------------------------------------------
@@ -127,8 +124,6 @@ At top right:    c1, c2 =    8.120e-08    4.163e+11
 
 Final Statistics: 
 
-lenrw   =  2689     leniw   =   144
-lenrwls =  2454     leniwls =   126
 nst     =   504
 nfe     =   635     nfels   =  1302
 nni     =   634     nli     =  1302
@@ -136,5 +131,4 @@ nsetups =    78     netf    =    27
 npe     =    11     nps     =  1885
 ncfn    =     0     ncfl    =     0
 
-In CVBBDPRE: real/integer local work space sizes = 1300, 192
-             no. flocal evals. = 242
+In CVBBDPRE: no. flocal evals. = 242
