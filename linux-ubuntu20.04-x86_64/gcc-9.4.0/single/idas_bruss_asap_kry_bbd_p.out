@@ -1,0 +1,57 @@
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
+
+Starting integration of the FORWARD problem
+
+
+ BRUSSELATOR: chemically reacting system
+
+Number of species ns: 2     Mesh dimensions: 42 x 42
+Total system size: 3528
+Subgrid dimensions: 21 x 21     Processor array: 2 x 2
+Tolerance parameters:  rtol = 1e-05   atol = 1e-05
+Linear solver: SUNLinSol_SPGMR     Max. Krylov dimension maxl: 16
+Preconditioner: band-block-diagonal (IDABBDPRE), with parameters
+     mudq = 42,  mldq = 42,  mukeep = 2,  mlkeep = 2
+-----------------------------------------------------------
+  t        bottom-left  top-right    | nst  k      h
+-----------------------------------------------------------
+
+1.00e+00   2.6132e-01   3.0982e+00   | 167  5   6.3446e-03
+           1.9993e+00   1.0125e+00   |
+
+-----------------------------------------------------------
+
+Final statistics: 
+
+Number of steps                    = 167
+Number of residual evaluations     = 432
+Number of nonlinear iterations     = 185
+Number of error test failures      = 0
+Number of nonlinear conv. failures = 0
+
+Number of linear iterations        = 245
+Number of linear conv. failures    = 0
+
+Number of preconditioner setups    = 15
+Number of preconditioner solves    = 432
+Number of local residual evals.    = 1290
+
+		 BACKWARD problem
+-----------------------------------------------------------
+
+Final statistics: 
+
+Number of steps                    = 83
+Number of residual evaluations     = 255
+Number of nonlinear iterations     = 98
+Number of error test failures      = 0
+Number of nonlinear conv. failures = 0
+
+Number of linear iterations        = 157
+Number of linear conv. failures    = 0
+
+Number of preconditioner setups    = 13
+Number of preconditioner solves    = 255
+Number of local residual evals.    = 1118

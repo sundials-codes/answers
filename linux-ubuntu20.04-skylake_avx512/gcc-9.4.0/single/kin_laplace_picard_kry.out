@@ -1,0 +1,32 @@
+
+2D elliptic PDE on unit square
+   d^2 u / dx^2 + d^2 u / dy^2 = u^3 - u + 2.0
+ + homogeneous Dirichlet boundary conditions
+
+Solution method: Anderson accelerated Picard iteration with SPGMR linear solver.
+Problem size: 31 x 31 =  961
+
+Computed solution (||F|| = 0):
+
+            0.03125  0.12500  0.21875  0.31250  0.40625  0.50000  0.59375  0.68750  0.78125  0.87500  0.96875  
+
+0.03125     nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      
+0.12500     nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      
+0.21875     nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      
+0.31250     nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      
+0.40625     nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      
+0.50000     nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      
+0.59375     nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      
+0.68750     nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      
+0.78125     nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      
+0.87500     nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      
+0.96875     nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      nan      
+
+Final Statistics.. 
+
+nni =     63  nli   =    457  ncfl =     29
+nfe =     64  nfeLS =      0  njt  =    520
+npe =      0  nps   =      0
+
+lenrw   =  19237  leniw   =     42
+lenrwLS =  15529  leniwLS =     37
